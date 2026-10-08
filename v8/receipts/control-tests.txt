@@ -1,0 +1,17 @@
+test_budget (__main__.Controls) ... ok
+test_interpreter_known (__main__.Controls) ... ok
+test_interpreter_refuses_outside_grammar (__main__.Controls) ... ok
+test_order_and_first_representative (__main__.Controls) ... ok
+test_pin (__main__.Controls) ... ok
+test_result_gates (__main__.Controls) ... ok
+test_retained_exact_vector_unique (__main__.Controls) ... ok
+test_reused_data_identity (__main__.Controls) ... ok
+test_select_from_dev_only (__main__.Controls) ... ok
+test_source_hashes (__main__.Controls) ... ok
+test_types_invalid (__main__.Controls) ... ok
+test_worker_crosschecks (__main__.Controls) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.086s
+
+OK
