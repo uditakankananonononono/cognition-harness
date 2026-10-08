@@ -1,0 +1,6 @@
+{
+  "../candidates/baseline.py": "3b42fb337e4a53b84d4697853c63be4a4103edc82e48c6790713d014753eed9d",
+  "dev.json": "cf7afa3e498886a0ce3079f6f007ee539ff7f1a6efc195b5b2fff43914c88871",
+  "eval.json": "0bb537d865c7336d28ce2021a6cf126960bb5f416366ca7269cc853c9633c274",
+  "protocol.json": "64226c0ae843f146adfcb5f6705c95cdde115cf94f1745bc93f1d2e3e1b72087"
+}

@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "eval-magnitude-0",
+    "task": "magnitude",
+    "input": -30,
+    "expected": 30
+  },
+  {
+    "id": "eval-magnitude-1",
+    "task": "magnitude",
+    "input": -29,
+    "expected": 29
+  },
+  {
+    "id": "eval-magnitude-2",
+    "task": "magnitude",
+    "input": -28,
+    "expected": 28
+  },
+  {
+    "id": "eval-magnitude-3",
+    "task": "magnitude",
+    "input": -27,
+    "expected": 27
+  },
+  {
+    "id": "eval-magnitude-4",
+    "task": "magnitude",
+    "input": -26,
+    "expected": 26
+  },
+  {
+    "id": "eval-magnitude-5",
+    "task": "magnitude",
+    "input": -25,
+    "expected": 25
+  },
+  {
+    "id": "eval-magnitude-6",
+    "task": "magnitude",
+    "input": -24,
+    "expected": 24
+  },
+  {
+    "id": "eval-magnitude-7",
+    "task": "magnitude",
+    "input": -23,
+    "expected": 23
+  },
+  {
+    "id": "eval-magnitude-8",
+    "task": "magnitude",
+    "input": -22,
+    "expected": 22
+  },
+  {
+    "id": "eval-magnitude-9",
+    "task": "magnitude",
+    "input": -21,
+    "expected": 21
+  },
+  {
+    "id": "eval-magnitude-10",
+    "task": "magnitude",
+    "input": -20,
+    "expected": 20
+  },
+  {
+    "id": "eval-magnitude-11",
+    "task": "magnitude",
+    "input": -19,
+    "expected": 19
+  },
+  {
+    "id": "eval-magnitude-12",
+    "task": "magnitude",
+    "input": -18,
+    "expected": 18
+  },
+  {
+    "id": "eval-magnitude-13",
+    "task": "magnitude",
+    "input": -17,
+    "expected": 17
+  },
+  {
+    "id": "eval-magnitude-14",
+    "task": "magnitude",
+    "input": -16,
+    "expected": 16
+  },
+  {
+    "id": "eval-magnitude-15",
+    "task": "magnitude",
+    "input": -15,
+    "expected": 15
+  },
+  {
+    "id": "eval-magnitude-16",
+    "task": "magnitude",
+    "input": -14,
+    "expected": 14
+  },
+  {
+    "id": "eval-magnitude-17",
+    "task": "magnitude",
+    "input": -13,
+    "expected": 13
+  },
+  {
+    "id": "eval-magnitude-18",
+    "task": "magnitude",
+    "input": -12,
+    "expected": 12
+  },
+  {
+    "id": "eval-magnitude-19",
+    "task": "magnitude",
+    "input": -11,
+    "expected": 11
+  },
+  {
+    "id": "eval-magnitude-20",
+    "task": "magnitude",
+    "input": -10,
+    "expected": 10
+  },
+  {
+    "id": "eval-magnitude-21",
+    "task": "magnitude",
+    "input": -9,
+    "expected": 9
+  },
+  {
+    "id": "eval-magnitude-22",
+    "task": "magnitude",
+    "input": -8,
+    "expected": 8
+  },
+  {
+    "id": "eval-magnitude-23",
+    "task": "magnitude",
+    "input": -7,
+    "expected": 7
+  },
+  {
+    "id": "eval-magnitude-24",
+    "task": "magnitude",
+    "input": -6,
+    "expected": 6
+  },
+  {
+    "id": "eval-magnitude-25",
+    "task": "magnitude",
+    "input": -4,
+    "expected": 4
+  },
+  {
+    "id": "eval-magnitude-26",
+    "task": "magnitude",
+    "input": -3,
+    "expected": 3
+  },
+  {
+    "id": "eval-magnitude-27",
+    "task": "magnitude",
+    "input": -1,
+    "expected": 1
+  },
+  {
+    "id": "eval-magnitude-28",
+    "task": "magnitude",
+    "input": 1,
+    "expected": 1
+  },
+  {
+    "id": "eval-magnitude-29",
+    "task": "magnitude",
+    "input": 2,
+    "expected": 2
+  },
+  {
+    "id": "eval-magnitude-30",
+    "task": "magnitude",
+    "input": 4,
+    "expected": 4
+  },
+  {
+    "id": "eval-magnitude-31",
+    "task": "magnitude",
+    "input": 5,
+    "expected": 5
+  },
+  {
+    "id": "eval-magnitude-32",
+    "task": "magnitude",
+    "input": 6,
+    "expected": 6
+  },
+  {
+    "id": "eval-magnitude-33",
+    "task": "magnitude",
+    "input": 8,
+    "expected": 8
+  },
+  {
+    "id": "eval-magnitude-34",
+    "task": "magnitude",
+    "input": 9,
+    "expected": 9
+  },
+  {
+    "id": "eval-magnitude-35",
+    "task": "magnitude",
+    "input": 10,
+    "expected": 10
+  },
+  {
+    "id": "eval-magnitude-36",
+    "task": "magnitude",
+    "input": 11,
+    "expected": 11
+  },
+  {
+    "id": "eval-magnitude-37",
+    "task": "magnitude",
+    "input": 12,
+    "expected": 12
+  },
+  {
+    "id": "eval-magnitude-38",
+    "task": "magnitude",
+    "input": 13,
+    "expected": 13
+  },
+  {
+    "id": "eval-magnitude-39",
+    "task": "magnitude",
+    "input": 14,
+    "expected": 14
+  },
+  {
+    "id": "eval-magnitude-40",
+    "task": "magnitude",
+    "input": 15,
+    "expected": 15
+  },
+  {
+    "id": "eval-magnitude-41",
+    "task": "magnitude",
+    "input": 16,
+    "expected": 16
+  },
+  {
+    "id": "eval-magnitude-42",
+    "task": "magnitude",
+    "input": 17,
+    "expected": 17
+  },
+  {
+    "id": "eval-magnitude-43",
+    "task": "magnitude",
+    "input": 18,
+    "expected": 18
+  },
+  {
+    "id": "eval-magnitude-44",
+    "task": "magnitude",
+    "input": 19,
+    "expected": 19
+  },
+  {
+    "id": "eval-magnitude-45",
+    "task": "magnitude",
+    "input": 20,
+    "expected": 20
+  },
+  {
+    "id": "eval-magnitude-46",
+    "task": "magnitude",
+    "input": 21,
+    "expected": 21
+  },
+  {
+    "id": "eval-magnitude-47",
+    "task": "magnitude",
+    "input": 22,
+    "expected": 22
+  },
+  {
+    "id": "eval-magnitude-48",
+    "task": "magnitude",
+    "input": 23,
+    "expected": 23
+  },
+  {
+    "id": "eval-magnitude-49",
+    "task": "magnitude",
+    "input": 24,
+    "expected": 24
+  },
+  {
+    "id": "eval-magnitude-50",
+    "task": "magnitude",
+    "input": 25,
+    "expected": 25
+  },
+  {
+    "id": "eval-magnitude-51",
+    "task": "magnitude",
+    "input": 26,
+    "expected": 26
+  },
+  {
+    "id": "eval-magnitude-52",
+    "task": "magnitude",
+    "input": 27,
+    "expected": 27
+  },
+  {
+    "id": "eval-magnitude-53",
+    "task": "magnitude",
+    "input": 28,
+    "expected": 28
+  },
+  {
+    "id": "eval-magnitude-54",
+    "task": "magnitude",
+    "input": 29,
+    "expected": 29
+  },
+  {
+    "id": "eval-magnitude-55",
+    "task": "magnitude",
+    "input": 30,
+    "expected": 30
+  },
+  {
+    "id": "eval-quadratic-0",
+    "task": "quadratic",
+    "input": -30,
+    "expected": 899
+  },
+  {
+    "id": "eval-quadratic-1",
+    "task": "quadratic",
+    "input": -29,
+    "expected": 840
+  },
+  {
+    "id": "eval-quadratic-2",
+    "task": "quadratic",
+    "input": -28,
+    "expected": 783
+  },
+  {
+    "id": "eval-quadratic-3",
+    "task": "quadratic",
+    "input": -27,
+    "expected": 728
+  },
+  {
+    "id": "eval-quadratic-4",
+    "task": "quadratic",
+    "input": -26,
+    "expected": 675
+  },
+  {
+    "id": "eval-quadratic-5",
+    "task": "quadratic",
+    "input": -25,
+    "expected": 624
+  },
+  {
+    "id": "eval-quadratic-6",
+    "task": "quadratic",
+    "input": -24,
+    "expected": 575
+  },
+  {
+    "id": "eval-quadratic-7",
+    "task": "quadratic",
+    "input": -23,
+    "expected": 528
+  },
+  {
+    "id": "eval-quadratic-8",
+    "task": "quadratic",
+    "input": -22,
+    "expected": 483
+  },
+  {
+    "id": "eval-quadratic-9",
+    "task": "quadratic",
+    "input": -21,
+    "expected": 440
+  },
+  {
+    "id": "eval-quadratic-10",
+    "task": "quadratic",
+    "input": -20,
+    "expected": 399
+  },
+  {
+    "id": "eval-quadratic-11",
+    "task": "quadratic",
+    "input": -19,
+    "expected": 360
+  },
+  {
+    "id": "eval-quadratic-12",
+    "task": "quadratic",
+    "input": -18,
+    "expected": 323
+  },
+  {
+    "id": "eval-quadratic-13",
+    "task": "quadratic",
+    "input": -17,
+    "expected": 288
+  },
+  {
+    "id": "eval-quadratic-14",
+    "task": "quadratic",
+    "input": -16,
+    "expected": 255
+  },
+  {
+    "id": "eval-quadratic-15",
+    "task": "quadratic",
+    "input": -15,
+    "expected": 224
+  },
+  {
+    "id": "eval-quadratic-16",
+    "task": "quadratic",
+    "input": -14,
+    "expected": 195
+  },
+  {
+    "id": "eval-quadratic-17",
+    "task": "quadratic",
+    "input": -13,
+    "expected": 168
+  },
+  {
+    "id": "eval-quadratic-18",
+    "task": "quadratic",
+    "input": -12,
+    "expected": 143
+  },
+  {
+    "id": "eval-quadratic-19",
+    "task": "quadratic",
+    "input": -11,
+    "expected": 120
+  },
+  {
+    "id": "eval-quadratic-20",
+    "task": "quadratic",
+    "input": -10,
+    "expected": 99
+  },
+  {
+    "id": "eval-quadratic-21",
+    "task": "quadratic",
+    "input": -9,
+    "expected": 80
+  },
+  {
+    "id": "eval-quadratic-22",
+    "task": "quadratic",
+    "input": -8,
+    "expected": 63
+  },
+  {
+    "id": "eval-quadratic-23",
+    "task": "quadratic",
+    "input": -7,
+    "expected": 48
+  },
+  {
+    "id": "eval-quadratic-24",
+    "task": "quadratic",
+    "input": -6,
+    "expected": 35
+  },
+  {
+    "id": "eval-quadratic-25",
+    "task": "quadratic",
+    "input": -4,
+    "expected": 15
+  },
+  {
+    "id": "eval-quadratic-26",
+    "task": "quadratic",
+    "input": -3,
+    "expected": 8
+  },
+  {
+    "id": "eval-quadratic-27",
+    "task": "quadratic",
+    "input": -1,
+    "expected": 0
+  },
+  {
+    "id": "eval-quadratic-28",
+    "task": "quadratic",
+    "input": 1,
+    "expected": 0
+  },
+  {
+    "id": "eval-quadratic-29",
+    "task": "quadratic",
+    "input": 2,
+    "expected": 3
+  },
+  {
+    "id": "eval-quadratic-30",
+    "task": "quadratic",
+    "input": 4,
+    "expected": 15
+  },
+  {
+    "id": "eval-quadratic-31",
+    "task": "quadratic",
+    "input": 5,
+    "expected": 24
+  },
+  {
+    "id": "eval-quadratic-32",
+    "task": "quadratic",
+    "input": 6,
+    "expected": 35
+  },
+  {
+    "id": "eval-quadratic-33",
+    "task": "quadratic",
+    "input": 8,
+    "expected": 63
+  },
+  {
+    "id": "eval-quadratic-34",
+    "task": "quadratic",
+    "input": 9,
+    "expected": 80
+  },
+  {
+    "id": "eval-quadratic-35",
+    "task": "quadratic",
+    "input": 10,
+    "expected": 99
+  },
+  {
+    "id": "eval-quadratic-36",
+    "task": "quadratic",
+    "input": 11,
+    "expected": 120
+  },
+  {
+    "id": "eval-quadratic-37",
+    "task": "quadratic",
+    "input": 12,
+    "expected": 143
+  },
+  {
+    "id": "eval-quadratic-38",
+    "task": "quadratic",
+    "input": 13,
+    "expected": 168
+  },
+  {
+    "id": "eval-quadratic-39",
+    "task": "quadratic",
+    "input": 14,
+    "expected": 195
+  },
+  {
+    "id": "eval-quadratic-40",
+    "task": "quadratic",
+    "input": 15,
+    "expected": 224
+  },
+  {
+    "id": "eval-quadratic-41",
+    "task": "quadratic",
+    "input": 16,
+    "expected": 255
+  },
+  {
+    "id": "eval-quadratic-42",
+    "task": "quadratic",
+    "input": 17,
+    "expected": 288
+  },
+  {
+    "id": "eval-quadratic-43",
+    "task": "quadratic",
+    "input": 18,
+    "expected": 323
+  },
+  {
+    "id": "eval-quadratic-44",
+    "task": "quadratic",
+    "input": 19,
+    "expected": 360
+  },
+  {
+    "id": "eval-quadratic-45",
+    "task": "quadratic",
+    "input": 20,
+    "expected": 399
+  },
+  {
+    "id": "eval-quadratic-46",
+    "task": "quadratic",
+    "input": 21,
+    "expected": 440
+  },
+  {
+    "id": "eval-quadratic-47",
+    "task": "quadratic",
+    "input": 22,
+    "expected": 483
+  },
+  {
+    "id": "eval-quadratic-48",
+    "task": "quadratic",
+    "input": 23,
+    "expected": 528
+  },
+  {
+    "id": "eval-quadratic-49",
+    "task": "quadratic",
+    "input": 24,
+    "expected": 575
+  },
+  {
+    "id": "eval-quadratic-50",
+    "task": "quadratic",
+    "input": 25,
+    "expected": 624
+  },
+  {
+    "id": "eval-quadratic-51",
+    "task": "quadratic",
+    "input": 26,
+    "expected": 675
+  },
+  {
+    "id": "eval-quadratic-52",
+    "task": "quadratic",
+    "input": 27,
+    "expected": 728
+  },
+  {
+    "id": "eval-quadratic-53",
+    "task": "quadratic",
+    "input": 28,
+    "expected": 783
+  },
+  {
+    "id": "eval-quadratic-54",
+    "task": "quadratic",
+    "input": 29,
+    "expected": 840
+  },
+  {
+    "id": "eval-quadratic-55",
+    "task": "quadratic",
+    "input": 30,
+    "expected": 899
+  },
+  {
+    "id": "eval-affine-0",
+    "task": "affine",
+    "input": -30,
+    "expected": -88
+  },
+  {
+    "id": "eval-affine-1",
+    "task": "affine",
+    "input": -29,
+    "expected": -85
+  },
+  {
+    "id": "eval-affine-2",
+    "task": "affine",
+    "input": -28,
+    "expected": -82
+  },
+  {
+    "id": "eval-affine-3",
+    "task": "affine",
+    "input": -27,
+    "expected": -79
+  },
+  {
+    "id": "eval-affine-4",
+    "task": "affine",
+    "input": -26,
+    "expected": -76
+  },
+  {
+    "id": "eval-affine-5",
+    "task": "affine",
+    "input": -25,
+    "expected": -73
+  },
+  {
+    "id": "eval-affine-6",
+    "task": "affine",
+    "input": -24,
+    "expected": -70
+  },
+  {
+    "id": "eval-affine-7",
+    "task": "affine",
+    "input": -23,
+    "expected": -67
+  },
+  {
+    "id": "eval-affine-8",
+    "task": "affine",
+    "input": -22,
+    "expected": -64
+  },
+  {
+    "id": "eval-affine-9",
+    "task": "affine",
+    "input": -21,
+    "expected": -61
+  },
+  {
+    "id": "eval-affine-10",
+    "task": "affine",
+    "input": -20,
+    "expected": -58
+  },
+  {
+    "id": "eval-affine-11",
+    "task": "affine",
+    "input": -19,
+    "expected": -55
+  },
+  {
+    "id": "eval-affine-12",
+    "task": "affine",
+    "input": -18,
+    "expected": -52
+  },
+  {
+    "id": "eval-affine-13",
+    "task": "affine",
+    "input": -17,
+    "expected": -49
+  },
+  {
+    "id": "eval-affine-14",
+    "task": "affine",
+    "input": -16,
+    "expected": -46
+  },
+  {
+    "id": "eval-affine-15",
+    "task": "affine",
+    "input": -15,
+    "expected": -43
+  },
+  {
+    "id": "eval-affine-16",
+    "task": "affine",
+    "input": -14,
+    "expected": -40
+  },
+  {
+    "id": "eval-affine-17",
+    "task": "affine",
+    "input": -13,
+    "expected": -37
+  },
+  {
+    "id": "eval-affine-18",
+    "task": "affine",
+    "input": -12,
+    "expected": -34
+  },
+  {
+    "id": "eval-affine-19",
+    "task": "affine",
+    "input": -11,
+    "expected": -31
+  },
+  {
+    "id": "eval-affine-20",
+    "task": "affine",
+    "input": -10,
+    "expected": -28
+  },
+  {
+    "id": "eval-affine-21",
+    "task": "affine",
+    "input": -9,
+    "expected": -25
+  },
+  {
+    "id": "eval-affine-22",
+    "task": "affine",
+    "input": -8,
+    "expected": -22
+  },
+  {
+    "id": "eval-affine-23",
+    "task": "affine",
+    "input": -7,
+    "expected": -19
+  },
+  {
+    "id": "eval-affine-24",
+    "task": "affine",
+    "input": -6,
+    "expected": -16
+  },
+  {
+    "id": "eval-affine-25",
+    "task": "affine",
+    "input": -4,
+    "expected": -10
+  },
+  {
+    "id": "eval-affine-26",
+    "task": "affine",
+    "input": -3,
+    "expected": -7
+  },
+  {
+    "id": "eval-affine-27",
+    "task": "affine",
+    "input": -1,
+    "expected": -1
+  },
+  {
+    "id": "eval-affine-28",
+    "task": "affine",
+    "input": 1,
+    "expected": 5
+  },
+  {
+    "id": "eval-affine-29",
+    "task": "affine",
+    "input": 2,
+    "expected": 8
+  },
+  {
+    "id": "eval-affine-30",
+    "task": "affine",
+    "input": 4,
+    "expected": 14
+  },
+  {
+    "id": "eval-affine-31",
+    "task": "affine",
+    "input": 5,
+    "expected": 17
+  },
+  {
+    "id": "eval-affine-32",
+    "task": "affine",
+    "input": 6,
+    "expected": 20
+  },
+  {
+    "id": "eval-affine-33",
+    "task": "affine",
+    "input": 8,
+    "expected": 26
+  },
+  {
+    "id": "eval-affine-34",
+    "task": "affine",
+    "input": 9,
+    "expected": 29
+  },
+  {
+    "id": "eval-affine-35",
+    "task": "affine",
+    "input": 10,
+    "expected": 32
+  },
+  {
+    "id": "eval-affine-36",
+    "task": "affine",
+    "input": 11,
+    "expected": 35
+  },
+  {
+    "id": "eval-affine-37",
+    "task": "affine",
+    "input": 12,
+    "expected": 38
+  },
+  {
+    "id": "eval-affine-38",
+    "task": "affine",
+    "input": 13,
+    "expected": 41
+  },
+  {
+    "id": "eval-affine-39",
+    "task": "affine",
+    "input": 14,
+    "expected": 44
+  },
+  {
+    "id": "eval-affine-40",
+    "task": "affine",
+    "input": 15,
+    "expected": 47
+  },
+  {
+    "id": "eval-affine-41",
+    "task": "affine",
+    "input": 16,
+    "expected": 50
+  },
+  {
+    "id": "eval-affine-42",
+    "task": "affine",
+    "input": 17,
+    "expected": 53
+  },
+  {
+    "id": "eval-affine-43",
+    "task": "affine",
+    "input": 18,
+    "expected": 56
+  },
+  {
+    "id": "eval-affine-44",
+    "task": "affine",
+    "input": 19,
+    "expected": 59
+  },
+  {
+    "id": "eval-affine-45",
+    "task": "affine",
+    "input": 20,
+    "expected": 62
+  },
+  {
+    "id": "eval-affine-46",
+    "task": "affine",
+    "input": 21,
+    "expected": 65
+  },
+  {
+    "id": "eval-affine-47",
+    "task": "affine",
+    "input": 22,
+    "expected": 68
+  },
+  {
+    "id": "eval-affine-48",
+    "task": "affine",
+    "input": 23,
+    "expected": 71
+  },
+  {
+    "id": "eval-affine-49",
+    "task": "affine",
+    "input": 24,
+    "expected": 74
+  },
+  {
+    "id": "eval-affine-50",
+    "task": "affine",
+    "input": 25,
+    "expected": 77
+  },
+  {
+    "id": "eval-affine-51",
+    "task": "affine",
+    "input": 26,
+    "expected": 80
+  },
+  {
+    "id": "eval-affine-52",
+    "task": "affine",
+    "input": 27,
+    "expected": 83
+  },
+  {
+    "id": "eval-affine-53",
+    "task": "affine",
+    "input": 28,
+    "expected": 86
+  },
+  {
+    "id": "eval-affine-54",
+    "task": "affine",
+    "input": 29,
+    "expected": 89
+  },
+  {
+    "id": "eval-affine-55",
+    "task": "affine",
+    "input": 30,
+    "expected": 92
+  }
+]

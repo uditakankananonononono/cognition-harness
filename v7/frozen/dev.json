@@ -1,0 +1,92 @@
+[
+  {
+    "id": "dev-magnitude-0",
+    "task": "magnitude",
+    "input": -5,
+    "expected": 5
+  },
+  {
+    "id": "dev-magnitude-1",
+    "task": "magnitude",
+    "input": -2,
+    "expected": 2
+  },
+  {
+    "id": "dev-magnitude-2",
+    "task": "magnitude",
+    "input": 0,
+    "expected": 0
+  },
+  {
+    "id": "dev-magnitude-3",
+    "task": "magnitude",
+    "input": 3,
+    "expected": 3
+  },
+  {
+    "id": "dev-magnitude-4",
+    "task": "magnitude",
+    "input": 7,
+    "expected": 7
+  },
+  {
+    "id": "dev-quadratic-0",
+    "task": "quadratic",
+    "input": -5,
+    "expected": 24
+  },
+  {
+    "id": "dev-quadratic-1",
+    "task": "quadratic",
+    "input": -2,
+    "expected": 3
+  },
+  {
+    "id": "dev-quadratic-2",
+    "task": "quadratic",
+    "input": 0,
+    "expected": -1
+  },
+  {
+    "id": "dev-quadratic-3",
+    "task": "quadratic",
+    "input": 3,
+    "expected": 8
+  },
+  {
+    "id": "dev-quadratic-4",
+    "task": "quadratic",
+    "input": 7,
+    "expected": 48
+  },
+  {
+    "id": "dev-affine-0",
+    "task": "affine",
+    "input": -5,
+    "expected": -13
+  },
+  {
+    "id": "dev-affine-1",
+    "task": "affine",
+    "input": -2,
+    "expected": -4
+  },
+  {
+    "id": "dev-affine-2",
+    "task": "affine",
+    "input": 0,
+    "expected": 2
+  },
+  {
+    "id": "dev-affine-3",
+    "task": "affine",
+    "input": 3,
+    "expected": 11
+  },
+  {
+    "id": "dev-affine-4",
+    "task": "affine",
+    "input": 7,
+    "expected": 23
+  }
+]
