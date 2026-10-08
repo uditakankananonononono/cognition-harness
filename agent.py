@@ -29,7 +29,7 @@ def run(pin):
         (R/'candidates'/f'round-{round_no}.py').write_text(source)
     candidate=R/'candidates'/'candidate.py'; candidate.write_text(source)
     # Outside-search negative control: perfect other tasks but deliberately lose unique order.
-    regression=source.replace('list(dict.fromkeys(items))','sorted(set(items))')
+    regression=source.replace('list(dict.fromkeys(items))','[]')
     (R/'candidates'/'regression.py').write_text(regression)
     (R/'receipts'/'dev-history.json').write_text(json.dumps(history,indent=2)+'\n')
     # Proposer has finished; held-out judge is invoked once for baseline + selected + control.
