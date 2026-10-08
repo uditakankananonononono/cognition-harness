@@ -1,0 +1,52 @@
+test_baseline_bytes_unchanged (__main__.Controls) ... ok
+test_candidate_nested_bool_refused (__main__.Controls) ... ok
+test_changed_suite_refused (__main__.Controls) ... ok
+test_dev_eval_inputs_disjoint (__main__.Controls) ... FAIL
+test_equal_rejected (__main__.Controls) ... ok
+test_grammar_sizes (__main__.Controls) ... ok
+test_hash_refusal (__main__.Controls) ... ok
+test_host_canary (__main__.Controls) ... ok
+test_invalid_rejected (__main__.Controls) ... ok
+test_measurement_receipt (__main__.Controls) ... FAIL
+test_memory_cap (__main__.Controls) ... ok
+test_network_namespace (__main__.Controls) ... ok
+test_protocol_pin_unchanged (__main__.Controls) ... ok
+test_recursive_exact_json_types (__main__.Controls) ... ok
+test_regression_rejected_despite_total_gain (__main__.Controls) ... ok
+test_syntax_error (__main__.Controls) ... ok
+test_timeout (__main__.Controls) ... ok
+
+======================================================================
+FAIL: test_dev_eval_inputs_disjoint (__main__.Controls)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/sandbox/cognition-harness/v2/tests.py", line 28, in test_dev_eval_inputs_disjoint
+    self.assertEqual(overlap,[])
+AssertionError: Lists differ: ['eval-canonical-063', 'eval-unique-014', [108 chars]086'] != []
+
+First list contains 8 additional elements.
+First extra element 0:
+'eval-canonical-063'
+
++ []
+- ['eval-canonical-063',
+-  'eval-unique-014',
+-  'eval-unique-017',
+-  'eval-unique-024',
+-  'eval-unique-045',
+-  'eval-unique-061',
+-  'eval-unique-070',
+-  'eval-unique-086']
+
+======================================================================
+FAIL: test_measurement_receipt (__main__.Controls)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/sandbox/cognition-harness/v2/tests.py", line 66, in test_measurement_receipt
+    self.assertEqual(r['candidates'][0]['report']['passed'],360)
+AssertionError: 355 != 360
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.301s
+
+FAILED (failures=2)
