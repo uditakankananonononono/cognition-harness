@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "tasks": [
+    "canonical",
+    "unique",
+    "merge"
+  ],
+  "domain": "canonical: Unicode string to lowercased whitespace tokens; unique: homogeneous str/int list, first occurrence order; merge: valid integer closed intervals, sorted union, touching endpoints merge",
+  "score": "exact JSON equality, 48 equal-weight cases",
+  "promotion": "candidate total strictly increases AND each task pass count does not decrease",
+  "budget": "three repair operators, dev score selection only, max 3 rounds; one deliberate regression control outside search",
+  "resources": {
+    "wall_seconds": 3,
+    "cpu_seconds": 1,
+    "address_space_bytes": 134217728,
+    "output_bytes": 65536
+  },
+  "seed": 0,
+  "limitations": [
+    "synthetic hand-authored tasks",
+    "no statistical generalization claim",
+    "deterministic repair menu, no language model",
+    "holdout not cryptographically hidden from author",
+    "no publication or product activation"
+  ]
+}
