@@ -1,0 +1,24 @@
+{
+  "version": 4,
+  "study": "promotion-gate validation on EXPLICITLY REUSED M3 data, not unseen-performance discovery",
+  "data": "same M3 240 eval and24 dev inputs/answers; now known from prior measurements",
+  "baseline": "M3 defective baseline",
+  "candidate": "M3 selected repaired implementation, no new synthesis",
+  "aggregate_gate": "strict total gain, no per-task count decrease",
+  "preservation_gate": "aggregate gate AND every case passed by baseline is also passed by candidate; IDs/tasks/expected values must match at every position; refusal on invalid/missing/malformed reports",
+  "control_list": [
+    "M3 frozen always-minus-one control",
+    "M3 post-scoring None control, now preregistered for this gate study",
+    "regression-counterexample: repaired arithmetic + first_index returns 0 on nonempty input, -1 otherwise",
+    "identity baseline as equal-score rejection control"
+  ],
+  "success_criterion": "counterexample must have strictly higher total, equal-or-higher task scores, at least one baseline-passed case loss; aggregate accepts and preservation rejects; selected repair accepted; invalid/equal reports rejected",
+  "limits": [
+    "explicit reused synthetic valid domains, no blind/unseen eval or new improvement claim",
+    "no new synthesis/model/arbitrary invention/AGI/generalization/speedup",
+    "baseline-case preservation only within fixed suite, not future behavior assurance",
+    "host judge author-visible holdout; candidate worker inputs-only",
+    "git timestamps do not prove no private pre-freeze scoring",
+    "no cgroup/kernel/covert-channel guarantees; no activation authority"
+  ]
+}
