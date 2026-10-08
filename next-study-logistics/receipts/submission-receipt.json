@@ -1,0 +1,16 @@
+{
+  "method_frozen_tip": "677d773374a68155d6f17c8f961040ab164609c4",
+  "method_manifest_sha256": "4ec33731c7da794850c7db1ff241681371935a0ccbd92f03875253ba381b506c",
+  "all_entries_unchanged": true,
+  "selection_sha256": "f0ef05f1e573c849a2507578bbde80be5928c40e92e4e01897fa06f8bc16ad60",
+  "A1_variant": 0,
+  "source_sha256": {
+    "src/interface.py": "264a367c690febb303850508b1605db3f4e35134ea4f8d236a7e1396c7d44588",
+    "src/methods.py": "9f1690e4c90cd0e0c1cb021825251de4622d4e3ecadf19cfbb8398ff24e15d0b",
+    "src/runner.py": "0d4a2aaf20174a3a1279d931c4afe42184683b458ed32380d72a75ca824074f4",
+    "src/semantics.py": "08cb004048206cd1f04e39bbc5cf1108178c0d390ccf18a064c0bd9e1598d27b",
+    "src/worker.py": "f14e3e0ff1e41a4de1bedc746d0058550f46bf6ff943d7d5eb729426908e2a0a"
+  },
+  "final_inputs_received": false,
+  "no_method_edits": true
+}
