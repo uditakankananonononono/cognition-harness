@@ -1,0 +1,15 @@
+# M7 preregistered capped expression synthesis: failed gated candidate
+
+Freezef8286884a9d5ceab0859917849292ed14988855b, pin9ea2e3b7fc850ed303797255a94162d525becffdbdb06077d806fa3b6bbb36b2, protocol hash64226c0ae843f146adfcb5f6705c95cdde115cf94f1745bc93f1d2e3e1b72087. Protocol sent and locked before execution. Synthetic integer targets abs(x),x*x-1,3*x+2. Fifteen dev,168 eval inputs; zero task/input overlap, author knows answers.
+
+Richer proposer composes expressions from x,-1,0,1,2,3; abs; +,-,* with node cost<=5. Fixed cost order, unary-first then operator order, child-order; dedup by source string, no algebraic pruning. Hard512 unique expressions/task,1536 actual task-evaluations. All512/task reached, all budget-hit flags TRUE. Exact dev-score, lower-cost, lexical tie selection. No early stop, no budget extension/reorder after seeing failures. All trials (expression,cost,index,source hash,case-level output), best-score ties and chosen expressions retained. Fixed evaluator source_for reconstructs every candidate's bytes.
+
+Selected: abs(x)dev5/5; quadratic constant-1 dev1/5; affine constant2 dev1/5. Best-score ties21,96,89 respectively. Combined eval56/168 (magnitude56,quadratic0,affine0), baseline2/168 (quadratic2). BOTH aggregate and case-preservation gates REJECT because quadratic regresses despite overall+54. Identity baseline rejected. All112 wrong candidate eval outputs retained; two baseline successes lost. No candidate activated or considered a gated improvement.
+
+This is a failed constrained search experiment: unary-first enumeration plus512 cap exhausts before the useful multi-node targets. It succeeded only on magnitude and overfit one dev point each for other tasks. No general de-novo program invention, broad synthesis advantage, runtime speedup or extrapolation. Do not describe56/168 as an accepted improvement. A future cap/order change must be a separately frozen follow-on, not a fix to these results.
+
+Twelve controls pass: freeze pin, budget, unique deterministic pool/cost order, trial-byte reconstruction, exact selection, failed gates/loss counts, input disjointness, task-local source generation, typed comparison and invalid report refusal. More rigorous grammar/node-cost and all trial rescoring remain outside-review tasks.
+
+Limits: finite known arithmetic grammar, synthetic valid integer domains; no LLM/no arbitrary invention/no AGI/generalization/speedup claims; host judge author-visible holdout; proposer search eval-input unseen; candidate worker inputs-only; git timestamps don't prove no private pre-freeze scoring; no cgroup/kernel/covert-channel guarantees; no activation authority. No hardening/authenticity beyond previous tested cases. Candidate functions are expression-based, not general code synthesis. No API/payment/model/push/publication.
+
+Reproduce fresh checkout: python3 v7/agent.py "$(cat v7/receipts/frozen-pin.txt)"; python3 v7/tests.py. Stdlib Python+namespace-capable bwrap. Full1536 search evaluations, no shortcuts changing selection. Pending independent review.
