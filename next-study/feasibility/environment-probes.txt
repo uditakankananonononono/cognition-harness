@@ -1,0 +1,22 @@
+
+=== fork ===
+{"fork": "refused", "errno": 11}
+exit=0
+
+=== memory ===
+memory_refused
+exit=0
+
+=== cpu ===
+exit=137
+
+=== output ===
+Traceback (most recent call last):
+  File "/work/probe.py", line 19, in <module>
+    with open('/tmp/big','wb') as f:f.write(b'a'*131072)
+OSError: [Errno 27] File too large
+exit=1
+
+=== runtime ===
+{"python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]", "uid": 1001, "gid": 1001}
+exit=0
