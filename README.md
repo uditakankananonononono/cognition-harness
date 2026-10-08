@@ -12,7 +12,7 @@ Local finite-search and evaluation-governance experiments. Each claim is restric
 - M6 plateau beam versus greedy: v6/README.md.
 - M7 independently reviewed accurate NULL: v7/README.md and M7-REVIEW-VERDICT.md.
 - M8 independently reviewed known-benchmark semantic pruning, with append-only baseline wording note: v8/README.md and v8/receipts/review-note.json.
-- Next broader data-repair study: next-study/CONTRACT-V2.md is a PROPOSAL, not frozen, not scored, not a new capability result. Evaluator final pack must never be stored here.
+- Completed known-operation data-repair pilot: [results and limits](next-study-logistics/RESULTS.md) and [public-safe final summary](next-study-logistics/receipts/public-final-summary.json). Frozen methods, 32-policy variant selection and fixed source composition were scored on 8 evaluator-authored synthetic task instances; descriptive evidence only, not independent-transfer, unknown-operation discovery or AGI. A1 includes the known-correct option; A1/A2 share operator bodies. Old next-study/CONTRACT-V2.md and later addenda are retained proposal/freeze-history documents, not the current result. Evaluator final pack must never be stored here.
 
 The root README previously opened with the M1 heading. That did not mean M8 artifacts were absent; M8 documentation is in its own v8 directory. Use v8/README.md for the M8-specific Drive filing. Do not describe root README as the M8 report.
 
