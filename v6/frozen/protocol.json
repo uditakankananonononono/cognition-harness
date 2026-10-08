@@ -1,0 +1,18 @@
+{
+  "version": 6,
+  "study": "bounded plateau-preserving two-edit AST search vs strict greedy on coupled operator/constant bugs",
+  "domain": "integer inputs -40..43; functions scale returns2*x and shift returnsx+3",
+  "score": "160 equal exact typed eval cases80/task;8 dev cases4/task; disjoint known synthetic inputs",
+  "budget": "two independent proposer arms start same baseline: strict greedy vs beam; at most2 edit depths per function, at most120 unique dev candidate evaluations per function per arm; beam width16, preserve ties, deterministic enumeration and lexicographic source tie break; operator Add/Sub/Mult and literal integers -3..3 only; no eval feedback",
+  "selection": "beam chooses best dev score among all visited sources; greedy accepts only strict dev gain; function order scale,shift",
+  "gate": "M5 complete-report baseline-case-preservation gate for both final sources relative named same baseline",
+  "hypothesis": "beam finds coupled repairs across zero-gain intermediate states; greedy stalls; this is a synthetic search-mechanism probe, not general invention",
+  "controls": "baseline equal gate rejected; literal outputs wrong rejected as cases; exact typed comparison",
+  "limits": [
+    "bounded known AST operator and literal grammar, synthetic integer-only functions, no LLM/arbitrary invention/AGI/generalization/speedup claim",
+    "only proposer held-out-input blind, author knows answers; worker inputs-only",
+    "git timestamps cannot establish absence of private scoring",
+    "no cgroup/kernel/covert-channel guarantee, no activation authority",
+    "two intentionally constructed coupled bugs; no empirical broad advantage claim"
+  ]
+}

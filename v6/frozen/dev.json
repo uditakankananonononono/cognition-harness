@@ -1,0 +1,50 @@
+[
+  {
+    "id": "dev-scale-0",
+    "task": "scale",
+    "input": 4,
+    "expected": 8
+  },
+  {
+    "id": "dev-scale-1",
+    "task": "scale",
+    "input": 5,
+    "expected": 10
+  },
+  {
+    "id": "dev-scale-2",
+    "task": "scale",
+    "input": 6,
+    "expected": 12
+  },
+  {
+    "id": "dev-scale-3",
+    "task": "scale",
+    "input": 7,
+    "expected": 14
+  },
+  {
+    "id": "dev-shift-0",
+    "task": "shift",
+    "input": 4,
+    "expected": 7
+  },
+  {
+    "id": "dev-shift-1",
+    "task": "shift",
+    "input": 5,
+    "expected": 8
+  },
+  {
+    "id": "dev-shift-2",
+    "task": "shift",
+    "input": 6,
+    "expected": 9
+  },
+  {
+    "id": "dev-shift-3",
+    "task": "shift",
+    "input": 7,
+    "expected": 10
+  }
+]

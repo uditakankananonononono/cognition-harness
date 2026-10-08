@@ -1,0 +1,962 @@
+[
+  {
+    "id": "eval-scale-0",
+    "task": "scale",
+    "input": -40,
+    "expected": -80
+  },
+  {
+    "id": "eval-scale-1",
+    "task": "scale",
+    "input": -39,
+    "expected": -78
+  },
+  {
+    "id": "eval-scale-2",
+    "task": "scale",
+    "input": -38,
+    "expected": -76
+  },
+  {
+    "id": "eval-scale-3",
+    "task": "scale",
+    "input": -37,
+    "expected": -74
+  },
+  {
+    "id": "eval-scale-4",
+    "task": "scale",
+    "input": -36,
+    "expected": -72
+  },
+  {
+    "id": "eval-scale-5",
+    "task": "scale",
+    "input": -35,
+    "expected": -70
+  },
+  {
+    "id": "eval-scale-6",
+    "task": "scale",
+    "input": -34,
+    "expected": -68
+  },
+  {
+    "id": "eval-scale-7",
+    "task": "scale",
+    "input": -33,
+    "expected": -66
+  },
+  {
+    "id": "eval-scale-8",
+    "task": "scale",
+    "input": -32,
+    "expected": -64
+  },
+  {
+    "id": "eval-scale-9",
+    "task": "scale",
+    "input": -31,
+    "expected": -62
+  },
+  {
+    "id": "eval-scale-10",
+    "task": "scale",
+    "input": -30,
+    "expected": -60
+  },
+  {
+    "id": "eval-scale-11",
+    "task": "scale",
+    "input": -29,
+    "expected": -58
+  },
+  {
+    "id": "eval-scale-12",
+    "task": "scale",
+    "input": -28,
+    "expected": -56
+  },
+  {
+    "id": "eval-scale-13",
+    "task": "scale",
+    "input": -27,
+    "expected": -54
+  },
+  {
+    "id": "eval-scale-14",
+    "task": "scale",
+    "input": -26,
+    "expected": -52
+  },
+  {
+    "id": "eval-scale-15",
+    "task": "scale",
+    "input": -25,
+    "expected": -50
+  },
+  {
+    "id": "eval-scale-16",
+    "task": "scale",
+    "input": -24,
+    "expected": -48
+  },
+  {
+    "id": "eval-scale-17",
+    "task": "scale",
+    "input": -23,
+    "expected": -46
+  },
+  {
+    "id": "eval-scale-18",
+    "task": "scale",
+    "input": -22,
+    "expected": -44
+  },
+  {
+    "id": "eval-scale-19",
+    "task": "scale",
+    "input": -21,
+    "expected": -42
+  },
+  {
+    "id": "eval-scale-20",
+    "task": "scale",
+    "input": -20,
+    "expected": -40
+  },
+  {
+    "id": "eval-scale-21",
+    "task": "scale",
+    "input": -19,
+    "expected": -38
+  },
+  {
+    "id": "eval-scale-22",
+    "task": "scale",
+    "input": -18,
+    "expected": -36
+  },
+  {
+    "id": "eval-scale-23",
+    "task": "scale",
+    "input": -17,
+    "expected": -34
+  },
+  {
+    "id": "eval-scale-24",
+    "task": "scale",
+    "input": -16,
+    "expected": -32
+  },
+  {
+    "id": "eval-scale-25",
+    "task": "scale",
+    "input": -15,
+    "expected": -30
+  },
+  {
+    "id": "eval-scale-26",
+    "task": "scale",
+    "input": -14,
+    "expected": -28
+  },
+  {
+    "id": "eval-scale-27",
+    "task": "scale",
+    "input": -13,
+    "expected": -26
+  },
+  {
+    "id": "eval-scale-28",
+    "task": "scale",
+    "input": -12,
+    "expected": -24
+  },
+  {
+    "id": "eval-scale-29",
+    "task": "scale",
+    "input": -11,
+    "expected": -22
+  },
+  {
+    "id": "eval-scale-30",
+    "task": "scale",
+    "input": -10,
+    "expected": -20
+  },
+  {
+    "id": "eval-scale-31",
+    "task": "scale",
+    "input": -9,
+    "expected": -18
+  },
+  {
+    "id": "eval-scale-32",
+    "task": "scale",
+    "input": -8,
+    "expected": -16
+  },
+  {
+    "id": "eval-scale-33",
+    "task": "scale",
+    "input": -7,
+    "expected": -14
+  },
+  {
+    "id": "eval-scale-34",
+    "task": "scale",
+    "input": -6,
+    "expected": -12
+  },
+  {
+    "id": "eval-scale-35",
+    "task": "scale",
+    "input": -5,
+    "expected": -10
+  },
+  {
+    "id": "eval-scale-36",
+    "task": "scale",
+    "input": -4,
+    "expected": -8
+  },
+  {
+    "id": "eval-scale-37",
+    "task": "scale",
+    "input": -3,
+    "expected": -6
+  },
+  {
+    "id": "eval-scale-38",
+    "task": "scale",
+    "input": -2,
+    "expected": -4
+  },
+  {
+    "id": "eval-scale-39",
+    "task": "scale",
+    "input": -1,
+    "expected": -2
+  },
+  {
+    "id": "eval-scale-40",
+    "task": "scale",
+    "input": 0,
+    "expected": 0
+  },
+  {
+    "id": "eval-scale-41",
+    "task": "scale",
+    "input": 1,
+    "expected": 2
+  },
+  {
+    "id": "eval-scale-42",
+    "task": "scale",
+    "input": 2,
+    "expected": 4
+  },
+  {
+    "id": "eval-scale-43",
+    "task": "scale",
+    "input": 3,
+    "expected": 6
+  },
+  {
+    "id": "eval-scale-44",
+    "task": "scale",
+    "input": 8,
+    "expected": 16
+  },
+  {
+    "id": "eval-scale-45",
+    "task": "scale",
+    "input": 9,
+    "expected": 18
+  },
+  {
+    "id": "eval-scale-46",
+    "task": "scale",
+    "input": 10,
+    "expected": 20
+  },
+  {
+    "id": "eval-scale-47",
+    "task": "scale",
+    "input": 11,
+    "expected": 22
+  },
+  {
+    "id": "eval-scale-48",
+    "task": "scale",
+    "input": 12,
+    "expected": 24
+  },
+  {
+    "id": "eval-scale-49",
+    "task": "scale",
+    "input": 13,
+    "expected": 26
+  },
+  {
+    "id": "eval-scale-50",
+    "task": "scale",
+    "input": 14,
+    "expected": 28
+  },
+  {
+    "id": "eval-scale-51",
+    "task": "scale",
+    "input": 15,
+    "expected": 30
+  },
+  {
+    "id": "eval-scale-52",
+    "task": "scale",
+    "input": 16,
+    "expected": 32
+  },
+  {
+    "id": "eval-scale-53",
+    "task": "scale",
+    "input": 17,
+    "expected": 34
+  },
+  {
+    "id": "eval-scale-54",
+    "task": "scale",
+    "input": 18,
+    "expected": 36
+  },
+  {
+    "id": "eval-scale-55",
+    "task": "scale",
+    "input": 19,
+    "expected": 38
+  },
+  {
+    "id": "eval-scale-56",
+    "task": "scale",
+    "input": 20,
+    "expected": 40
+  },
+  {
+    "id": "eval-scale-57",
+    "task": "scale",
+    "input": 21,
+    "expected": 42
+  },
+  {
+    "id": "eval-scale-58",
+    "task": "scale",
+    "input": 22,
+    "expected": 44
+  },
+  {
+    "id": "eval-scale-59",
+    "task": "scale",
+    "input": 23,
+    "expected": 46
+  },
+  {
+    "id": "eval-scale-60",
+    "task": "scale",
+    "input": 24,
+    "expected": 48
+  },
+  {
+    "id": "eval-scale-61",
+    "task": "scale",
+    "input": 25,
+    "expected": 50
+  },
+  {
+    "id": "eval-scale-62",
+    "task": "scale",
+    "input": 26,
+    "expected": 52
+  },
+  {
+    "id": "eval-scale-63",
+    "task": "scale",
+    "input": 27,
+    "expected": 54
+  },
+  {
+    "id": "eval-scale-64",
+    "task": "scale",
+    "input": 28,
+    "expected": 56
+  },
+  {
+    "id": "eval-scale-65",
+    "task": "scale",
+    "input": 29,
+    "expected": 58
+  },
+  {
+    "id": "eval-scale-66",
+    "task": "scale",
+    "input": 30,
+    "expected": 60
+  },
+  {
+    "id": "eval-scale-67",
+    "task": "scale",
+    "input": 31,
+    "expected": 62
+  },
+  {
+    "id": "eval-scale-68",
+    "task": "scale",
+    "input": 32,
+    "expected": 64
+  },
+  {
+    "id": "eval-scale-69",
+    "task": "scale",
+    "input": 33,
+    "expected": 66
+  },
+  {
+    "id": "eval-scale-70",
+    "task": "scale",
+    "input": 34,
+    "expected": 68
+  },
+  {
+    "id": "eval-scale-71",
+    "task": "scale",
+    "input": 35,
+    "expected": 70
+  },
+  {
+    "id": "eval-scale-72",
+    "task": "scale",
+    "input": 36,
+    "expected": 72
+  },
+  {
+    "id": "eval-scale-73",
+    "task": "scale",
+    "input": 37,
+    "expected": 74
+  },
+  {
+    "id": "eval-scale-74",
+    "task": "scale",
+    "input": 38,
+    "expected": 76
+  },
+  {
+    "id": "eval-scale-75",
+    "task": "scale",
+    "input": 39,
+    "expected": 78
+  },
+  {
+    "id": "eval-scale-76",
+    "task": "scale",
+    "input": 40,
+    "expected": 80
+  },
+  {
+    "id": "eval-scale-77",
+    "task": "scale",
+    "input": 41,
+    "expected": 82
+  },
+  {
+    "id": "eval-scale-78",
+    "task": "scale",
+    "input": 42,
+    "expected": 84
+  },
+  {
+    "id": "eval-scale-79",
+    "task": "scale",
+    "input": 43,
+    "expected": 86
+  },
+  {
+    "id": "eval-shift-0",
+    "task": "shift",
+    "input": -40,
+    "expected": -37
+  },
+  {
+    "id": "eval-shift-1",
+    "task": "shift",
+    "input": -39,
+    "expected": -36
+  },
+  {
+    "id": "eval-shift-2",
+    "task": "shift",
+    "input": -38,
+    "expected": -35
+  },
+  {
+    "id": "eval-shift-3",
+    "task": "shift",
+    "input": -37,
+    "expected": -34
+  },
+  {
+    "id": "eval-shift-4",
+    "task": "shift",
+    "input": -36,
+    "expected": -33
+  },
+  {
+    "id": "eval-shift-5",
+    "task": "shift",
+    "input": -35,
+    "expected": -32
+  },
+  {
+    "id": "eval-shift-6",
+    "task": "shift",
+    "input": -34,
+    "expected": -31
+  },
+  {
+    "id": "eval-shift-7",
+    "task": "shift",
+    "input": -33,
+    "expected": -30
+  },
+  {
+    "id": "eval-shift-8",
+    "task": "shift",
+    "input": -32,
+    "expected": -29
+  },
+  {
+    "id": "eval-shift-9",
+    "task": "shift",
+    "input": -31,
+    "expected": -28
+  },
+  {
+    "id": "eval-shift-10",
+    "task": "shift",
+    "input": -30,
+    "expected": -27
+  },
+  {
+    "id": "eval-shift-11",
+    "task": "shift",
+    "input": -29,
+    "expected": -26
+  },
+  {
+    "id": "eval-shift-12",
+    "task": "shift",
+    "input": -28,
+    "expected": -25
+  },
+  {
+    "id": "eval-shift-13",
+    "task": "shift",
+    "input": -27,
+    "expected": -24
+  },
+  {
+    "id": "eval-shift-14",
+    "task": "shift",
+    "input": -26,
+    "expected": -23
+  },
+  {
+    "id": "eval-shift-15",
+    "task": "shift",
+    "input": -25,
+    "expected": -22
+  },
+  {
+    "id": "eval-shift-16",
+    "task": "shift",
+    "input": -24,
+    "expected": -21
+  },
+  {
+    "id": "eval-shift-17",
+    "task": "shift",
+    "input": -23,
+    "expected": -20
+  },
+  {
+    "id": "eval-shift-18",
+    "task": "shift",
+    "input": -22,
+    "expected": -19
+  },
+  {
+    "id": "eval-shift-19",
+    "task": "shift",
+    "input": -21,
+    "expected": -18
+  },
+  {
+    "id": "eval-shift-20",
+    "task": "shift",
+    "input": -20,
+    "expected": -17
+  },
+  {
+    "id": "eval-shift-21",
+    "task": "shift",
+    "input": -19,
+    "expected": -16
+  },
+  {
+    "id": "eval-shift-22",
+    "task": "shift",
+    "input": -18,
+    "expected": -15
+  },
+  {
+    "id": "eval-shift-23",
+    "task": "shift",
+    "input": -17,
+    "expected": -14
+  },
+  {
+    "id": "eval-shift-24",
+    "task": "shift",
+    "input": -16,
+    "expected": -13
+  },
+  {
+    "id": "eval-shift-25",
+    "task": "shift",
+    "input": -15,
+    "expected": -12
+  },
+  {
+    "id": "eval-shift-26",
+    "task": "shift",
+    "input": -14,
+    "expected": -11
+  },
+  {
+    "id": "eval-shift-27",
+    "task": "shift",
+    "input": -13,
+    "expected": -10
+  },
+  {
+    "id": "eval-shift-28",
+    "task": "shift",
+    "input": -12,
+    "expected": -9
+  },
+  {
+    "id": "eval-shift-29",
+    "task": "shift",
+    "input": -11,
+    "expected": -8
+  },
+  {
+    "id": "eval-shift-30",
+    "task": "shift",
+    "input": -10,
+    "expected": -7
+  },
+  {
+    "id": "eval-shift-31",
+    "task": "shift",
+    "input": -9,
+    "expected": -6
+  },
+  {
+    "id": "eval-shift-32",
+    "task": "shift",
+    "input": -8,
+    "expected": -5
+  },
+  {
+    "id": "eval-shift-33",
+    "task": "shift",
+    "input": -7,
+    "expected": -4
+  },
+  {
+    "id": "eval-shift-34",
+    "task": "shift",
+    "input": -6,
+    "expected": -3
+  },
+  {
+    "id": "eval-shift-35",
+    "task": "shift",
+    "input": -5,
+    "expected": -2
+  },
+  {
+    "id": "eval-shift-36",
+    "task": "shift",
+    "input": -4,
+    "expected": -1
+  },
+  {
+    "id": "eval-shift-37",
+    "task": "shift",
+    "input": -3,
+    "expected": 0
+  },
+  {
+    "id": "eval-shift-38",
+    "task": "shift",
+    "input": -2,
+    "expected": 1
+  },
+  {
+    "id": "eval-shift-39",
+    "task": "shift",
+    "input": -1,
+    "expected": 2
+  },
+  {
+    "id": "eval-shift-40",
+    "task": "shift",
+    "input": 0,
+    "expected": 3
+  },
+  {
+    "id": "eval-shift-41",
+    "task": "shift",
+    "input": 1,
+    "expected": 4
+  },
+  {
+    "id": "eval-shift-42",
+    "task": "shift",
+    "input": 2,
+    "expected": 5
+  },
+  {
+    "id": "eval-shift-43",
+    "task": "shift",
+    "input": 3,
+    "expected": 6
+  },
+  {
+    "id": "eval-shift-44",
+    "task": "shift",
+    "input": 8,
+    "expected": 11
+  },
+  {
+    "id": "eval-shift-45",
+    "task": "shift",
+    "input": 9,
+    "expected": 12
+  },
+  {
+    "id": "eval-shift-46",
+    "task": "shift",
+    "input": 10,
+    "expected": 13
+  },
+  {
+    "id": "eval-shift-47",
+    "task": "shift",
+    "input": 11,
+    "expected": 14
+  },
+  {
+    "id": "eval-shift-48",
+    "task": "shift",
+    "input": 12,
+    "expected": 15
+  },
+  {
+    "id": "eval-shift-49",
+    "task": "shift",
+    "input": 13,
+    "expected": 16
+  },
+  {
+    "id": "eval-shift-50",
+    "task": "shift",
+    "input": 14,
+    "expected": 17
+  },
+  {
+    "id": "eval-shift-51",
+    "task": "shift",
+    "input": 15,
+    "expected": 18
+  },
+  {
+    "id": "eval-shift-52",
+    "task": "shift",
+    "input": 16,
+    "expected": 19
+  },
+  {
+    "id": "eval-shift-53",
+    "task": "shift",
+    "input": 17,
+    "expected": 20
+  },
+  {
+    "id": "eval-shift-54",
+    "task": "shift",
+    "input": 18,
+    "expected": 21
+  },
+  {
+    "id": "eval-shift-55",
+    "task": "shift",
+    "input": 19,
+    "expected": 22
+  },
+  {
+    "id": "eval-shift-56",
+    "task": "shift",
+    "input": 20,
+    "expected": 23
+  },
+  {
+    "id": "eval-shift-57",
+    "task": "shift",
+    "input": 21,
+    "expected": 24
+  },
+  {
+    "id": "eval-shift-58",
+    "task": "shift",
+    "input": 22,
+    "expected": 25
+  },
+  {
+    "id": "eval-shift-59",
+    "task": "shift",
+    "input": 23,
+    "expected": 26
+  },
+  {
+    "id": "eval-shift-60",
+    "task": "shift",
+    "input": 24,
+    "expected": 27
+  },
+  {
+    "id": "eval-shift-61",
+    "task": "shift",
+    "input": 25,
+    "expected": 28
+  },
+  {
+    "id": "eval-shift-62",
+    "task": "shift",
+    "input": 26,
+    "expected": 29
+  },
+  {
+    "id": "eval-shift-63",
+    "task": "shift",
+    "input": 27,
+    "expected": 30
+  },
+  {
+    "id": "eval-shift-64",
+    "task": "shift",
+    "input": 28,
+    "expected": 31
+  },
+  {
+    "id": "eval-shift-65",
+    "task": "shift",
+    "input": 29,
+    "expected": 32
+  },
+  {
+    "id": "eval-shift-66",
+    "task": "shift",
+    "input": 30,
+    "expected": 33
+  },
+  {
+    "id": "eval-shift-67",
+    "task": "shift",
+    "input": 31,
+    "expected": 34
+  },
+  {
+    "id": "eval-shift-68",
+    "task": "shift",
+    "input": 32,
+    "expected": 35
+  },
+  {
+    "id": "eval-shift-69",
+    "task": "shift",
+    "input": 33,
+    "expected": 36
+  },
+  {
+    "id": "eval-shift-70",
+    "task": "shift",
+    "input": 34,
+    "expected": 37
+  },
+  {
+    "id": "eval-shift-71",
+    "task": "shift",
+    "input": 35,
+    "expected": 38
+  },
+  {
+    "id": "eval-shift-72",
+    "task": "shift",
+    "input": 36,
+    "expected": 39
+  },
+  {
+    "id": "eval-shift-73",
+    "task": "shift",
+    "input": 37,
+    "expected": 40
+  },
+  {
+    "id": "eval-shift-74",
+    "task": "shift",
+    "input": 38,
+    "expected": 41
+  },
+  {
+    "id": "eval-shift-75",
+    "task": "shift",
+    "input": 39,
+    "expected": 42
+  },
+  {
+    "id": "eval-shift-76",
+    "task": "shift",
+    "input": 40,
+    "expected": 43
+  },
+  {
+    "id": "eval-shift-77",
+    "task": "shift",
+    "input": 41,
+    "expected": 44
+  },
+  {
+    "id": "eval-shift-78",
+    "task": "shift",
+    "input": 42,
+    "expected": 45
+  },
+  {
+    "id": "eval-shift-79",
+    "task": "shift",
+    "input": 43,
+    "expected": 46
+  }
+]
