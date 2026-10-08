@@ -1,0 +1,11 @@
+{
+  "../candidates/additional-control.py": "7860803ae79346c7e49fc6facac6da12e9fc5d870dad9ff5b9044d68723af24d",
+  "../candidates/baseline.py": "f45ef669e59dc4df8d25f80361747480fc179a969bd28619cf9c8af5b2208613",
+  "../candidates/candidate.py": "4fd6047170860f1ca08af9a3b7a372eeeb33827e2e11016019c6cf5531bcedc1",
+  "../candidates/counterexample.py": "1808b0f225f5a2fd5ba4f9fc26edbd252398df3bc951d9e2ab56efe0c32ade7a",
+  "../candidates/regression.py": "8633ca58bcc48d50574c7ba936fe83661a94c066e794cf71fd464e79d6b1d5b7",
+  "dev.json": "1c36ea13b9b73e873f7dd93f02e0666f84481e71094d10759b1d634fd17db8d0",
+  "eval.json": "a88883be17b1a4747e906942e2ff1a13f60a448e1dfdd9995cbc011b4911c1aa",
+  "malformed.json": "e6ee3077f1fa1f8c5356cd22dbdbd7260cca2b18e12407730e4c6a58239a861f",
+  "protocol.json": "33cbfc3aa18bec266f780180484445f22f9794d7f0c4f47ac601da2cc48526b8"
+}

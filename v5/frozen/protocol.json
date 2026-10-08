@@ -1,0 +1,16 @@
+{
+  "version": 5,
+  "study": "bounded malformed JSON-report refusal totality and unchanged M4b gates on explicitly reused inputs",
+  "data": "M3/M4b known eval inputs/answers; baseline/candidate known",
+  "rule": "strict bool valid, dict top-level, list of complete dict cases with fixed required fields, exact JSON typed IDs/tasks/expected values, typed pass flag/counts, recomputed outcomes, strict aggregate gain plus all baseline successes retained",
+  "expected": "each frozen malformed probe returns False without raising; selected/control fixed-suite outcomes unchanged",
+  "limits": [
+    "only frozen JSON shapes tested, no never-raises claim outside matrix",
+    "no arbitrary hostile Python objects/custom mapping subclasses/non-JSON probe claims",
+    "reused known inputs, not blind/unseen performance",
+    "no new synthesis/model/arbitrary invention/AGI/generalization/speedup",
+    "host judge author-visible answers, worker inputs-only",
+    "git timestamps do not prove no private pre-freeze scoring",
+    "no cgroup/kernel/covert-channel guarantees; no activation authority"
+  ]
+}

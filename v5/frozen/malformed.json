@@ -1,0 +1,680 @@
+[
+  {
+    "id": "baseline-shape-0",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": null,
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-1",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": false,
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-2",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": true,
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-3",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": 0,
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-4",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": 1,
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-5",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": 1.0,
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-6",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": "",
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-7",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": "x",
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-8",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": [],
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-9",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": [
+      null
+    ],
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-10",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": {},
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-11",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": {
+      "valid": false
+    },
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-12",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": {
+      "valid": true
+    },
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-13",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": {
+      "valid": true,
+      "cases": null
+    },
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-14",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": {
+      "valid": true,
+      "cases": "bad"
+    },
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-15",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": {
+      "valid": true,
+      "cases": []
+    },
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-16",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": {
+      "valid": 1,
+      "cases": []
+    },
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-17",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": {
+      "valid": true,
+      "cases": [
+        null
+      ]
+    },
+    "expected": false
+  },
+  {
+    "id": "baseline-shape-18",
+    "target": "baseline",
+    "kind": "replace_report",
+    "value": {
+      "valid": true,
+      "cases": [
+        []
+      ]
+    },
+    "expected": false
+  },
+  {
+    "id": "baseline-case-0",
+    "target": "baseline",
+    "kind": "replace_case",
+    "value": null,
+    "expected": false
+  },
+  {
+    "id": "baseline-case-1",
+    "target": "baseline",
+    "kind": "replace_case",
+    "value": false,
+    "expected": false
+  },
+  {
+    "id": "baseline-case-2",
+    "target": "baseline",
+    "kind": "replace_case",
+    "value": true,
+    "expected": false
+  },
+  {
+    "id": "baseline-case-3",
+    "target": "baseline",
+    "kind": "replace_case",
+    "value": 0,
+    "expected": false
+  },
+  {
+    "id": "baseline-case-4",
+    "target": "baseline",
+    "kind": "replace_case",
+    "value": 1,
+    "expected": false
+  },
+  {
+    "id": "baseline-case-5",
+    "target": "baseline",
+    "kind": "replace_case",
+    "value": 1.0,
+    "expected": false
+  },
+  {
+    "id": "baseline-case-6",
+    "target": "baseline",
+    "kind": "replace_case",
+    "value": "",
+    "expected": false
+  },
+  {
+    "id": "baseline-case-7",
+    "target": "baseline",
+    "kind": "replace_case",
+    "value": "x",
+    "expected": false
+  },
+  {
+    "id": "baseline-case-8",
+    "target": "baseline",
+    "kind": "replace_case",
+    "value": [],
+    "expected": false
+  },
+  {
+    "id": "baseline-case-9",
+    "target": "baseline",
+    "kind": "replace_case",
+    "value": [
+      null
+    ],
+    "expected": false
+  },
+  {
+    "id": "baseline-case-10",
+    "target": "baseline",
+    "kind": "replace_case",
+    "value": {},
+    "expected": false
+  },
+  {
+    "id": "baseline-case-11",
+    "target": "baseline",
+    "kind": "replace_case",
+    "value": {
+      "passed": true
+    },
+    "expected": false
+  },
+  {
+    "id": "baseline-case-12",
+    "target": "baseline",
+    "kind": "replace_case",
+    "value": {
+      "id": "fake",
+      "task": "first_index",
+      "expected": -1,
+      "actual": -1,
+      "passed": true
+    },
+    "expected": false
+  },
+  {
+    "id": "baseline-missing-valid",
+    "target": "baseline",
+    "kind": "delete_field",
+    "field": "valid",
+    "expected": false
+  },
+  {
+    "id": "baseline-missing-cases",
+    "target": "baseline",
+    "kind": "delete_field",
+    "field": "cases",
+    "expected": false
+  },
+  {
+    "id": "baseline-missing-passed",
+    "target": "baseline",
+    "kind": "delete_field",
+    "field": "passed",
+    "expected": false
+  },
+  {
+    "id": "baseline-missing-total",
+    "target": "baseline",
+    "kind": "delete_field",
+    "field": "total",
+    "expected": false
+  },
+  {
+    "id": "baseline-missing-per_task",
+    "target": "baseline",
+    "kind": "delete_field",
+    "field": "per_task",
+    "expected": false
+  },
+  {
+    "id": "baseline-case-missing-id",
+    "target": "baseline",
+    "kind": "delete_case_field",
+    "field": "id",
+    "expected": false
+  },
+  {
+    "id": "baseline-case-missing-task",
+    "target": "baseline",
+    "kind": "delete_case_field",
+    "field": "task",
+    "expected": false
+  },
+  {
+    "id": "baseline-case-missing-expected",
+    "target": "baseline",
+    "kind": "delete_case_field",
+    "field": "expected",
+    "expected": false
+  },
+  {
+    "id": "baseline-case-missing-actual",
+    "target": "baseline",
+    "kind": "delete_case_field",
+    "field": "actual",
+    "expected": false
+  },
+  {
+    "id": "baseline-case-missing-error",
+    "target": "baseline",
+    "kind": "delete_case_field",
+    "field": "error",
+    "expected": false
+  },
+  {
+    "id": "baseline-case-missing-passed",
+    "target": "baseline",
+    "kind": "delete_case_field",
+    "field": "passed",
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-0",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": null,
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-1",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": false,
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-2",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": true,
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-3",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": 0,
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-4",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": 1,
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-5",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": 1.0,
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-6",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": "",
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-7",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": "x",
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-8",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": [],
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-9",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": [
+      null
+    ],
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-10",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": {},
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-11",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": {
+      "valid": false
+    },
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-12",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": {
+      "valid": true
+    },
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-13",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": {
+      "valid": true,
+      "cases": null
+    },
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-14",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": {
+      "valid": true,
+      "cases": "bad"
+    },
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-15",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": {
+      "valid": true,
+      "cases": []
+    },
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-16",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": {
+      "valid": 1,
+      "cases": []
+    },
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-17",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": {
+      "valid": true,
+      "cases": [
+        null
+      ]
+    },
+    "expected": false
+  },
+  {
+    "id": "candidate-shape-18",
+    "target": "candidate",
+    "kind": "replace_report",
+    "value": {
+      "valid": true,
+      "cases": [
+        []
+      ]
+    },
+    "expected": false
+  },
+  {
+    "id": "candidate-case-0",
+    "target": "candidate",
+    "kind": "replace_case",
+    "value": null,
+    "expected": false
+  },
+  {
+    "id": "candidate-case-1",
+    "target": "candidate",
+    "kind": "replace_case",
+    "value": false,
+    "expected": false
+  },
+  {
+    "id": "candidate-case-2",
+    "target": "candidate",
+    "kind": "replace_case",
+    "value": true,
+    "expected": false
+  },
+  {
+    "id": "candidate-case-3",
+    "target": "candidate",
+    "kind": "replace_case",
+    "value": 0,
+    "expected": false
+  },
+  {
+    "id": "candidate-case-4",
+    "target": "candidate",
+    "kind": "replace_case",
+    "value": 1,
+    "expected": false
+  },
+  {
+    "id": "candidate-case-5",
+    "target": "candidate",
+    "kind": "replace_case",
+    "value": 1.0,
+    "expected": false
+  },
+  {
+    "id": "candidate-case-6",
+    "target": "candidate",
+    "kind": "replace_case",
+    "value": "",
+    "expected": false
+  },
+  {
+    "id": "candidate-case-7",
+    "target": "candidate",
+    "kind": "replace_case",
+    "value": "x",
+    "expected": false
+  },
+  {
+    "id": "candidate-case-8",
+    "target": "candidate",
+    "kind": "replace_case",
+    "value": [],
+    "expected": false
+  },
+  {
+    "id": "candidate-case-9",
+    "target": "candidate",
+    "kind": "replace_case",
+    "value": [
+      null
+    ],
+    "expected": false
+  },
+  {
+    "id": "candidate-case-10",
+    "target": "candidate",
+    "kind": "replace_case",
+    "value": {},
+    "expected": false
+  },
+  {
+    "id": "candidate-case-11",
+    "target": "candidate",
+    "kind": "replace_case",
+    "value": {
+      "passed": true
+    },
+    "expected": false
+  },
+  {
+    "id": "candidate-case-12",
+    "target": "candidate",
+    "kind": "replace_case",
+    "value": {
+      "id": "fake",
+      "task": "first_index",
+      "expected": -1,
+      "actual": -1,
+      "passed": true
+    },
+    "expected": false
+  },
+  {
+    "id": "candidate-missing-valid",
+    "target": "candidate",
+    "kind": "delete_field",
+    "field": "valid",
+    "expected": false
+  },
+  {
+    "id": "candidate-missing-cases",
+    "target": "candidate",
+    "kind": "delete_field",
+    "field": "cases",
+    "expected": false
+  },
+  {
+    "id": "candidate-missing-passed",
+    "target": "candidate",
+    "kind": "delete_field",
+    "field": "passed",
+    "expected": false
+  },
+  {
+    "id": "candidate-missing-total",
+    "target": "candidate",
+    "kind": "delete_field",
+    "field": "total",
+    "expected": false
+  },
+  {
+    "id": "candidate-missing-per_task",
+    "target": "candidate",
+    "kind": "delete_field",
+    "field": "per_task",
+    "expected": false
+  },
+  {
+    "id": "candidate-case-missing-id",
+    "target": "candidate",
+    "kind": "delete_case_field",
+    "field": "id",
+    "expected": false
+  },
+  {
+    "id": "candidate-case-missing-task",
+    "target": "candidate",
+    "kind": "delete_case_field",
+    "field": "task",
+    "expected": false
+  },
+  {
+    "id": "candidate-case-missing-expected",
+    "target": "candidate",
+    "kind": "delete_case_field",
+    "field": "expected",
+    "expected": false
+  },
+  {
+    "id": "candidate-case-missing-actual",
+    "target": "candidate",
+    "kind": "delete_case_field",
+    "field": "actual",
+    "expected": false
+  },
+  {
+    "id": "candidate-case-missing-error",
+    "target": "candidate",
+    "kind": "delete_case_field",
+    "field": "error",
+    "expected": false
+  },
+  {
+    "id": "candidate-case-missing-passed",
+    "target": "candidate",
+    "kind": "delete_case_field",
+    "field": "passed",
+    "expected": false
+  }
+]
