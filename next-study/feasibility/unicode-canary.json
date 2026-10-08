@@ -1,0 +1,95 @@
+[
+  {
+    "arm": "A0",
+    "probe": 0,
+    "passed": true,
+    "output": {
+      "status": "error",
+      "code": "invalid_wire"
+    }
+  },
+  {
+    "arm": "A0",
+    "probe": 1,
+    "passed": true,
+    "output": {
+      "status": "error",
+      "code": "invalid_wire"
+    }
+  },
+  {
+    "arm": "A0",
+    "probe": 2,
+    "passed": true,
+    "output": {
+      "status": "ok",
+      "records": [
+        {
+          "x": "😀"
+        }
+      ]
+    }
+  },
+  {
+    "arm": "A1",
+    "probe": 0,
+    "passed": true,
+    "output": {
+      "status": "error",
+      "code": "invalid_wire"
+    }
+  },
+  {
+    "arm": "A1",
+    "probe": 1,
+    "passed": true,
+    "output": {
+      "status": "error",
+      "code": "invalid_wire"
+    }
+  },
+  {
+    "arm": "A1",
+    "probe": 2,
+    "passed": true,
+    "output": {
+      "status": "ok",
+      "records": [
+        {
+          "x": "😀"
+        }
+      ]
+    }
+  },
+  {
+    "arm": "A2",
+    "probe": 0,
+    "passed": true,
+    "output": {
+      "status": "error",
+      "code": "invalid_wire"
+    }
+  },
+  {
+    "arm": "A2",
+    "probe": 1,
+    "passed": true,
+    "output": {
+      "status": "error",
+      "code": "invalid_wire"
+    }
+  },
+  {
+    "arm": "A2",
+    "probe": 2,
+    "passed": true,
+    "output": {
+      "status": "ok",
+      "records": [
+        {
+          "x": "😀"
+        }
+      ]
+    }
+  }
+]

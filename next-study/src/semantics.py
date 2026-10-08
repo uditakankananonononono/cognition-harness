@@ -14,13 +14,13 @@ def bounded(v,depth=0):
  if depth>5:return False
  if v is None or type(v)in(bool,int):return True
  if type(v)is float:return math.isfinite(v)
- if type(v)is str:return len(v)<=1000
+ if type(v)is str:return len(v)<=1000 and not any(0xD800<=ord(c)<=0xDFFF for c in v)
  if type(v)is list:return len(v)<=100 and all(bounded(x,depth+1) for x in v)
- if type(v)is dict:return len(v)<=100 and all(type(k)is str and len(k)<=1000 and bounded(x,depth+1) for k,x in v.items())
+ if type(v)is dict:return len(v)<=100 and all(type(k)is str and len(k)<=1000 and not any(0xD800<=ord(c)<=0xDFFF for c in k) and bounded(x,depth+1) for k,x in v.items())
  return False
 
 def records_ok(rows):return type(rows)is list and len(rows)<=100 and all(type(r)is dict and bounded(r) for r in rows)
-def name(x):return type(x)is str and 1<=len(x)<=64
+def name(x):return type(x)is str and 1<=len(x)<=64 and not any(0xD800<=ord(c)<=0xDFFF for c in x)
 def fields(x):return type(x)is list and len(x)<=20 and all(name(k) for k in x) and len(set(x))==len(x)
 def depth(v):
  if type(v)is dict:return 1+max([depth(x) for x in v.values()]+[0])
@@ -35,8 +35,8 @@ def spec_ok(spec):
  if type(spec)is not dict or set(spec)!={'version','steps'} or type(spec['version'])is not int or spec['version']!=1:fail('invalid_spec')
  if type(spec['steps'])is not list or len(spec['steps'])>6:fail('invalid_spec')
  try:
-  if len(json.dumps(spec,ensure_ascii=False).encode())>65536 or depth(spec)>6:fail('invalid_spec')
- except (ValueError,TypeError,OverflowError):fail('invalid_spec')
+  if len(json.dumps(spec,ensure_ascii=False,separators=(',',':')).encode())>65536 or depth(spec)-1>6:fail('invalid_spec')
+ except (ValueError,TypeError,OverflowError,UnicodeError):fail('invalid_spec')
  unknown=False
  for s in spec['steps']:
   if type(s)is not dict or type(s.get('op'))is not str:fail('invalid_spec')
@@ -177,7 +177,7 @@ def group_count_op(rows,s,variant):
 def finish(rows):
  if not records_ok(rows):fail('output_limit')
  result={'status':'ok','records':rows}
- if len(json.dumps(result,ensure_ascii=False).encode())>1048576:fail('output_limit')
+ if len(json.dumps(result,ensure_ascii=False,separators=(',',':')).encode())>131072:fail('output_limit')
  return result
 
 def solve(spec,rows,variant=0):

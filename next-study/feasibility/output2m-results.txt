@@ -1,0 +1,6 @@
+stdout exit=1 2097152 /tmp/probe2m-out
+    173 /tmp/probe2m-err
+2097325 total
+stderr exit=120       0 /tmp/probe2m-out
+2097152 /tmp/probe2m-err
+2097152 total

@@ -3,7 +3,7 @@ import json,resource,sys,time,math
 resource.setrlimit(resource.RLIMIT_AS,(268435456,268435456))
 resource.setrlimit(resource.RLIMIT_CPU,(5,5))
 resource.setrlimit(resource.RLIMIT_NPROC,(0,0))
-resource.setrlimit(resource.RLIMIT_FSIZE,(1048576,1048576))
+resource.setrlimit(resource.RLIMIT_FSIZE,(2097152,2097152))
 from methods import a0,a1,a2
 class WireError(Exception):pass
 
@@ -14,12 +14,18 @@ def pairs(items):
         out[k]=v
     return out
 
+def scalar_string(value):
+    return not any(0xD800 <= ord(c) <= 0xDFFF for c in value)
+
 def finite_tree(v):
+    if type(v)is str and not scalar_string(v):raise WireError()
     if type(v)is float and not math.isfinite(v):raise WireError()
     if type(v)is list:
         for item in v:finite_tree(item)
     if type(v)is dict:
-        for item in v.values():finite_tree(item)
+        for key,item in v.items():
+            if not scalar_string(key):raise WireError()
+            finite_tree(item)
 
 def parse(raw):
     if len(raw)>1048576:raise WireError()

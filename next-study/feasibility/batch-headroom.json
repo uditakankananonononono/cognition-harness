@@ -1,0 +1,29 @@
+[
+  {
+    "arm": "A0",
+    "valid": true,
+    "reason": null,
+    "stdout_bytes": 1216748,
+    "exit": 0,
+    "outputs": 10,
+    "all_exact": true
+  },
+  {
+    "arm": "A1",
+    "valid": true,
+    "reason": null,
+    "stdout_bytes": 1216746,
+    "exit": 0,
+    "outputs": 10,
+    "all_exact": true
+  },
+  {
+    "arm": "A2",
+    "valid": true,
+    "reason": null,
+    "stdout_bytes": 1216744,
+    "exit": 0,
+    "outputs": 10,
+    "all_exact": true
+  }
+]

@@ -1,13 +1,21 @@
 {
   "CONTRACT-V2.md": "a9e360673aa4d6843fc17fe59a619ce14db6bec3aff2c8b43f85edca1f212d36",
   "CONTRACT-V3-ADDENDUM.md": "2478884cfc9adb14f1e8e4dbe3d56c37458dd7bcf3ffcd03378a2aa33656c811",
+  "CONTRACT-V3C-ADDENDUM.md": "0c52ca73e2511b55ff612c401854d09ad88e329a2e6dc210a7da84fd40f4c78b",
+  "feasibility/batch-headroom.json": "4b2b0d36096e204965d81a36d95e700a9f8e5ef18d2ef342fc26b52dd4f610b1",
+  "feasibility/batch-headroom.py": "9a6a5f2218132d74d7a3d6d0670b7707f376e6516deb49bd0ee8e58b37d12fad",
+  "feasibility/environment-probes.txt": "1217938061c63960340e70ceb94c8cdf4cdd542f60f87416f9e38679ab472bfc",
   "feasibility/exact-probes.json": "3f019d8b1d1604e08bc518466f75ce3b55388e49afe48da676589ff7c9a5ec2d",
   "feasibility/exact_probe.py": "ff156aed47f6c6ee4632908dbdde97c45d514b56d9a787d28e866e51d9685efd",
+  "feasibility/output2m-results.txt": "f65f2ae7f4ba0df34b189d9c4f4f6314639af0b31ae182897830d9ad802c2d47",
+  "feasibility/output2m_probe.py": "c3fc8752de12798f9e2466cf5231ee3f90634ac8069a065f80692f047ea303ad",
   "feasibility/probe.py": "9c773fb3ecf2185b109804246dcbb6cf3e23b86fefdfb43891a284c2a80ad05b",
   "feasibility/run_exact.py": "8dcea5891ae7ff659fa096383bb828550c0deb6b7633f751dee94456440ac2e2",
+  "feasibility/unicode-canary.json": "b7ccc82a2252327e63a4a9f2c3310e449441dd51b9427ce3dce91c8489d0a85b",
+  "feasibility/unicode-canary.py": "9e9495c49d142abba653417d3f97fedaf51c6a58cea45467bcbfd7d12c080df4",
   "src/interface.py": "264a367c690febb303850508b1605db3f4e35134ea4f8d236a7e1396c7d44588",
   "src/methods.py": "9f1690e4c90cd0e0c1cb021825251de4622d4e3ecadf19cfbb8398ff24e15d0b",
   "src/runner.py": "0d4a2aaf20174a3a1279d931c4afe42184683b458ed32380d72a75ca824074f4",
-  "src/semantics.py": "c9dbc2abca92359bc0285c6c06976a45291df34180ca8dedcb34435c68e2f03e",
-  "src/worker.py": "d55705d805858ed94a782c667317a8566e106b8fb7ef016e7b393ab34a7e8221"
+  "src/semantics.py": "08cb004048206cd1f04e39bbc5cf1108178c0d390ccf18a064c0bd9e1598d27b",
+  "src/worker.py": "f14e3e0ff1e41a4de1bedc746d0058550f46bf6ff943d7d5eb729426908e2a0a"
 }
