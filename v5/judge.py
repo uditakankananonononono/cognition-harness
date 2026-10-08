@@ -17,9 +17,12 @@ def preservation(baseline,candidate):
     """Match reports to the pinned suite, recompute counts, then preserve baseline passes."""
     expected=json.loads((R/'frozen'/'eval.json').read_bytes())
     def validate(report):
-        if report.get('valid') is not True or not isinstance(report.get('cases'),list):return False
+        if type(report) is not dict or report.get('valid') is not True or not isinstance(report.get('cases'),list):return False
         if len(report['cases'])!=len(expected):return False
         for c,e in zip(report['cases'],expected):
+            if type(c) is not dict or not {'id','task','expected','actual','error','passed'}.issubset(c):return False
+            if type(c['id']) is not str or type(c['task']) is not str:return False
+            if c['error'] is not None and type(c['error']) is not str:return False
             if c.get('id')!=e['id'] or c.get('task')!=e['task']:return False
             from isolation import json_equal
             if not json_equal(c.get('expected'),e['expected']):return False
