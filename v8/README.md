@@ -13,3 +13,13 @@ Twelve controls pass: pins, caps/counts, unique vectors/first representatives, w
 Limits: bounded handcrafted finite arithmetic grammar and interpreter; synthetic integer valid domains; no LLM/arbitrary invention/AGI/generalization/speedup; author knows reused target/answers, judge author-visible; candidate worker inputs-only; git timestamps do not prove no private scoring; no cgroup/kernel/covert-channel guarantees; no activation authority. No arbitrary hostile expression execution outside known grammar. Scores on reused data do not constitute new held-out model evaluation.
 
 Reproduce: python3 v8/agent.py "$(cat v8/receipts/frozen-pin.txt)"; python3 v8/tests.py. Stdlib+namespace-capable bwrap. Full history contains unchanged v7 references used in tests. Fresh checkout. All screening/worker trials retained; no protocol edits after execution.
+
+## Independent review and frozen wording clarification
+
+Main relayed PASS-WITH-NOTES for M8e40d29ae: real bubblewrap rerun reproduced selected expressions and receipts byte-for-byte, all2880 screening constructions/447 worker reports/504 eval rows independently rescored,12 controls passed. Cleared as known-benchmark follow-on, NOT unseen discovery.
+
+Append-only clarification: frozen protocol's 'baseline0' names the baseline implementation's constant0 outputs, not its pass count. Measured baseline score is2/168, not0/168. Original frozen bytes/pin remain unchanged; this note removes the wording ambiguity without rewriting preregistration.
+
+Carry on every claim: reused author-known M7 benchmark; first-dev-vector representative may hide off-domain differences;14400 extra scalar screens means NOT cost-normalized superiority or speedup; finite handwritten grammar, no general-invention/AGI claim; freeze records ordering, not absence of private tuning; no activation.
+
+Interpreter's parser accepts unary-minus beyond terminal-1 and ignores abs AST kwargs, but proposer only creates the specified grammar. No arbitrary-parser-security claim is cleared.

@@ -1,0 +1,7 @@
+{
+  "verdict": "PASS-WITH-NOTES, independently reviewed known-benchmark follow-on",
+  "reviewed_commit": "e40d29ae087463d0067031ce2da674b04370de82",
+  "append_only_frozen_wording_note": "baseline0 means constant-zero implementation, not zero passes; measured baseline is 2/168",
+  "frozen_bytes_unchanged": true,
+  "limits": "Reused author-known M7 benchmark; first-dev-vector representative may hide off-domain differences; 14400 extra scalar screens means not cost-normalized superiority or speedup; finite handwritten grammar, no general-invention/AGI claim; freeze records ordering, not absence of private tuning; no activation. Parser security outside constructed grammar not cleared."
+}
