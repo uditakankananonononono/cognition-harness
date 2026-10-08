@@ -1,0 +1,17 @@
+test_arm_scores (__main__.Controls) ... ok
+test_budget (__main__.Controls) ... ok
+test_disjoint (__main__.Controls) ... ok
+test_gates (__main__.Controls) ... ok
+test_invalid_pin (__main__.Controls) ... ok
+test_malformed_refused (__main__.Controls) ... ok
+test_no_duplicate_evaluations (__main__.Controls) ... ok
+test_other_function_unchanged (__main__.Controls) ... ok
+test_pin (__main__.Controls) ... ok
+test_plateau_retained (__main__.Controls) ... ok
+test_trial_bytes (__main__.Controls) ... ok
+test_typed (__main__.Controls) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.011s
+
+OK

@@ -1,0 +1,5191 @@
+{
+  "manifest_pin": "dd55e300c313855b3d7173b14636e110bfc6d1fe80732cf3142ccafc7c8d27eb",
+  "baseline": {
+    "valid": true,
+    "source_sha256": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+    "passed": 1,
+    "total": 160,
+    "per_task": {
+      "scale": 1,
+      "shift": 0
+    },
+    "cases": [
+      {
+        "id": "eval-scale-0",
+        "task": "scale",
+        "expected": -80,
+        "actual": -39,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-1",
+        "task": "scale",
+        "expected": -78,
+        "actual": -38,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-2",
+        "task": "scale",
+        "expected": -76,
+        "actual": -37,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-3",
+        "task": "scale",
+        "expected": -74,
+        "actual": -36,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-4",
+        "task": "scale",
+        "expected": -72,
+        "actual": -35,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-5",
+        "task": "scale",
+        "expected": -70,
+        "actual": -34,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-6",
+        "task": "scale",
+        "expected": -68,
+        "actual": -33,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-7",
+        "task": "scale",
+        "expected": -66,
+        "actual": -32,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-8",
+        "task": "scale",
+        "expected": -64,
+        "actual": -31,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-9",
+        "task": "scale",
+        "expected": -62,
+        "actual": -30,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-10",
+        "task": "scale",
+        "expected": -60,
+        "actual": -29,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-11",
+        "task": "scale",
+        "expected": -58,
+        "actual": -28,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-12",
+        "task": "scale",
+        "expected": -56,
+        "actual": -27,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-13",
+        "task": "scale",
+        "expected": -54,
+        "actual": -26,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-14",
+        "task": "scale",
+        "expected": -52,
+        "actual": -25,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-15",
+        "task": "scale",
+        "expected": -50,
+        "actual": -24,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-16",
+        "task": "scale",
+        "expected": -48,
+        "actual": -23,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-17",
+        "task": "scale",
+        "expected": -46,
+        "actual": -22,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-18",
+        "task": "scale",
+        "expected": -44,
+        "actual": -21,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-19",
+        "task": "scale",
+        "expected": -42,
+        "actual": -20,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-20",
+        "task": "scale",
+        "expected": -40,
+        "actual": -19,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-21",
+        "task": "scale",
+        "expected": -38,
+        "actual": -18,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-22",
+        "task": "scale",
+        "expected": -36,
+        "actual": -17,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-23",
+        "task": "scale",
+        "expected": -34,
+        "actual": -16,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-24",
+        "task": "scale",
+        "expected": -32,
+        "actual": -15,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-25",
+        "task": "scale",
+        "expected": -30,
+        "actual": -14,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-26",
+        "task": "scale",
+        "expected": -28,
+        "actual": -13,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-27",
+        "task": "scale",
+        "expected": -26,
+        "actual": -12,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-28",
+        "task": "scale",
+        "expected": -24,
+        "actual": -11,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-29",
+        "task": "scale",
+        "expected": -22,
+        "actual": -10,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-30",
+        "task": "scale",
+        "expected": -20,
+        "actual": -9,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-31",
+        "task": "scale",
+        "expected": -18,
+        "actual": -8,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-32",
+        "task": "scale",
+        "expected": -16,
+        "actual": -7,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-33",
+        "task": "scale",
+        "expected": -14,
+        "actual": -6,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-34",
+        "task": "scale",
+        "expected": -12,
+        "actual": -5,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-35",
+        "task": "scale",
+        "expected": -10,
+        "actual": -4,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-36",
+        "task": "scale",
+        "expected": -8,
+        "actual": -3,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-37",
+        "task": "scale",
+        "expected": -6,
+        "actual": -2,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-38",
+        "task": "scale",
+        "expected": -4,
+        "actual": -1,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-39",
+        "task": "scale",
+        "expected": -2,
+        "actual": 0,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-40",
+        "task": "scale",
+        "expected": 0,
+        "actual": 1,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-41",
+        "task": "scale",
+        "expected": 2,
+        "actual": 2,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "eval-scale-42",
+        "task": "scale",
+        "expected": 4,
+        "actual": 3,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-43",
+        "task": "scale",
+        "expected": 6,
+        "actual": 4,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-44",
+        "task": "scale",
+        "expected": 16,
+        "actual": 9,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-45",
+        "task": "scale",
+        "expected": 18,
+        "actual": 10,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-46",
+        "task": "scale",
+        "expected": 20,
+        "actual": 11,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-47",
+        "task": "scale",
+        "expected": 22,
+        "actual": 12,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-48",
+        "task": "scale",
+        "expected": 24,
+        "actual": 13,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-49",
+        "task": "scale",
+        "expected": 26,
+        "actual": 14,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-50",
+        "task": "scale",
+        "expected": 28,
+        "actual": 15,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-51",
+        "task": "scale",
+        "expected": 30,
+        "actual": 16,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-52",
+        "task": "scale",
+        "expected": 32,
+        "actual": 17,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-53",
+        "task": "scale",
+        "expected": 34,
+        "actual": 18,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-54",
+        "task": "scale",
+        "expected": 36,
+        "actual": 19,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-55",
+        "task": "scale",
+        "expected": 38,
+        "actual": 20,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-56",
+        "task": "scale",
+        "expected": 40,
+        "actual": 21,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-57",
+        "task": "scale",
+        "expected": 42,
+        "actual": 22,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-58",
+        "task": "scale",
+        "expected": 44,
+        "actual": 23,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-59",
+        "task": "scale",
+        "expected": 46,
+        "actual": 24,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-60",
+        "task": "scale",
+        "expected": 48,
+        "actual": 25,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-61",
+        "task": "scale",
+        "expected": 50,
+        "actual": 26,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-62",
+        "task": "scale",
+        "expected": 52,
+        "actual": 27,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-63",
+        "task": "scale",
+        "expected": 54,
+        "actual": 28,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-64",
+        "task": "scale",
+        "expected": 56,
+        "actual": 29,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-65",
+        "task": "scale",
+        "expected": 58,
+        "actual": 30,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-66",
+        "task": "scale",
+        "expected": 60,
+        "actual": 31,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-67",
+        "task": "scale",
+        "expected": 62,
+        "actual": 32,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-68",
+        "task": "scale",
+        "expected": 64,
+        "actual": 33,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-69",
+        "task": "scale",
+        "expected": 66,
+        "actual": 34,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-70",
+        "task": "scale",
+        "expected": 68,
+        "actual": 35,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-71",
+        "task": "scale",
+        "expected": 70,
+        "actual": 36,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-72",
+        "task": "scale",
+        "expected": 72,
+        "actual": 37,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-73",
+        "task": "scale",
+        "expected": 74,
+        "actual": 38,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-74",
+        "task": "scale",
+        "expected": 76,
+        "actual": 39,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-75",
+        "task": "scale",
+        "expected": 78,
+        "actual": 40,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-76",
+        "task": "scale",
+        "expected": 80,
+        "actual": 41,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-77",
+        "task": "scale",
+        "expected": 82,
+        "actual": 42,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-78",
+        "task": "scale",
+        "expected": 84,
+        "actual": 43,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-scale-79",
+        "task": "scale",
+        "expected": 86,
+        "actual": 44,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-0",
+        "task": "shift",
+        "expected": -37,
+        "actual": -42,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-1",
+        "task": "shift",
+        "expected": -36,
+        "actual": -41,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-2",
+        "task": "shift",
+        "expected": -35,
+        "actual": -40,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-3",
+        "task": "shift",
+        "expected": -34,
+        "actual": -39,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-4",
+        "task": "shift",
+        "expected": -33,
+        "actual": -38,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-5",
+        "task": "shift",
+        "expected": -32,
+        "actual": -37,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-6",
+        "task": "shift",
+        "expected": -31,
+        "actual": -36,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-7",
+        "task": "shift",
+        "expected": -30,
+        "actual": -35,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-8",
+        "task": "shift",
+        "expected": -29,
+        "actual": -34,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-9",
+        "task": "shift",
+        "expected": -28,
+        "actual": -33,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-10",
+        "task": "shift",
+        "expected": -27,
+        "actual": -32,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-11",
+        "task": "shift",
+        "expected": -26,
+        "actual": -31,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-12",
+        "task": "shift",
+        "expected": -25,
+        "actual": -30,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-13",
+        "task": "shift",
+        "expected": -24,
+        "actual": -29,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-14",
+        "task": "shift",
+        "expected": -23,
+        "actual": -28,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-15",
+        "task": "shift",
+        "expected": -22,
+        "actual": -27,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-16",
+        "task": "shift",
+        "expected": -21,
+        "actual": -26,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-17",
+        "task": "shift",
+        "expected": -20,
+        "actual": -25,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-18",
+        "task": "shift",
+        "expected": -19,
+        "actual": -24,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-19",
+        "task": "shift",
+        "expected": -18,
+        "actual": -23,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-20",
+        "task": "shift",
+        "expected": -17,
+        "actual": -22,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-21",
+        "task": "shift",
+        "expected": -16,
+        "actual": -21,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-22",
+        "task": "shift",
+        "expected": -15,
+        "actual": -20,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-23",
+        "task": "shift",
+        "expected": -14,
+        "actual": -19,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-24",
+        "task": "shift",
+        "expected": -13,
+        "actual": -18,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-25",
+        "task": "shift",
+        "expected": -12,
+        "actual": -17,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-26",
+        "task": "shift",
+        "expected": -11,
+        "actual": -16,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-27",
+        "task": "shift",
+        "expected": -10,
+        "actual": -15,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-28",
+        "task": "shift",
+        "expected": -9,
+        "actual": -14,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-29",
+        "task": "shift",
+        "expected": -8,
+        "actual": -13,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-30",
+        "task": "shift",
+        "expected": -7,
+        "actual": -12,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-31",
+        "task": "shift",
+        "expected": -6,
+        "actual": -11,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-32",
+        "task": "shift",
+        "expected": -5,
+        "actual": -10,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-33",
+        "task": "shift",
+        "expected": -4,
+        "actual": -9,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-34",
+        "task": "shift",
+        "expected": -3,
+        "actual": -8,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-35",
+        "task": "shift",
+        "expected": -2,
+        "actual": -7,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-36",
+        "task": "shift",
+        "expected": -1,
+        "actual": -6,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-37",
+        "task": "shift",
+        "expected": 0,
+        "actual": -5,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-38",
+        "task": "shift",
+        "expected": 1,
+        "actual": -4,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-39",
+        "task": "shift",
+        "expected": 2,
+        "actual": -3,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-40",
+        "task": "shift",
+        "expected": 3,
+        "actual": -2,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-41",
+        "task": "shift",
+        "expected": 4,
+        "actual": -1,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-42",
+        "task": "shift",
+        "expected": 5,
+        "actual": 0,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-43",
+        "task": "shift",
+        "expected": 6,
+        "actual": 1,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-44",
+        "task": "shift",
+        "expected": 11,
+        "actual": 6,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-45",
+        "task": "shift",
+        "expected": 12,
+        "actual": 7,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-46",
+        "task": "shift",
+        "expected": 13,
+        "actual": 8,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-47",
+        "task": "shift",
+        "expected": 14,
+        "actual": 9,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-48",
+        "task": "shift",
+        "expected": 15,
+        "actual": 10,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-49",
+        "task": "shift",
+        "expected": 16,
+        "actual": 11,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-50",
+        "task": "shift",
+        "expected": 17,
+        "actual": 12,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-51",
+        "task": "shift",
+        "expected": 18,
+        "actual": 13,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-52",
+        "task": "shift",
+        "expected": 19,
+        "actual": 14,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-53",
+        "task": "shift",
+        "expected": 20,
+        "actual": 15,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-54",
+        "task": "shift",
+        "expected": 21,
+        "actual": 16,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-55",
+        "task": "shift",
+        "expected": 22,
+        "actual": 17,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-56",
+        "task": "shift",
+        "expected": 23,
+        "actual": 18,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-57",
+        "task": "shift",
+        "expected": 24,
+        "actual": 19,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-58",
+        "task": "shift",
+        "expected": 25,
+        "actual": 20,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-59",
+        "task": "shift",
+        "expected": 26,
+        "actual": 21,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-60",
+        "task": "shift",
+        "expected": 27,
+        "actual": 22,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-61",
+        "task": "shift",
+        "expected": 28,
+        "actual": 23,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-62",
+        "task": "shift",
+        "expected": 29,
+        "actual": 24,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-63",
+        "task": "shift",
+        "expected": 30,
+        "actual": 25,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-64",
+        "task": "shift",
+        "expected": 31,
+        "actual": 26,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-65",
+        "task": "shift",
+        "expected": 32,
+        "actual": 27,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-66",
+        "task": "shift",
+        "expected": 33,
+        "actual": 28,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-67",
+        "task": "shift",
+        "expected": 34,
+        "actual": 29,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-68",
+        "task": "shift",
+        "expected": 35,
+        "actual": 30,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-69",
+        "task": "shift",
+        "expected": 36,
+        "actual": 31,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-70",
+        "task": "shift",
+        "expected": 37,
+        "actual": 32,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-71",
+        "task": "shift",
+        "expected": 38,
+        "actual": 33,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-72",
+        "task": "shift",
+        "expected": 39,
+        "actual": 34,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-73",
+        "task": "shift",
+        "expected": 40,
+        "actual": 35,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-74",
+        "task": "shift",
+        "expected": 41,
+        "actual": 36,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-75",
+        "task": "shift",
+        "expected": 42,
+        "actual": 37,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-76",
+        "task": "shift",
+        "expected": 43,
+        "actual": 38,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-77",
+        "task": "shift",
+        "expected": 44,
+        "actual": 39,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-78",
+        "task": "shift",
+        "expected": 45,
+        "actual": 40,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "eval-shift-79",
+        "task": "shift",
+        "expected": 46,
+        "actual": 41,
+        "error": null,
+        "passed": false
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "report": {
+        "valid": true,
+        "source_sha256": "f0346c53c65517495ab9a3451004d71645518b1be551d7f6c9bd0302b5ed29ce",
+        "passed": 81,
+        "total": 160,
+        "per_task": {
+          "scale": 1,
+          "shift": 80
+        },
+        "cases": [
+          {
+            "id": "eval-scale-0",
+            "task": "scale",
+            "expected": -80,
+            "actual": -39,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-1",
+            "task": "scale",
+            "expected": -78,
+            "actual": -38,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-2",
+            "task": "scale",
+            "expected": -76,
+            "actual": -37,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-3",
+            "task": "scale",
+            "expected": -74,
+            "actual": -36,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-4",
+            "task": "scale",
+            "expected": -72,
+            "actual": -35,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-5",
+            "task": "scale",
+            "expected": -70,
+            "actual": -34,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-6",
+            "task": "scale",
+            "expected": -68,
+            "actual": -33,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-7",
+            "task": "scale",
+            "expected": -66,
+            "actual": -32,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-8",
+            "task": "scale",
+            "expected": -64,
+            "actual": -31,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-9",
+            "task": "scale",
+            "expected": -62,
+            "actual": -30,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-10",
+            "task": "scale",
+            "expected": -60,
+            "actual": -29,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-11",
+            "task": "scale",
+            "expected": -58,
+            "actual": -28,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-12",
+            "task": "scale",
+            "expected": -56,
+            "actual": -27,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-13",
+            "task": "scale",
+            "expected": -54,
+            "actual": -26,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-14",
+            "task": "scale",
+            "expected": -52,
+            "actual": -25,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-15",
+            "task": "scale",
+            "expected": -50,
+            "actual": -24,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-16",
+            "task": "scale",
+            "expected": -48,
+            "actual": -23,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-17",
+            "task": "scale",
+            "expected": -46,
+            "actual": -22,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-18",
+            "task": "scale",
+            "expected": -44,
+            "actual": -21,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-19",
+            "task": "scale",
+            "expected": -42,
+            "actual": -20,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-20",
+            "task": "scale",
+            "expected": -40,
+            "actual": -19,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-21",
+            "task": "scale",
+            "expected": -38,
+            "actual": -18,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-22",
+            "task": "scale",
+            "expected": -36,
+            "actual": -17,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-23",
+            "task": "scale",
+            "expected": -34,
+            "actual": -16,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-24",
+            "task": "scale",
+            "expected": -32,
+            "actual": -15,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-25",
+            "task": "scale",
+            "expected": -30,
+            "actual": -14,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-26",
+            "task": "scale",
+            "expected": -28,
+            "actual": -13,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-27",
+            "task": "scale",
+            "expected": -26,
+            "actual": -12,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-28",
+            "task": "scale",
+            "expected": -24,
+            "actual": -11,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-29",
+            "task": "scale",
+            "expected": -22,
+            "actual": -10,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-30",
+            "task": "scale",
+            "expected": -20,
+            "actual": -9,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-31",
+            "task": "scale",
+            "expected": -18,
+            "actual": -8,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-32",
+            "task": "scale",
+            "expected": -16,
+            "actual": -7,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-33",
+            "task": "scale",
+            "expected": -14,
+            "actual": -6,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-34",
+            "task": "scale",
+            "expected": -12,
+            "actual": -5,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-35",
+            "task": "scale",
+            "expected": -10,
+            "actual": -4,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-36",
+            "task": "scale",
+            "expected": -8,
+            "actual": -3,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-37",
+            "task": "scale",
+            "expected": -6,
+            "actual": -2,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-38",
+            "task": "scale",
+            "expected": -4,
+            "actual": -1,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-39",
+            "task": "scale",
+            "expected": -2,
+            "actual": 0,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-40",
+            "task": "scale",
+            "expected": 0,
+            "actual": 1,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-41",
+            "task": "scale",
+            "expected": 2,
+            "actual": 2,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-42",
+            "task": "scale",
+            "expected": 4,
+            "actual": 3,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-43",
+            "task": "scale",
+            "expected": 6,
+            "actual": 4,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-44",
+            "task": "scale",
+            "expected": 16,
+            "actual": 9,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-45",
+            "task": "scale",
+            "expected": 18,
+            "actual": 10,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-46",
+            "task": "scale",
+            "expected": 20,
+            "actual": 11,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-47",
+            "task": "scale",
+            "expected": 22,
+            "actual": 12,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-48",
+            "task": "scale",
+            "expected": 24,
+            "actual": 13,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-49",
+            "task": "scale",
+            "expected": 26,
+            "actual": 14,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-50",
+            "task": "scale",
+            "expected": 28,
+            "actual": 15,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-51",
+            "task": "scale",
+            "expected": 30,
+            "actual": 16,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-52",
+            "task": "scale",
+            "expected": 32,
+            "actual": 17,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-53",
+            "task": "scale",
+            "expected": 34,
+            "actual": 18,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-54",
+            "task": "scale",
+            "expected": 36,
+            "actual": 19,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-55",
+            "task": "scale",
+            "expected": 38,
+            "actual": 20,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-56",
+            "task": "scale",
+            "expected": 40,
+            "actual": 21,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-57",
+            "task": "scale",
+            "expected": 42,
+            "actual": 22,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-58",
+            "task": "scale",
+            "expected": 44,
+            "actual": 23,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-59",
+            "task": "scale",
+            "expected": 46,
+            "actual": 24,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-60",
+            "task": "scale",
+            "expected": 48,
+            "actual": 25,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-61",
+            "task": "scale",
+            "expected": 50,
+            "actual": 26,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-62",
+            "task": "scale",
+            "expected": 52,
+            "actual": 27,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-63",
+            "task": "scale",
+            "expected": 54,
+            "actual": 28,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-64",
+            "task": "scale",
+            "expected": 56,
+            "actual": 29,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-65",
+            "task": "scale",
+            "expected": 58,
+            "actual": 30,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-66",
+            "task": "scale",
+            "expected": 60,
+            "actual": 31,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-67",
+            "task": "scale",
+            "expected": 62,
+            "actual": 32,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-68",
+            "task": "scale",
+            "expected": 64,
+            "actual": 33,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-69",
+            "task": "scale",
+            "expected": 66,
+            "actual": 34,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-70",
+            "task": "scale",
+            "expected": 68,
+            "actual": 35,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-71",
+            "task": "scale",
+            "expected": 70,
+            "actual": 36,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-72",
+            "task": "scale",
+            "expected": 72,
+            "actual": 37,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-73",
+            "task": "scale",
+            "expected": 74,
+            "actual": 38,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-74",
+            "task": "scale",
+            "expected": 76,
+            "actual": 39,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-75",
+            "task": "scale",
+            "expected": 78,
+            "actual": 40,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-76",
+            "task": "scale",
+            "expected": 80,
+            "actual": 41,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-77",
+            "task": "scale",
+            "expected": 82,
+            "actual": 42,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-78",
+            "task": "scale",
+            "expected": 84,
+            "actual": 43,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-79",
+            "task": "scale",
+            "expected": 86,
+            "actual": 44,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-0",
+            "task": "shift",
+            "expected": -37,
+            "actual": -37,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-1",
+            "task": "shift",
+            "expected": -36,
+            "actual": -36,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-2",
+            "task": "shift",
+            "expected": -35,
+            "actual": -35,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-3",
+            "task": "shift",
+            "expected": -34,
+            "actual": -34,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-4",
+            "task": "shift",
+            "expected": -33,
+            "actual": -33,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-5",
+            "task": "shift",
+            "expected": -32,
+            "actual": -32,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-6",
+            "task": "shift",
+            "expected": -31,
+            "actual": -31,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-7",
+            "task": "shift",
+            "expected": -30,
+            "actual": -30,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-8",
+            "task": "shift",
+            "expected": -29,
+            "actual": -29,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-9",
+            "task": "shift",
+            "expected": -28,
+            "actual": -28,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-10",
+            "task": "shift",
+            "expected": -27,
+            "actual": -27,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-11",
+            "task": "shift",
+            "expected": -26,
+            "actual": -26,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-12",
+            "task": "shift",
+            "expected": -25,
+            "actual": -25,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-13",
+            "task": "shift",
+            "expected": -24,
+            "actual": -24,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-14",
+            "task": "shift",
+            "expected": -23,
+            "actual": -23,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-15",
+            "task": "shift",
+            "expected": -22,
+            "actual": -22,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-16",
+            "task": "shift",
+            "expected": -21,
+            "actual": -21,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-17",
+            "task": "shift",
+            "expected": -20,
+            "actual": -20,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-18",
+            "task": "shift",
+            "expected": -19,
+            "actual": -19,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-19",
+            "task": "shift",
+            "expected": -18,
+            "actual": -18,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-20",
+            "task": "shift",
+            "expected": -17,
+            "actual": -17,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-21",
+            "task": "shift",
+            "expected": -16,
+            "actual": -16,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-22",
+            "task": "shift",
+            "expected": -15,
+            "actual": -15,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-23",
+            "task": "shift",
+            "expected": -14,
+            "actual": -14,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-24",
+            "task": "shift",
+            "expected": -13,
+            "actual": -13,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-25",
+            "task": "shift",
+            "expected": -12,
+            "actual": -12,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-26",
+            "task": "shift",
+            "expected": -11,
+            "actual": -11,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-27",
+            "task": "shift",
+            "expected": -10,
+            "actual": -10,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-28",
+            "task": "shift",
+            "expected": -9,
+            "actual": -9,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-29",
+            "task": "shift",
+            "expected": -8,
+            "actual": -8,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-30",
+            "task": "shift",
+            "expected": -7,
+            "actual": -7,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-31",
+            "task": "shift",
+            "expected": -6,
+            "actual": -6,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-32",
+            "task": "shift",
+            "expected": -5,
+            "actual": -5,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-33",
+            "task": "shift",
+            "expected": -4,
+            "actual": -4,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-34",
+            "task": "shift",
+            "expected": -3,
+            "actual": -3,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-35",
+            "task": "shift",
+            "expected": -2,
+            "actual": -2,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-36",
+            "task": "shift",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-37",
+            "task": "shift",
+            "expected": 0,
+            "actual": 0,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-38",
+            "task": "shift",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-39",
+            "task": "shift",
+            "expected": 2,
+            "actual": 2,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-40",
+            "task": "shift",
+            "expected": 3,
+            "actual": 3,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-41",
+            "task": "shift",
+            "expected": 4,
+            "actual": 4,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-42",
+            "task": "shift",
+            "expected": 5,
+            "actual": 5,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-43",
+            "task": "shift",
+            "expected": 6,
+            "actual": 6,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-44",
+            "task": "shift",
+            "expected": 11,
+            "actual": 11,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-45",
+            "task": "shift",
+            "expected": 12,
+            "actual": 12,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-46",
+            "task": "shift",
+            "expected": 13,
+            "actual": 13,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-47",
+            "task": "shift",
+            "expected": 14,
+            "actual": 14,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-48",
+            "task": "shift",
+            "expected": 15,
+            "actual": 15,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-49",
+            "task": "shift",
+            "expected": 16,
+            "actual": 16,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-50",
+            "task": "shift",
+            "expected": 17,
+            "actual": 17,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-51",
+            "task": "shift",
+            "expected": 18,
+            "actual": 18,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-52",
+            "task": "shift",
+            "expected": 19,
+            "actual": 19,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-53",
+            "task": "shift",
+            "expected": 20,
+            "actual": 20,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-54",
+            "task": "shift",
+            "expected": 21,
+            "actual": 21,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-55",
+            "task": "shift",
+            "expected": 22,
+            "actual": 22,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-56",
+            "task": "shift",
+            "expected": 23,
+            "actual": 23,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-57",
+            "task": "shift",
+            "expected": 24,
+            "actual": 24,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-58",
+            "task": "shift",
+            "expected": 25,
+            "actual": 25,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-59",
+            "task": "shift",
+            "expected": 26,
+            "actual": 26,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-60",
+            "task": "shift",
+            "expected": 27,
+            "actual": 27,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-61",
+            "task": "shift",
+            "expected": 28,
+            "actual": 28,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-62",
+            "task": "shift",
+            "expected": 29,
+            "actual": 29,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-63",
+            "task": "shift",
+            "expected": 30,
+            "actual": 30,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-64",
+            "task": "shift",
+            "expected": 31,
+            "actual": 31,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-65",
+            "task": "shift",
+            "expected": 32,
+            "actual": 32,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-66",
+            "task": "shift",
+            "expected": 33,
+            "actual": 33,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-67",
+            "task": "shift",
+            "expected": 34,
+            "actual": 34,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-68",
+            "task": "shift",
+            "expected": 35,
+            "actual": 35,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-69",
+            "task": "shift",
+            "expected": 36,
+            "actual": 36,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-70",
+            "task": "shift",
+            "expected": 37,
+            "actual": 37,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-71",
+            "task": "shift",
+            "expected": 38,
+            "actual": 38,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-72",
+            "task": "shift",
+            "expected": 39,
+            "actual": 39,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-73",
+            "task": "shift",
+            "expected": 40,
+            "actual": 40,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-74",
+            "task": "shift",
+            "expected": 41,
+            "actual": 41,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-75",
+            "task": "shift",
+            "expected": 42,
+            "actual": 42,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-76",
+            "task": "shift",
+            "expected": 43,
+            "actual": 43,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-77",
+            "task": "shift",
+            "expected": 44,
+            "actual": 44,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-78",
+            "task": "shift",
+            "expected": 45,
+            "actual": 45,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-79",
+            "task": "shift",
+            "expected": 46,
+            "actual": 46,
+            "error": null,
+            "passed": true
+          }
+        ]
+      },
+      "aggregate_gate": true,
+      "preservation_gate": true,
+      "baseline_pass_losses": [],
+      "activation": "no_authority"
+    },
+    {
+      "report": {
+        "valid": true,
+        "source_sha256": "19adfcb61548893a3ebc7913dce63275c68788a63b35069fc99d3101ff69c99e",
+        "passed": 160,
+        "total": 160,
+        "per_task": {
+          "scale": 80,
+          "shift": 80
+        },
+        "cases": [
+          {
+            "id": "eval-scale-0",
+            "task": "scale",
+            "expected": -80,
+            "actual": -80,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-1",
+            "task": "scale",
+            "expected": -78,
+            "actual": -78,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-2",
+            "task": "scale",
+            "expected": -76,
+            "actual": -76,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-3",
+            "task": "scale",
+            "expected": -74,
+            "actual": -74,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-4",
+            "task": "scale",
+            "expected": -72,
+            "actual": -72,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-5",
+            "task": "scale",
+            "expected": -70,
+            "actual": -70,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-6",
+            "task": "scale",
+            "expected": -68,
+            "actual": -68,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-7",
+            "task": "scale",
+            "expected": -66,
+            "actual": -66,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-8",
+            "task": "scale",
+            "expected": -64,
+            "actual": -64,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-9",
+            "task": "scale",
+            "expected": -62,
+            "actual": -62,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-10",
+            "task": "scale",
+            "expected": -60,
+            "actual": -60,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-11",
+            "task": "scale",
+            "expected": -58,
+            "actual": -58,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-12",
+            "task": "scale",
+            "expected": -56,
+            "actual": -56,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-13",
+            "task": "scale",
+            "expected": -54,
+            "actual": -54,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-14",
+            "task": "scale",
+            "expected": -52,
+            "actual": -52,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-15",
+            "task": "scale",
+            "expected": -50,
+            "actual": -50,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-16",
+            "task": "scale",
+            "expected": -48,
+            "actual": -48,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-17",
+            "task": "scale",
+            "expected": -46,
+            "actual": -46,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-18",
+            "task": "scale",
+            "expected": -44,
+            "actual": -44,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-19",
+            "task": "scale",
+            "expected": -42,
+            "actual": -42,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-20",
+            "task": "scale",
+            "expected": -40,
+            "actual": -40,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-21",
+            "task": "scale",
+            "expected": -38,
+            "actual": -38,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-22",
+            "task": "scale",
+            "expected": -36,
+            "actual": -36,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-23",
+            "task": "scale",
+            "expected": -34,
+            "actual": -34,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-24",
+            "task": "scale",
+            "expected": -32,
+            "actual": -32,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-25",
+            "task": "scale",
+            "expected": -30,
+            "actual": -30,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-26",
+            "task": "scale",
+            "expected": -28,
+            "actual": -28,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-27",
+            "task": "scale",
+            "expected": -26,
+            "actual": -26,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-28",
+            "task": "scale",
+            "expected": -24,
+            "actual": -24,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-29",
+            "task": "scale",
+            "expected": -22,
+            "actual": -22,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-30",
+            "task": "scale",
+            "expected": -20,
+            "actual": -20,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-31",
+            "task": "scale",
+            "expected": -18,
+            "actual": -18,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-32",
+            "task": "scale",
+            "expected": -16,
+            "actual": -16,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-33",
+            "task": "scale",
+            "expected": -14,
+            "actual": -14,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-34",
+            "task": "scale",
+            "expected": -12,
+            "actual": -12,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-35",
+            "task": "scale",
+            "expected": -10,
+            "actual": -10,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-36",
+            "task": "scale",
+            "expected": -8,
+            "actual": -8,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-37",
+            "task": "scale",
+            "expected": -6,
+            "actual": -6,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-38",
+            "task": "scale",
+            "expected": -4,
+            "actual": -4,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-39",
+            "task": "scale",
+            "expected": -2,
+            "actual": -2,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-40",
+            "task": "scale",
+            "expected": 0,
+            "actual": 0,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-41",
+            "task": "scale",
+            "expected": 2,
+            "actual": 2,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-42",
+            "task": "scale",
+            "expected": 4,
+            "actual": 4,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-43",
+            "task": "scale",
+            "expected": 6,
+            "actual": 6,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-44",
+            "task": "scale",
+            "expected": 16,
+            "actual": 16,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-45",
+            "task": "scale",
+            "expected": 18,
+            "actual": 18,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-46",
+            "task": "scale",
+            "expected": 20,
+            "actual": 20,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-47",
+            "task": "scale",
+            "expected": 22,
+            "actual": 22,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-48",
+            "task": "scale",
+            "expected": 24,
+            "actual": 24,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-49",
+            "task": "scale",
+            "expected": 26,
+            "actual": 26,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-50",
+            "task": "scale",
+            "expected": 28,
+            "actual": 28,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-51",
+            "task": "scale",
+            "expected": 30,
+            "actual": 30,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-52",
+            "task": "scale",
+            "expected": 32,
+            "actual": 32,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-53",
+            "task": "scale",
+            "expected": 34,
+            "actual": 34,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-54",
+            "task": "scale",
+            "expected": 36,
+            "actual": 36,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-55",
+            "task": "scale",
+            "expected": 38,
+            "actual": 38,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-56",
+            "task": "scale",
+            "expected": 40,
+            "actual": 40,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-57",
+            "task": "scale",
+            "expected": 42,
+            "actual": 42,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-58",
+            "task": "scale",
+            "expected": 44,
+            "actual": 44,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-59",
+            "task": "scale",
+            "expected": 46,
+            "actual": 46,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-60",
+            "task": "scale",
+            "expected": 48,
+            "actual": 48,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-61",
+            "task": "scale",
+            "expected": 50,
+            "actual": 50,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-62",
+            "task": "scale",
+            "expected": 52,
+            "actual": 52,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-63",
+            "task": "scale",
+            "expected": 54,
+            "actual": 54,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-64",
+            "task": "scale",
+            "expected": 56,
+            "actual": 56,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-65",
+            "task": "scale",
+            "expected": 58,
+            "actual": 58,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-66",
+            "task": "scale",
+            "expected": 60,
+            "actual": 60,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-67",
+            "task": "scale",
+            "expected": 62,
+            "actual": 62,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-68",
+            "task": "scale",
+            "expected": 64,
+            "actual": 64,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-69",
+            "task": "scale",
+            "expected": 66,
+            "actual": 66,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-70",
+            "task": "scale",
+            "expected": 68,
+            "actual": 68,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-71",
+            "task": "scale",
+            "expected": 70,
+            "actual": 70,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-72",
+            "task": "scale",
+            "expected": 72,
+            "actual": 72,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-73",
+            "task": "scale",
+            "expected": 74,
+            "actual": 74,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-74",
+            "task": "scale",
+            "expected": 76,
+            "actual": 76,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-75",
+            "task": "scale",
+            "expected": 78,
+            "actual": 78,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-76",
+            "task": "scale",
+            "expected": 80,
+            "actual": 80,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-77",
+            "task": "scale",
+            "expected": 82,
+            "actual": 82,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-78",
+            "task": "scale",
+            "expected": 84,
+            "actual": 84,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-79",
+            "task": "scale",
+            "expected": 86,
+            "actual": 86,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-0",
+            "task": "shift",
+            "expected": -37,
+            "actual": -37,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-1",
+            "task": "shift",
+            "expected": -36,
+            "actual": -36,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-2",
+            "task": "shift",
+            "expected": -35,
+            "actual": -35,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-3",
+            "task": "shift",
+            "expected": -34,
+            "actual": -34,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-4",
+            "task": "shift",
+            "expected": -33,
+            "actual": -33,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-5",
+            "task": "shift",
+            "expected": -32,
+            "actual": -32,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-6",
+            "task": "shift",
+            "expected": -31,
+            "actual": -31,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-7",
+            "task": "shift",
+            "expected": -30,
+            "actual": -30,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-8",
+            "task": "shift",
+            "expected": -29,
+            "actual": -29,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-9",
+            "task": "shift",
+            "expected": -28,
+            "actual": -28,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-10",
+            "task": "shift",
+            "expected": -27,
+            "actual": -27,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-11",
+            "task": "shift",
+            "expected": -26,
+            "actual": -26,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-12",
+            "task": "shift",
+            "expected": -25,
+            "actual": -25,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-13",
+            "task": "shift",
+            "expected": -24,
+            "actual": -24,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-14",
+            "task": "shift",
+            "expected": -23,
+            "actual": -23,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-15",
+            "task": "shift",
+            "expected": -22,
+            "actual": -22,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-16",
+            "task": "shift",
+            "expected": -21,
+            "actual": -21,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-17",
+            "task": "shift",
+            "expected": -20,
+            "actual": -20,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-18",
+            "task": "shift",
+            "expected": -19,
+            "actual": -19,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-19",
+            "task": "shift",
+            "expected": -18,
+            "actual": -18,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-20",
+            "task": "shift",
+            "expected": -17,
+            "actual": -17,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-21",
+            "task": "shift",
+            "expected": -16,
+            "actual": -16,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-22",
+            "task": "shift",
+            "expected": -15,
+            "actual": -15,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-23",
+            "task": "shift",
+            "expected": -14,
+            "actual": -14,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-24",
+            "task": "shift",
+            "expected": -13,
+            "actual": -13,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-25",
+            "task": "shift",
+            "expected": -12,
+            "actual": -12,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-26",
+            "task": "shift",
+            "expected": -11,
+            "actual": -11,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-27",
+            "task": "shift",
+            "expected": -10,
+            "actual": -10,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-28",
+            "task": "shift",
+            "expected": -9,
+            "actual": -9,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-29",
+            "task": "shift",
+            "expected": -8,
+            "actual": -8,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-30",
+            "task": "shift",
+            "expected": -7,
+            "actual": -7,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-31",
+            "task": "shift",
+            "expected": -6,
+            "actual": -6,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-32",
+            "task": "shift",
+            "expected": -5,
+            "actual": -5,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-33",
+            "task": "shift",
+            "expected": -4,
+            "actual": -4,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-34",
+            "task": "shift",
+            "expected": -3,
+            "actual": -3,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-35",
+            "task": "shift",
+            "expected": -2,
+            "actual": -2,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-36",
+            "task": "shift",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-37",
+            "task": "shift",
+            "expected": 0,
+            "actual": 0,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-38",
+            "task": "shift",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-39",
+            "task": "shift",
+            "expected": 2,
+            "actual": 2,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-40",
+            "task": "shift",
+            "expected": 3,
+            "actual": 3,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-41",
+            "task": "shift",
+            "expected": 4,
+            "actual": 4,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-42",
+            "task": "shift",
+            "expected": 5,
+            "actual": 5,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-43",
+            "task": "shift",
+            "expected": 6,
+            "actual": 6,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-44",
+            "task": "shift",
+            "expected": 11,
+            "actual": 11,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-45",
+            "task": "shift",
+            "expected": 12,
+            "actual": 12,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-46",
+            "task": "shift",
+            "expected": 13,
+            "actual": 13,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-47",
+            "task": "shift",
+            "expected": 14,
+            "actual": 14,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-48",
+            "task": "shift",
+            "expected": 15,
+            "actual": 15,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-49",
+            "task": "shift",
+            "expected": 16,
+            "actual": 16,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-50",
+            "task": "shift",
+            "expected": 17,
+            "actual": 17,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-51",
+            "task": "shift",
+            "expected": 18,
+            "actual": 18,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-52",
+            "task": "shift",
+            "expected": 19,
+            "actual": 19,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-53",
+            "task": "shift",
+            "expected": 20,
+            "actual": 20,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-54",
+            "task": "shift",
+            "expected": 21,
+            "actual": 21,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-55",
+            "task": "shift",
+            "expected": 22,
+            "actual": 22,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-56",
+            "task": "shift",
+            "expected": 23,
+            "actual": 23,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-57",
+            "task": "shift",
+            "expected": 24,
+            "actual": 24,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-58",
+            "task": "shift",
+            "expected": 25,
+            "actual": 25,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-59",
+            "task": "shift",
+            "expected": 26,
+            "actual": 26,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-60",
+            "task": "shift",
+            "expected": 27,
+            "actual": 27,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-61",
+            "task": "shift",
+            "expected": 28,
+            "actual": 28,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-62",
+            "task": "shift",
+            "expected": 29,
+            "actual": 29,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-63",
+            "task": "shift",
+            "expected": 30,
+            "actual": 30,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-64",
+            "task": "shift",
+            "expected": 31,
+            "actual": 31,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-65",
+            "task": "shift",
+            "expected": 32,
+            "actual": 32,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-66",
+            "task": "shift",
+            "expected": 33,
+            "actual": 33,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-67",
+            "task": "shift",
+            "expected": 34,
+            "actual": 34,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-68",
+            "task": "shift",
+            "expected": 35,
+            "actual": 35,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-69",
+            "task": "shift",
+            "expected": 36,
+            "actual": 36,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-70",
+            "task": "shift",
+            "expected": 37,
+            "actual": 37,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-71",
+            "task": "shift",
+            "expected": 38,
+            "actual": 38,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-72",
+            "task": "shift",
+            "expected": 39,
+            "actual": 39,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-73",
+            "task": "shift",
+            "expected": 40,
+            "actual": 40,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-74",
+            "task": "shift",
+            "expected": 41,
+            "actual": 41,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-75",
+            "task": "shift",
+            "expected": 42,
+            "actual": 42,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-76",
+            "task": "shift",
+            "expected": 43,
+            "actual": 43,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-77",
+            "task": "shift",
+            "expected": 44,
+            "actual": 44,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-78",
+            "task": "shift",
+            "expected": 45,
+            "actual": 45,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-shift-79",
+            "task": "shift",
+            "expected": 46,
+            "actual": 46,
+            "error": null,
+            "passed": true
+          }
+        ]
+      },
+      "aggregate_gate": true,
+      "preservation_gate": true,
+      "baseline_pass_losses": [],
+      "activation": "no_authority"
+    },
+    {
+      "report": {
+        "valid": true,
+        "source_sha256": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "passed": 1,
+        "total": 160,
+        "per_task": {
+          "scale": 1,
+          "shift": 0
+        },
+        "cases": [
+          {
+            "id": "eval-scale-0",
+            "task": "scale",
+            "expected": -80,
+            "actual": -39,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-1",
+            "task": "scale",
+            "expected": -78,
+            "actual": -38,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-2",
+            "task": "scale",
+            "expected": -76,
+            "actual": -37,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-3",
+            "task": "scale",
+            "expected": -74,
+            "actual": -36,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-4",
+            "task": "scale",
+            "expected": -72,
+            "actual": -35,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-5",
+            "task": "scale",
+            "expected": -70,
+            "actual": -34,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-6",
+            "task": "scale",
+            "expected": -68,
+            "actual": -33,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-7",
+            "task": "scale",
+            "expected": -66,
+            "actual": -32,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-8",
+            "task": "scale",
+            "expected": -64,
+            "actual": -31,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-9",
+            "task": "scale",
+            "expected": -62,
+            "actual": -30,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-10",
+            "task": "scale",
+            "expected": -60,
+            "actual": -29,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-11",
+            "task": "scale",
+            "expected": -58,
+            "actual": -28,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-12",
+            "task": "scale",
+            "expected": -56,
+            "actual": -27,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-13",
+            "task": "scale",
+            "expected": -54,
+            "actual": -26,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-14",
+            "task": "scale",
+            "expected": -52,
+            "actual": -25,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-15",
+            "task": "scale",
+            "expected": -50,
+            "actual": -24,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-16",
+            "task": "scale",
+            "expected": -48,
+            "actual": -23,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-17",
+            "task": "scale",
+            "expected": -46,
+            "actual": -22,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-18",
+            "task": "scale",
+            "expected": -44,
+            "actual": -21,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-19",
+            "task": "scale",
+            "expected": -42,
+            "actual": -20,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-20",
+            "task": "scale",
+            "expected": -40,
+            "actual": -19,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-21",
+            "task": "scale",
+            "expected": -38,
+            "actual": -18,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-22",
+            "task": "scale",
+            "expected": -36,
+            "actual": -17,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-23",
+            "task": "scale",
+            "expected": -34,
+            "actual": -16,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-24",
+            "task": "scale",
+            "expected": -32,
+            "actual": -15,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-25",
+            "task": "scale",
+            "expected": -30,
+            "actual": -14,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-26",
+            "task": "scale",
+            "expected": -28,
+            "actual": -13,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-27",
+            "task": "scale",
+            "expected": -26,
+            "actual": -12,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-28",
+            "task": "scale",
+            "expected": -24,
+            "actual": -11,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-29",
+            "task": "scale",
+            "expected": -22,
+            "actual": -10,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-30",
+            "task": "scale",
+            "expected": -20,
+            "actual": -9,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-31",
+            "task": "scale",
+            "expected": -18,
+            "actual": -8,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-32",
+            "task": "scale",
+            "expected": -16,
+            "actual": -7,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-33",
+            "task": "scale",
+            "expected": -14,
+            "actual": -6,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-34",
+            "task": "scale",
+            "expected": -12,
+            "actual": -5,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-35",
+            "task": "scale",
+            "expected": -10,
+            "actual": -4,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-36",
+            "task": "scale",
+            "expected": -8,
+            "actual": -3,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-37",
+            "task": "scale",
+            "expected": -6,
+            "actual": -2,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-38",
+            "task": "scale",
+            "expected": -4,
+            "actual": -1,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-39",
+            "task": "scale",
+            "expected": -2,
+            "actual": 0,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-40",
+            "task": "scale",
+            "expected": 0,
+            "actual": 1,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-41",
+            "task": "scale",
+            "expected": 2,
+            "actual": 2,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "eval-scale-42",
+            "task": "scale",
+            "expected": 4,
+            "actual": 3,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-43",
+            "task": "scale",
+            "expected": 6,
+            "actual": 4,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-44",
+            "task": "scale",
+            "expected": 16,
+            "actual": 9,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-45",
+            "task": "scale",
+            "expected": 18,
+            "actual": 10,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-46",
+            "task": "scale",
+            "expected": 20,
+            "actual": 11,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-47",
+            "task": "scale",
+            "expected": 22,
+            "actual": 12,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-48",
+            "task": "scale",
+            "expected": 24,
+            "actual": 13,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-49",
+            "task": "scale",
+            "expected": 26,
+            "actual": 14,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-50",
+            "task": "scale",
+            "expected": 28,
+            "actual": 15,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-51",
+            "task": "scale",
+            "expected": 30,
+            "actual": 16,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-52",
+            "task": "scale",
+            "expected": 32,
+            "actual": 17,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-53",
+            "task": "scale",
+            "expected": 34,
+            "actual": 18,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-54",
+            "task": "scale",
+            "expected": 36,
+            "actual": 19,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-55",
+            "task": "scale",
+            "expected": 38,
+            "actual": 20,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-56",
+            "task": "scale",
+            "expected": 40,
+            "actual": 21,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-57",
+            "task": "scale",
+            "expected": 42,
+            "actual": 22,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-58",
+            "task": "scale",
+            "expected": 44,
+            "actual": 23,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-59",
+            "task": "scale",
+            "expected": 46,
+            "actual": 24,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-60",
+            "task": "scale",
+            "expected": 48,
+            "actual": 25,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-61",
+            "task": "scale",
+            "expected": 50,
+            "actual": 26,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-62",
+            "task": "scale",
+            "expected": 52,
+            "actual": 27,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-63",
+            "task": "scale",
+            "expected": 54,
+            "actual": 28,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-64",
+            "task": "scale",
+            "expected": 56,
+            "actual": 29,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-65",
+            "task": "scale",
+            "expected": 58,
+            "actual": 30,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-66",
+            "task": "scale",
+            "expected": 60,
+            "actual": 31,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-67",
+            "task": "scale",
+            "expected": 62,
+            "actual": 32,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-68",
+            "task": "scale",
+            "expected": 64,
+            "actual": 33,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-69",
+            "task": "scale",
+            "expected": 66,
+            "actual": 34,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-70",
+            "task": "scale",
+            "expected": 68,
+            "actual": 35,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-71",
+            "task": "scale",
+            "expected": 70,
+            "actual": 36,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-72",
+            "task": "scale",
+            "expected": 72,
+            "actual": 37,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-73",
+            "task": "scale",
+            "expected": 74,
+            "actual": 38,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-74",
+            "task": "scale",
+            "expected": 76,
+            "actual": 39,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-75",
+            "task": "scale",
+            "expected": 78,
+            "actual": 40,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-76",
+            "task": "scale",
+            "expected": 80,
+            "actual": 41,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-77",
+            "task": "scale",
+            "expected": 82,
+            "actual": 42,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-78",
+            "task": "scale",
+            "expected": 84,
+            "actual": 43,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-scale-79",
+            "task": "scale",
+            "expected": 86,
+            "actual": 44,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-0",
+            "task": "shift",
+            "expected": -37,
+            "actual": -42,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-1",
+            "task": "shift",
+            "expected": -36,
+            "actual": -41,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-2",
+            "task": "shift",
+            "expected": -35,
+            "actual": -40,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-3",
+            "task": "shift",
+            "expected": -34,
+            "actual": -39,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-4",
+            "task": "shift",
+            "expected": -33,
+            "actual": -38,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-5",
+            "task": "shift",
+            "expected": -32,
+            "actual": -37,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-6",
+            "task": "shift",
+            "expected": -31,
+            "actual": -36,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-7",
+            "task": "shift",
+            "expected": -30,
+            "actual": -35,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-8",
+            "task": "shift",
+            "expected": -29,
+            "actual": -34,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-9",
+            "task": "shift",
+            "expected": -28,
+            "actual": -33,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-10",
+            "task": "shift",
+            "expected": -27,
+            "actual": -32,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-11",
+            "task": "shift",
+            "expected": -26,
+            "actual": -31,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-12",
+            "task": "shift",
+            "expected": -25,
+            "actual": -30,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-13",
+            "task": "shift",
+            "expected": -24,
+            "actual": -29,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-14",
+            "task": "shift",
+            "expected": -23,
+            "actual": -28,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-15",
+            "task": "shift",
+            "expected": -22,
+            "actual": -27,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-16",
+            "task": "shift",
+            "expected": -21,
+            "actual": -26,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-17",
+            "task": "shift",
+            "expected": -20,
+            "actual": -25,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-18",
+            "task": "shift",
+            "expected": -19,
+            "actual": -24,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-19",
+            "task": "shift",
+            "expected": -18,
+            "actual": -23,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-20",
+            "task": "shift",
+            "expected": -17,
+            "actual": -22,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-21",
+            "task": "shift",
+            "expected": -16,
+            "actual": -21,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-22",
+            "task": "shift",
+            "expected": -15,
+            "actual": -20,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-23",
+            "task": "shift",
+            "expected": -14,
+            "actual": -19,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-24",
+            "task": "shift",
+            "expected": -13,
+            "actual": -18,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-25",
+            "task": "shift",
+            "expected": -12,
+            "actual": -17,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-26",
+            "task": "shift",
+            "expected": -11,
+            "actual": -16,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-27",
+            "task": "shift",
+            "expected": -10,
+            "actual": -15,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-28",
+            "task": "shift",
+            "expected": -9,
+            "actual": -14,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-29",
+            "task": "shift",
+            "expected": -8,
+            "actual": -13,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-30",
+            "task": "shift",
+            "expected": -7,
+            "actual": -12,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-31",
+            "task": "shift",
+            "expected": -6,
+            "actual": -11,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-32",
+            "task": "shift",
+            "expected": -5,
+            "actual": -10,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-33",
+            "task": "shift",
+            "expected": -4,
+            "actual": -9,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-34",
+            "task": "shift",
+            "expected": -3,
+            "actual": -8,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-35",
+            "task": "shift",
+            "expected": -2,
+            "actual": -7,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-36",
+            "task": "shift",
+            "expected": -1,
+            "actual": -6,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-37",
+            "task": "shift",
+            "expected": 0,
+            "actual": -5,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-38",
+            "task": "shift",
+            "expected": 1,
+            "actual": -4,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-39",
+            "task": "shift",
+            "expected": 2,
+            "actual": -3,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-40",
+            "task": "shift",
+            "expected": 3,
+            "actual": -2,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-41",
+            "task": "shift",
+            "expected": 4,
+            "actual": -1,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-42",
+            "task": "shift",
+            "expected": 5,
+            "actual": 0,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-43",
+            "task": "shift",
+            "expected": 6,
+            "actual": 1,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-44",
+            "task": "shift",
+            "expected": 11,
+            "actual": 6,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-45",
+            "task": "shift",
+            "expected": 12,
+            "actual": 7,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-46",
+            "task": "shift",
+            "expected": 13,
+            "actual": 8,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-47",
+            "task": "shift",
+            "expected": 14,
+            "actual": 9,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-48",
+            "task": "shift",
+            "expected": 15,
+            "actual": 10,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-49",
+            "task": "shift",
+            "expected": 16,
+            "actual": 11,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-50",
+            "task": "shift",
+            "expected": 17,
+            "actual": 12,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-51",
+            "task": "shift",
+            "expected": 18,
+            "actual": 13,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-52",
+            "task": "shift",
+            "expected": 19,
+            "actual": 14,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-53",
+            "task": "shift",
+            "expected": 20,
+            "actual": 15,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-54",
+            "task": "shift",
+            "expected": 21,
+            "actual": 16,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-55",
+            "task": "shift",
+            "expected": 22,
+            "actual": 17,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-56",
+            "task": "shift",
+            "expected": 23,
+            "actual": 18,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-57",
+            "task": "shift",
+            "expected": 24,
+            "actual": 19,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-58",
+            "task": "shift",
+            "expected": 25,
+            "actual": 20,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-59",
+            "task": "shift",
+            "expected": 26,
+            "actual": 21,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-60",
+            "task": "shift",
+            "expected": 27,
+            "actual": 22,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-61",
+            "task": "shift",
+            "expected": 28,
+            "actual": 23,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-62",
+            "task": "shift",
+            "expected": 29,
+            "actual": 24,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-63",
+            "task": "shift",
+            "expected": 30,
+            "actual": 25,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-64",
+            "task": "shift",
+            "expected": 31,
+            "actual": 26,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-65",
+            "task": "shift",
+            "expected": 32,
+            "actual": 27,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-66",
+            "task": "shift",
+            "expected": 33,
+            "actual": 28,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-67",
+            "task": "shift",
+            "expected": 34,
+            "actual": 29,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-68",
+            "task": "shift",
+            "expected": 35,
+            "actual": 30,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-69",
+            "task": "shift",
+            "expected": 36,
+            "actual": 31,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-70",
+            "task": "shift",
+            "expected": 37,
+            "actual": 32,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-71",
+            "task": "shift",
+            "expected": 38,
+            "actual": 33,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-72",
+            "task": "shift",
+            "expected": 39,
+            "actual": 34,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-73",
+            "task": "shift",
+            "expected": 40,
+            "actual": 35,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-74",
+            "task": "shift",
+            "expected": 41,
+            "actual": 36,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-75",
+            "task": "shift",
+            "expected": 42,
+            "actual": 37,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-76",
+            "task": "shift",
+            "expected": 43,
+            "actual": 38,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-77",
+            "task": "shift",
+            "expected": 44,
+            "actual": 39,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-78",
+            "task": "shift",
+            "expected": 45,
+            "actual": 40,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "eval-shift-79",
+            "task": "shift",
+            "expected": 46,
+            "actual": 41,
+            "error": null,
+            "passed": false
+          }
+        ]
+      },
+      "aggregate_gate": false,
+      "preservation_gate": false,
+      "baseline_pass_losses": [],
+      "activation": "no_authority"
+    }
+  ]
+}

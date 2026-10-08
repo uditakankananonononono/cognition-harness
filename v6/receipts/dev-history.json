@@ -1,0 +1,7016 @@
+[
+  {
+    "task": "scale",
+    "arm": "greedy",
+    "evaluations": 9,
+    "budget_hit": false,
+    "initial": {
+      "valid": true,
+      "source_sha256": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+      "passed": 0,
+      "total": 8,
+      "per_task": {
+        "scale": 0,
+        "shift": 0
+      },
+      "cases": [
+        {
+          "id": "dev-scale-0",
+          "task": "scale",
+          "expected": 8,
+          "actual": 5,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-scale-1",
+          "task": "scale",
+          "expected": 10,
+          "actual": 6,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-scale-2",
+          "task": "scale",
+          "expected": 12,
+          "actual": 7,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-scale-3",
+          "task": "scale",
+          "expected": 14,
+          "actual": 8,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-0",
+          "task": "shift",
+          "expected": 7,
+          "actual": 2,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-1",
+          "task": "shift",
+          "expected": 8,
+          "actual": 3,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-2",
+          "task": "shift",
+          "expected": 9,
+          "actual": 4,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-3",
+          "task": "shift",
+          "expected": 10,
+          "actual": 5,
+          "error": null,
+          "passed": false
+        }
+      ]
+    },
+    "selected_sha256": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+    "selected_dev": {
+      "valid": true,
+      "source_sha256": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+      "passed": 0,
+      "total": 8,
+      "per_task": {
+        "scale": 0,
+        "shift": 0
+      },
+      "cases": [
+        {
+          "id": "dev-scale-0",
+          "task": "scale",
+          "expected": 8,
+          "actual": 5,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-scale-1",
+          "task": "scale",
+          "expected": 10,
+          "actual": 6,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-scale-2",
+          "task": "scale",
+          "expected": 12,
+          "actual": 7,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-scale-3",
+          "task": "scale",
+          "expected": 14,
+          "actual": 8,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-0",
+          "task": "shift",
+          "expected": 7,
+          "actual": 2,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-1",
+          "task": "shift",
+          "expected": 8,
+          "actual": 3,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-2",
+          "task": "shift",
+          "expected": 9,
+          "actual": 4,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-3",
+          "task": "shift",
+          "expected": 10,
+          "actual": 5,
+          "error": null,
+          "passed": false
+        }
+      ]
+    },
+    "trials": [
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "report": {
+          "valid": true,
+          "source_sha256": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": null,
+        "edit": null,
+        "depth": 0
+      },
+      {
+        "source": "def scale(x):\n    return x - 1\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "8fc5ffa45f020433f220bac536f798382d6a60be9dcb0e995b92dd1d0c23a23a",
+        "report": {
+          "valid": true,
+          "source_sha256": "8fc5ffa45f020433f220bac536f798382d6a60be9dcb0e995b92dd1d0c23a23a",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Sub"
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x * 1\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "31205238e77b54af95cfa8a5afb4d3b3f971ea2b26f28eb4c7edee23691adfa6",
+        "report": {
+          "valid": true,
+          "source_sha256": "31205238e77b54af95cfa8a5afb4d3b3f971ea2b26f28eb4c7edee23691adfa6",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Mult"
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + -3\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "810a31d67df0bb95e461c5c49c3d2d30d89d66ccd9b190577d1507d89f7cf3bd",
+        "report": {
+          "valid": true,
+          "source_sha256": "810a31d67df0bb95e461c5c49c3d2d30d89d66ccd9b190577d1507d89f7cf3bd",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 1,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": -3
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + -2\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "ef0d060bb19415275f535a1f40cac06b0fbc7f53be0e616cd1a8e18b96317463",
+        "report": {
+          "valid": true,
+          "source_sha256": "ef0d060bb19415275f535a1f40cac06b0fbc7f53be0e616cd1a8e18b96317463",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": -2
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + -1\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "ae66fc0b6b3a88c551ea744ed1c327e4c311c18155aef8c9b0289f799eb23d6f",
+        "report": {
+          "valid": true,
+          "source_sha256": "ae66fc0b6b3a88c551ea744ed1c327e4c311c18155aef8c9b0289f799eb23d6f",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": -1
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + 0\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "fb8b20f092f85819e42b476e378c9366fd47759dd8e105276a7e4d4733ca185f",
+        "report": {
+          "valid": true,
+          "source_sha256": "fb8b20f092f85819e42b476e378c9366fd47759dd8e105276a7e4d4733ca185f",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": 0
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + 2\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "4a20212c8cd28d0931542d11a3baa1e7a64e88a88c341972bf342c4976b7e6f5",
+        "report": {
+          "valid": true,
+          "source_sha256": "4a20212c8cd28d0931542d11a3baa1e7a64e88a88c341972bf342c4976b7e6f5",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 9,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": 2
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + 3\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "58937252a783308a04ad8b73cdea0ede496977d9c54b40acbca5653a15035d1e",
+        "report": {
+          "valid": true,
+          "source_sha256": "58937252a783308a04ad8b73cdea0ede496977d9c54b40acbca5653a15035d1e",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 9,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 10,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": 3
+        },
+        "depth": 1
+      }
+    ]
+  },
+  {
+    "task": "shift",
+    "arm": "greedy",
+    "evaluations": 15,
+    "budget_hit": false,
+    "initial": {
+      "valid": true,
+      "source_sha256": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+      "passed": 0,
+      "total": 8,
+      "per_task": {
+        "scale": 0,
+        "shift": 0
+      },
+      "cases": [
+        {
+          "id": "dev-scale-0",
+          "task": "scale",
+          "expected": 8,
+          "actual": 5,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-scale-1",
+          "task": "scale",
+          "expected": 10,
+          "actual": 6,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-scale-2",
+          "task": "scale",
+          "expected": 12,
+          "actual": 7,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-scale-3",
+          "task": "scale",
+          "expected": 14,
+          "actual": 8,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-0",
+          "task": "shift",
+          "expected": 7,
+          "actual": 2,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-1",
+          "task": "shift",
+          "expected": 8,
+          "actual": 3,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-2",
+          "task": "shift",
+          "expected": 9,
+          "actual": 4,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-3",
+          "task": "shift",
+          "expected": 10,
+          "actual": 5,
+          "error": null,
+          "passed": false
+        }
+      ]
+    },
+    "selected_sha256": "f0346c53c65517495ab9a3451004d71645518b1be551d7f6c9bd0302b5ed29ce",
+    "selected_dev": {
+      "valid": true,
+      "source_sha256": "f0346c53c65517495ab9a3451004d71645518b1be551d7f6c9bd0302b5ed29ce",
+      "passed": 4,
+      "total": 8,
+      "per_task": {
+        "scale": 0,
+        "shift": 4
+      },
+      "cases": [
+        {
+          "id": "dev-scale-0",
+          "task": "scale",
+          "expected": 8,
+          "actual": 5,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-scale-1",
+          "task": "scale",
+          "expected": 10,
+          "actual": 6,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-scale-2",
+          "task": "scale",
+          "expected": 12,
+          "actual": 7,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-scale-3",
+          "task": "scale",
+          "expected": 14,
+          "actual": 8,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-0",
+          "task": "shift",
+          "expected": 7,
+          "actual": 7,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-shift-1",
+          "task": "shift",
+          "expected": 8,
+          "actual": 8,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-shift-2",
+          "task": "shift",
+          "expected": 9,
+          "actual": 9,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-shift-3",
+          "task": "shift",
+          "expected": 10,
+          "actual": 10,
+          "error": null,
+          "passed": true
+        }
+      ]
+    },
+    "trials": [
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "report": {
+          "valid": true,
+          "source_sha256": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": null,
+        "edit": null,
+        "depth": 0
+      },
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x + 2\n",
+        "sha256": "0f599ae268fa262e427bf61b8df941dcd937c7c57210b8bc884076e73ab45a82",
+        "report": {
+          "valid": true,
+          "source_sha256": "0f599ae268fa262e427bf61b8df941dcd937c7c57210b8bc884076e73ab45a82",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 9,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Add"
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x * 2\n",
+        "sha256": "6268ba764a0fbc59e89c9f78175ac79247f8013330ff99f444372d42c3b1a0f8",
+        "report": {
+          "valid": true,
+          "source_sha256": "6268ba764a0fbc59e89c9f78175ac79247f8013330ff99f444372d42c3b1a0f8",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 10,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 12,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 14,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Mult"
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x - -3\n",
+        "sha256": "f0346c53c65517495ab9a3451004d71645518b1be551d7f6c9bd0302b5ed29ce",
+        "report": {
+          "valid": true,
+          "source_sha256": "f0346c53c65517495ab9a3451004d71645518b1be551d7f6c9bd0302b5ed29ce",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 4
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 7,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 9,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": -3
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x - -2\n",
+        "sha256": "bd35f2cdb8d7f6852d33a18affaa4759a9e95a69fade103ce28f4e6714af67f8",
+        "report": {
+          "valid": true,
+          "source_sha256": "bd35f2cdb8d7f6852d33a18affaa4759a9e95a69fade103ce28f4e6714af67f8",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 9,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": -2
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x - -1\n",
+        "sha256": "a7723823f7f4ac5236144945286d6ac2aca8837887ceaaead928939a9897c1f1",
+        "report": {
+          "valid": true,
+          "source_sha256": "a7723823f7f4ac5236144945286d6ac2aca8837887ceaaead928939a9897c1f1",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": -1
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x - 0\n",
+        "sha256": "5f188061ce05c42524104152fcea27669877ceb2e68684c5e48168b9f5bd24a4",
+        "report": {
+          "valid": true,
+          "source_sha256": "5f188061ce05c42524104152fcea27669877ceb2e68684c5e48168b9f5bd24a4",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": 0
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x - 1\n",
+        "sha256": "96bab9facd2e4434e9b643c4476431689a9e45afeaa8a0d97df76dbcb6e806de",
+        "report": {
+          "valid": true,
+          "source_sha256": "96bab9facd2e4434e9b643c4476431689a9e45afeaa8a0d97df76dbcb6e806de",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": 1
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x - 3\n",
+        "sha256": "fe80ca8f311081183004d4c8644aea51680c57f90c3b7122420179564e391f14",
+        "report": {
+          "valid": true,
+          "source_sha256": "fe80ca8f311081183004d4c8644aea51680c57f90c3b7122420179564e391f14",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 1,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": 3
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x + -3\n",
+        "sha256": "63a3e83676b4d27508f56de62ef5f4e43f3ed3670020fb1ecb2190cc99335307",
+        "report": {
+          "valid": true,
+          "source_sha256": "63a3e83676b4d27508f56de62ef5f4e43f3ed3670020fb1ecb2190cc99335307",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 1,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "f0346c53c65517495ab9a3451004d71645518b1be551d7f6c9bd0302b5ed29ce",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Add"
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x * -3\n",
+        "sha256": "b99a2e87f11a1001644a34e094f035d908eaab1343752bedaf72b16eb61beaa4",
+        "report": {
+          "valid": true,
+          "source_sha256": "b99a2e87f11a1001644a34e094f035d908eaab1343752bedaf72b16eb61beaa4",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": -12,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": -15,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": -18,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": -21,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "f0346c53c65517495ab9a3451004d71645518b1be551d7f6c9bd0302b5ed29ce",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Mult"
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x - --3\n",
+        "sha256": "5ee0e3b259d52fe31b5551d4ffabfbf1659ec7ec701a10ac0cbab8af01f0a88f",
+        "report": {
+          "valid": true,
+          "source_sha256": "5ee0e3b259d52fe31b5551d4ffabfbf1659ec7ec701a10ac0cbab8af01f0a88f",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 1,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "f0346c53c65517495ab9a3451004d71645518b1be551d7f6c9bd0302b5ed29ce",
+        "edit": {
+          "constant_node": 10,
+          "value": -3
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x - --2\n",
+        "sha256": "66d8db9154aa59601e4a271addedfa134fb161321ea5f9463c37481c5dd4b571",
+        "report": {
+          "valid": true,
+          "source_sha256": "66d8db9154aa59601e4a271addedfa134fb161321ea5f9463c37481c5dd4b571",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "f0346c53c65517495ab9a3451004d71645518b1be551d7f6c9bd0302b5ed29ce",
+        "edit": {
+          "constant_node": 10,
+          "value": -2
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x - --1\n",
+        "sha256": "d51de47e642040d574d10ea169a5006b0109519d96892a4503dcde90f7ac7fb6",
+        "report": {
+          "valid": true,
+          "source_sha256": "d51de47e642040d574d10ea169a5006b0109519d96892a4503dcde90f7ac7fb6",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "f0346c53c65517495ab9a3451004d71645518b1be551d7f6c9bd0302b5ed29ce",
+        "edit": {
+          "constant_node": 10,
+          "value": -1
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x - -0\n",
+        "sha256": "ecca178d5a6be0cfbb01ecf82eea1b5189d76460eeddb9741bf864fa856dbc1c",
+        "report": {
+          "valid": true,
+          "source_sha256": "ecca178d5a6be0cfbb01ecf82eea1b5189d76460eeddb9741bf864fa856dbc1c",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "f0346c53c65517495ab9a3451004d71645518b1be551d7f6c9bd0302b5ed29ce",
+        "edit": {
+          "constant_node": 10,
+          "value": 0
+        },
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "task": "scale",
+    "arm": "beam",
+    "evaluations": 25,
+    "budget_hit": false,
+    "initial": {
+      "valid": true,
+      "source_sha256": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+      "passed": 0,
+      "total": 8,
+      "per_task": {
+        "scale": 0,
+        "shift": 0
+      },
+      "cases": [
+        {
+          "id": "dev-scale-0",
+          "task": "scale",
+          "expected": 8,
+          "actual": 5,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-scale-1",
+          "task": "scale",
+          "expected": 10,
+          "actual": 6,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-scale-2",
+          "task": "scale",
+          "expected": 12,
+          "actual": 7,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-scale-3",
+          "task": "scale",
+          "expected": 14,
+          "actual": 8,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-0",
+          "task": "shift",
+          "expected": 7,
+          "actual": 2,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-1",
+          "task": "shift",
+          "expected": 8,
+          "actual": 3,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-2",
+          "task": "shift",
+          "expected": 9,
+          "actual": 4,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-3",
+          "task": "shift",
+          "expected": 10,
+          "actual": 5,
+          "error": null,
+          "passed": false
+        }
+      ]
+    },
+    "selected_sha256": "7127f5e388df6408bb47cb6667f915e13e993946d8ca38b91b2b2a668e834367",
+    "selected_dev": {
+      "valid": true,
+      "source_sha256": "7127f5e388df6408bb47cb6667f915e13e993946d8ca38b91b2b2a668e834367",
+      "passed": 4,
+      "total": 8,
+      "per_task": {
+        "scale": 4,
+        "shift": 0
+      },
+      "cases": [
+        {
+          "id": "dev-scale-0",
+          "task": "scale",
+          "expected": 8,
+          "actual": 8,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-scale-1",
+          "task": "scale",
+          "expected": 10,
+          "actual": 10,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-scale-2",
+          "task": "scale",
+          "expected": 12,
+          "actual": 12,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-scale-3",
+          "task": "scale",
+          "expected": 14,
+          "actual": 14,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-shift-0",
+          "task": "shift",
+          "expected": 7,
+          "actual": 2,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-1",
+          "task": "shift",
+          "expected": 8,
+          "actual": 3,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-2",
+          "task": "shift",
+          "expected": 9,
+          "actual": 4,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-3",
+          "task": "shift",
+          "expected": 10,
+          "actual": 5,
+          "error": null,
+          "passed": false
+        }
+      ]
+    },
+    "trials": [
+      {
+        "source": "def scale(x):\n    return x + 1\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "report": {
+          "valid": true,
+          "source_sha256": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": null,
+        "edit": null,
+        "depth": 0
+      },
+      {
+        "source": "def scale(x):\n    return x - 1\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "8fc5ffa45f020433f220bac536f798382d6a60be9dcb0e995b92dd1d0c23a23a",
+        "report": {
+          "valid": true,
+          "source_sha256": "8fc5ffa45f020433f220bac536f798382d6a60be9dcb0e995b92dd1d0c23a23a",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Sub"
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x * 1\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "31205238e77b54af95cfa8a5afb4d3b3f971ea2b26f28eb4c7edee23691adfa6",
+        "report": {
+          "valid": true,
+          "source_sha256": "31205238e77b54af95cfa8a5afb4d3b3f971ea2b26f28eb4c7edee23691adfa6",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Mult"
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + -3\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "810a31d67df0bb95e461c5c49c3d2d30d89d66ccd9b190577d1507d89f7cf3bd",
+        "report": {
+          "valid": true,
+          "source_sha256": "810a31d67df0bb95e461c5c49c3d2d30d89d66ccd9b190577d1507d89f7cf3bd",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 1,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": -3
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + -2\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "ef0d060bb19415275f535a1f40cac06b0fbc7f53be0e616cd1a8e18b96317463",
+        "report": {
+          "valid": true,
+          "source_sha256": "ef0d060bb19415275f535a1f40cac06b0fbc7f53be0e616cd1a8e18b96317463",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": -2
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + -1\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "ae66fc0b6b3a88c551ea744ed1c327e4c311c18155aef8c9b0289f799eb23d6f",
+        "report": {
+          "valid": true,
+          "source_sha256": "ae66fc0b6b3a88c551ea744ed1c327e4c311c18155aef8c9b0289f799eb23d6f",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": -1
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + 0\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "fb8b20f092f85819e42b476e378c9366fd47759dd8e105276a7e4d4733ca185f",
+        "report": {
+          "valid": true,
+          "source_sha256": "fb8b20f092f85819e42b476e378c9366fd47759dd8e105276a7e4d4733ca185f",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": 0
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + 2\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "4a20212c8cd28d0931542d11a3baa1e7a64e88a88c341972bf342c4976b7e6f5",
+        "report": {
+          "valid": true,
+          "source_sha256": "4a20212c8cd28d0931542d11a3baa1e7a64e88a88c341972bf342c4976b7e6f5",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 9,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": 2
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x + 3\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "58937252a783308a04ad8b73cdea0ede496977d9c54b40acbca5653a15035d1e",
+        "report": {
+          "valid": true,
+          "source_sha256": "58937252a783308a04ad8b73cdea0ede496977d9c54b40acbca5653a15035d1e",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 9,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 10,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "8f2c73aef32e935ce87ace73789241be2b723329878e04014ee071f2f7fb77ac",
+        "edit": {
+          "constant_node": 7,
+          "value": 3
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x * -3\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "fe9b59578494be5a25a72c15cdac784620257a09fcec7dc60d6c70a1df7c0912",
+        "report": {
+          "valid": true,
+          "source_sha256": "fe9b59578494be5a25a72c15cdac784620257a09fcec7dc60d6c70a1df7c0912",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": -12,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": -15,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": -18,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": -21,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "31205238e77b54af95cfa8a5afb4d3b3f971ea2b26f28eb4c7edee23691adfa6",
+        "edit": {
+          "constant_node": 7,
+          "value": -3
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * -2\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "db4c1280c45092a74490b969d361bbf4e1fcda156f34d8d41d2e7bb2a3decc63",
+        "report": {
+          "valid": true,
+          "source_sha256": "db4c1280c45092a74490b969d361bbf4e1fcda156f34d8d41d2e7bb2a3decc63",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": -8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": -10,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": -12,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": -14,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "31205238e77b54af95cfa8a5afb4d3b3f971ea2b26f28eb4c7edee23691adfa6",
+        "edit": {
+          "constant_node": 7,
+          "value": -2
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * -1\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "a1916f10d23a1ece9bec16878053d3927247748467d8d33842855af75573db54",
+        "report": {
+          "valid": true,
+          "source_sha256": "a1916f10d23a1ece9bec16878053d3927247748467d8d33842855af75573db54",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": -4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": -5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": -6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": -7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "31205238e77b54af95cfa8a5afb4d3b3f971ea2b26f28eb4c7edee23691adfa6",
+        "edit": {
+          "constant_node": 7,
+          "value": -1
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 0\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "367545ce7a948a8282345c6cce30925eda0098d64f9da0dae11a1ce7db073cc9",
+        "report": {
+          "valid": true,
+          "source_sha256": "367545ce7a948a8282345c6cce30925eda0098d64f9da0dae11a1ce7db073cc9",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 0,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 0,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 0,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 0,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "31205238e77b54af95cfa8a5afb4d3b3f971ea2b26f28eb4c7edee23691adfa6",
+        "edit": {
+          "constant_node": 7,
+          "value": 0
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "7127f5e388df6408bb47cb6667f915e13e993946d8ca38b91b2b2a668e834367",
+        "report": {
+          "valid": true,
+          "source_sha256": "7127f5e388df6408bb47cb6667f915e13e993946d8ca38b91b2b2a668e834367",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "31205238e77b54af95cfa8a5afb4d3b3f971ea2b26f28eb4c7edee23691adfa6",
+        "edit": {
+          "constant_node": 7,
+          "value": 2
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 3\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "2002c47cf517091468acefdc87973f53b72c7dfab3875b0869197131b350a649",
+        "report": {
+          "valid": true,
+          "source_sha256": "2002c47cf517091468acefdc87973f53b72c7dfab3875b0869197131b350a649",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 12,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 15,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 18,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 21,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "31205238e77b54af95cfa8a5afb4d3b3f971ea2b26f28eb4c7edee23691adfa6",
+        "edit": {
+          "constant_node": 7,
+          "value": 3
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x - -1\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "9cbc63e54e02b88422438921eb54d7979cefbd7f5a66c33586a6f6d0eb94bbbb",
+        "report": {
+          "valid": true,
+          "source_sha256": "9cbc63e54e02b88422438921eb54d7979cefbd7f5a66c33586a6f6d0eb94bbbb",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "ae66fc0b6b3a88c551ea744ed1c327e4c311c18155aef8c9b0289f799eb23d6f",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Sub"
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x + --3\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "0b54bc179c9eccb0a740662bf697b9dba34879724c44df8b5985572577e03816",
+        "report": {
+          "valid": true,
+          "source_sha256": "0b54bc179c9eccb0a740662bf697b9dba34879724c44df8b5985572577e03816",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 9,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 10,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "ae66fc0b6b3a88c551ea744ed1c327e4c311c18155aef8c9b0289f799eb23d6f",
+        "edit": {
+          "constant_node": 10,
+          "value": -3
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x + --2\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "fb66c6f04519e28a3113c11c01bed216caaa352c23e20ba2a6bf85cae6ef009c",
+        "report": {
+          "valid": true,
+          "source_sha256": "fb66c6f04519e28a3113c11c01bed216caaa352c23e20ba2a6bf85cae6ef009c",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 9,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "ae66fc0b6b3a88c551ea744ed1c327e4c311c18155aef8c9b0289f799eb23d6f",
+        "edit": {
+          "constant_node": 10,
+          "value": -2
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x + --1\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "c6c6f7ca22a45b4d59855a09431d76d8d047f546ab09f1c71fb4d6112f7f92b8",
+        "report": {
+          "valid": true,
+          "source_sha256": "c6c6f7ca22a45b4d59855a09431d76d8d047f546ab09f1c71fb4d6112f7f92b8",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "ae66fc0b6b3a88c551ea744ed1c327e4c311c18155aef8c9b0289f799eb23d6f",
+        "edit": {
+          "constant_node": 10,
+          "value": -1
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x + -0\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "e75e06dba834fc1245b2d86a8bd908900784cf863f6b5e4e481a921b3cb3e55f",
+        "report": {
+          "valid": true,
+          "source_sha256": "e75e06dba834fc1245b2d86a8bd908900784cf863f6b5e4e481a921b3cb3e55f",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "ae66fc0b6b3a88c551ea744ed1c327e4c311c18155aef8c9b0289f799eb23d6f",
+        "edit": {
+          "constant_node": 10,
+          "value": 0
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x - -2\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "4d1202caea6fd27ec26c6143e7595224593532136ef4ddf171fb409b49a7a6b7",
+        "report": {
+          "valid": true,
+          "source_sha256": "4d1202caea6fd27ec26c6143e7595224593532136ef4ddf171fb409b49a7a6b7",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 9,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "ef0d060bb19415275f535a1f40cac06b0fbc7f53be0e616cd1a8e18b96317463",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Sub"
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x - -3\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "ba5b0740f100cdd74ab9360fb1528233a21bdde07b05d92f5be4c43d84041563",
+        "report": {
+          "valid": true,
+          "source_sha256": "ba5b0740f100cdd74ab9360fb1528233a21bdde07b05d92f5be4c43d84041563",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 9,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 10,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "810a31d67df0bb95e461c5c49c3d2d30d89d66ccd9b190577d1507d89f7cf3bd",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Sub"
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x - 0\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "2128be73c0824aee83af567f323883dcfc4d5c88b7c711c7e3bbe99d990e8fcc",
+        "report": {
+          "valid": true,
+          "source_sha256": "2128be73c0824aee83af567f323883dcfc4d5c88b7c711c7e3bbe99d990e8fcc",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "fb8b20f092f85819e42b476e378c9366fd47759dd8e105276a7e4d4733ca185f",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Sub"
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x - 2\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "54413ba5c362c7c6994c3762dd32a42e856d500ad9322d9c1e3c888bc02db486",
+        "report": {
+          "valid": true,
+          "source_sha256": "54413ba5c362c7c6994c3762dd32a42e856d500ad9322d9c1e3c888bc02db486",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "4a20212c8cd28d0931542d11a3baa1e7a64e88a88c341972bf342c4976b7e6f5",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Sub"
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x - 3\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "db4d7e9568fb3836f7d28bbf11e5b5ed9f31850c3fc6c22cd329903f8cc1d255",
+        "report": {
+          "valid": true,
+          "source_sha256": "db4d7e9568fb3836f7d28bbf11e5b5ed9f31850c3fc6c22cd329903f8cc1d255",
+          "passed": 0,
+          "total": 8,
+          "per_task": {
+            "scale": 0,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 1,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "58937252a783308a04ad8b73cdea0ede496977d9c54b40acbca5653a15035d1e",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Sub"
+        },
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "task": "shift",
+    "arm": "beam",
+    "evaluations": 25,
+    "budget_hit": false,
+    "initial": {
+      "valid": true,
+      "source_sha256": "7127f5e388df6408bb47cb6667f915e13e993946d8ca38b91b2b2a668e834367",
+      "passed": 4,
+      "total": 8,
+      "per_task": {
+        "scale": 4,
+        "shift": 0
+      },
+      "cases": [
+        {
+          "id": "dev-scale-0",
+          "task": "scale",
+          "expected": 8,
+          "actual": 8,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-scale-1",
+          "task": "scale",
+          "expected": 10,
+          "actual": 10,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-scale-2",
+          "task": "scale",
+          "expected": 12,
+          "actual": 12,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-scale-3",
+          "task": "scale",
+          "expected": 14,
+          "actual": 14,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-shift-0",
+          "task": "shift",
+          "expected": 7,
+          "actual": 2,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-1",
+          "task": "shift",
+          "expected": 8,
+          "actual": 3,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-2",
+          "task": "shift",
+          "expected": 9,
+          "actual": 4,
+          "error": null,
+          "passed": false
+        },
+        {
+          "id": "dev-shift-3",
+          "task": "shift",
+          "expected": 10,
+          "actual": 5,
+          "error": null,
+          "passed": false
+        }
+      ]
+    },
+    "selected_sha256": "19adfcb61548893a3ebc7913dce63275c68788a63b35069fc99d3101ff69c99e",
+    "selected_dev": {
+      "valid": true,
+      "source_sha256": "19adfcb61548893a3ebc7913dce63275c68788a63b35069fc99d3101ff69c99e",
+      "passed": 8,
+      "total": 8,
+      "per_task": {
+        "scale": 4,
+        "shift": 4
+      },
+      "cases": [
+        {
+          "id": "dev-scale-0",
+          "task": "scale",
+          "expected": 8,
+          "actual": 8,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-scale-1",
+          "task": "scale",
+          "expected": 10,
+          "actual": 10,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-scale-2",
+          "task": "scale",
+          "expected": 12,
+          "actual": 12,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-scale-3",
+          "task": "scale",
+          "expected": 14,
+          "actual": 14,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-shift-0",
+          "task": "shift",
+          "expected": 7,
+          "actual": 7,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-shift-1",
+          "task": "shift",
+          "expected": 8,
+          "actual": 8,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-shift-2",
+          "task": "shift",
+          "expected": 9,
+          "actual": 9,
+          "error": null,
+          "passed": true
+        },
+        {
+          "id": "dev-shift-3",
+          "task": "shift",
+          "expected": 10,
+          "actual": 10,
+          "error": null,
+          "passed": true
+        }
+      ]
+    },
+    "trials": [
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x - 2\n",
+        "sha256": "7127f5e388df6408bb47cb6667f915e13e993946d8ca38b91b2b2a668e834367",
+        "report": {
+          "valid": true,
+          "source_sha256": "7127f5e388df6408bb47cb6667f915e13e993946d8ca38b91b2b2a668e834367",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": null,
+        "edit": null,
+        "depth": 0
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x + 2\n",
+        "sha256": "905b9f9a0bcf0a025e8f8949f70cccfcd2ae43b4fb5a15de2bd7dcf1c8d97355",
+        "report": {
+          "valid": true,
+          "source_sha256": "905b9f9a0bcf0a025e8f8949f70cccfcd2ae43b4fb5a15de2bd7dcf1c8d97355",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 9,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "7127f5e388df6408bb47cb6667f915e13e993946d8ca38b91b2b2a668e834367",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Add"
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x * 2\n",
+        "sha256": "f08b039ff5f04639931a9704533948905a1caf801d9907e989474810221c002f",
+        "report": {
+          "valid": true,
+          "source_sha256": "f08b039ff5f04639931a9704533948905a1caf801d9907e989474810221c002f",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 10,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 12,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 14,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "7127f5e388df6408bb47cb6667f915e13e993946d8ca38b91b2b2a668e834367",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Mult"
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x - -3\n",
+        "sha256": "13a72df79745a4d3de83cc7891a1ce79cb000de66ac27511b9684e408bd287bc",
+        "report": {
+          "valid": true,
+          "source_sha256": "13a72df79745a4d3de83cc7891a1ce79cb000de66ac27511b9684e408bd287bc",
+          "passed": 8,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 4
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 7,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 9,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            }
+          ]
+        },
+        "parent": "7127f5e388df6408bb47cb6667f915e13e993946d8ca38b91b2b2a668e834367",
+        "edit": {
+          "constant_node": 7,
+          "value": -3
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x - -2\n",
+        "sha256": "a21607c0a048311f86ccd7d603e91c0b6c87fd4a6d6783dc037317210d9f084a",
+        "report": {
+          "valid": true,
+          "source_sha256": "a21607c0a048311f86ccd7d603e91c0b6c87fd4a6d6783dc037317210d9f084a",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 9,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "7127f5e388df6408bb47cb6667f915e13e993946d8ca38b91b2b2a668e834367",
+        "edit": {
+          "constant_node": 7,
+          "value": -2
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x - -1\n",
+        "sha256": "0426bf974a7e9d7acc04d60fd5db7ce150fc5596e1b54f7e834abe2311388315",
+        "report": {
+          "valid": true,
+          "source_sha256": "0426bf974a7e9d7acc04d60fd5db7ce150fc5596e1b54f7e834abe2311388315",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "7127f5e388df6408bb47cb6667f915e13e993946d8ca38b91b2b2a668e834367",
+        "edit": {
+          "constant_node": 7,
+          "value": -1
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x - 0\n",
+        "sha256": "19eec8cb7604223589349f8b8c4cd86fa0703f4271f83ed106758e775b1fb7b6",
+        "report": {
+          "valid": true,
+          "source_sha256": "19eec8cb7604223589349f8b8c4cd86fa0703f4271f83ed106758e775b1fb7b6",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "7127f5e388df6408bb47cb6667f915e13e993946d8ca38b91b2b2a668e834367",
+        "edit": {
+          "constant_node": 7,
+          "value": 0
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x - 1\n",
+        "sha256": "7585982e26e0d1873258bf4b8abaf741e0b6bbb492a09af145f20d44858b559c",
+        "report": {
+          "valid": true,
+          "source_sha256": "7585982e26e0d1873258bf4b8abaf741e0b6bbb492a09af145f20d44858b559c",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "7127f5e388df6408bb47cb6667f915e13e993946d8ca38b91b2b2a668e834367",
+        "edit": {
+          "constant_node": 7,
+          "value": 1
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x - 3\n",
+        "sha256": "df0f4f139216924e6ca632ff828408b1ec1440b8041bf4f6ded54b4de7f37390",
+        "report": {
+          "valid": true,
+          "source_sha256": "df0f4f139216924e6ca632ff828408b1ec1440b8041bf4f6ded54b4de7f37390",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 1,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "7127f5e388df6408bb47cb6667f915e13e993946d8ca38b91b2b2a668e834367",
+        "edit": {
+          "constant_node": 7,
+          "value": 3
+        },
+        "depth": 1
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x + -3\n",
+        "sha256": "63e11e659beed5cdc43b8e2e57ae14e1a4b89e08905b3d3be51499061abd4364",
+        "report": {
+          "valid": true,
+          "source_sha256": "63e11e659beed5cdc43b8e2e57ae14e1a4b89e08905b3d3be51499061abd4364",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 1,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "13a72df79745a4d3de83cc7891a1ce79cb000de66ac27511b9684e408bd287bc",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Add"
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x * -3\n",
+        "sha256": "b623e87848461c9243fdb4f97de49f6cff2150e554ecf6f1c3d8980e14655604",
+        "report": {
+          "valid": true,
+          "source_sha256": "b623e87848461c9243fdb4f97de49f6cff2150e554ecf6f1c3d8980e14655604",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": -12,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": -15,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": -18,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": -21,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "13a72df79745a4d3de83cc7891a1ce79cb000de66ac27511b9684e408bd287bc",
+        "edit": {
+          "owner": 4,
+          "field": "op",
+          "op": "Mult"
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x - --3\n",
+        "sha256": "b6d8bf6d38dbabdb7ffc2f3001003e643153c60030c20ae1e9d8b58e23ff930a",
+        "report": {
+          "valid": true,
+          "source_sha256": "b6d8bf6d38dbabdb7ffc2f3001003e643153c60030c20ae1e9d8b58e23ff930a",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 1,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "13a72df79745a4d3de83cc7891a1ce79cb000de66ac27511b9684e408bd287bc",
+        "edit": {
+          "constant_node": 10,
+          "value": -3
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x - --2\n",
+        "sha256": "2c3c85f10dce2b400471ac784886c4048cf11475525b9e7ffd6a4f0f77156045",
+        "report": {
+          "valid": true,
+          "source_sha256": "2c3c85f10dce2b400471ac784886c4048cf11475525b9e7ffd6a4f0f77156045",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "13a72df79745a4d3de83cc7891a1ce79cb000de66ac27511b9684e408bd287bc",
+        "edit": {
+          "constant_node": 10,
+          "value": -2
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x - --1\n",
+        "sha256": "81a5c1120fdaf5b052f296cf6ddef867f411f4128b34901396a985a70362aed1",
+        "report": {
+          "valid": true,
+          "source_sha256": "81a5c1120fdaf5b052f296cf6ddef867f411f4128b34901396a985a70362aed1",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "13a72df79745a4d3de83cc7891a1ce79cb000de66ac27511b9684e408bd287bc",
+        "edit": {
+          "constant_node": 10,
+          "value": -1
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x - -0\n",
+        "sha256": "27293dd376c9ee3e4e990ce642e31609b8160fe6bbe2e2705862e69818c82b5b",
+        "report": {
+          "valid": true,
+          "source_sha256": "27293dd376c9ee3e4e990ce642e31609b8160fe6bbe2e2705862e69818c82b5b",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "13a72df79745a4d3de83cc7891a1ce79cb000de66ac27511b9684e408bd287bc",
+        "edit": {
+          "constant_node": 10,
+          "value": 0
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x * -2\n",
+        "sha256": "c5f28c892e9de91c767ca6debe77c6cc884daf8493119cfe3ed40f0aabcb225c",
+        "report": {
+          "valid": true,
+          "source_sha256": "c5f28c892e9de91c767ca6debe77c6cc884daf8493119cfe3ed40f0aabcb225c",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": -8,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": -10,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": -12,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": -14,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "f08b039ff5f04639931a9704533948905a1caf801d9907e989474810221c002f",
+        "edit": {
+          "constant_node": 7,
+          "value": -2
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x * -1\n",
+        "sha256": "afe6cfdf9b4435b4c9dc33bcb0b644ed1155c6c9deaf83dfa090dd4feb6ea2fd",
+        "report": {
+          "valid": true,
+          "source_sha256": "afe6cfdf9b4435b4c9dc33bcb0b644ed1155c6c9deaf83dfa090dd4feb6ea2fd",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": -4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": -5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": -6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": -7,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "f08b039ff5f04639931a9704533948905a1caf801d9907e989474810221c002f",
+        "edit": {
+          "constant_node": 7,
+          "value": -1
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x * 0\n",
+        "sha256": "38ea37aec9ad55d95a3551e587d2f41c3b9d65eb8931ed4a3afe51dc2a8f1f6e",
+        "report": {
+          "valid": true,
+          "source_sha256": "38ea37aec9ad55d95a3551e587d2f41c3b9d65eb8931ed4a3afe51dc2a8f1f6e",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 0,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 0,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 0,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 0,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "f08b039ff5f04639931a9704533948905a1caf801d9907e989474810221c002f",
+        "edit": {
+          "constant_node": 7,
+          "value": 0
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x * 1\n",
+        "sha256": "358a538db6b60e34b9d027e85ec038ae2b7f23821d15326129dca8c49baec646",
+        "report": {
+          "valid": true,
+          "source_sha256": "358a538db6b60e34b9d027e85ec038ae2b7f23821d15326129dca8c49baec646",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "f08b039ff5f04639931a9704533948905a1caf801d9907e989474810221c002f",
+        "edit": {
+          "constant_node": 7,
+          "value": 1
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x * 3\n",
+        "sha256": "264da6ac94ac84ebc9b7ed518523be6b1741e0e6375633a04f90c5757e8e883f",
+        "report": {
+          "valid": true,
+          "source_sha256": "264da6ac94ac84ebc9b7ed518523be6b1741e0e6375633a04f90c5757e8e883f",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 12,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 15,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 18,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 21,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "f08b039ff5f04639931a9704533948905a1caf801d9907e989474810221c002f",
+        "edit": {
+          "constant_node": 7,
+          "value": 3
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x + -2\n",
+        "sha256": "3803d6e8aa11d870f660de2fe0b775d6abd643039a76eca3404edfe11e5a6a81",
+        "report": {
+          "valid": true,
+          "source_sha256": "3803d6e8aa11d870f660de2fe0b775d6abd643039a76eca3404edfe11e5a6a81",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 2,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "905b9f9a0bcf0a025e8f8949f70cccfcd2ae43b4fb5a15de2bd7dcf1c8d97355",
+        "edit": {
+          "constant_node": 7,
+          "value": -2
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x + -1\n",
+        "sha256": "17342cbd3f018717748a5ba40e94455fb2689789778f4c10b46f779b4edd8bc5",
+        "report": {
+          "valid": true,
+          "source_sha256": "17342cbd3f018717748a5ba40e94455fb2689789778f4c10b46f779b4edd8bc5",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 3,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "905b9f9a0bcf0a025e8f8949f70cccfcd2ae43b4fb5a15de2bd7dcf1c8d97355",
+        "edit": {
+          "constant_node": 7,
+          "value": -1
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x + 0\n",
+        "sha256": "358e08b3cb2a73214d6d5a059c101e45990405af1d43ddd5ecbdb12435419872",
+        "report": {
+          "valid": true,
+          "source_sha256": "358e08b3cb2a73214d6d5a059c101e45990405af1d43ddd5ecbdb12435419872",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 4,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "905b9f9a0bcf0a025e8f8949f70cccfcd2ae43b4fb5a15de2bd7dcf1c8d97355",
+        "edit": {
+          "constant_node": 7,
+          "value": 0
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x + 1\n",
+        "sha256": "c2f0e4cdcf0f274e8916cfb1598b4b1b40bcb28dd29eaff97ca4e4bde3ca3bd8",
+        "report": {
+          "valid": true,
+          "source_sha256": "c2f0e4cdcf0f274e8916cfb1598b4b1b40bcb28dd29eaff97ca4e4bde3ca3bd8",
+          "passed": 4,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 0
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 5,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 6,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 7,
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 8,
+              "error": null,
+              "passed": false
+            }
+          ]
+        },
+        "parent": "905b9f9a0bcf0a025e8f8949f70cccfcd2ae43b4fb5a15de2bd7dcf1c8d97355",
+        "edit": {
+          "constant_node": 7,
+          "value": 1
+        },
+        "depth": 2
+      },
+      {
+        "source": "def scale(x):\n    return x * 2\n\ndef shift(x):\n    return x + 3\n",
+        "sha256": "19adfcb61548893a3ebc7913dce63275c68788a63b35069fc99d3101ff69c99e",
+        "report": {
+          "valid": true,
+          "source_sha256": "19adfcb61548893a3ebc7913dce63275c68788a63b35069fc99d3101ff69c99e",
+          "passed": 8,
+          "total": 8,
+          "per_task": {
+            "scale": 4,
+            "shift": 4
+          },
+          "cases": [
+            {
+              "id": "dev-scale-0",
+              "task": "scale",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-1",
+              "task": "scale",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-2",
+              "task": "scale",
+              "expected": 12,
+              "actual": 12,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-scale-3",
+              "task": "scale",
+              "expected": 14,
+              "actual": 14,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-0",
+              "task": "shift",
+              "expected": 7,
+              "actual": 7,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-1",
+              "task": "shift",
+              "expected": 8,
+              "actual": 8,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-2",
+              "task": "shift",
+              "expected": 9,
+              "actual": 9,
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-shift-3",
+              "task": "shift",
+              "expected": 10,
+              "actual": 10,
+              "error": null,
+              "passed": true
+            }
+          ]
+        },
+        "parent": "905b9f9a0bcf0a025e8f8949f70cccfcd2ae43b4fb5a15de2bd7dcf1c8d97355",
+        "edit": {
+          "constant_node": 7,
+          "value": 3
+        },
+        "depth": 2
+      }
+    ]
+  }
+]
