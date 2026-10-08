@@ -1,0 +1,7 @@
+# M4 exploratory gate study: preregistered contrast not established
+
+Freeze ad4f2d8950a0b7c2d0bcafacd6b14bc8ddc6364f; pin4dac6241e7b927b767eb2b539816d0a51c2305be0e060932af69a9d737b027db. Explicitly REUSED known M3 data. Candidate/control bytes pinned before any M4 scoring. Not unseen, not performance discovery.
+
+Selected240 accepted both aggregate/preservation. Always--1 control189 accepted BOTH, zero baseline-passed losses. Contrary to an earlier informal concern, M3 baseline binary search passes ONLY absent-target cases; the always--1 control preserves all69. Returning0 for nonempty input counterexample scores128,index8, loses67 baseline successes; BOTH gates reject because task count falls below69. None120 rejected both; identity111 rejected both. Thus the preregistered criterion (aggregate accept, preservation reject a case-regressed control) is NOT established. All these observations retained; no control changed in this frozen study.
+
+Preservation recomputes reported outcomes against pinned expected answers, aligns IDs/tasks/expected values and validates counts before applying aggregate gate plus no baseline-pass loss. A follow-on contrast requires a new named freeze. No activation, no model/AGI/invention, no unseen/generalization/speedup, no cgroup/kernel/covert-channel guarantees. Host judge knows answers, worker inputs only. Git chronology does not prove absence of private scoring.
