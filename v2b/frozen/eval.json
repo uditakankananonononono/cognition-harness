@@ -1,0 +1,8690 @@
+[
+  {
+    "id": "eval-canonical-000",
+    "task": "canonical",
+    "input": " I  ",
+    "expected": [
+      "i"
+    ]
+  },
+  {
+    "id": "eval-canonical-001",
+    "task": "canonical",
+    "input": "I\r\nÖ BETA Ä\r\n",
+    "expected": [
+      "i",
+      "ö",
+      "beta",
+      "ä"
+    ]
+  },
+  {
+    "id": "eval-canonical-002",
+    "task": "canonical",
+    "input": "\tBETA ",
+    "expected": [
+      "beta"
+    ]
+  },
+  {
+    "id": "eval-canonical-003",
+    "task": "canonical",
+    "input": "\t\tÖ  Σ  Σ BETA\r\nx-y MiXeD BETA ",
+    "expected": [
+      "ö",
+      "σ",
+      "σ",
+      "beta",
+      "x-y",
+      "mixed",
+      "beta"
+    ]
+  },
+  {
+    "id": "eval-canonical-004",
+    "task": "canonical",
+    "input": "ß x-y\nBETA I 12 ",
+    "expected": [
+      "ß",
+      "x-y",
+      "beta",
+      "i",
+      "12"
+    ]
+  },
+  {
+    "id": "eval-canonical-005",
+    "task": "canonical",
+    "input": "é Ö  12  ",
+    "expected": [
+      "é",
+      "ö",
+      "12"
+    ]
+  },
+  {
+    "id": "eval-canonical-006",
+    "task": "canonical",
+    "input": "  Ö\nx-y\tAlpha ß\n",
+    "expected": [
+      "ö",
+      "x-y",
+      "alpha",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-canonical-007",
+    "task": "canonical",
+    "input": "\nAlpha\r\nÖ I  Ä  ",
+    "expected": [
+      "alpha",
+      "ö",
+      "i",
+      "ä"
+    ]
+  },
+  {
+    "id": "eval-canonical-008",
+    "task": "canonical",
+    "input": "\n\nÄ\n",
+    "expected": [
+      "ä"
+    ]
+  },
+  {
+    "id": "eval-canonical-009",
+    "task": "canonical",
+    "input": "  Ä\tAlpha Alpha ",
+    "expected": [
+      "ä",
+      "alpha",
+      "alpha"
+    ]
+  },
+  {
+    "id": "eval-canonical-010",
+    "task": "canonical",
+    "input": "\nMiXeD Ö Σ Ö ",
+    "expected": [
+      "mixed",
+      "ö",
+      "σ",
+      "ö"
+    ]
+  },
+  {
+    "id": "eval-canonical-011",
+    "task": "canonical",
+    "input": "\nß é é Alpha Ö ",
+    "expected": [
+      "ß",
+      "é",
+      "é",
+      "alpha",
+      "ö"
+    ]
+  },
+  {
+    "id": "eval-canonical-012",
+    "task": "canonical",
+    "input": "    BETA\r\né é\n12\t",
+    "expected": [
+      "beta",
+      "é",
+      "é",
+      "12"
+    ]
+  },
+  {
+    "id": "eval-canonical-013",
+    "task": "canonical",
+    "input": "\t\tx-y I\r\nMiXeD\tx-y é\r\né\tI\r\n",
+    "expected": [
+      "x-y",
+      "i",
+      "mixed",
+      "x-y",
+      "é",
+      "é",
+      "i"
+    ]
+  },
+  {
+    "id": "eval-canonical-014",
+    "task": "canonical",
+    "input": "\r\nI Σ\tI\r\nß Ä BETA\té ",
+    "expected": [
+      "i",
+      "σ",
+      "i",
+      "ß",
+      "ä",
+      "beta",
+      "é"
+    ]
+  },
+  {
+    "id": "eval-canonical-015",
+    "task": "canonical",
+    "input": "\nBETA ",
+    "expected": [
+      "beta"
+    ]
+  },
+  {
+    "id": "eval-canonical-016",
+    "task": "canonical",
+    "input": " Ä\r\nx-y\tÄ\tI ",
+    "expected": [
+      "ä",
+      "x-y",
+      "ä",
+      "i"
+    ]
+  },
+  {
+    "id": "eval-canonical-017",
+    "task": "canonical",
+    "input": "  Σ\r\nÖ 12\nI  Alpha\nΣ  ",
+    "expected": [
+      "σ",
+      "ö",
+      "12",
+      "i",
+      "alpha",
+      "σ"
+    ]
+  },
+  {
+    "id": "eval-canonical-018",
+    "task": "canonical",
+    "input": " BETA  Alpha ",
+    "expected": [
+      "beta",
+      "alpha"
+    ]
+  },
+  {
+    "id": "eval-canonical-019",
+    "task": "canonical",
+    "input": "é\tI\nΣ\n",
+    "expected": [
+      "é",
+      "i",
+      "σ"
+    ]
+  },
+  {
+    "id": "eval-canonical-020",
+    "task": "canonical",
+    "input": " é\tΣ I BETA  ",
+    "expected": [
+      "é",
+      "σ",
+      "i",
+      "beta"
+    ]
+  },
+  {
+    "id": "eval-canonical-021",
+    "task": "canonical",
+    "input": "  ß x-y é x-y Σ x-y BETA  BETA\r\n",
+    "expected": [
+      "ß",
+      "x-y",
+      "é",
+      "x-y",
+      "σ",
+      "x-y",
+      "beta",
+      "beta"
+    ]
+  },
+  {
+    "id": "eval-canonical-022",
+    "task": "canonical",
+    "input": "\tΣ\r\n",
+    "expected": [
+      "σ"
+    ]
+  },
+  {
+    "id": "eval-canonical-023",
+    "task": "canonical",
+    "input": "    12 I BETA 12 ß\n12 ",
+    "expected": [
+      "12",
+      "i",
+      "beta",
+      "12",
+      "ß",
+      "12"
+    ]
+  },
+  {
+    "id": "eval-canonical-024",
+    "task": "canonical",
+    "input": "\tBETA Ä Σ ",
+    "expected": [
+      "beta",
+      "ä",
+      "σ"
+    ]
+  },
+  {
+    "id": "eval-canonical-025",
+    "task": "canonical",
+    "input": "\r\n\r\nß\r\nAlpha 12\nI\tBETA\tß\r\nx-y  Σ\r\n",
+    "expected": [
+      "ß",
+      "alpha",
+      "12",
+      "i",
+      "beta",
+      "ß",
+      "x-y",
+      "σ"
+    ]
+  },
+  {
+    "id": "eval-canonical-026",
+    "task": "canonical",
+    "input": "\r\nBETA  ß I é\nI  ",
+    "expected": [
+      "beta",
+      "ß",
+      "i",
+      "é",
+      "i"
+    ]
+  },
+  {
+    "id": "eval-canonical-027",
+    "task": "canonical",
+    "input": "\tß Ö x-y\té\r\nBETA\nΣ\r\n",
+    "expected": [
+      "ß",
+      "ö",
+      "x-y",
+      "é",
+      "beta",
+      "σ"
+    ]
+  },
+  {
+    "id": "eval-canonical-028",
+    "task": "canonical",
+    "input": " Ö\r\n",
+    "expected": [
+      "ö"
+    ]
+  },
+  {
+    "id": "eval-canonical-029",
+    "task": "canonical",
+    "input": "x-y\nx-y x-y\r\nMiXeD BETA ß Σ 12 ",
+    "expected": [
+      "x-y",
+      "x-y",
+      "x-y",
+      "mixed",
+      "beta",
+      "ß",
+      "σ",
+      "12"
+    ]
+  },
+  {
+    "id": "eval-canonical-030",
+    "task": "canonical",
+    "input": "  ß Ä\tAlpha\r\né\r\nx-y\tAlpha Ä ",
+    "expected": [
+      "ß",
+      "ä",
+      "alpha",
+      "é",
+      "x-y",
+      "alpha",
+      "ä"
+    ]
+  },
+  {
+    "id": "eval-canonical-031",
+    "task": "canonical",
+    "input": "ß Σ\nÄ  Σ BETA\r\nMiXeD\r\nÄ\tÖ\t",
+    "expected": [
+      "ß",
+      "σ",
+      "ä",
+      "σ",
+      "beta",
+      "mixed",
+      "ä",
+      "ö"
+    ]
+  },
+  {
+    "id": "eval-canonical-032",
+    "task": "canonical",
+    "input": "é\r\nÖ\r\nß\tBETA Ä\r\n",
+    "expected": [
+      "é",
+      "ö",
+      "ß",
+      "beta",
+      "ä"
+    ]
+  },
+  {
+    "id": "eval-canonical-033",
+    "task": "canonical",
+    "input": "  Alpha é\r\nÄ\r\nAlpha Ö ",
+    "expected": [
+      "alpha",
+      "é",
+      "ä",
+      "alpha",
+      "ö"
+    ]
+  },
+  {
+    "id": "eval-canonical-034",
+    "task": "canonical",
+    "input": "\r\n\r\n12\r\nß ß\nAlpha\nΣ ",
+    "expected": [
+      "12",
+      "ß",
+      "ß",
+      "alpha",
+      "σ"
+    ]
+  },
+  {
+    "id": "eval-canonical-035",
+    "task": "canonical",
+    "input": "\n12\tBETA Σ\r\nAlpha Ä ",
+    "expected": [
+      "12",
+      "beta",
+      "σ",
+      "alpha",
+      "ä"
+    ]
+  },
+  {
+    "id": "eval-canonical-036",
+    "task": "canonical",
+    "input": "\r\n\r\nß I\r\nΣ Ä I  12\nI ",
+    "expected": [
+      "ß",
+      "i",
+      "σ",
+      "ä",
+      "i",
+      "12",
+      "i"
+    ]
+  },
+  {
+    "id": "eval-canonical-037",
+    "task": "canonical",
+    "input": "Ö\nMiXeD Alpha\r\nAlpha Ä\n",
+    "expected": [
+      "ö",
+      "mixed",
+      "alpha",
+      "alpha",
+      "ä"
+    ]
+  },
+  {
+    "id": "eval-canonical-038",
+    "task": "canonical",
+    "input": "    é ",
+    "expected": [
+      "é"
+    ]
+  },
+  {
+    "id": "eval-canonical-039",
+    "task": "canonical",
+    "input": "\nΣ\r\nBETA Ä\tBETA I  x-y I\r\n",
+    "expected": [
+      "σ",
+      "beta",
+      "ä",
+      "beta",
+      "i",
+      "x-y",
+      "i"
+    ]
+  },
+  {
+    "id": "eval-canonical-040",
+    "task": "canonical",
+    "input": " BETA\tI\n",
+    "expected": [
+      "beta",
+      "i"
+    ]
+  },
+  {
+    "id": "eval-canonical-041",
+    "task": "canonical",
+    "input": "é MiXeD\r\n12 ",
+    "expected": [
+      "é",
+      "mixed",
+      "12"
+    ]
+  },
+  {
+    "id": "eval-canonical-042",
+    "task": "canonical",
+    "input": "Alpha  MiXeD\tAlpha\tAlpha x-y x-y ",
+    "expected": [
+      "alpha",
+      "mixed",
+      "alpha",
+      "alpha",
+      "x-y",
+      "x-y"
+    ]
+  },
+  {
+    "id": "eval-canonical-043",
+    "task": "canonical",
+    "input": "BETA BETA  Ä\r\nΣ\tÖ é\t",
+    "expected": [
+      "beta",
+      "beta",
+      "ä",
+      "σ",
+      "ö",
+      "é"
+    ]
+  },
+  {
+    "id": "eval-canonical-044",
+    "task": "canonical",
+    "input": "\n\nAlpha\n",
+    "expected": [
+      "alpha"
+    ]
+  },
+  {
+    "id": "eval-canonical-045",
+    "task": "canonical",
+    "input": " é\nAlpha é\nBETA ",
+    "expected": [
+      "é",
+      "alpha",
+      "é",
+      "beta"
+    ]
+  },
+  {
+    "id": "eval-canonical-046",
+    "task": "canonical",
+    "input": "  Alpha\tÖ Σ\né Ä  ",
+    "expected": [
+      "alpha",
+      "ö",
+      "σ",
+      "é",
+      "ä"
+    ]
+  },
+  {
+    "id": "eval-canonical-047",
+    "task": "canonical",
+    "input": "  Ö BETA\r\nI MiXeD\nI I ",
+    "expected": [
+      "ö",
+      "beta",
+      "i",
+      "mixed",
+      "i",
+      "i"
+    ]
+  },
+  {
+    "id": "eval-canonical-048",
+    "task": "canonical",
+    "input": "    ß  Ö  x-y  x-y Σ\nBETA I Σ  ",
+    "expected": [
+      "ß",
+      "ö",
+      "x-y",
+      "x-y",
+      "σ",
+      "beta",
+      "i",
+      "σ"
+    ]
+  },
+  {
+    "id": "eval-canonical-049",
+    "task": "canonical",
+    "input": "BETA  Alpha\r\n12 MiXeD\n12 ",
+    "expected": [
+      "beta",
+      "alpha",
+      "12",
+      "mixed",
+      "12"
+    ]
+  },
+  {
+    "id": "eval-canonical-050",
+    "task": "canonical",
+    "input": "\n\né ",
+    "expected": [
+      "é"
+    ]
+  },
+  {
+    "id": "eval-canonical-051",
+    "task": "canonical",
+    "input": "\t",
+    "expected": []
+  },
+  {
+    "id": "eval-canonical-052",
+    "task": "canonical",
+    "input": "\n12 ß é\tÖ ",
+    "expected": [
+      "12",
+      "ß",
+      "é",
+      "ö"
+    ]
+  },
+  {
+    "id": "eval-canonical-053",
+    "task": "canonical",
+    "input": "  x-y\r\nx-y ",
+    "expected": [
+      "x-y",
+      "x-y"
+    ]
+  },
+  {
+    "id": "eval-canonical-054",
+    "task": "canonical",
+    "input": "x-y BETA Ä\nΣ  ",
+    "expected": [
+      "x-y",
+      "beta",
+      "ä",
+      "σ"
+    ]
+  },
+  {
+    "id": "eval-canonical-055",
+    "task": "canonical",
+    "input": "Ä  Ö\n",
+    "expected": [
+      "ä",
+      "ö"
+    ]
+  },
+  {
+    "id": "eval-canonical-056",
+    "task": "canonical",
+    "input": "  BETA Σ I I x-y ",
+    "expected": [
+      "beta",
+      "σ",
+      "i",
+      "i",
+      "x-y"
+    ]
+  },
+  {
+    "id": "eval-canonical-057",
+    "task": "canonical",
+    "input": "  I é  é\r\nß MiXeD\t",
+    "expected": [
+      "i",
+      "é",
+      "é",
+      "ß",
+      "mixed"
+    ]
+  },
+  {
+    "id": "eval-canonical-058",
+    "task": "canonical",
+    "input": " Ä\nΣ\r\nΣ\né Ö Σ\tx-y\r\nÖ\t",
+    "expected": [
+      "ä",
+      "σ",
+      "σ",
+      "é",
+      "ö",
+      "σ",
+      "x-y",
+      "ö"
+    ]
+  },
+  {
+    "id": "eval-canonical-059",
+    "task": "canonical",
+    "input": "\t\tΣ\tI MiXeD ",
+    "expected": [
+      "σ",
+      "i",
+      "mixed"
+    ]
+  },
+  {
+    "id": "eval-canonical-060",
+    "task": "canonical",
+    "input": "\n",
+    "expected": []
+  },
+  {
+    "id": "eval-canonical-061",
+    "task": "canonical",
+    "input": "I Ä Σ I\n",
+    "expected": [
+      "i",
+      "ä",
+      "σ",
+      "i"
+    ]
+  },
+  {
+    "id": "eval-canonical-062",
+    "task": "canonical",
+    "input": "  é Ö\tI MiXeD\nÄ  Σ Alpha BETA ",
+    "expected": [
+      "é",
+      "ö",
+      "i",
+      "mixed",
+      "ä",
+      "σ",
+      "alpha",
+      "beta"
+    ]
+  },
+  {
+    "id": "eval-canonical-063",
+    "task": "canonical",
+    "input": " Alpha\tÄ\r\nÖ x-y ",
+    "expected": [
+      "alpha",
+      "ä",
+      "ö",
+      "x-y"
+    ]
+  },
+  {
+    "id": "eval-canonical-064",
+    "task": "canonical",
+    "input": "x-y\r\nß\nÖ\tΣ\r\nÄ ",
+    "expected": [
+      "x-y",
+      "ß",
+      "ö",
+      "σ",
+      "ä"
+    ]
+  },
+  {
+    "id": "eval-canonical-065",
+    "task": "canonical",
+    "input": "\tx-y\té\r\n",
+    "expected": [
+      "x-y",
+      "é"
+    ]
+  },
+  {
+    "id": "eval-canonical-066",
+    "task": "canonical",
+    "input": "BETA\n",
+    "expected": [
+      "beta"
+    ]
+  },
+  {
+    "id": "eval-canonical-067",
+    "task": "canonical",
+    "input": "  Σ ß  Ö\n",
+    "expected": [
+      "σ",
+      "ß",
+      "ö"
+    ]
+  },
+  {
+    "id": "eval-canonical-068",
+    "task": "canonical",
+    "input": "\t\tAlpha  Alpha\r\n12 MiXeD\r\nx-y 12  Ä\tx-y\r\n",
+    "expected": [
+      "alpha",
+      "alpha",
+      "12",
+      "mixed",
+      "x-y",
+      "12",
+      "ä",
+      "x-y"
+    ]
+  },
+  {
+    "id": "eval-canonical-069",
+    "task": "canonical",
+    "input": "  Alpha Σ  Ö\t",
+    "expected": [
+      "alpha",
+      "σ",
+      "ö"
+    ]
+  },
+  {
+    "id": "eval-canonical-070",
+    "task": "canonical",
+    "input": "\tÖ BETA\nÄ  I ",
+    "expected": [
+      "ö",
+      "beta",
+      "ä",
+      "i"
+    ]
+  },
+  {
+    "id": "eval-canonical-071",
+    "task": "canonical",
+    "input": " Alpha é  ß Alpha\nBETA 12 ",
+    "expected": [
+      "alpha",
+      "é",
+      "ß",
+      "alpha",
+      "beta",
+      "12"
+    ]
+  },
+  {
+    "id": "eval-canonical-072",
+    "task": "canonical",
+    "input": "  é MiXeD  BETA\nMiXeD  Ö\r\nBETA Ä ß  ",
+    "expected": [
+      "é",
+      "mixed",
+      "beta",
+      "mixed",
+      "ö",
+      "beta",
+      "ä",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-canonical-073",
+    "task": "canonical",
+    "input": "ß\tI\r\nAlpha\r\nx-y I\r\nß ",
+    "expected": [
+      "ß",
+      "i",
+      "alpha",
+      "x-y",
+      "i",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-canonical-074",
+    "task": "canonical",
+    "input": "é\tΣ ß BETA\tx-y ",
+    "expected": [
+      "é",
+      "σ",
+      "ß",
+      "beta",
+      "x-y"
+    ]
+  },
+  {
+    "id": "eval-canonical-075",
+    "task": "canonical",
+    "input": "\n\nx-y\r\nx-y\r\né ",
+    "expected": [
+      "x-y",
+      "x-y",
+      "é"
+    ]
+  },
+  {
+    "id": "eval-canonical-076",
+    "task": "canonical",
+    "input": " x-y\r\né Ä\t12 Ä 12 Ä\tBETA  ",
+    "expected": [
+      "x-y",
+      "é",
+      "ä",
+      "12",
+      "ä",
+      "12",
+      "ä",
+      "beta"
+    ]
+  },
+  {
+    "id": "eval-canonical-077",
+    "task": "canonical",
+    "input": "\n",
+    "expected": []
+  },
+  {
+    "id": "eval-canonical-078",
+    "task": "canonical",
+    "input": "  Ö\nMiXeD  Alpha\r\nBETA\r\nAlpha 12\r\n",
+    "expected": [
+      "ö",
+      "mixed",
+      "alpha",
+      "beta",
+      "alpha",
+      "12"
+    ]
+  },
+  {
+    "id": "eval-canonical-079",
+    "task": "canonical",
+    "input": "Σ  ß Alpha MiXeD\tAlpha\n",
+    "expected": [
+      "σ",
+      "ß",
+      "alpha",
+      "mixed",
+      "alpha"
+    ]
+  },
+  {
+    "id": "eval-canonical-080",
+    "task": "canonical",
+    "input": "Ö\té Ä I\nI  MiXeD\r\n",
+    "expected": [
+      "ö",
+      "é",
+      "ä",
+      "i",
+      "i",
+      "mixed"
+    ]
+  },
+  {
+    "id": "eval-canonical-081",
+    "task": "canonical",
+    "input": "  Ä  ß\r\n",
+    "expected": [
+      "ä",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-canonical-082",
+    "task": "canonical",
+    "input": "  12 ß\t12 Ä BETA\nAlpha  ß MiXeD ",
+    "expected": [
+      "12",
+      "ß",
+      "12",
+      "ä",
+      "beta",
+      "alpha",
+      "ß",
+      "mixed"
+    ]
+  },
+  {
+    "id": "eval-canonical-083",
+    "task": "canonical",
+    "input": "\n\nBETA\tI  MiXeD\r\n",
+    "expected": [
+      "beta",
+      "i",
+      "mixed"
+    ]
+  },
+  {
+    "id": "eval-canonical-084",
+    "task": "canonical",
+    "input": "I Ä x-y\r\nÄ BETA ",
+    "expected": [
+      "i",
+      "ä",
+      "x-y",
+      "ä",
+      "beta"
+    ]
+  },
+  {
+    "id": "eval-canonical-085",
+    "task": "canonical",
+    "input": "x-y I\tBETA  ",
+    "expected": [
+      "x-y",
+      "i",
+      "beta"
+    ]
+  },
+  {
+    "id": "eval-canonical-086",
+    "task": "canonical",
+    "input": "BETA\r\nAlpha\nMiXeD Ä  12  ß\tx-y ",
+    "expected": [
+      "beta",
+      "alpha",
+      "mixed",
+      "ä",
+      "12",
+      "ß",
+      "x-y"
+    ]
+  },
+  {
+    "id": "eval-canonical-087",
+    "task": "canonical",
+    "input": " 12  MiXeD Σ\t12  I ",
+    "expected": [
+      "12",
+      "mixed",
+      "σ",
+      "12",
+      "i"
+    ]
+  },
+  {
+    "id": "eval-canonical-088",
+    "task": "canonical",
+    "input": "BETA\r\né ß ß\nx-y 12\t",
+    "expected": [
+      "beta",
+      "é",
+      "ß",
+      "ß",
+      "x-y",
+      "12"
+    ]
+  },
+  {
+    "id": "eval-canonical-089",
+    "task": "canonical",
+    "input": "  Σ ",
+    "expected": [
+      "σ"
+    ]
+  },
+  {
+    "id": "eval-canonical-090",
+    "task": "canonical",
+    "input": "  é\r\n",
+    "expected": [
+      "é"
+    ]
+  },
+  {
+    "id": "eval-canonical-091",
+    "task": "canonical",
+    "input": "Σ\tÖ\nÄ  Ö  ß ß MiXeD ",
+    "expected": [
+      "σ",
+      "ö",
+      "ä",
+      "ö",
+      "ß",
+      "ß",
+      "mixed"
+    ]
+  },
+  {
+    "id": "eval-canonical-092",
+    "task": "canonical",
+    "input": " Alpha I\tBETA\tß Σ BETA x-y ",
+    "expected": [
+      "alpha",
+      "i",
+      "beta",
+      "ß",
+      "σ",
+      "beta",
+      "x-y"
+    ]
+  },
+  {
+    "id": "eval-canonical-093",
+    "task": "canonical",
+    "input": "  I MiXeD x-y Ö\r\nÄ\r\n12\t",
+    "expected": [
+      "i",
+      "mixed",
+      "x-y",
+      "ö",
+      "ä",
+      "12"
+    ]
+  },
+  {
+    "id": "eval-canonical-094",
+    "task": "canonical",
+    "input": " MiXeD\nÄ Ö\t12\t",
+    "expected": [
+      "mixed",
+      "ä",
+      "ö",
+      "12"
+    ]
+  },
+  {
+    "id": "eval-canonical-095",
+    "task": "canonical",
+    "input": "\n\nÖ\r\n12\nI Σ ",
+    "expected": [
+      "ö",
+      "12",
+      "i",
+      "σ"
+    ]
+  },
+  {
+    "id": "eval-canonical-096",
+    "task": "canonical",
+    "input": "  x-y\r\né é\nAlpha  é\t",
+    "expected": [
+      "x-y",
+      "é",
+      "é",
+      "alpha",
+      "é"
+    ]
+  },
+  {
+    "id": "eval-canonical-097",
+    "task": "canonical",
+    "input": "  Ä  12 Ä é\nß\r\n12\t",
+    "expected": [
+      "ä",
+      "12",
+      "ä",
+      "é",
+      "ß",
+      "12"
+    ]
+  },
+  {
+    "id": "eval-canonical-098",
+    "task": "canonical",
+    "input": "Σ I\n",
+    "expected": [
+      "σ",
+      "i"
+    ]
+  },
+  {
+    "id": "eval-canonical-099",
+    "task": "canonical",
+    "input": "Ä\nΣ  ",
+    "expected": [
+      "ä",
+      "σ"
+    ]
+  },
+  {
+    "id": "eval-canonical-100",
+    "task": "canonical",
+    "input": "  12\r\nAlpha I\r\né\n",
+    "expected": [
+      "12",
+      "alpha",
+      "i",
+      "é"
+    ]
+  },
+  {
+    "id": "eval-canonical-101",
+    "task": "canonical",
+    "input": "MiXeD\tAlpha\tI\nI\tMiXeD BETA\r\n",
+    "expected": [
+      "mixed",
+      "alpha",
+      "i",
+      "i",
+      "mixed",
+      "beta"
+    ]
+  },
+  {
+    "id": "eval-canonical-102",
+    "task": "canonical",
+    "input": "\t\tI é\nx-y\r\n12\tAlpha é ",
+    "expected": [
+      "i",
+      "é",
+      "x-y",
+      "12",
+      "alpha",
+      "é"
+    ]
+  },
+  {
+    "id": "eval-canonical-103",
+    "task": "canonical",
+    "input": " MiXeD\nBETA ß ",
+    "expected": [
+      "mixed",
+      "beta",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-canonical-104",
+    "task": "canonical",
+    "input": "\nBETA\nMiXeD\nMiXeD\t",
+    "expected": [
+      "beta",
+      "mixed",
+      "mixed"
+    ]
+  },
+  {
+    "id": "eval-canonical-105",
+    "task": "canonical",
+    "input": "\tx-y x-y x-y  ",
+    "expected": [
+      "x-y",
+      "x-y",
+      "x-y"
+    ]
+  },
+  {
+    "id": "eval-canonical-106",
+    "task": "canonical",
+    "input": "\r\n\r\nMiXeD MiXeD x-y ß  Ä Ä ",
+    "expected": [
+      "mixed",
+      "mixed",
+      "x-y",
+      "ß",
+      "ä",
+      "ä"
+    ]
+  },
+  {
+    "id": "eval-canonical-107",
+    "task": "canonical",
+    "input": "12\tMiXeD x-y\n",
+    "expected": [
+      "12",
+      "mixed",
+      "x-y"
+    ]
+  },
+  {
+    "id": "eval-canonical-108",
+    "task": "canonical",
+    "input": "Ä I\tAlpha I ",
+    "expected": [
+      "ä",
+      "i",
+      "alpha",
+      "i"
+    ]
+  },
+  {
+    "id": "eval-canonical-109",
+    "task": "canonical",
+    "input": "\t\t",
+    "expected": []
+  },
+  {
+    "id": "eval-canonical-110",
+    "task": "canonical",
+    "input": "ß Ä I\nAlpha ß Σ Σ ß\n",
+    "expected": [
+      "ß",
+      "ä",
+      "i",
+      "alpha",
+      "ß",
+      "σ",
+      "σ",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-canonical-111",
+    "task": "canonical",
+    "input": "ß\nx-y Ä ",
+    "expected": [
+      "ß",
+      "x-y",
+      "ä"
+    ]
+  },
+  {
+    "id": "eval-canonical-112",
+    "task": "canonical",
+    "input": "é I BETA Alpha\nß\té\n",
+    "expected": [
+      "é",
+      "i",
+      "beta",
+      "alpha",
+      "ß",
+      "é"
+    ]
+  },
+  {
+    "id": "eval-canonical-113",
+    "task": "canonical",
+    "input": "  Ö\r\nI\r\nß Σ\tÖ Σ 12  Alpha  ",
+    "expected": [
+      "ö",
+      "i",
+      "ß",
+      "σ",
+      "ö",
+      "σ",
+      "12",
+      "alpha"
+    ]
+  },
+  {
+    "id": "eval-canonical-114",
+    "task": "canonical",
+    "input": "    Ö I Σ MiXeD x-y Ä  ",
+    "expected": [
+      "ö",
+      "i",
+      "σ",
+      "mixed",
+      "x-y",
+      "ä"
+    ]
+  },
+  {
+    "id": "eval-canonical-115",
+    "task": "canonical",
+    "input": "\né x-y\r\nBETA Alpha  Alpha  é\nΣ\r\nß ",
+    "expected": [
+      "é",
+      "x-y",
+      "beta",
+      "alpha",
+      "alpha",
+      "é",
+      "σ",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-canonical-116",
+    "task": "canonical",
+    "input": "12\r\nBETA  I\tAlpha ß  I\r\nΣ  ",
+    "expected": [
+      "12",
+      "beta",
+      "i",
+      "alpha",
+      "ß",
+      "i",
+      "σ"
+    ]
+  },
+  {
+    "id": "eval-canonical-117",
+    "task": "canonical",
+    "input": "\n12 12\r\nI\té\tΣ\tÖ ",
+    "expected": [
+      "12",
+      "12",
+      "i",
+      "é",
+      "σ",
+      "ö"
+    ]
+  },
+  {
+    "id": "eval-canonical-118",
+    "task": "canonical",
+    "input": "    x-y\t",
+    "expected": [
+      "x-y"
+    ]
+  },
+  {
+    "id": "eval-canonical-119",
+    "task": "canonical",
+    "input": "\r\n\r\nß Ä ",
+    "expected": [
+      "ß",
+      "ä"
+    ]
+  },
+  {
+    "id": "eval-unique-000",
+    "task": "unique",
+    "input": [
+      "Ä",
+      "Ä",
+      "BETA",
+      "Ä",
+      "BETA",
+      "é",
+      "Ä",
+      "é",
+      "Alpha",
+      "12"
+    ],
+    "expected": [
+      "Ä",
+      "BETA",
+      "é",
+      "Alpha",
+      "12"
+    ]
+  },
+  {
+    "id": "eval-unique-001",
+    "task": "unique",
+    "input": [
+      "Σ",
+      "I",
+      "Σ",
+      "BETA",
+      "12",
+      "BETA",
+      "Ä",
+      "Ö"
+    ],
+    "expected": [
+      "Σ",
+      "I",
+      "BETA",
+      "12",
+      "Ä",
+      "Ö"
+    ]
+  },
+  {
+    "id": "eval-unique-002",
+    "task": "unique",
+    "input": [
+      "é",
+      "Alpha",
+      "BETA",
+      "Ö"
+    ],
+    "expected": [
+      "é",
+      "Alpha",
+      "BETA",
+      "Ö"
+    ]
+  },
+  {
+    "id": "eval-unique-003",
+    "task": "unique",
+    "input": [
+      "Σ",
+      "Alpha",
+      "Ä",
+      "BETA",
+      "MiXeD",
+      "BETA",
+      "12",
+      "MiXeD",
+      "é",
+      "Ö",
+      "Ö",
+      "é",
+      "Ä",
+      "é",
+      "I",
+      "Σ"
+    ],
+    "expected": [
+      "Σ",
+      "Alpha",
+      "Ä",
+      "BETA",
+      "MiXeD",
+      "12",
+      "é",
+      "Ö",
+      "I"
+    ]
+  },
+  {
+    "id": "eval-unique-004",
+    "task": "unique",
+    "input": [
+      "x-y",
+      "MiXeD",
+      "Alpha"
+    ],
+    "expected": [
+      "x-y",
+      "MiXeD",
+      "Alpha"
+    ]
+  },
+  {
+    "id": "eval-unique-005",
+    "task": "unique",
+    "input": [
+      3,
+      -3,
+      2,
+      0,
+      0,
+      0,
+      1,
+      -1,
+      -3,
+      -3,
+      -3,
+      -2,
+      -4
+    ],
+    "expected": [
+      3,
+      -3,
+      2,
+      0,
+      1,
+      -1,
+      -2,
+      -4
+    ]
+  },
+  {
+    "id": "eval-unique-006",
+    "task": "unique",
+    "input": [
+      "Ö",
+      "MiXeD",
+      "ß",
+      "é",
+      "x-y",
+      "I",
+      "Ö",
+      "x-y",
+      "MiXeD",
+      "Alpha"
+    ],
+    "expected": [
+      "Ö",
+      "MiXeD",
+      "ß",
+      "é",
+      "x-y",
+      "I",
+      "Alpha"
+    ]
+  },
+  {
+    "id": "eval-unique-007",
+    "task": "unique",
+    "input": [
+      0,
+      2,
+      4,
+      4,
+      -4,
+      -3,
+      2,
+      -1,
+      4,
+      -4,
+      1,
+      -4,
+      0,
+      -1,
+      2
+    ],
+    "expected": [
+      0,
+      2,
+      4,
+      -4,
+      -3,
+      -1,
+      1
+    ]
+  },
+  {
+    "id": "eval-unique-008",
+    "task": "unique",
+    "input": [
+      2
+    ],
+    "expected": [
+      2
+    ]
+  },
+  {
+    "id": "eval-unique-009",
+    "task": "unique",
+    "input": [
+      "Ö",
+      "Alpha",
+      "é",
+      "é",
+      "é",
+      "Alpha"
+    ],
+    "expected": [
+      "Ö",
+      "Alpha",
+      "é"
+    ]
+  },
+  {
+    "id": "eval-unique-010",
+    "task": "unique",
+    "input": [
+      "MiXeD",
+      "Ä",
+      "MiXeD",
+      "x-y",
+      "12",
+      "Alpha",
+      "BETA",
+      "12",
+      "MiXeD",
+      "MiXeD",
+      "I",
+      "x-y",
+      "x-y",
+      "I",
+      "Alpha",
+      "x-y",
+      "x-y",
+      "Ä"
+    ],
+    "expected": [
+      "MiXeD",
+      "Ä",
+      "x-y",
+      "12",
+      "Alpha",
+      "BETA",
+      "I"
+    ]
+  },
+  {
+    "id": "eval-unique-011",
+    "task": "unique",
+    "input": [
+      4,
+      -2,
+      1,
+      2,
+      4,
+      3,
+      -4,
+      2,
+      -4,
+      -2,
+      -1,
+      0,
+      -3,
+      0,
+      0
+    ],
+    "expected": [
+      4,
+      -2,
+      1,
+      2,
+      3,
+      -4,
+      -1,
+      0,
+      -3
+    ]
+  },
+  {
+    "id": "eval-unique-012",
+    "task": "unique",
+    "input": [
+      "é",
+      "BETA",
+      "é",
+      "Ö",
+      "MiXeD",
+      "MiXeD",
+      "BETA",
+      "BETA",
+      "ß",
+      "I",
+      "ß",
+      "BETA",
+      "12",
+      "Σ",
+      "ß",
+      "BETA"
+    ],
+    "expected": [
+      "é",
+      "BETA",
+      "Ö",
+      "MiXeD",
+      "ß",
+      "I",
+      "12",
+      "Σ"
+    ]
+  },
+  {
+    "id": "eval-unique-013",
+    "task": "unique",
+    "input": [
+      0
+    ],
+    "expected": [
+      0
+    ]
+  },
+  {
+    "id": "eval-unique-014",
+    "task": "unique",
+    "input": [
+      "Alpha",
+      "Alpha",
+      "Ö",
+      "12",
+      "Σ",
+      "I"
+    ],
+    "expected": [
+      "Alpha",
+      "Ö",
+      "12",
+      "Σ",
+      "I"
+    ]
+  },
+  {
+    "id": "eval-unique-015",
+    "task": "unique",
+    "input": [
+      -4,
+      4,
+      -4,
+      -4,
+      -2,
+      0,
+      4
+    ],
+    "expected": [
+      -4,
+      4,
+      -2,
+      0
+    ]
+  },
+  {
+    "id": "eval-unique-016",
+    "task": "unique",
+    "input": [
+      "BETA",
+      "Ö",
+      "12",
+      "é",
+      "BETA",
+      "é",
+      "ß",
+      "Ä",
+      "x-y",
+      "Alpha",
+      "BETA"
+    ],
+    "expected": [
+      "BETA",
+      "Ö",
+      "12",
+      "é",
+      "ß",
+      "Ä",
+      "x-y",
+      "Alpha"
+    ]
+  },
+  {
+    "id": "eval-unique-017",
+    "task": "unique",
+    "input": [
+      "Alpha",
+      "ß",
+      "Ä"
+    ],
+    "expected": [
+      "Alpha",
+      "ß",
+      "Ä"
+    ]
+  },
+  {
+    "id": "eval-unique-018",
+    "task": "unique",
+    "input": [
+      -2,
+      -3,
+      2,
+      -3,
+      -1,
+      -4,
+      -1,
+      -1,
+      -3,
+      -2,
+      4
+    ],
+    "expected": [
+      -2,
+      -3,
+      2,
+      -1,
+      -4,
+      4
+    ]
+  },
+  {
+    "id": "eval-unique-019",
+    "task": "unique",
+    "input": [
+      -1,
+      -3,
+      -1,
+      -2,
+      2,
+      -3,
+      1,
+      -2,
+      4
+    ],
+    "expected": [
+      -1,
+      -3,
+      -2,
+      2,
+      1,
+      4
+    ]
+  },
+  {
+    "id": "eval-unique-020",
+    "task": "unique",
+    "input": [
+      -3,
+      4,
+      4,
+      -4,
+      -2,
+      -1,
+      4,
+      -3
+    ],
+    "expected": [
+      -3,
+      4,
+      -4,
+      -2,
+      -1
+    ]
+  },
+  {
+    "id": "eval-unique-021",
+    "task": "unique",
+    "input": [
+      "Alpha",
+      "12",
+      "Σ",
+      "é",
+      "é",
+      "x-y",
+      "é",
+      "Ö",
+      "Ä",
+      "Ä"
+    ],
+    "expected": [
+      "Alpha",
+      "12",
+      "Σ",
+      "é",
+      "x-y",
+      "Ö",
+      "Ä"
+    ]
+  },
+  {
+    "id": "eval-unique-022",
+    "task": "unique",
+    "input": [
+      "Alpha",
+      "é",
+      "Alpha",
+      "I",
+      "Alpha",
+      "BETA",
+      "MiXeD",
+      "12",
+      "ß",
+      "x-y",
+      "Alpha",
+      "12",
+      "12",
+      "Ö"
+    ],
+    "expected": [
+      "Alpha",
+      "é",
+      "I",
+      "BETA",
+      "MiXeD",
+      "12",
+      "ß",
+      "x-y",
+      "Ö"
+    ]
+  },
+  {
+    "id": "eval-unique-023",
+    "task": "unique",
+    "input": [
+      "Ö"
+    ],
+    "expected": [
+      "Ö"
+    ]
+  },
+  {
+    "id": "eval-unique-024",
+    "task": "unique",
+    "input": [
+      "é",
+      "Ö",
+      "é",
+      "Ö",
+      "ß",
+      "I",
+      "12",
+      "x-y",
+      "12",
+      "é",
+      "Σ",
+      "é"
+    ],
+    "expected": [
+      "é",
+      "Ö",
+      "ß",
+      "I",
+      "12",
+      "x-y",
+      "Σ"
+    ]
+  },
+  {
+    "id": "eval-unique-025",
+    "task": "unique",
+    "input": [
+      -4,
+      0,
+      3,
+      -2,
+      3,
+      0,
+      -2,
+      0,
+      0,
+      3,
+      4,
+      -2,
+      4,
+      -1,
+      0,
+      -1
+    ],
+    "expected": [
+      -4,
+      0,
+      3,
+      -2,
+      4,
+      -1
+    ]
+  },
+  {
+    "id": "eval-unique-026",
+    "task": "unique",
+    "input": [
+      2,
+      1,
+      -3,
+      4,
+      0,
+      -2,
+      -3,
+      3,
+      4,
+      -3,
+      -2,
+      -2,
+      -3,
+      4,
+      -2,
+      -4,
+      -2,
+      -4,
+      -1
+    ],
+    "expected": [
+      2,
+      1,
+      -3,
+      4,
+      0,
+      -2,
+      3,
+      -4,
+      -1
+    ]
+  },
+  {
+    "id": "eval-unique-027",
+    "task": "unique",
+    "input": [
+      "Ä",
+      "Σ",
+      "Σ",
+      "ß",
+      "ß",
+      "Σ",
+      "12",
+      "Ä",
+      "x-y",
+      "x-y"
+    ],
+    "expected": [
+      "Ä",
+      "Σ",
+      "ß",
+      "12",
+      "x-y"
+    ]
+  },
+  {
+    "id": "eval-unique-028",
+    "task": "unique",
+    "input": [
+      0
+    ],
+    "expected": [
+      0
+    ]
+  },
+  {
+    "id": "eval-unique-029",
+    "task": "unique",
+    "input": [
+      "é",
+      "Alpha",
+      "Σ",
+      "Ö",
+      "x-y",
+      "x-y",
+      "ß"
+    ],
+    "expected": [
+      "é",
+      "Alpha",
+      "Σ",
+      "Ö",
+      "x-y",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-unique-030",
+    "task": "unique",
+    "input": [
+      "x-y",
+      "BETA",
+      "é",
+      "x-y"
+    ],
+    "expected": [
+      "x-y",
+      "BETA",
+      "é"
+    ]
+  },
+  {
+    "id": "eval-unique-031",
+    "task": "unique",
+    "input": [
+      0,
+      4
+    ],
+    "expected": [
+      0,
+      4
+    ]
+  },
+  {
+    "id": "eval-unique-032",
+    "task": "unique",
+    "input": [
+      1,
+      3,
+      -1,
+      -1,
+      4,
+      2,
+      0,
+      -3,
+      -1,
+      4,
+      -1,
+      -3,
+      1,
+      4,
+      -1
+    ],
+    "expected": [
+      1,
+      3,
+      -1,
+      4,
+      2,
+      0,
+      -3
+    ]
+  },
+  {
+    "id": "eval-unique-033",
+    "task": "unique",
+    "input": [
+      1,
+      -1,
+      0,
+      -1,
+      1,
+      3,
+      2,
+      -2,
+      0
+    ],
+    "expected": [
+      1,
+      -1,
+      0,
+      3,
+      2,
+      -2
+    ]
+  },
+  {
+    "id": "eval-unique-034",
+    "task": "unique",
+    "input": [
+      3,
+      2,
+      -4,
+      -4,
+      2,
+      0,
+      -4,
+      -4,
+      -4,
+      -1,
+      4,
+      3,
+      -1,
+      -4,
+      2,
+      -4,
+      0,
+      -1,
+      -2
+    ],
+    "expected": [
+      3,
+      2,
+      -4,
+      0,
+      -1,
+      4,
+      -2
+    ]
+  },
+  {
+    "id": "eval-unique-035",
+    "task": "unique",
+    "input": [
+      "BETA",
+      "BETA",
+      "Ö",
+      "ß",
+      "BETA",
+      "é",
+      "12",
+      "I",
+      "BETA",
+      "x-y",
+      "Ä",
+      "ß",
+      "Alpha",
+      "ß"
+    ],
+    "expected": [
+      "BETA",
+      "Ö",
+      "ß",
+      "é",
+      "12",
+      "I",
+      "x-y",
+      "Ä",
+      "Alpha"
+    ]
+  },
+  {
+    "id": "eval-unique-036",
+    "task": "unique",
+    "input": [
+      -3,
+      1,
+      -4,
+      0,
+      0
+    ],
+    "expected": [
+      -3,
+      1,
+      -4,
+      0
+    ]
+  },
+  {
+    "id": "eval-unique-037",
+    "task": "unique",
+    "input": [
+      "x-y",
+      "Ä",
+      "I",
+      "BETA",
+      "Σ",
+      "x-y",
+      "Σ",
+      "Ä",
+      "I",
+      "I"
+    ],
+    "expected": [
+      "x-y",
+      "Ä",
+      "I",
+      "BETA",
+      "Σ"
+    ]
+  },
+  {
+    "id": "eval-unique-038",
+    "task": "unique",
+    "input": [
+      -1,
+      0,
+      3,
+      4,
+      -4,
+      3,
+      -2,
+      2,
+      -3,
+      1,
+      2,
+      -3,
+      4
+    ],
+    "expected": [
+      -1,
+      0,
+      3,
+      4,
+      -4,
+      -2,
+      2,
+      -3,
+      1
+    ]
+  },
+  {
+    "id": "eval-unique-039",
+    "task": "unique",
+    "input": [
+      4,
+      -2,
+      3,
+      0,
+      -1,
+      -3,
+      3,
+      -4,
+      4,
+      2,
+      3,
+      4,
+      -4
+    ],
+    "expected": [
+      4,
+      -2,
+      3,
+      0,
+      -1,
+      -3,
+      -4,
+      2
+    ]
+  },
+  {
+    "id": "eval-unique-040",
+    "task": "unique",
+    "input": [
+      -4,
+      -3,
+      1,
+      1,
+      3
+    ],
+    "expected": [
+      -4,
+      -3,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "eval-unique-041",
+    "task": "unique",
+    "input": [
+      "Σ",
+      "Ä"
+    ],
+    "expected": [
+      "Σ",
+      "Ä"
+    ]
+  },
+  {
+    "id": "eval-unique-042",
+    "task": "unique",
+    "input": [
+      -3,
+      1,
+      -4,
+      -3,
+      -1,
+      4,
+      -3,
+      -1,
+      -4,
+      2,
+      3,
+      -1,
+      2
+    ],
+    "expected": [
+      -3,
+      1,
+      -4,
+      -1,
+      4,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "eval-unique-043",
+    "task": "unique",
+    "input": [
+      0,
+      4,
+      -2,
+      0,
+      -4,
+      4,
+      -3,
+      4,
+      1,
+      -1,
+      2
+    ],
+    "expected": [
+      0,
+      4,
+      -2,
+      -4,
+      -3,
+      1,
+      -1,
+      2
+    ]
+  },
+  {
+    "id": "eval-unique-044",
+    "task": "unique",
+    "input": [
+      "MiXeD",
+      "Σ",
+      "x-y",
+      "ß",
+      "Ö",
+      "BETA",
+      "MiXeD",
+      "Ö",
+      "é",
+      "12",
+      "I",
+      "BETA"
+    ],
+    "expected": [
+      "MiXeD",
+      "Σ",
+      "x-y",
+      "ß",
+      "Ö",
+      "BETA",
+      "é",
+      "12",
+      "I"
+    ]
+  },
+  {
+    "id": "eval-unique-045",
+    "task": "unique",
+    "input": [
+      "é",
+      "MiXeD",
+      "MiXeD",
+      "MiXeD",
+      "é",
+      "x-y",
+      "I",
+      "ß",
+      "x-y",
+      "Ä",
+      "x-y",
+      "Ä",
+      "Ö"
+    ],
+    "expected": [
+      "é",
+      "MiXeD",
+      "x-y",
+      "I",
+      "ß",
+      "Ä",
+      "Ö"
+    ]
+  },
+  {
+    "id": "eval-unique-046",
+    "task": "unique",
+    "input": [
+      -3,
+      4,
+      -4,
+      3,
+      -2,
+      2,
+      2,
+      4,
+      1,
+      -3,
+      3
+    ],
+    "expected": [
+      -3,
+      4,
+      -4,
+      3,
+      -2,
+      2,
+      1
+    ]
+  },
+  {
+    "id": "eval-unique-047",
+    "task": "unique",
+    "input": [
+      -4,
+      -1,
+      -1,
+      3
+    ],
+    "expected": [
+      -4,
+      -1,
+      3
+    ]
+  },
+  {
+    "id": "eval-unique-048",
+    "task": "unique",
+    "input": [
+      "BETA",
+      "12",
+      "x-y",
+      "é",
+      "é",
+      "MiXeD",
+      "MiXeD",
+      "BETA",
+      "é",
+      "Alpha"
+    ],
+    "expected": [
+      "BETA",
+      "12",
+      "x-y",
+      "é",
+      "MiXeD",
+      "Alpha"
+    ]
+  },
+  {
+    "id": "eval-unique-049",
+    "task": "unique",
+    "input": [
+      1,
+      4,
+      4,
+      -2,
+      -1,
+      0,
+      4,
+      3,
+      0,
+      -3
+    ],
+    "expected": [
+      1,
+      4,
+      -2,
+      -1,
+      0,
+      3,
+      -3
+    ]
+  },
+  {
+    "id": "eval-unique-050",
+    "task": "unique",
+    "input": [
+      "I",
+      "MiXeD"
+    ],
+    "expected": [
+      "I",
+      "MiXeD"
+    ]
+  },
+  {
+    "id": "eval-unique-051",
+    "task": "unique",
+    "input": [
+      "Alpha",
+      "I"
+    ],
+    "expected": [
+      "Alpha",
+      "I"
+    ]
+  },
+  {
+    "id": "eval-unique-052",
+    "task": "unique",
+    "input": [
+      "12",
+      "x-y",
+      "Σ",
+      "Alpha",
+      "BETA",
+      "é",
+      "I",
+      "é",
+      "MiXeD",
+      "Alpha",
+      "BETA",
+      "BETA",
+      "Ö",
+      "Σ",
+      "MiXeD",
+      "Ä",
+      "é"
+    ],
+    "expected": [
+      "12",
+      "x-y",
+      "Σ",
+      "Alpha",
+      "BETA",
+      "é",
+      "I",
+      "MiXeD",
+      "Ö",
+      "Ä"
+    ]
+  },
+  {
+    "id": "eval-unique-053",
+    "task": "unique",
+    "input": [
+      -1,
+      -1,
+      -4,
+      0,
+      3,
+      4
+    ],
+    "expected": [
+      -1,
+      -4,
+      0,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "eval-unique-054",
+    "task": "unique",
+    "input": [
+      "x-y",
+      "Ä",
+      "I",
+      "12",
+      "ß",
+      "é"
+    ],
+    "expected": [
+      "x-y",
+      "Ä",
+      "I",
+      "12",
+      "ß",
+      "é"
+    ]
+  },
+  {
+    "id": "eval-unique-055",
+    "task": "unique",
+    "input": [
+      3,
+      2,
+      -3,
+      -3,
+      -3,
+      4,
+      2,
+      3,
+      -1
+    ],
+    "expected": [
+      3,
+      2,
+      -3,
+      4,
+      -1
+    ]
+  },
+  {
+    "id": "eval-unique-056",
+    "task": "unique",
+    "input": [
+      2,
+      4,
+      3,
+      -1,
+      -4,
+      -2,
+      4,
+      -2,
+      -1,
+      3,
+      -2
+    ],
+    "expected": [
+      2,
+      4,
+      3,
+      -1,
+      -4,
+      -2
+    ]
+  },
+  {
+    "id": "eval-unique-057",
+    "task": "unique",
+    "input": [
+      "x-y",
+      "Σ",
+      "12",
+      "I",
+      "Σ",
+      "Ö",
+      "Ö",
+      "MiXeD",
+      "é",
+      "é",
+      "é",
+      "é",
+      "MiXeD",
+      "Σ",
+      "12",
+      "Ä",
+      "Alpha"
+    ],
+    "expected": [
+      "x-y",
+      "Σ",
+      "12",
+      "I",
+      "Ö",
+      "MiXeD",
+      "é",
+      "Ä",
+      "Alpha"
+    ]
+  },
+  {
+    "id": "eval-unique-058",
+    "task": "unique",
+    "input": [
+      -2,
+      1,
+      -4,
+      3,
+      -2,
+      -1,
+      1,
+      -2,
+      3,
+      1
+    ],
+    "expected": [
+      -2,
+      1,
+      -4,
+      3,
+      -1
+    ]
+  },
+  {
+    "id": "eval-unique-059",
+    "task": "unique",
+    "input": [
+      1,
+      -2,
+      4,
+      3,
+      -2,
+      -4,
+      1,
+      -3,
+      -4,
+      0,
+      -4,
+      0,
+      3,
+      -4,
+      3,
+      0,
+      -2
+    ],
+    "expected": [
+      1,
+      -2,
+      4,
+      3,
+      -4,
+      -3,
+      0
+    ]
+  },
+  {
+    "id": "eval-unique-060",
+    "task": "unique",
+    "input": [
+      "x-y",
+      "BETA",
+      "Alpha",
+      "x-y",
+      "Σ",
+      "Ä",
+      "Ä",
+      "12",
+      "Alpha",
+      "é",
+      "Ö",
+      "BETA",
+      "ß",
+      "BETA",
+      "Alpha",
+      "Σ",
+      "Ö"
+    ],
+    "expected": [
+      "x-y",
+      "BETA",
+      "Alpha",
+      "Σ",
+      "Ä",
+      "12",
+      "é",
+      "Ö",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-unique-061",
+    "task": "unique",
+    "input": [
+      "Ä",
+      "Alpha",
+      "é",
+      "12",
+      "é",
+      "12",
+      "ß",
+      "x-y",
+      "12"
+    ],
+    "expected": [
+      "Ä",
+      "Alpha",
+      "é",
+      "12",
+      "ß",
+      "x-y"
+    ]
+  },
+  {
+    "id": "eval-unique-062",
+    "task": "unique",
+    "input": [
+      "Σ",
+      "ß"
+    ],
+    "expected": [
+      "Σ",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-unique-063",
+    "task": "unique",
+    "input": [
+      "x-y"
+    ],
+    "expected": [
+      "x-y"
+    ]
+  },
+  {
+    "id": "eval-unique-064",
+    "task": "unique",
+    "input": [
+      0,
+      -2,
+      4,
+      -2,
+      0,
+      -1,
+      0,
+      -1,
+      -4,
+      4,
+      2,
+      4,
+      -3,
+      3,
+      4,
+      3,
+      -2
+    ],
+    "expected": [
+      0,
+      -2,
+      4,
+      -1,
+      -4,
+      2,
+      -3,
+      3
+    ]
+  },
+  {
+    "id": "eval-unique-065",
+    "task": "unique",
+    "input": [
+      "12",
+      "BETA",
+      "ß",
+      "Alpha",
+      "12"
+    ],
+    "expected": [
+      "12",
+      "BETA",
+      "ß",
+      "Alpha"
+    ]
+  },
+  {
+    "id": "eval-unique-066",
+    "task": "unique",
+    "input": [
+      "Ä",
+      "Ö",
+      "Σ",
+      "x-y",
+      "I",
+      "ß",
+      "Ö",
+      "Σ",
+      "BETA",
+      "ß",
+      "12",
+      "I",
+      "BETA",
+      "MiXeD",
+      "Ä",
+      "I",
+      "é"
+    ],
+    "expected": [
+      "Ä",
+      "Ö",
+      "Σ",
+      "x-y",
+      "I",
+      "ß",
+      "BETA",
+      "12",
+      "MiXeD",
+      "é"
+    ]
+  },
+  {
+    "id": "eval-unique-067",
+    "task": "unique",
+    "input": [
+      "x-y",
+      "é",
+      "Σ",
+      "MiXeD",
+      "Ö",
+      "MiXeD",
+      "BETA",
+      "12",
+      "é",
+      "I"
+    ],
+    "expected": [
+      "x-y",
+      "é",
+      "Σ",
+      "MiXeD",
+      "Ö",
+      "BETA",
+      "12",
+      "I"
+    ]
+  },
+  {
+    "id": "eval-unique-068",
+    "task": "unique",
+    "input": [
+      "12"
+    ],
+    "expected": [
+      "12"
+    ]
+  },
+  {
+    "id": "eval-unique-069",
+    "task": "unique",
+    "input": [
+      "MiXeD",
+      "é",
+      "x-y",
+      "ß",
+      "Ö",
+      "MiXeD",
+      "x-y",
+      "ß",
+      "Alpha",
+      "x-y",
+      "12",
+      "x-y",
+      "é",
+      "é",
+      "12",
+      "I"
+    ],
+    "expected": [
+      "MiXeD",
+      "é",
+      "x-y",
+      "ß",
+      "Ö",
+      "Alpha",
+      "12",
+      "I"
+    ]
+  },
+  {
+    "id": "eval-unique-070",
+    "task": "unique",
+    "input": [
+      4,
+      -1,
+      -2,
+      3
+    ],
+    "expected": [
+      4,
+      -1,
+      -2,
+      3
+    ]
+  },
+  {
+    "id": "eval-unique-071",
+    "task": "unique",
+    "input": [
+      1,
+      2,
+      -1,
+      -4,
+      -3,
+      -2,
+      -2,
+      0,
+      1,
+      -4,
+      -4,
+      3,
+      1,
+      4,
+      0
+    ],
+    "expected": [
+      1,
+      2,
+      -1,
+      -4,
+      -3,
+      -2,
+      0,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "eval-unique-072",
+    "task": "unique",
+    "input": [
+      4,
+      4,
+      -1,
+      1,
+      2,
+      4,
+      -3,
+      -2,
+      -1,
+      -3,
+      -3,
+      -1,
+      -3,
+      -4,
+      1
+    ],
+    "expected": [
+      4,
+      -1,
+      1,
+      2,
+      -3,
+      -2,
+      -4
+    ]
+  },
+  {
+    "id": "eval-unique-073",
+    "task": "unique",
+    "input": [
+      "Ö",
+      "BETA",
+      "BETA",
+      "é",
+      "MiXeD",
+      "Σ",
+      "MiXeD",
+      "Ä",
+      "BETA",
+      "I",
+      "Ä",
+      "I",
+      "Σ",
+      "Alpha",
+      "Σ"
+    ],
+    "expected": [
+      "Ö",
+      "BETA",
+      "é",
+      "MiXeD",
+      "Σ",
+      "Ä",
+      "I",
+      "Alpha"
+    ]
+  },
+  {
+    "id": "eval-unique-074",
+    "task": "unique",
+    "input": [
+      "BETA",
+      "MiXeD",
+      "x-y",
+      "I",
+      "Σ",
+      "Ö",
+      "MiXeD",
+      "12",
+      "I",
+      "Alpha",
+      "ß"
+    ],
+    "expected": [
+      "BETA",
+      "MiXeD",
+      "x-y",
+      "I",
+      "Σ",
+      "Ö",
+      "12",
+      "Alpha",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-unique-075",
+    "task": "unique",
+    "input": [
+      "I",
+      "BETA",
+      "Σ",
+      "é",
+      "é",
+      "12",
+      "é",
+      "MiXeD",
+      "I",
+      "MiXeD",
+      "Σ",
+      "Ö",
+      "ß",
+      "MiXeD",
+      "MiXeD",
+      "é",
+      "é"
+    ],
+    "expected": [
+      "I",
+      "BETA",
+      "Σ",
+      "é",
+      "12",
+      "MiXeD",
+      "Ö",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-unique-076",
+    "task": "unique",
+    "input": [
+      "BETA",
+      "12",
+      "é",
+      "é",
+      "Ö",
+      "I",
+      "MiXeD",
+      "BETA",
+      "Alpha",
+      "Alpha",
+      "Ö",
+      "Ä",
+      "Alpha",
+      "MiXeD",
+      "Alpha",
+      "Ä",
+      "ß",
+      "Ä"
+    ],
+    "expected": [
+      "BETA",
+      "12",
+      "é",
+      "Ö",
+      "I",
+      "MiXeD",
+      "Alpha",
+      "Ä",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-unique-077",
+    "task": "unique",
+    "input": [
+      "é",
+      "Ä",
+      "I",
+      "Ä",
+      "Σ",
+      "Ö",
+      "Ä",
+      "Ö",
+      "ß",
+      "MiXeD",
+      "I"
+    ],
+    "expected": [
+      "é",
+      "Ä",
+      "I",
+      "Σ",
+      "Ö",
+      "ß",
+      "MiXeD"
+    ]
+  },
+  {
+    "id": "eval-unique-078",
+    "task": "unique",
+    "input": [
+      "Ö",
+      "Σ"
+    ],
+    "expected": [
+      "Ö",
+      "Σ"
+    ]
+  },
+  {
+    "id": "eval-unique-079",
+    "task": "unique",
+    "input": [
+      "Σ",
+      "MiXeD"
+    ],
+    "expected": [
+      "Σ",
+      "MiXeD"
+    ]
+  },
+  {
+    "id": "eval-unique-080",
+    "task": "unique",
+    "input": [
+      "x-y",
+      "MiXeD",
+      "Σ",
+      "x-y",
+      "Ö",
+      "12",
+      "I",
+      "Σ",
+      "Alpha"
+    ],
+    "expected": [
+      "x-y",
+      "MiXeD",
+      "Σ",
+      "Ö",
+      "12",
+      "I",
+      "Alpha"
+    ]
+  },
+  {
+    "id": "eval-unique-081",
+    "task": "unique",
+    "input": [
+      2,
+      0,
+      1,
+      -3,
+      3,
+      4,
+      0
+    ],
+    "expected": [
+      2,
+      0,
+      1,
+      -3,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "eval-unique-082",
+    "task": "unique",
+    "input": [
+      "Alpha",
+      "é",
+      "Ö",
+      "x-y",
+      "é",
+      "Ö",
+      "Σ",
+      "Ä",
+      "Ä",
+      "é",
+      "ß",
+      "Ö",
+      "Ä",
+      "Σ",
+      "BETA"
+    ],
+    "expected": [
+      "Alpha",
+      "é",
+      "Ö",
+      "x-y",
+      "Σ",
+      "Ä",
+      "ß",
+      "BETA"
+    ]
+  },
+  {
+    "id": "eval-unique-083",
+    "task": "unique",
+    "input": [
+      "BETA",
+      "é",
+      "Ö",
+      "12",
+      "MiXeD",
+      "Ö",
+      "I",
+      "Σ",
+      "é",
+      "12",
+      "ß",
+      "Ä",
+      "Ä",
+      "x-y",
+      "x-y",
+      "ß"
+    ],
+    "expected": [
+      "BETA",
+      "é",
+      "Ö",
+      "12",
+      "MiXeD",
+      "I",
+      "Σ",
+      "ß",
+      "Ä",
+      "x-y"
+    ]
+  },
+  {
+    "id": "eval-unique-084",
+    "task": "unique",
+    "input": [
+      2,
+      0,
+      4,
+      -4,
+      -4,
+      -1,
+      -3,
+      -2,
+      -3
+    ],
+    "expected": [
+      2,
+      0,
+      4,
+      -4,
+      -1,
+      -3,
+      -2
+    ]
+  },
+  {
+    "id": "eval-unique-085",
+    "task": "unique",
+    "input": [
+      "Alpha",
+      "Σ",
+      "é",
+      "Alpha"
+    ],
+    "expected": [
+      "Alpha",
+      "Σ",
+      "é"
+    ]
+  },
+  {
+    "id": "eval-unique-086",
+    "task": "unique",
+    "input": [
+      -3,
+      4,
+      1,
+      -3,
+      4,
+      4,
+      3,
+      1,
+      2,
+      1,
+      2,
+      1,
+      4,
+      -2
+    ],
+    "expected": [
+      -3,
+      4,
+      1,
+      3,
+      2,
+      -2
+    ]
+  },
+  {
+    "id": "eval-unique-087",
+    "task": "unique",
+    "input": [
+      -3,
+      3,
+      1,
+      0,
+      0,
+      0,
+      4,
+      -2,
+      0,
+      3,
+      -2,
+      2,
+      -4
+    ],
+    "expected": [
+      -3,
+      3,
+      1,
+      0,
+      4,
+      -2,
+      2,
+      -4
+    ]
+  },
+  {
+    "id": "eval-unique-088",
+    "task": "unique",
+    "input": [
+      1,
+      4,
+      0
+    ],
+    "expected": [
+      1,
+      4,
+      0
+    ]
+  },
+  {
+    "id": "eval-unique-089",
+    "task": "unique",
+    "input": [
+      -2,
+      4
+    ],
+    "expected": [
+      -2,
+      4
+    ]
+  },
+  {
+    "id": "eval-unique-090",
+    "task": "unique",
+    "input": [
+      -4
+    ],
+    "expected": [
+      -4
+    ]
+  },
+  {
+    "id": "eval-unique-091",
+    "task": "unique",
+    "input": [
+      1,
+      3,
+      4,
+      -3,
+      -4,
+      -1,
+      -4,
+      3,
+      -2,
+      3,
+      -1,
+      -3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "expected": [
+      1,
+      3,
+      4,
+      -3,
+      -4,
+      -1,
+      -2
+    ]
+  },
+  {
+    "id": "eval-unique-092",
+    "task": "unique",
+    "input": [
+      "MiXeD",
+      "12",
+      "12",
+      "MiXeD",
+      "Ä",
+      "BETA",
+      "x-y",
+      "Ö",
+      "BETA",
+      "Ä",
+      "BETA",
+      "Ä",
+      "BETA",
+      "Ö",
+      "ß"
+    ],
+    "expected": [
+      "MiXeD",
+      "12",
+      "Ä",
+      "BETA",
+      "x-y",
+      "Ö",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-unique-093",
+    "task": "unique",
+    "input": [
+      -1,
+      0,
+      -1,
+      1,
+      -1,
+      1,
+      0,
+      -3,
+      -2
+    ],
+    "expected": [
+      -1,
+      0,
+      1,
+      -3,
+      -2
+    ]
+  },
+  {
+    "id": "eval-unique-094",
+    "task": "unique",
+    "input": [
+      -2,
+      0,
+      -3,
+      3,
+      4,
+      3,
+      1,
+      1,
+      -2,
+      -1,
+      3,
+      -1,
+      2,
+      -2,
+      4,
+      0,
+      -1
+    ],
+    "expected": [
+      -2,
+      0,
+      -3,
+      3,
+      4,
+      1,
+      -1,
+      2
+    ]
+  },
+  {
+    "id": "eval-unique-095",
+    "task": "unique",
+    "input": [
+      "Σ"
+    ],
+    "expected": [
+      "Σ"
+    ]
+  },
+  {
+    "id": "eval-unique-096",
+    "task": "unique",
+    "input": [
+      1,
+      -3,
+      -1,
+      -2,
+      4
+    ],
+    "expected": [
+      1,
+      -3,
+      -1,
+      -2,
+      4
+    ]
+  },
+  {
+    "id": "eval-unique-097",
+    "task": "unique",
+    "input": [
+      "BETA",
+      "12",
+      "x-y",
+      "12",
+      "BETA",
+      "x-y",
+      "ß",
+      "12"
+    ],
+    "expected": [
+      "BETA",
+      "12",
+      "x-y",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-unique-098",
+    "task": "unique",
+    "input": [
+      "12",
+      "BETA",
+      "12",
+      "MiXeD",
+      "BETA",
+      "é",
+      "Σ",
+      "Σ",
+      "x-y",
+      "BETA",
+      "BETA",
+      "Ö",
+      "Σ",
+      "é",
+      "I",
+      "Ä",
+      "ß"
+    ],
+    "expected": [
+      "12",
+      "BETA",
+      "MiXeD",
+      "é",
+      "Σ",
+      "x-y",
+      "Ö",
+      "I",
+      "Ä",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-unique-099",
+    "task": "unique",
+    "input": [
+      "Σ",
+      "é",
+      "MiXeD",
+      "BETA",
+      "MiXeD",
+      "Σ",
+      "é",
+      "BETA",
+      "x-y",
+      "Σ",
+      "Ä",
+      "MiXeD",
+      "Σ",
+      "x-y",
+      "ß"
+    ],
+    "expected": [
+      "Σ",
+      "é",
+      "MiXeD",
+      "BETA",
+      "x-y",
+      "Ä",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-unique-100",
+    "task": "unique",
+    "input": [
+      3,
+      -1,
+      -2,
+      -3,
+      -4,
+      -1,
+      -3,
+      -1,
+      3,
+      1
+    ],
+    "expected": [
+      3,
+      -1,
+      -2,
+      -3,
+      -4,
+      1
+    ]
+  },
+  {
+    "id": "eval-unique-101",
+    "task": "unique",
+    "input": [
+      4,
+      -2,
+      0,
+      0,
+      2,
+      -2,
+      -4,
+      1
+    ],
+    "expected": [
+      4,
+      -2,
+      0,
+      2,
+      -4,
+      1
+    ]
+  },
+  {
+    "id": "eval-unique-102",
+    "task": "unique",
+    "input": [
+      -2,
+      0,
+      2,
+      -4,
+      -1,
+      -4,
+      -3,
+      -1,
+      1,
+      0
+    ],
+    "expected": [
+      -2,
+      0,
+      2,
+      -4,
+      -1,
+      -3,
+      1
+    ]
+  },
+  {
+    "id": "eval-unique-103",
+    "task": "unique",
+    "input": [
+      "12",
+      "Ä",
+      "Alpha",
+      "Ä",
+      "BETA",
+      "Ö",
+      "é",
+      "x-y",
+      "I",
+      "Alpha",
+      "é"
+    ],
+    "expected": [
+      "12",
+      "Ä",
+      "Alpha",
+      "BETA",
+      "Ö",
+      "é",
+      "x-y",
+      "I"
+    ]
+  },
+  {
+    "id": "eval-unique-104",
+    "task": "unique",
+    "input": [
+      -3,
+      -1,
+      3,
+      1,
+      4,
+      -4,
+      4,
+      1,
+      0,
+      -2,
+      -2,
+      3,
+      4,
+      3,
+      -2,
+      3,
+      3
+    ],
+    "expected": [
+      -3,
+      -1,
+      3,
+      1,
+      4,
+      -4,
+      0,
+      -2
+    ]
+  },
+  {
+    "id": "eval-unique-105",
+    "task": "unique",
+    "input": [
+      -3,
+      1,
+      -3,
+      -1,
+      3,
+      3,
+      -2,
+      -2,
+      -3,
+      2
+    ],
+    "expected": [
+      -3,
+      1,
+      -1,
+      3,
+      -2,
+      2
+    ]
+  },
+  {
+    "id": "eval-unique-106",
+    "task": "unique",
+    "input": [
+      -1,
+      1,
+      4,
+      0,
+      2,
+      1,
+      -3,
+      3,
+      0
+    ],
+    "expected": [
+      -1,
+      1,
+      4,
+      0,
+      2,
+      -3,
+      3
+    ]
+  },
+  {
+    "id": "eval-unique-107",
+    "task": "unique",
+    "input": [
+      3,
+      -3,
+      3,
+      4,
+      0,
+      -2,
+      -4,
+      3,
+      -3,
+      4,
+      -1,
+      -1,
+      -1
+    ],
+    "expected": [
+      3,
+      -3,
+      4,
+      0,
+      -2,
+      -4,
+      -1
+    ]
+  },
+  {
+    "id": "eval-unique-108",
+    "task": "unique",
+    "input": [
+      3,
+      -2,
+      -4,
+      0,
+      -1,
+      -1,
+      1,
+      0,
+      4,
+      -3
+    ],
+    "expected": [
+      3,
+      -2,
+      -4,
+      0,
+      -1,
+      1,
+      4,
+      -3
+    ]
+  },
+  {
+    "id": "eval-unique-109",
+    "task": "unique",
+    "input": [
+      "Σ",
+      "12",
+      "ß",
+      "Alpha"
+    ],
+    "expected": [
+      "Σ",
+      "12",
+      "ß",
+      "Alpha"
+    ]
+  },
+  {
+    "id": "eval-unique-110",
+    "task": "unique",
+    "input": [
+      "BETA",
+      "Ö",
+      "Ä",
+      "é",
+      "Ö",
+      "Ö",
+      "Ä",
+      "Ä",
+      "é"
+    ],
+    "expected": [
+      "BETA",
+      "Ö",
+      "Ä",
+      "é"
+    ]
+  },
+  {
+    "id": "eval-unique-111",
+    "task": "unique",
+    "input": [
+      3,
+      0,
+      -3,
+      2,
+      4,
+      4,
+      -1
+    ],
+    "expected": [
+      3,
+      0,
+      -3,
+      2,
+      4,
+      -1
+    ]
+  },
+  {
+    "id": "eval-unique-112",
+    "task": "unique",
+    "input": [
+      "Ä",
+      "12",
+      "I",
+      "Ä",
+      "Σ",
+      "x-y",
+      "é",
+      "Ö",
+      "x-y",
+      "I",
+      "Σ",
+      "Σ",
+      "I"
+    ],
+    "expected": [
+      "Ä",
+      "12",
+      "I",
+      "Σ",
+      "x-y",
+      "é",
+      "Ö"
+    ]
+  },
+  {
+    "id": "eval-unique-113",
+    "task": "unique",
+    "input": [
+      1,
+      4,
+      4,
+      -4,
+      -4,
+      -4,
+      -1,
+      4,
+      -4,
+      1
+    ],
+    "expected": [
+      1,
+      4,
+      -4,
+      -1
+    ]
+  },
+  {
+    "id": "eval-unique-114",
+    "task": "unique",
+    "input": [
+      "BETA",
+      "é",
+      "ß"
+    ],
+    "expected": [
+      "BETA",
+      "é",
+      "ß"
+    ]
+  },
+  {
+    "id": "eval-unique-115",
+    "task": "unique",
+    "input": [
+      2,
+      2,
+      2,
+      1,
+      4,
+      3,
+      3,
+      -4
+    ],
+    "expected": [
+      2,
+      1,
+      4,
+      3,
+      -4
+    ]
+  },
+  {
+    "id": "eval-unique-116",
+    "task": "unique",
+    "input": [
+      -4,
+      -2,
+      -1,
+      -2,
+      -2,
+      2,
+      -3,
+      -2,
+      -1,
+      -1,
+      2,
+      3,
+      3,
+      -1,
+      -3
+    ],
+    "expected": [
+      -4,
+      -2,
+      -1,
+      2,
+      -3,
+      3
+    ]
+  },
+  {
+    "id": "eval-unique-117",
+    "task": "unique",
+    "input": [
+      -3,
+      -4
+    ],
+    "expected": [
+      -3,
+      -4
+    ]
+  },
+  {
+    "id": "eval-unique-118",
+    "task": "unique",
+    "input": [
+      "ß",
+      "é",
+      "Alpha",
+      "Σ",
+      "x-y",
+      "BETA",
+      "é",
+      "I",
+      "MiXeD",
+      "é",
+      "Ö",
+      "Ä",
+      "BETA"
+    ],
+    "expected": [
+      "ß",
+      "é",
+      "Alpha",
+      "Σ",
+      "x-y",
+      "BETA",
+      "I",
+      "MiXeD",
+      "Ö",
+      "Ä"
+    ]
+  },
+  {
+    "id": "eval-unique-119",
+    "task": "unique",
+    "input": [
+      "Σ",
+      "ß",
+      "Ö",
+      "MiXeD",
+      "ß",
+      "Ö",
+      "BETA",
+      "Alpha",
+      "Σ",
+      "Ä",
+      "I",
+      "Ö",
+      "MiXeD",
+      "é",
+      "12",
+      "ß",
+      "é"
+    ],
+    "expected": [
+      "Σ",
+      "ß",
+      "Ö",
+      "MiXeD",
+      "BETA",
+      "Alpha",
+      "Ä",
+      "I",
+      "é",
+      "12"
+    ]
+  },
+  {
+    "id": "eval-merge-000",
+    "task": "merge",
+    "input": [
+      [
+        -5,
+        6
+      ],
+      [
+        -6,
+        2
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        -7,
+        -6
+      ],
+      [
+        -12,
+        -3
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        -13,
+        12
+      ],
+      [
+        2,
+        13
+      ]
+    ],
+    "expected": [
+      [
+        -13,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-001",
+    "task": "merge",
+    "input": [
+      [
+        5,
+        10
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        13
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        7,
+        15
+      ]
+    ],
+    "expected": [
+      [
+        0,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-002",
+    "task": "merge",
+    "input": [
+      [
+        -14,
+        -5
+      ],
+      [
+        -12,
+        7
+      ],
+      [
+        -10,
+        15
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-003",
+    "task": "merge",
+    "input": [
+      [
+        -14,
+        13
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        -6,
+        15
+      ],
+      [
+        -7,
+        12
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-004",
+    "task": "merge",
+    "input": [
+      [
+        -12,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        -12,
+        14
+      ],
+      [
+        -4,
+        7
+      ],
+      [
+        -12,
+        -11
+      ],
+      [
+        -3,
+        12
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        -14,
+        8
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-005",
+    "task": "merge",
+    "input": [
+      [
+        -12,
+        4
+      ],
+      [
+        -13,
+        9
+      ],
+      [
+        -11,
+        -5
+      ],
+      [
+        -13,
+        4
+      ],
+      [
+        -15,
+        -6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        -12,
+        4
+      ],
+      [
+        -9,
+        2
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        9
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-006",
+    "task": "merge",
+    "input": [
+      [
+        2,
+        5
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        -6,
+        -6
+      ],
+      [
+        -4,
+        1
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        -15,
+        -1
+      ],
+      [
+        -9,
+        -9
+      ],
+      [
+        -14,
+        -10
+      ],
+      [
+        -13,
+        14
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-007",
+    "task": "merge",
+    "input": [
+      [
+        -5,
+        3
+      ]
+    ],
+    "expected": [
+      [
+        -5,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-008",
+    "task": "merge",
+    "input": [
+      [
+        -6,
+        1
+      ],
+      [
+        -2,
+        3
+      ],
+      [
+        -10,
+        12
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        -7,
+        15
+      ],
+      [
+        -9,
+        0
+      ]
+    ],
+    "expected": [
+      [
+        -10,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-009",
+    "task": "merge",
+    "input": [
+      [
+        -1,
+        1
+      ],
+      [
+        -10,
+        -9
+      ]
+    ],
+    "expected": [
+      [
+        -10,
+        -9
+      ],
+      [
+        -1,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-010",
+    "task": "merge",
+    "input": [
+      [
+        -11,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        -15,
+        -6
+      ],
+      [
+        -5,
+        4
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        -7,
+        4
+      ],
+      [
+        -6,
+        5
+      ],
+      [
+        -4,
+        15
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-011",
+    "task": "merge",
+    "input": [
+      [
+        -10,
+        11
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "expected": [
+      [
+        -10,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-012",
+    "task": "merge",
+    "input": [
+      [
+        -10,
+        10
+      ],
+      [
+        -8,
+        -6
+      ],
+      [
+        -10,
+        15
+      ],
+      [
+        -14,
+        4
+      ],
+      [
+        -10,
+        12
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        -8,
+        -4
+      ],
+      [
+        -13,
+        -5
+      ],
+      [
+        -11,
+        2
+      ],
+      [
+        -10,
+        15
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-013",
+    "task": "merge",
+    "input": [
+      [
+        -14,
+        -14
+      ],
+      [
+        -12,
+        12
+      ],
+      [
+        -12,
+        15
+      ],
+      [
+        -3,
+        4
+      ],
+      [
+        -13,
+        -1
+      ],
+      [
+        -11,
+        -5
+      ],
+      [
+        -3,
+        9
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        -6,
+        11
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        -3,
+        -1
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        -14
+      ],
+      [
+        -13,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-014",
+    "task": "merge",
+    "input": [
+      [
+        10,
+        10
+      ],
+      [
+        -13,
+        -7
+      ],
+      [
+        -11,
+        11
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        -15,
+        -7
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        -1,
+        14
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-015",
+    "task": "merge",
+    "input": [
+      [
+        -5,
+        10
+      ],
+      [
+        -11,
+        -2
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        -14,
+        -2
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        10
+      ],
+      [
+        11,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-016",
+    "task": "merge",
+    "input": [],
+    "expected": []
+  },
+  {
+    "id": "eval-merge-017",
+    "task": "merge",
+    "input": [
+      [
+        -7,
+        -3
+      ],
+      [
+        -13,
+        -10
+      ],
+      [
+        -10,
+        3
+      ],
+      [
+        -8,
+        -2
+      ],
+      [
+        -1,
+        0
+      ]
+    ],
+    "expected": [
+      [
+        -13,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-018",
+    "task": "merge",
+    "input": [
+      [
+        -5,
+        -3
+      ],
+      [
+        -3,
+        8
+      ],
+      [
+        -1,
+        3
+      ],
+      [
+        -10,
+        13
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        -14,
+        -14
+      ],
+      [
+        -8,
+        -3
+      ],
+      [
+        -11,
+        2
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        -14
+      ],
+      [
+        -11,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-019",
+    "task": "merge",
+    "input": [
+      [
+        -14,
+        7
+      ],
+      [
+        -5,
+        10
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        -15,
+        -10
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        -8,
+        15
+      ],
+      [
+        -9,
+        -5
+      ],
+      [
+        -4,
+        -4
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        -14,
+        6
+      ],
+      [
+        -10,
+        6
+      ],
+      [
+        6,
+        14
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-020",
+    "task": "merge",
+    "input": [
+      [
+        -14,
+        -2
+      ],
+      [
+        -12,
+        -2
+      ],
+      [
+        -5,
+        0
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        -3,
+        -2
+      ],
+      [
+        -11,
+        12
+      ],
+      [
+        -12,
+        -6
+      ],
+      [
+        -11,
+        5
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-021",
+    "task": "merge",
+    "input": [
+      [
+        -12,
+        3
+      ],
+      [
+        -6,
+        2
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        -7,
+        5
+      ],
+      [
+        -14,
+        -4
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        -14,
+        7
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-022",
+    "task": "merge",
+    "input": [
+      [
+        0,
+        14
+      ],
+      [
+        -14,
+        -9
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        -9,
+        -7
+      ],
+      [
+        -14,
+        -4
+      ],
+      [
+        -10,
+        2
+      ],
+      [
+        -4,
+        1
+      ],
+      [
+        -3,
+        13
+      ],
+      [
+        -7,
+        -7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        -3,
+        6
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-023",
+    "task": "merge",
+    "input": [
+      [
+        -9,
+        -5
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        -8,
+        11
+      ],
+      [
+        -7,
+        11
+      ],
+      [
+        -11,
+        -6
+      ]
+    ],
+    "expected": [
+      [
+        -11,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-024",
+    "task": "merge",
+    "input": [
+      [
+        0,
+        4
+      ],
+      [
+        -13,
+        5
+      ],
+      [
+        -12,
+        11
+      ],
+      [
+        -7,
+        12
+      ]
+    ],
+    "expected": [
+      [
+        -13,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-025",
+    "task": "merge",
+    "input": [
+      [
+        -12,
+        -2
+      ],
+      [
+        -7,
+        11
+      ],
+      [
+        -2,
+        6
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        -13,
+        -6
+      ],
+      [
+        7,
+        13
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        -14,
+        1
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-026",
+    "task": "merge",
+    "input": [],
+    "expected": []
+  },
+  {
+    "id": "eval-merge-027",
+    "task": "merge",
+    "input": [
+      [
+        3,
+        3
+      ]
+    ],
+    "expected": [
+      [
+        3,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-028",
+    "task": "merge",
+    "input": [
+      [
+        -4,
+        8
+      ],
+      [
+        -15,
+        1
+      ],
+      [
+        -2,
+        5
+      ],
+      [
+        8,
+        15
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-029",
+    "task": "merge",
+    "input": [
+      [
+        5,
+        8
+      ],
+      [
+        -9,
+        8
+      ],
+      [
+        -5,
+        6
+      ]
+    ],
+    "expected": [
+      [
+        -9,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-030",
+    "task": "merge",
+    "input": [
+      [
+        4,
+        11
+      ],
+      [
+        -12,
+        8
+      ],
+      [
+        -7,
+        -1
+      ],
+      [
+        -13,
+        14
+      ],
+      [
+        -9,
+        -4
+      ],
+      [
+        -4,
+        -4
+      ],
+      [
+        -5,
+        12
+      ],
+      [
+        -1,
+        3
+      ],
+      [
+        -10,
+        -1
+      ]
+    ],
+    "expected": [
+      [
+        -13,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-031",
+    "task": "merge",
+    "input": [
+      [
+        -10,
+        12
+      ]
+    ],
+    "expected": [
+      [
+        -10,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-032",
+    "task": "merge",
+    "input": [
+      [
+        -9,
+        -8
+      ],
+      [
+        -3,
+        6
+      ],
+      [
+        -11,
+        13
+      ],
+      [
+        -15,
+        11
+      ],
+      [
+        3,
+        12
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-033",
+    "task": "merge",
+    "input": [
+      [
+        -12,
+        -11
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        4,
+        8
+      ]
+    ],
+    "expected": [
+      [
+        -12,
+        -11
+      ],
+      [
+        4,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-034",
+    "task": "merge",
+    "input": [
+      [
+        -13,
+        -5
+      ],
+      [
+        -15,
+        -4
+      ],
+      [
+        -14,
+        0
+      ],
+      [
+        9,
+        13
+      ],
+      [
+        -4,
+        -1
+      ],
+      [
+        -15,
+        6
+      ],
+      [
+        -12,
+        6
+      ],
+      [
+        -14,
+        -5
+      ],
+      [
+        -7,
+        0
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        6
+      ],
+      [
+        9,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-035",
+    "task": "merge",
+    "input": [
+      [
+        -3,
+        10
+      ],
+      [
+        -7,
+        0
+      ],
+      [
+        -5,
+        -4
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        -6,
+        13
+      ],
+      [
+        8,
+        12
+      ]
+    ],
+    "expected": [
+      [
+        -7,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-036",
+    "task": "merge",
+    "input": [
+      [
+        -6,
+        2
+      ],
+      [
+        -6,
+        -4
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        -5,
+        9
+      ],
+      [
+        -13,
+        2
+      ],
+      [
+        -10,
+        -10
+      ],
+      [
+        -6,
+        6
+      ],
+      [
+        -4,
+        2
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        -1,
+        14
+      ]
+    ],
+    "expected": [
+      [
+        -13,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-037",
+    "task": "merge",
+    "input": [
+      [
+        8,
+        9
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        -2,
+        2
+      ]
+    ],
+    "expected": [
+      [
+        -2,
+        2
+      ],
+      [
+        4,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-038",
+    "task": "merge",
+    "input": [
+      [
+        5,
+        13
+      ],
+      [
+        -15,
+        5
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        -3,
+        2
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-039",
+    "task": "merge",
+    "input": [
+      [
+        -10,
+        -3
+      ],
+      [
+        -14,
+        -8
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        -3
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-040",
+    "task": "merge",
+    "input": [
+      [
+        10,
+        13
+      ],
+      [
+        -4,
+        10
+      ],
+      [
+        -7,
+        9
+      ],
+      [
+        -10,
+        -10
+      ],
+      [
+        -13,
+        -8
+      ]
+    ],
+    "expected": [
+      [
+        -13,
+        -8
+      ],
+      [
+        -7,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-041",
+    "task": "merge",
+    "input": [],
+    "expected": []
+  },
+  {
+    "id": "eval-merge-042",
+    "task": "merge",
+    "input": [
+      [
+        8,
+        15
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        -9,
+        13
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        -14,
+        -4
+      ],
+      [
+        -7,
+        8
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        -15,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        -2,
+        11
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-043",
+    "task": "merge",
+    "input": [
+      [
+        5,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        -13,
+        12
+      ],
+      [
+        -6,
+        -1
+      ],
+      [
+        -1,
+        14
+      ],
+      [
+        -15,
+        10
+      ],
+      [
+        -8,
+        -6
+      ],
+      [
+        -11,
+        2
+      ],
+      [
+        -5,
+        -4
+      ],
+      [
+        -11,
+        15
+      ],
+      [
+        2,
+        6
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-044",
+    "task": "merge",
+    "input": [
+      [
+        -4,
+        2
+      ],
+      [
+        -8,
+        5
+      ],
+      [
+        -1,
+        8
+      ],
+      [
+        -5,
+        2
+      ],
+      [
+        10,
+        10
+      ],
+      [
+        -3,
+        13
+      ],
+      [
+        -14,
+        -9
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        -8,
+        -3
+      ],
+      [
+        -7,
+        15
+      ],
+      [
+        -4,
+        -2
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        -9
+      ],
+      [
+        -8,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-045",
+    "task": "merge",
+    "input": [
+      [
+        -2,
+        10
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        -12,
+        3
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        -12,
+        -1
+      ],
+      [
+        -7,
+        10
+      ],
+      [
+        -14,
+        15
+      ],
+      [
+        -14,
+        -11
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        10
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-046",
+    "task": "merge",
+    "input": [
+      [
+        0,
+        10
+      ],
+      [
+        -4,
+        -2
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        -1,
+        14
+      ],
+      [
+        -15,
+        -1
+      ],
+      [
+        -12,
+        3
+      ],
+      [
+        -9,
+        14
+      ],
+      [
+        -14,
+        13
+      ],
+      [
+        2,
+        12
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-047",
+    "task": "merge",
+    "input": [
+      [
+        -8,
+        4
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        -2,
+        5
+      ],
+      [
+        -1,
+        5
+      ],
+      [
+        -8,
+        0
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        -7,
+        -4
+      ]
+    ],
+    "expected": [
+      [
+        -8,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-048",
+    "task": "merge",
+    "input": [
+      [
+        -6,
+        -1
+      ],
+      [
+        -10,
+        -3
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        -14,
+        -3
+      ],
+      [
+        -13,
+        15
+      ],
+      [
+        -13,
+        2
+      ],
+      [
+        -9,
+        -5
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-049",
+    "task": "merge",
+    "input": [
+      [
+        -11,
+        10
+      ]
+    ],
+    "expected": [
+      [
+        -11,
+        10
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-050",
+    "task": "merge",
+    "input": [
+      [
+        -1,
+        7
+      ],
+      [
+        -12,
+        -7
+      ]
+    ],
+    "expected": [
+      [
+        -12,
+        -7
+      ],
+      [
+        -1,
+        7
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-051",
+    "task": "merge",
+    "input": [
+      [
+        -4,
+        4
+      ],
+      [
+        -3,
+        1
+      ],
+      [
+        8,
+        10
+      ]
+    ],
+    "expected": [
+      [
+        -4,
+        4
+      ],
+      [
+        8,
+        10
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-052",
+    "task": "merge",
+    "input": [
+      [
+        -8,
+        -7
+      ],
+      [
+        -11,
+        -3
+      ],
+      [
+        0,
+        15
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        -11,
+        14
+      ],
+      [
+        -4,
+        -2
+      ],
+      [
+        -1,
+        4
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        -12,
+        10
+      ]
+    ],
+    "expected": [
+      [
+        -12,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-053",
+    "task": "merge",
+    "input": [
+      [
+        -10,
+        -5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        -6,
+        4
+      ],
+      [
+        -10,
+        3
+      ],
+      [
+        -10,
+        13
+      ]
+    ],
+    "expected": [
+      [
+        -10,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-054",
+    "task": "merge",
+    "input": [
+      [
+        2,
+        4
+      ],
+      [
+        -15,
+        -2
+      ],
+      [
+        -15,
+        -9
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        -11,
+        5
+      ],
+      [
+        2,
+        15
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-055",
+    "task": "merge",
+    "input": [
+      [
+        -8,
+        12
+      ],
+      [
+        -10,
+        5
+      ],
+      [
+        0,
+        13
+      ],
+      [
+        4,
+        14
+      ]
+    ],
+    "expected": [
+      [
+        -10,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-056",
+    "task": "merge",
+    "input": [
+      [
+        13,
+        14
+      ],
+      [
+        -8,
+        7
+      ],
+      [
+        -8,
+        -6
+      ],
+      [
+        -7,
+        9
+      ],
+      [
+        -11,
+        -8
+      ]
+    ],
+    "expected": [
+      [
+        -11,
+        9
+      ],
+      [
+        13,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-057",
+    "task": "merge",
+    "input": [
+      [
+        -13,
+        -10
+      ],
+      [
+        -11,
+        10
+      ],
+      [
+        -3,
+        2
+      ],
+      [
+        -8,
+        6
+      ],
+      [
+        -13,
+        6
+      ],
+      [
+        -12,
+        6
+      ],
+      [
+        -5,
+        10
+      ],
+      [
+        -13,
+        -8
+      ]
+    ],
+    "expected": [
+      [
+        -13,
+        10
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-058",
+    "task": "merge",
+    "input": [
+      [
+        -14,
+        -7
+      ],
+      [
+        -6,
+        11
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        -15,
+        0
+      ],
+      [
+        -10,
+        -1
+      ],
+      [
+        -13,
+        8
+      ],
+      [
+        -3,
+        0
+      ],
+      [
+        -13,
+        11
+      ],
+      [
+        -7,
+        -5
+      ],
+      [
+        -3,
+        14
+      ],
+      [
+        -9,
+        -3
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-059",
+    "task": "merge",
+    "input": [],
+    "expected": []
+  },
+  {
+    "id": "eval-merge-060",
+    "task": "merge",
+    "input": [
+      [
+        -14,
+        10
+      ],
+      [
+        -7,
+        15
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-061",
+    "task": "merge",
+    "input": [
+      [
+        4,
+        5
+      ],
+      [
+        -14,
+        7
+      ],
+      [
+        -12,
+        -6
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        -2,
+        15
+      ],
+      [
+        -14,
+        13
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-062",
+    "task": "merge",
+    "input": [
+      [
+        -12,
+        -10
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        -9,
+        0
+      ],
+      [
+        -8,
+        9
+      ],
+      [
+        -10,
+        -8
+      ]
+    ],
+    "expected": [
+      [
+        -12,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-063",
+    "task": "merge",
+    "input": [
+      [
+        -3,
+        13
+      ],
+      [
+        -9,
+        10
+      ],
+      [
+        -13,
+        8
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        -15,
+        4
+      ],
+      [
+        -11,
+        9
+      ],
+      [
+        -11,
+        6
+      ],
+      [
+        -3,
+        13
+      ],
+      [
+        -12,
+        -9
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-064",
+    "task": "merge",
+    "input": [
+      [
+        -4,
+        -1
+      ],
+      [
+        -4,
+        4
+      ],
+      [
+        -8,
+        1
+      ],
+      [
+        -15,
+        -15
+      ],
+      [
+        -15,
+        11
+      ],
+      [
+        -7,
+        8
+      ],
+      [
+        -2,
+        -1
+      ],
+      [
+        -15,
+        0
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        -5,
+        0
+      ],
+      [
+        -15,
+        -8
+      ],
+      [
+        -15,
+        -7
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-065",
+    "task": "merge",
+    "input": [
+      [
+        -2,
+        13
+      ],
+      [
+        -5,
+        3
+      ],
+      [
+        -1,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        -11,
+        14
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        -1,
+        3
+      ],
+      [
+        -10,
+        -2
+      ],
+      [
+        -6,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "expected": [
+      [
+        -11,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-066",
+    "task": "merge",
+    "input": [
+      [
+        -12,
+        -4
+      ]
+    ],
+    "expected": [
+      [
+        -12,
+        -4
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-067",
+    "task": "merge",
+    "input": [],
+    "expected": []
+  },
+  {
+    "id": "eval-merge-068",
+    "task": "merge",
+    "input": [
+      [
+        -12,
+        -11
+      ],
+      [
+        -5,
+        4
+      ],
+      [
+        -6,
+        -5
+      ],
+      [
+        -2,
+        4
+      ],
+      [
+        -11,
+        0
+      ],
+      [
+        0,
+        13
+      ]
+    ],
+    "expected": [
+      [
+        -12,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-069",
+    "task": "merge",
+    "input": [
+      [
+        -13,
+        0
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        -13,
+        3
+      ],
+      [
+        -15,
+        2
+      ],
+      [
+        -5,
+        9
+      ],
+      [
+        -14,
+        -6
+      ],
+      [
+        -15,
+        -15
+      ],
+      [
+        -11,
+        3
+      ],
+      [
+        -3,
+        -2
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        9
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-070",
+    "task": "merge",
+    "input": [
+      [
+        0,
+        3
+      ],
+      [
+        -13,
+        2
+      ],
+      [
+        -14,
+        -12
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        -12,
+        15
+      ],
+      [
+        -11,
+        -8
+      ],
+      [
+        -15,
+        -2
+      ],
+      [
+        -11,
+        -6
+      ],
+      [
+        -2,
+        7
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-071",
+    "task": "merge",
+    "input": [
+      [
+        -5,
+        5
+      ],
+      [
+        -13,
+        3
+      ],
+      [
+        -2,
+        4
+      ],
+      [
+        -5,
+        4
+      ],
+      [
+        -12,
+        13
+      ],
+      [
+        -11,
+        -7
+      ],
+      [
+        -9,
+        -6
+      ],
+      [
+        -12,
+        -6
+      ],
+      [
+        -9,
+        -5
+      ],
+      [
+        -14,
+        -10
+      ],
+      [
+        -12,
+        -3
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-072",
+    "task": "merge",
+    "input": [
+      [
+        -7,
+        13
+      ],
+      [
+        -15,
+        2
+      ],
+      [
+        -14,
+        -9
+      ],
+      [
+        -10,
+        1
+      ],
+      [
+        -8,
+        7
+      ],
+      [
+        -3,
+        3
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        -6,
+        -4
+      ],
+      [
+        2,
+        12
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-073",
+    "task": "merge",
+    "input": [],
+    "expected": []
+  },
+  {
+    "id": "eval-merge-074",
+    "task": "merge",
+    "input": [
+      [
+        1,
+        2
+      ],
+      [
+        -11,
+        12
+      ],
+      [
+        -6,
+        7
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        7,
+        13
+      ]
+    ],
+    "expected": [
+      [
+        -11,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-075",
+    "task": "merge",
+    "input": [
+      [
+        5,
+        14
+      ],
+      [
+        -4,
+        10
+      ],
+      [
+        -4,
+        8
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        -13,
+        12
+      ],
+      [
+        -2,
+        10
+      ],
+      [
+        -10,
+        12
+      ],
+      [
+        -2,
+        4
+      ],
+      [
+        -12,
+        -2
+      ]
+    ],
+    "expected": [
+      [
+        -13,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-076",
+    "task": "merge",
+    "input": [
+      [
+        -8,
+        2
+      ],
+      [
+        -9,
+        9
+      ]
+    ],
+    "expected": [
+      [
+        -9,
+        9
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-077",
+    "task": "merge",
+    "input": [
+      [
+        -10,
+        0
+      ],
+      [
+        -13,
+        6
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        -12,
+        -5
+      ],
+      [
+        11,
+        14
+      ]
+    ],
+    "expected": [
+      [
+        -13,
+        8
+      ],
+      [
+        11,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-078",
+    "task": "merge",
+    "input": [
+      [
+        -15,
+        0
+      ],
+      [
+        -8,
+        -6
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        -10,
+        9
+      ],
+      [
+        -7,
+        1
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-079",
+    "task": "merge",
+    "input": [
+      [
+        -3,
+        9
+      ],
+      [
+        -3,
+        10
+      ],
+      [
+        -13,
+        0
+      ],
+      [
+        -12,
+        8
+      ],
+      [
+        -9,
+        3
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        -12,
+        -4
+      ],
+      [
+        -9,
+        13
+      ],
+      [
+        -14,
+        12
+      ],
+      [
+        -4,
+        11
+      ],
+      [
+        6,
+        15
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-080",
+    "task": "merge",
+    "input": [
+      [
+        -12,
+        9
+      ],
+      [
+        -13,
+        11
+      ],
+      [
+        -15,
+        -4
+      ],
+      [
+        -2,
+        4
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        -15,
+        10
+      ],
+      [
+        -8,
+        -2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        -6,
+        0
+      ],
+      [
+        -5,
+        2
+      ],
+      [
+        -11,
+        -3
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-081",
+    "task": "merge",
+    "input": [
+      [
+        -8,
+        -1
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        -14,
+        -10
+      ],
+      [
+        -15,
+        -2
+      ],
+      [
+        -4,
+        12
+      ],
+      [
+        -15,
+        -11
+      ],
+      [
+        -10,
+        -7
+      ],
+      [
+        -11,
+        4
+      ],
+      [
+        -11,
+        -2
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        -9,
+        7
+      ],
+      [
+        5,
+        12
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-082",
+    "task": "merge",
+    "input": [
+      [
+        -12,
+        8
+      ],
+      [
+        -12,
+        -10
+      ],
+      [
+        -14,
+        0
+      ],
+      [
+        -11,
+        3
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-083",
+    "task": "merge",
+    "input": [
+      [
+        0,
+        14
+      ],
+      [
+        -12,
+        -5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        -8,
+        4
+      ],
+      [
+        -13,
+        15
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        -14,
+        3
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-084",
+    "task": "merge",
+    "input": [
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        14
+      ],
+      [
+        9,
+        13
+      ],
+      [
+        -5,
+        6
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        -13,
+        -11
+      ],
+      [
+        -6,
+        12
+      ],
+      [
+        -7,
+        3
+      ],
+      [
+        -8,
+        6
+      ],
+      [
+        -13,
+        -8
+      ],
+      [
+        -2,
+        12
+      ]
+    ],
+    "expected": [
+      [
+        -13,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-085",
+    "task": "merge",
+    "input": [
+      [
+        10,
+        11
+      ],
+      [
+        -7,
+        -7
+      ],
+      [
+        -13,
+        7
+      ],
+      [
+        -13,
+        -5
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        -12,
+        11
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -1,
+        8
+      ],
+      [
+        -14,
+        6
+      ],
+      [
+        -1,
+        3
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        11
+      ],
+      [
+        12,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-086",
+    "task": "merge",
+    "input": [
+      [
+        0,
+        15
+      ],
+      [
+        -4,
+        9
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        -12,
+        -8
+      ],
+      [
+        -4,
+        9
+      ]
+    ],
+    "expected": [
+      [
+        -12,
+        -8
+      ],
+      [
+        -4,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-087",
+    "task": "merge",
+    "input": [
+      [
+        -15,
+        -6
+      ],
+      [
+        -9,
+        0
+      ],
+      [
+        -15,
+        -1
+      ],
+      [
+        -2,
+        10
+      ],
+      [
+        3,
+        10
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        10
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-088",
+    "task": "merge",
+    "input": [
+      [
+        -6,
+        -5
+      ],
+      [
+        -8,
+        7
+      ],
+      [
+        -9,
+        2
+      ],
+      [
+        10,
+        13
+      ]
+    ],
+    "expected": [
+      [
+        -9,
+        7
+      ],
+      [
+        10,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-089",
+    "task": "merge",
+    "input": [
+      [
+        9,
+        12
+      ],
+      [
+        -9,
+        -6
+      ],
+      [
+        -3,
+        -1
+      ],
+      [
+        5,
+        15
+      ],
+      [
+        -14,
+        -8
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        -6
+      ],
+      [
+        -3,
+        -1
+      ],
+      [
+        5,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-090",
+    "task": "merge",
+    "input": [
+      [
+        -1,
+        14
+      ],
+      [
+        -8,
+        4
+      ],
+      [
+        13,
+        15
+      ],
+      [
+        -10,
+        10
+      ]
+    ],
+    "expected": [
+      [
+        -10,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-091",
+    "task": "merge",
+    "input": [
+      [
+        -6,
+        4
+      ],
+      [
+        -13,
+        14
+      ],
+      [
+        -11,
+        -2
+      ],
+      [
+        -3,
+        8
+      ],
+      [
+        -9,
+        13
+      ],
+      [
+        -4,
+        4
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        -9,
+        -9
+      ],
+      [
+        -2,
+        5
+      ],
+      [
+        -12,
+        14
+      ],
+      [
+        -14,
+        7
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-092",
+    "task": "merge",
+    "input": [],
+    "expected": []
+  },
+  {
+    "id": "eval-merge-093",
+    "task": "merge",
+    "input": [
+      [
+        9,
+        11
+      ],
+      [
+        -15,
+        -8
+      ],
+      [
+        -11,
+        7
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        -10,
+        2
+      ],
+      [
+        -13,
+        9
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        -11,
+        -3
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-094",
+    "task": "merge",
+    "input": [
+      [
+        -2,
+        5
+      ],
+      [
+        -12,
+        13
+      ],
+      [
+        -12,
+        -12
+      ],
+      [
+        -7,
+        6
+      ],
+      [
+        5,
+        13
+      ]
+    ],
+    "expected": [
+      [
+        -12,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-095",
+    "task": "merge",
+    "input": [
+      [
+        -14,
+        -8
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        -8
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-096",
+    "task": "merge",
+    "input": [
+      [
+        -3,
+        -2
+      ],
+      [
+        -9,
+        -6
+      ],
+      [
+        -12,
+        -7
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        -7,
+        14
+      ],
+      [
+        -8,
+        -2
+      ],
+      [
+        -15,
+        11
+      ],
+      [
+        -9,
+        15
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-097",
+    "task": "merge",
+    "input": [
+      [
+        -9,
+        5
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        -13,
+        -6
+      ],
+      [
+        -11,
+        -7
+      ],
+      [
+        -9,
+        -1
+      ],
+      [
+        -14,
+        8
+      ],
+      [
+        -9,
+        -5
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        -12,
+        -4
+      ],
+      [
+        -10,
+        1
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        11
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-098",
+    "task": "merge",
+    "input": [
+      [
+        -7,
+        13
+      ],
+      [
+        -15,
+        12
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        -12,
+        10
+      ],
+      [
+        -15,
+        -8
+      ],
+      [
+        -10,
+        -9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        -3,
+        4
+      ],
+      [
+        -6,
+        3
+      ],
+      [
+        -14,
+        -4
+      ],
+      [
+        -6,
+        1
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-099",
+    "task": "merge",
+    "input": [
+      [
+        -1,
+        13
+      ],
+      [
+        -9,
+        3
+      ],
+      [
+        -15,
+        8
+      ],
+      [
+        2,
+        12
+      ],
+      [
+        -15,
+        -9
+      ],
+      [
+        -15,
+        -2
+      ],
+      [
+        -5,
+        10
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-100",
+    "task": "merge",
+    "input": [
+      [
+        -9,
+        4
+      ],
+      [
+        -2,
+        6
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -15,
+        10
+      ],
+      [
+        -8,
+        5
+      ],
+      [
+        -5,
+        5
+      ],
+      [
+        -5,
+        2
+      ],
+      [
+        -5,
+        -3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        -6,
+        14
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-101",
+    "task": "merge",
+    "input": [
+      [
+        8,
+        15
+      ],
+      [
+        11,
+        14
+      ],
+      [
+        -6,
+        1
+      ],
+      [
+        -14,
+        -8
+      ],
+      [
+        -13,
+        2
+      ],
+      [
+        -10,
+        -8
+      ],
+      [
+        3,
+        12
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        2
+      ],
+      [
+        3,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-102",
+    "task": "merge",
+    "input": [
+      [
+        -2,
+        -1
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        -14,
+        -8
+      ],
+      [
+        -8,
+        1
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        -9,
+        3
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        10
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-103",
+    "task": "merge",
+    "input": [
+      [
+        -5,
+        7
+      ],
+      [
+        -6,
+        -1
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "expected": [
+      [
+        -6,
+        7
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-104",
+    "task": "merge",
+    "input": [
+      [
+        -2,
+        6
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "expected": [
+      [
+        -2,
+        6
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-105",
+    "task": "merge",
+    "input": [
+      [
+        -6,
+        10
+      ],
+      [
+        -14,
+        -8
+      ],
+      [
+        -14,
+        -2
+      ],
+      [
+        -9,
+        2
+      ],
+      [
+        -6,
+        4
+      ],
+      [
+        -7,
+        -6
+      ],
+      [
+        -14,
+        14
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        0,
+        13
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-106",
+    "task": "merge",
+    "input": [
+      [
+        -6,
+        10
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        -6,
+        -3
+      ],
+      [
+        -13,
+        9
+      ]
+    ],
+    "expected": [
+      [
+        -13,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-107",
+    "task": "merge",
+    "input": [
+      [
+        -9,
+        -8
+      ],
+      [
+        -10,
+        11
+      ],
+      [
+        -15,
+        13
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-108",
+    "task": "merge",
+    "input": [
+      [
+        0,
+        14
+      ],
+      [
+        -8,
+        9
+      ],
+      [
+        -5,
+        13
+      ],
+      [
+        -12,
+        -3
+      ]
+    ],
+    "expected": [
+      [
+        -12,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-109",
+    "task": "merge",
+    "input": [
+      [
+        1,
+        14
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        -11,
+        15
+      ],
+      [
+        -15,
+        -13
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        -14,
+        9
+      ],
+      [
+        -14,
+        2
+      ],
+      [
+        -12,
+        -6
+      ],
+      [
+        -1,
+        0
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-110",
+    "task": "merge",
+    "input": [
+      [
+        3,
+        7
+      ],
+      [
+        -3,
+        12
+      ],
+      [
+        -4,
+        2
+      ],
+      [
+        -8,
+        8
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        -5,
+        9
+      ],
+      [
+        -4,
+        6
+      ],
+      [
+        -15,
+        3
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-111",
+    "task": "merge",
+    "input": [
+      [
+        -14,
+        2
+      ],
+      [
+        -14,
+        -13
+      ],
+      [
+        -10,
+        -2
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        -8,
+        7
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        -15,
+        -3
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        10
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-112",
+    "task": "merge",
+    "input": [
+      [
+        -8,
+        3
+      ],
+      [
+        -8,
+        1
+      ]
+    ],
+    "expected": [
+      [
+        -8,
+        3
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-113",
+    "task": "merge",
+    "input": [],
+    "expected": []
+  },
+  {
+    "id": "eval-merge-114",
+    "task": "merge",
+    "input": [
+      [
+        -14,
+        9
+      ],
+      [
+        -15,
+        -12
+      ],
+      [
+        2,
+        15
+      ],
+      [
+        -4,
+        15
+      ],
+      [
+        -14,
+        2
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        -12,
+        -8
+      ],
+      [
+        -12,
+        12
+      ],
+      [
+        -10,
+        6
+      ],
+      [
+        -14,
+        13
+      ],
+      [
+        -8,
+        15
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-115",
+    "task": "merge",
+    "input": [],
+    "expected": []
+  },
+  {
+    "id": "eval-merge-116",
+    "task": "merge",
+    "input": [
+      [
+        -15,
+        -13
+      ],
+      [
+        -14,
+        -13
+      ],
+      [
+        -15,
+        -2
+      ],
+      [
+        -6,
+        -5
+      ],
+      [
+        -11,
+        -7
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        -11,
+        -11
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        -2
+      ],
+      [
+        1,
+        6
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-117",
+    "task": "merge",
+    "input": [
+      [
+        -11,
+        -8
+      ],
+      [
+        15,
+        15
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        -5,
+        4
+      ],
+      [
+        -6,
+        -5
+      ],
+      [
+        -6,
+        13
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        -9,
+        0
+      ]
+    ],
+    "expected": [
+      [
+        -11,
+        13
+      ],
+      [
+        15,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-118",
+    "task": "merge",
+    "input": [
+      [
+        -13,
+        10
+      ],
+      [
+        -9,
+        10
+      ],
+      [
+        -14,
+        9
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        -8,
+        0
+      ],
+      [
+        -11,
+        -7
+      ],
+      [
+        -2,
+        7
+      ],
+      [
+        0,
+        14
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "eval-merge-119",
+    "task": "merge",
+    "input": [
+      [
+        -8,
+        14
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        -6,
+        12
+      ],
+      [
+        -8,
+        14
+      ],
+      [
+        -6,
+        -3
+      ],
+      [
+        -13,
+        10
+      ],
+      [
+        -10,
+        9
+      ]
+    ],
+    "expected": [
+      [
+        -13,
+        14
+      ]
+    ]
+  }
+]

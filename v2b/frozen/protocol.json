@@ -1,0 +1,31 @@
+{
+  "version": "2b",
+  "tasks": [
+    "canonical",
+    "unique",
+    "merge"
+  ],
+  "domain": "same M1 valid domains; whitespace tokens lowercased (not casefold); homogeneous str/int uniqueness first-occurrence order; integer closed interval union touching endpoints merged",
+  "score": "recursive exact JSON-node types and values; 360 equally weighted cases, 120 per task",
+  "promotion": "total strictly increases relative to named baseline; no per-task decrease; no activation",
+  "proposal": "bounded AST-body synthesis grammar, 12 canonical bodies, 5 unique bodies, 8 merge bodies; best valid dev score per task, deterministic first-tie choice; 3 task rounds; candidate only sees 24 dev cases",
+  "eval_seed": 208103,
+  "dev_seed": 98117,
+  "disjointness": "remove eval inputs equal to any dev input of the same task; keep first 120 remaining per task from seeded pool; verify before scoring; dev unchanged from exploratory M2",
+  "eval_cases_per_task": 120,
+  "dev_cases_per_task": 8,
+  "resources": {
+    "wall_seconds": 3,
+    "cpu_seconds": 1,
+    "address_space_bytes": 134217728,
+    "output_bytes": 65536
+  },
+  "negative_controls": "return no unique values to test task regression; nested JSON bool/int probes",
+  "limitations": [
+    "frozen 48 exact-output cases only, 3 known repair-menu items, synthetic hand-authored cases, host judge reads answers (not author-blind), git timestamps don't prove absence of private pre-freeze scoring, no runtime/cgroup/covert-channel guarantees, no activation authority. This is the carried M1 limit, not the scope of M2.",
+    "M2 synthetic seeded stress inputs; author not blind; inputs unseen by proposer during search, not secret from builder",
+    "bounded handcrafted 25-body grammar, no language model/general invention/AGI",
+    "no statistical or real-world generalization, no speedup or product activation",
+    "independent review required before reporting verified improvement"
+  ]
+}

@@ -1,0 +1,586 @@
+[
+  {
+    "id": "dev-canonical-000",
+    "task": "canonical",
+    "input": "  x-y  I 12\né Ä\t",
+    "expected": [
+      "x-y",
+      "i",
+      "12",
+      "é",
+      "ä"
+    ]
+  },
+  {
+    "id": "dev-canonical-001",
+    "task": "canonical",
+    "input": "\r\n\r\nΣ  I  Alpha é\n",
+    "expected": [
+      "σ",
+      "i",
+      "alpha",
+      "é"
+    ]
+  },
+  {
+    "id": "dev-canonical-002",
+    "task": "canonical",
+    "input": "\t\tI\r\nI\tΣ  I\r\nAlpha ß\nÄ  I\t",
+    "expected": [
+      "i",
+      "i",
+      "σ",
+      "i",
+      "alpha",
+      "ß",
+      "ä",
+      "i"
+    ]
+  },
+  {
+    "id": "dev-canonical-003",
+    "task": "canonical",
+    "input": "",
+    "expected": []
+  },
+  {
+    "id": "dev-canonical-004",
+    "task": "canonical",
+    "input": "\r\n\r\nΣ\r\n",
+    "expected": [
+      "σ"
+    ]
+  },
+  {
+    "id": "dev-canonical-005",
+    "task": "canonical",
+    "input": "MiXeD\nBETA BETA I\r\nΣ I\nBETA ß ",
+    "expected": [
+      "mixed",
+      "beta",
+      "beta",
+      "i",
+      "σ",
+      "i",
+      "beta",
+      "ß"
+    ]
+  },
+  {
+    "id": "dev-canonical-006",
+    "task": "canonical",
+    "input": "\nBETA I Alpha\t",
+    "expected": [
+      "beta",
+      "i",
+      "alpha"
+    ]
+  },
+  {
+    "id": "dev-canonical-007",
+    "task": "canonical",
+    "input": "\n\nÖ\tΣ\r\n12 Ö\tBETA Alpha Ä  ",
+    "expected": [
+      "ö",
+      "σ",
+      "12",
+      "ö",
+      "beta",
+      "alpha",
+      "ä"
+    ]
+  },
+  {
+    "id": "dev-unique-000",
+    "task": "unique",
+    "input": [],
+    "expected": []
+  },
+  {
+    "id": "dev-unique-001",
+    "task": "unique",
+    "input": [
+      -4,
+      -1
+    ],
+    "expected": [
+      -4,
+      -1
+    ]
+  },
+  {
+    "id": "dev-unique-002",
+    "task": "unique",
+    "input": [
+      -1,
+      3,
+      -2,
+      0,
+      1,
+      -3,
+      -4,
+      0,
+      -4,
+      -3,
+      -2,
+      1,
+      2,
+      -4,
+      4,
+      -2
+    ],
+    "expected": [
+      -1,
+      3,
+      -2,
+      0,
+      1,
+      -3,
+      -4,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "dev-unique-003",
+    "task": "unique",
+    "input": [
+      4
+    ],
+    "expected": [
+      4
+    ]
+  },
+  {
+    "id": "dev-unique-004",
+    "task": "unique",
+    "input": [
+      -3,
+      2,
+      0
+    ],
+    "expected": [
+      -3,
+      2,
+      0
+    ]
+  },
+  {
+    "id": "dev-unique-005",
+    "task": "unique",
+    "input": [
+      4,
+      -3,
+      2,
+      -4,
+      -1,
+      -2,
+      1,
+      1,
+      -3,
+      -2,
+      4,
+      -4,
+      2,
+      -2,
+      -4,
+      -1,
+      0
+    ],
+    "expected": [
+      4,
+      -3,
+      2,
+      -4,
+      -1,
+      -2,
+      1,
+      0
+    ]
+  },
+  {
+    "id": "dev-unique-006",
+    "task": "unique",
+    "input": [
+      2,
+      -4,
+      -3,
+      1,
+      -2,
+      0,
+      1,
+      4,
+      2,
+      3,
+      -4,
+      -4,
+      1,
+      0,
+      3,
+      4,
+      4,
+      4
+    ],
+    "expected": [
+      2,
+      -4,
+      -3,
+      1,
+      -2,
+      0,
+      4,
+      3
+    ]
+  },
+  {
+    "id": "dev-unique-007",
+    "task": "unique",
+    "input": [
+      3,
+      0,
+      -4,
+      -3,
+      -4,
+      2,
+      -1,
+      -1,
+      -3,
+      -1,
+      -4,
+      -1,
+      -4
+    ],
+    "expected": [
+      3,
+      0,
+      -4,
+      -3,
+      2,
+      -1
+    ]
+  },
+  {
+    "id": "dev-merge-000",
+    "task": "merge",
+    "input": [
+      [
+        6,
+        12
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        -7,
+        1
+      ],
+      [
+        -2,
+        12
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        -2,
+        8
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        -15,
+        -8
+      ],
+      [
+        -4,
+        0
+      ],
+      [
+        -3,
+        13
+      ],
+      [
+        -1,
+        15
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        -8
+      ],
+      [
+        -7,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "dev-merge-001",
+    "task": "merge",
+    "input": [
+      [
+        -7,
+        3
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "expected": [
+      [
+        -7,
+        3
+      ],
+      [
+        4,
+        15
+      ]
+    ]
+  },
+  {
+    "id": "dev-merge-002",
+    "task": "merge",
+    "input": [
+      [
+        -9,
+        13
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        -2,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        -12,
+        -7
+      ]
+    ],
+    "expected": [
+      [
+        -12,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "dev-merge-003",
+    "task": "merge",
+    "input": [
+      [
+        3,
+        14
+      ],
+      [
+        -1,
+        5
+      ],
+      [
+        -4,
+        8
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        -8,
+        -1
+      ],
+      [
+        -9,
+        -4
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        -6,
+        8
+      ]
+    ],
+    "expected": [
+      [
+        -9,
+        14
+      ]
+    ]
+  },
+  {
+    "id": "dev-merge-004",
+    "task": "merge",
+    "input": [
+      [
+        -15,
+        13
+      ],
+      [
+        -6,
+        11
+      ],
+      [
+        -12,
+        -11
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        -2,
+        5
+      ]
+    ],
+    "expected": [
+      [
+        -15,
+        13
+      ]
+    ]
+  },
+  {
+    "id": "dev-merge-005",
+    "task": "merge",
+    "input": [
+      [
+        -14,
+        -2
+      ],
+      [
+        -8,
+        -1
+      ],
+      [
+        -13,
+        -2
+      ],
+      [
+        -4,
+        6
+      ],
+      [
+        -14,
+        8
+      ],
+      [
+        -11,
+        7
+      ],
+      [
+        -7,
+        -7
+      ],
+      [
+        -2,
+        8
+      ],
+      [
+        -12,
+        2
+      ],
+      [
+        -10,
+        -8
+      ],
+      [
+        -11,
+        -11
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        8
+      ]
+    ]
+  },
+  {
+    "id": "dev-merge-006",
+    "task": "merge",
+    "input": [
+      [
+        -13,
+        12
+      ],
+      [
+        -7,
+        1
+      ],
+      [
+        -12,
+        -4
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        -2,
+        9
+      ]
+    ],
+    "expected": [
+      [
+        -13,
+        12
+      ]
+    ]
+  },
+  {
+    "id": "dev-merge-007",
+    "task": "merge",
+    "input": [
+      [
+        4,
+        12
+      ],
+      [
+        -14,
+        15
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -7,
+        5
+      ]
+    ],
+    "expected": [
+      [
+        -14,
+        15
+      ]
+    ]
+  }
+]
