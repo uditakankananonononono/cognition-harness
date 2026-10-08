@@ -1,5 +1,5 @@
 """Evaluator-owned batch execution. Outputs only to its parent scorer, no logs."""
-import json,resource,sys,time
+import json,resource,sys,time,math
 resource.setrlimit(resource.RLIMIT_AS,(268435456,268435456))
 resource.setrlimit(resource.RLIMIT_CPU,(5,5))
 resource.setrlimit(resource.RLIMIT_NPROC,(0,0))
@@ -14,10 +14,19 @@ def pairs(items):
         out[k]=v
     return out
 
+def finite_tree(v):
+    if type(v)is float and not math.isfinite(v):raise WireError()
+    if type(v)is list:
+        for item in v:finite_tree(item)
+    if type(v)is dict:
+        for item in v.values():finite_tree(item)
+
 def parse(raw):
     if len(raw)>1048576:raise WireError()
     try:value=json.loads(raw.decode('utf-8'),object_pairs_hook=pairs,parse_constant=lambda x:(_ for _ in ()).throw(WireError()))
     except (ValueError,UnicodeError,RecursionError):raise WireError()
+    try:finite_tree(value)
+    except RecursionError:raise WireError()
     if type(value)is not dict or set(value)!={'spec','records'}:raise WireError()
     return value
 

@@ -5,6 +5,8 @@ from semantics import spec_ok,records_ok,Failure,finish,solve as interpreter
 SOURCE=Path(__file__).with_name('semantics.py').read_text()
 
 def a0(spec,records):
+    try:spec_ok(spec)
+    except Failure as e:return {'status':'error','code':str(e)}
     if not records_ok(records):return {'status':'error','code':'invalid_records'}
     try:return finish(records)
     except Failure as e:return {'status':'error','code':str(e)}

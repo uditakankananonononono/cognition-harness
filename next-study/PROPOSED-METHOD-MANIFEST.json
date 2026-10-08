@@ -1,13 +1,13 @@
 {
   "CONTRACT-V2.md": "a9e360673aa4d6843fc17fe59a619ce14db6bec3aff2c8b43f85edca1f212d36",
-  "CONTRACT-V3-ADDENDUM.md": "cb3118931dc9713fcf4c5662ce7f9be4266f2850f003349b0ad56e14058bb9c1",
+  "CONTRACT-V3-ADDENDUM.md": "2478884cfc9adb14f1e8e4dbe3d56c37458dd7bcf3ffcd03378a2aa33656c811",
   "feasibility/exact-probes.json": "3f019d8b1d1604e08bc518466f75ce3b55388e49afe48da676589ff7c9a5ec2d",
   "feasibility/exact_probe.py": "ff156aed47f6c6ee4632908dbdde97c45d514b56d9a787d28e866e51d9685efd",
   "feasibility/probe.py": "9c773fb3ecf2185b109804246dcbb6cf3e23b86fefdfb43891a284c2a80ad05b",
   "feasibility/run_exact.py": "8dcea5891ae7ff659fa096383bb828550c0deb6b7633f751dee94456440ac2e2",
   "src/interface.py": "264a367c690febb303850508b1605db3f4e35134ea4f8d236a7e1396c7d44588",
-  "src/methods.py": "7b062ed8ebbe808c5cd9bd19e792fb4c3a6cdb11101d86c790c2ee7e551a3532",
+  "src/methods.py": "9f1690e4c90cd0e0c1cb021825251de4622d4e3ecadf19cfbb8398ff24e15d0b",
   "src/runner.py": "0d4a2aaf20174a3a1279d931c4afe42184683b458ed32380d72a75ca824074f4",
   "src/semantics.py": "c9dbc2abca92359bc0285c6c06976a45291df34180ca8dedcb34435c68e2f03e",
-  "src/worker.py": "24df6bbfdf9d648599219eda0bd3cf51863de10f2720d57fae3a707b77a7320c"
+  "src/worker.py": "d55705d805858ed94a782c667317a8566e106b8fb7ef016e7b393ab34a7e8221"
 }
