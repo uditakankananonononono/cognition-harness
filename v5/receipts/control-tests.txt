@@ -1,0 +1,25 @@
+test_always_minus_one_preserves (__main__.Controls) ... ok
+test_bad_pin (__main__.Controls) ... ok
+test_baseline_expected_score (__main__.Controls) ... ok
+test_bool_nested_refused (__main__.Controls) ... ok
+test_counterexample (__main__.Controls) ... ok
+test_equal_rejected (__main__.Controls) ... ok
+test_forged_pass_rejected (__main__.Controls) ... ok
+test_frozen_refusal_matrix (__main__.Controls) ... ok
+test_invalid_rejected (__main__.Controls) ... ok
+test_nonbool_pass_rejected (__main__.Controls) ... ok
+test_pin (__main__.Controls) ... ok
+test_reordered_rejected (__main__.Controls) ... ok
+test_retained_before_matrix (__main__.Controls) ... ok
+test_selected (__main__.Controls) ... ok
+test_source_tamper_refused (__main__.Controls) ... ok
+test_truncated_rejected (__main__.Controls) ... ok
+test_worker_host_canary (__main__.Controls) ... ok
+test_wrong_count_rejected (__main__.Controls) ... ok
+test_wrong_expected_rejected (__main__.Controls) ... ok
+test_wrong_task_rejected (__main__.Controls) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.073s
+
+OK
