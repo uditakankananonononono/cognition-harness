@@ -1,0 +1,30 @@
+test_baseline_bytes_unchanged (__main__.Controls) ... ok
+test_candidate_nested_bool_refused (__main__.Controls) ... ok
+test_changed_suite_refused (__main__.Controls) ... ok
+test_dev_eval_inputs_disjoint (__main__.Controls) ... ok
+test_equal_rejected (__main__.Controls) ... ok
+test_hash_refusal (__main__.Controls) ... ok
+test_host_canary (__main__.Controls) ... ok
+test_invalid_rejected (__main__.Controls) ... ok
+test_measurement_receipt (__main__.Controls) ... FAIL
+test_memory_cap (__main__.Controls) ... ok
+test_mutates_one_operator_site (__main__.Controls) ... ok
+test_network_namespace (__main__.Controls) ... ok
+test_protocol_pin_unchanged (__main__.Controls) ... ok
+test_recursive_exact_json_types (__main__.Controls) ... ok
+test_regression_rejected_despite_total_gain (__main__.Controls) ... ok
+test_syntax_error (__main__.Controls) ... ok
+test_timeout (__main__.Controls) ... ok
+
+======================================================================
+FAIL: test_measurement_receipt (__main__.Controls)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/sandbox/cognition-harness/v3/tests.py", line 70, in test_measurement_receipt
+    self.assertFalse(r['candidates'][1]['measurement_gate'])
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.264s
+
+FAILED (failures=1)

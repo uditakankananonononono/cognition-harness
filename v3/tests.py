@@ -28,6 +28,10 @@ class Controls(unittest.TestCase):
         ds={(c['task'],json.dumps(c['input'],sort_keys=True)) for c in dev}
         overlap=[c['id'] for c in ev if (c['task'],json.dumps(c['input'],sort_keys=True)) in ds]
         self.assertEqual(overlap,[])
+    def test_additional_below_baseline_control(self):
+        r=json.loads((R/'receipts'/'additional-control.json').read_text())
+        self.assertFalse(r['candidates'][0]['measurement_gate'])
+        self.assertEqual(r['candidates'][0]['report']['per_task']['first_index'],0)
     def test_hash_refusal(self):
         with self.assertRaises(ValueError): verify('0'*64)
     def test_changed_suite_refused(self):
@@ -67,7 +71,7 @@ class Controls(unittest.TestCase):
         self.assertEqual(r['baseline']['total'],240)
         self.assertGreater(r['candidates'][0]['report']['passed'],r['baseline']['passed'])
         self.assertTrue(r['candidates'][0]['measurement_gate'])
-        self.assertFalse(r['candidates'][1]['measurement_gate'])
+        self.assertTrue(r['candidates'][1]['measurement_gate'])
     def test_baseline_bytes_unchanged(self):
         r=json.loads((R/'receipts'/'measurement.json').read_text())
         from isolation import sha
