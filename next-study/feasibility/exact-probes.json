@@ -1,0 +1,79 @@
+[
+  {
+    "mode": "fork",
+    "exit": 0,
+    "wall": 0.032209323000188306,
+    "timeout": false,
+    "process_group_gone": true,
+    "stdout_bytes": 33,
+    "stderr_bytes": 0,
+    "stdout_first200": "{\"fork\": \"refused\", \"errno\": 11}\n",
+    "stderr_first200": ""
+  },
+  {
+    "mode": "memory",
+    "exit": 0,
+    "wall": 0.03199214699998265,
+    "timeout": false,
+    "process_group_gone": true,
+    "stdout_bytes": 15,
+    "stderr_bytes": 0,
+    "stdout_first200": "memory_refused\n",
+    "stderr_first200": ""
+  },
+  {
+    "mode": "cpu",
+    "exit": 137,
+    "wall": 5.03232052300018,
+    "timeout": false,
+    "process_group_gone": true,
+    "stdout_bytes": 0,
+    "stderr_bytes": 0,
+    "stdout_first200": "",
+    "stderr_first200": ""
+  },
+  {
+    "mode": "stdout",
+    "exit": 1,
+    "wall": 0.03798130099994523,
+    "timeout": false,
+    "process_group_gone": true,
+    "stdout_bytes": 1048576,
+    "stderr_bytes": 170,
+    "stdout_first200": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "stderr_first200": "Traceback (most recent call last):\n  File \"/work/exact_probe.py\", line 19, in <module>\n    for i in range(10000):os.write(1,b'a'*4096)\nOSError: [Errno 27] File too large\n"
+  },
+  {
+    "mode": "stderr",
+    "exit": 120,
+    "wall": 0.03223133599976791,
+    "timeout": false,
+    "process_group_gone": true,
+    "stdout_bytes": 0,
+    "stderr_bytes": 1048576,
+    "stdout_first200": "",
+    "stderr_first200": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  {
+    "mode": "sleep",
+    "exit": -9,
+    "wall": 60.00215762000016,
+    "timeout": true,
+    "process_group_gone": true,
+    "stdout_bytes": 0,
+    "stderr_bytes": 0,
+    "stdout_first200": "",
+    "stderr_first200": ""
+  },
+  {
+    "mode": "runtime",
+    "exit": 0,
+    "wall": 0.03233265400012897,
+    "timeout": false,
+    "process_group_gone": true,
+    "stdout_bytes": 170,
+    "stderr_bytes": 0,
+    "stdout_first200": "{\"python\": \"3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]\", \"uid\": 1001, \"limits\": {\"9\": [268435456, 268435456], \"0\": [5, 5], \"6\": [0, 0], \"1\": [1048576, 1048576]}}\n",
+    "stderr_first200": ""
+  }
+]
