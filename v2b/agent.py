@@ -42,7 +42,7 @@ def run(pin):
         before=score(source.encode(),dev)
         if best['report']['passed']>before['passed']:
             source=rewrite(source,task,best['body'])
-        history.append({'task':task,'before':before,'trials':trials,'selected_index':best['index'],'after_sha256':sha(source.encode())})
+        history.append({'task':task,'before':before,'trials':trials,'selected_index':best['index'],'tied_best_indices':[t['index'] for t in valid if t['report']['passed']==best['report']['passed']],'after_sha256':sha(source.encode())})
         (R/'candidates'/f'round-{task}.py').write_text(source)
     candidate=R/'candidates'/'candidate.py'; candidate.write_text(source)
     control=R/'candidates'/'regression.py'; control.write_text(rewrite(source,'unique','return []'))

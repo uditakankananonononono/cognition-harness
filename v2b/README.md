@@ -1,0 +1,13 @@
+# M2b: disjoint-input follow-on, not a repaired M2 result
+
+Freeze f88bf91f57fc1849d01f4d3cf553bf4a0ab51b1a. Manifest pin d09124d5433181236f014411e6633d3e526e2e6c15c1216983aadf1cf3d53daf. Input disjointness verified mechanically BEFORE freeze: eval pool filtered against task/input pairs in dev, first 120 remaining cases per task kept. Development inputs, synthesis grammar and first-tie selection rule unchanged from M2. M2 losses were not used to change repairs or add development answers. New benchmark means scores are not directly comparable to M2. Not statistically sampled, not a private holdout.
+
+Protocol: 360 exact JSON type-aware outputs, 24 dev examples; 12 canonical, 5 unique, 8 merge AST-body variants; dev-only selection. Three task rounds. No new model or general invention. Selection now reports tied_best_indices explicitly in addition to every trial. Baseline 121/360 (0,15,106) -> candidate 346/360 (120,120,106), gate true. Negative control 226/360 (120,0,106), gate false. All 14 merge losses retained. Development score 11/24 -> 19/24 -> 24/24 -> 24/24. Merge variants 1 (< with max end) and 3 (<= with max end) tie; first variant selected, leaving touching-endpoint errors. No eval-feedback repair performed. No perfect-score assertion. 17 controls pass including zero task/input overlap. Counts are builder measurements pending outside review.
+
+Architecture is M1 isolated execution and typed host judge, with AST function-body replacement rather than a three-item string repair menu. Search is still a bounded handcrafted grammar, not arbitrary code-writing intelligence. Interval ground truth uses overlap-graph components, unique ground truth scans prior inputs, canonical ground truth uses regex tokens. These reference outputs need independent checking.
+
+M1 limits carried verbatim: frozen 48 exact-output cases only, 3 known repair-menu items, synthetic hand-authored cases, host judge reads answers (not author-blind), git timestamps don't prove absence of private pre-freeze scoring, no runtime/cgroup/covert-channel guarantees, no activation authority.
+
+M2b scope differs: 360 seeded synthetic cases, 25 known grammar bodies, no model/general invention/AGI claim. Host author knows the generator and answers; only proposer search is input-unseen. No cgroups, kernel-hardening, covert-channel, crash-proof ledger or product activation authority. No statistical/general/real-world performance claim. Current bubblewrap probes cover only local tested behavior.
+
+Run from fresh checkout: python3 v2b/agent.py "$(cat v2b/receipts/frozen-pin.txt)"; python3 v2b/tests.py. Standard Python and namespace-capable bwrap only. This overwrites generated artifacts; use a fresh checkout. No activation or external side effect.
