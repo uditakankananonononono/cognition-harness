@@ -1,0 +1,17 @@
+test_baseline_bytes_unchanged (__main__.Controls) ... ok
+test_changed_suite_refused (__main__.Controls) ... ok
+test_equal_rejected (__main__.Controls) ... ok
+test_hash_refusal (__main__.Controls) ... ok
+test_host_canary (__main__.Controls) ... ok
+test_invalid_rejected (__main__.Controls) ... ok
+test_measurement_receipt (__main__.Controls) ... ok
+test_memory_cap (__main__.Controls) ... ok
+test_network_namespace (__main__.Controls) ... ok
+test_regression_rejected_despite_total_gain (__main__.Controls) ... ok
+test_syntax_error (__main__.Controls) ... ok
+test_timeout (__main__.Controls) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.153s
+
+OK

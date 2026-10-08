@@ -32,9 +32,24 @@ def execute(source, cases):
             return {'valid':False,'reason':'malformed_output'}
         return {'valid':True,'values':values,'source_sha256':sha(source)}
 
+def json_equal(actual, expected):
+    """Exact JSON type and value equality at every node (bool is not int)."""
+    if type(actual) is not type(expected):
+        return False
+    if isinstance(expected, list):
+        return len(actual) == len(expected) and all(json_equal(a, e) for a, e in zip(actual, expected))
+    if isinstance(expected, dict):
+        return actual.keys() == expected.keys() and all(json_equal(actual[k], expected[k]) for k in expected)
+    if expected is None or type(expected) in (str, bool, int):
+        return actual == expected
+    if type(expected) is float:
+        import math
+        return math.isfinite(actual) and math.isfinite(expected) and actual == expected
+    return False
+
 def score(source,cases):
     execution=execute(source,cases)
     if not execution['valid']: return execution
-    details=[{'id':c['id'],'task':c['task'],'expected':c['expected'],'actual':v.get('value'),'error':v.get('error'),'passed': ('error' not in v and type(v.get('value')) is type(c['expected']) and v.get('value')==c['expected'])} for c,v in zip(cases,execution['values'])]
+    details=[{'id':c['id'],'task':c['task'],'expected':c['expected'],'actual':v.get('value'),'error':v.get('error'),'passed': ('error' not in v and json_equal(v.get('value'), c['expected']))} for c,v in zip(cases,execution['values'])]
     tasks={task:sum(c['passed'] for c in details if c['task']==task) for task in ('canonical','unique','merge')}
     return {'valid':True,'source_sha256':execution['source_sha256'],'passed':sum(tasks.values()),'total':len(cases),'per_task':tasks,'cases':details}

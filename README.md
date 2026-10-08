@@ -24,7 +24,7 @@ Baseline: 24/48. Repaired candidate: 48/48 (+24 cases, +50 percentage points) in
 
 Negative control: canonical 16/16, unique 1/16, merge 16/16 = 33/48. Total improves versus 24/48, but unique regresses versus baseline, so gate rejects. Initial control used sorted uniqueness and scored 42/48 with NO regression below baseline, so it correctly passed the gate. That initial receipt is retained separately. The control was strengthened after this exploratory observation; the protocol, evaluation cases, baseline and selected candidate were unchanged. No post-hoc protocol modification is hidden.
 
-See receipts/measurement.json for case-level actual/expected outputs, source hashes and gate outcomes, and receipts/dev-history.json for every dev trial. Twelve unittest controls pass: hash/suite tamper, baseline integrity, equal/invalid/regressive promotion, syntax/CPU/memory failures, host-canary invisibility and network refusal. These probes establish tested local behaviors, not broad hostile-code safety.
+See receipts/measurement.json for case-level actual/expected outputs, source hashes and gate outcomes, and receipts/dev-history.json for every dev trial. Fifteen unittest controls pass: hash/suite tamper, baseline integrity, equal/invalid/regressive promotion, syntax/CPU/memory failures, host-canary invisibility and network refusal. These probes establish tested local behaviors, not broad hostile-code safety.
 
 ## Reproduce
 
@@ -38,3 +38,7 @@ Do not re-run freeze.py to bless modified inputs. It is retained as the original
 ## Next meaningful step
 
 External reviewer checks freeze ancestry, literal expected outputs and unchanged candidate bytes, reruns all scores/controls, and tries invalid-output/sandbox escape probes. Only then can this milestone be called independently reviewed. A later frozen experiment should add unseen valid inputs and more than a predefined repair menu; model or expanded-operator behavior must be a separate named experiment, with retained unsuccessful trials and no moving benchmark.
+
+## Independent review correction
+
+First review reproduced the numbers but blocked PASS: Python equality conflates nested booleans and integers. A returned [True] was incorrectly accepted for expected [1]. This was a real judge bug. The correction uses recursive exact Python JSON-node types and values (bool/int/float distinct at every depth; dict key order ignored). Added direct nested/reversed-type tests, execution probes for lists/nested lists/dicts, and an unchanged-protocol-pin test. The protocol already required exact JSON equality, so this fixes implementation without changing frozen inputs or protocol. Both pre-fix and corrected measurement receipts are retained. No independent PASS claimed until re-review.

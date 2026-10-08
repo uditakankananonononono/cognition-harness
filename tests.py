@@ -1,8 +1,22 @@
 import json, tempfile, unittest
 from pathlib import Path
-from isolation import R, execute, score
+from isolation import R, execute, score, json_equal
 from judge import promotion, verify
 class Controls(unittest.TestCase):
+    def test_recursive_exact_json_types(self):
+        for a, e in [(True,1),(False,0),([True],[1]),([[False]],[[0]]),({'x':[True]},{'x':[1]}),([1.0],[1]),({'x':None},{'x':False})]:
+            with self.subTest(actual=a,expected=e):
+                self.assertFalse(json_equal(a,e))
+                self.assertFalse(json_equal(e,a))
+        self.assertTrue(json_equal({'x':[1,True,None,1.0]}, {'x':[1,True,None,1.0]}))
+    def test_candidate_nested_bool_refused(self):
+        for code,expected in [(b'def unique(x): return [True]\n',[1]), (b'def unique(x): return [[False]]\n',[[0]]), (b'def unique(x): return {"x":[True]}\n',{'x':[1]})]:
+            r=score(code,[{'id':'probe','task':'unique','input':[],'expected':expected}])
+            self.assertTrue(r['valid'])
+            self.assertEqual(r['passed'],0)
+            self.assertFalse(r['cases'][0]['passed'])
+    def test_protocol_pin_unchanged(self):
+        verify('b3503affda9150a12328f8e4d235d6dff5f37afdf6c05b07567c24ee5589b0bb')
     def test_hash_refusal(self):
         with self.assertRaises(ValueError): verify('0'*64)
     def test_changed_suite_refused(self):
