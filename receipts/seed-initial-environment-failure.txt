@@ -1,0 +1,96 @@
+FFFF.F.FF......                                                          [100%]
+=================================== FAILURES ===================================
+________________ test_full_cycle_proposes_but_does_not_activate ________________
+
+tmp_path = PosixPath('/tmp/pytest-of-sandbox/pytest-0/test_full_cycle_proposes_but_d0')
+
+    def test_full_cycle_proposes_but_does_not_activate(tmp_path):
+        engine, gate = make_engine(tmp_path)
+        seed(engine)
+        report = engine.run_cycle()
+>       assert report["candidates"][0]["tests_passed"] is True
+E       assert False is True
+
+tests/self_improve/test_engine.py:24: AssertionError
+_____________________ test_activation_after_human_approval _____________________
+
+tmp_path = PosixPath('/tmp/pytest-of-sandbox/pytest-0/test_activation_after_human_ap0')
+
+    def test_activation_after_human_approval(tmp_path):
+        engine, gate = make_engine(tmp_path)
+        seed(engine)
+        report = engine.run_cycle()
+>       proposal = report["proposals"][0]
+E       IndexError: list index out of range
+
+tests/self_improve/test_engine.py:37: IndexError
+________________________ test_wrong_approval_id_refused ________________________
+
+tmp_path = PosixPath('/tmp/pytest-of-sandbox/pytest-0/test_wrong_approval_id_refused0')
+
+    def test_wrong_approval_id_refused(tmp_path):
+        engine, gate = make_engine(tmp_path)
+        seed(engine)
+>       proposal = engine.run_cycle()["proposals"][0]
+E       IndexError: list index out of range
+
+tests/self_improve/test_engine.py:50: IndexError
+______________________ test_gap_not_rebuilt_once_covered _______________________
+
+tmp_path = PosixPath('/tmp/pytest-of-sandbox/pytest-0/test_gap_not_rebuilt_once_cove0')
+
+    def test_gap_not_rebuilt_once_covered(tmp_path):
+        engine, gate = make_engine(tmp_path)
+        seed(engine)
+        engine.run_cycle()
+>       assert engine.detect_gaps() == []  # proposal already covers the gap
+E       AssertionError: assert [CapabilityGa...everity=0.15)] == []
+E         
+E         Left contains one more item: CapabilityGap(module_slug='opportunity-discovery', signature='filter only biology grants', occurrences=3, kinds=('capa...etail='user keeps asking to filter grants', first_seen=1791454453.4507983, last_seen=1791454453.4510236, severity=0.15)
+E         Use -v to get more diff
+
+tests/self_improve/test_engine.py:60: AssertionError
+______________________________ test_rollback_flow ______________________________
+
+tmp_path = PosixPath('/tmp/pytest-of-sandbox/pytest-0/test_rollback_flow0')
+
+    def test_rollback_flow(tmp_path):
+        engine, gate = make_engine(tmp_path)
+        seed(engine)
+>       proposal = engine.run_cycle()["proposals"][0]
+E       IndexError: list index out of range
+
+tests/self_improve/test_engine.py:73: IndexError
+______________________ test_sandbox_passes_good_candidate ______________________
+
+    def test_sandbox_passes_good_candidate():
+        result = SandboxRunner(timeout_seconds=60).run(candidate())
+>       assert result.passed, result.stdout + result.stderr
+E       AssertionError: /usr/bin/python3: No module named pytest
+E         
+E       assert False
+E        +  where False = SandboxResult(passed=False, exit_code=1, stdout='', stderr='/usr/bin/python3: No module named pytest\n', duration_seconds=0.015, timed_out=False, workdir='').passed
+
+tests/self_improve/test_sandbox.py:29: AssertionError
+____________________________ test_sandbox_all_kinds ____________________________
+
+    def test_sandbox_all_kinds():
+        for kind in ("scoring_rule", "text_transform", "aggregator",
+                     "threshold_alert", "field_extractor"):
+            result = SandboxRunner(timeout_seconds=60).run(candidate(kind))
+>           assert result.passed, f"{kind}: {result.stdout}{result.stderr}"
+E           AssertionError: scoring_rule: /usr/bin/python3: No module named pytest
+E             
+E           assert False
+E            +  where False = SandboxResult(passed=False, exit_code=1, stdout='', stderr='/usr/bin/python3: No module named pytest\n', duration_seconds=0.016, timed_out=False, workdir='').passed
+
+tests/self_improve/test_sandbox.py:37: AssertionError
+=========================== short test summary info ============================
+FAILED tests/self_improve/test_engine.py::test_full_cycle_proposes_but_does_not_activate
+FAILED tests/self_improve/test_engine.py::test_activation_after_human_approval
+FAILED tests/self_improve/test_engine.py::test_wrong_approval_id_refused - In...
+FAILED tests/self_improve/test_engine.py::test_gap_not_rebuilt_once_covered
+FAILED tests/self_improve/test_engine.py::test_rollback_flow - IndexError: li...
+FAILED tests/self_improve/test_sandbox.py::test_sandbox_passes_good_candidate
+FAILED tests/self_improve/test_sandbox.py::test_sandbox_all_kinds - Assertion...
+7 failed, 8 passed in 0.28s

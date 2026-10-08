@@ -1,0 +1,2322 @@
+{
+  "manifest_pin": "b3503affda9150a12328f8e4d235d6dff5f37afdf6c05b07567c24ee5589b0bb",
+  "baseline": {
+    "valid": true,
+    "source_sha256": "c511109c5845de769df5c79870cf7a7ade41257252c5219dd7cccf6d87a53600",
+    "passed": 24,
+    "total": 48,
+    "per_task": {
+      "canonical": 5,
+      "unique": 10,
+      "merge": 9
+    },
+    "cases": [
+      {
+        "id": "canonical-00",
+        "task": "canonical",
+        "expected": [],
+        "actual": [
+          ""
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "canonical-01",
+        "task": "canonical",
+        "expected": [
+          "a",
+          "b"
+        ],
+        "actual": [
+          "a",
+          "b"
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "canonical-02",
+        "task": "canonical",
+        "expected": [
+          "a",
+          "b"
+        ],
+        "actual": [
+          "",
+          "",
+          "a",
+          "",
+          "b",
+          "",
+          ""
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "canonical-03",
+        "task": "canonical",
+        "expected": [
+          "a",
+          "b"
+        ],
+        "actual": [
+          "a\tb"
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "canonical-04",
+        "task": "canonical",
+        "expected": [
+          "a",
+          "b"
+        ],
+        "actual": [
+          "a\nb"
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "canonical-05",
+        "task": "canonical",
+        "expected": [],
+        "actual": [
+          "\t"
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "canonical-06",
+        "task": "canonical",
+        "expected": [
+          "mixed"
+        ],
+        "actual": [
+          "mixed"
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "canonical-07",
+        "task": "canonical",
+        "expected": [
+          "a"
+        ],
+        "actual": [
+          "",
+          "a",
+          ""
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "canonical-08",
+        "task": "canonical",
+        "expected": [
+          "a",
+          "b",
+          "c"
+        ],
+        "actual": [
+          "a",
+          "",
+          "",
+          "b",
+          "c"
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "canonical-09",
+        "task": "canonical",
+        "expected": [
+          "123",
+          "x"
+        ],
+        "actual": [
+          "123",
+          "x"
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "canonical-10",
+        "task": "canonical",
+        "expected": [
+          "a",
+          "b"
+        ],
+        "actual": [
+          "a\r\nb"
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "canonical-11",
+        "task": "canonical",
+        "expected": [
+          "a",
+          "b"
+        ],
+        "actual": [
+          "a\u2003b"
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "canonical-12",
+        "task": "canonical",
+        "expected": [
+          "\u00e4",
+          "\u00f6"
+        ],
+        "actual": [
+          "\u00e4",
+          "\u00f6"
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "canonical-13",
+        "task": "canonical",
+        "expected": [
+          "one",
+          "two",
+          "three"
+        ],
+        "actual": [
+          "one\t",
+          "two\n",
+          "three"
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "canonical-14",
+        "task": "canonical",
+        "expected": [
+          "a",
+          "a"
+        ],
+        "actual": [
+          "",
+          "a",
+          "",
+          "a",
+          ""
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "canonical-15",
+        "task": "canonical",
+        "expected": [
+          "x-y",
+          "z"
+        ],
+        "actual": [
+          "x-y",
+          "z"
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "unique-00",
+        "task": "unique",
+        "expected": [],
+        "actual": [],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "unique-01",
+        "task": "unique",
+        "expected": [
+          1
+        ],
+        "actual": [
+          1
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "unique-02",
+        "task": "unique",
+        "expected": [
+          1
+        ],
+        "actual": [
+          1
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "unique-03",
+        "task": "unique",
+        "expected": [
+          2,
+          1
+        ],
+        "actual": [
+          1,
+          2
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "unique-04",
+        "task": "unique",
+        "expected": [
+          "b",
+          "a"
+        ],
+        "actual": [
+          "a",
+          "b"
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "unique-05",
+        "task": "unique",
+        "expected": [
+          0,
+          1
+        ],
+        "actual": [
+          0,
+          1
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "unique-06",
+        "task": "unique",
+        "expected": [
+          3,
+          2,
+          1
+        ],
+        "actual": [
+          1,
+          2,
+          3
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "unique-07",
+        "task": "unique",
+        "expected": [
+          "",
+          "a"
+        ],
+        "actual": [
+          "",
+          "a"
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "unique-08",
+        "task": "unique",
+        "expected": [
+          -1,
+          2
+        ],
+        "actual": [
+          -1,
+          2
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "unique-09",
+        "task": "unique",
+        "expected": [
+          1,
+          2,
+          3
+        ],
+        "actual": [
+          1,
+          2,
+          3
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "unique-10",
+        "task": "unique",
+        "expected": [
+          4
+        ],
+        "actual": [
+          4
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "unique-11",
+        "task": "unique",
+        "expected": [
+          "X",
+          "x"
+        ],
+        "actual": [
+          "X",
+          "x"
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "unique-12",
+        "task": "unique",
+        "expected": [
+          2,
+          1
+        ],
+        "actual": [
+          1,
+          2
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "unique-13",
+        "task": "unique",
+        "expected": [
+          0,
+          -1,
+          2
+        ],
+        "actual": [
+          -1,
+          0,
+          2
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "unique-14",
+        "task": "unique",
+        "expected": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "actual": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "unique-15",
+        "task": "unique",
+        "expected": [
+          7,
+          6,
+          5
+        ],
+        "actual": [
+          5,
+          6,
+          7
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "merge-00",
+        "task": "merge",
+        "expected": [],
+        "actual": [],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "merge-01",
+        "task": "merge",
+        "expected": [
+          [
+            1,
+            2
+          ]
+        ],
+        "actual": [
+          [
+            1,
+            2
+          ]
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "merge-02",
+        "task": "merge",
+        "expected": [
+          [
+            1,
+            3
+          ]
+        ],
+        "actual": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "merge-03",
+        "task": "merge",
+        "expected": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "actual": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "merge-04",
+        "task": "merge",
+        "expected": [
+          [
+            1,
+            5
+          ]
+        ],
+        "actual": [
+          [
+            1,
+            5
+          ]
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "merge-05",
+        "task": "merge",
+        "expected": [
+          [
+            1,
+            2
+          ]
+        ],
+        "actual": [
+          [
+            1,
+            2
+          ]
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "merge-06",
+        "task": "merge",
+        "expected": [
+          [
+            0,
+            1
+          ]
+        ],
+        "actual": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "merge-07",
+        "task": "merge",
+        "expected": [
+          [
+            -3,
+            2
+          ]
+        ],
+        "actual": [
+          [
+            -3,
+            -1
+          ],
+          [
+            -1,
+            2
+          ]
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "merge-08",
+        "task": "merge",
+        "expected": [
+          [
+            1,
+            6
+          ]
+        ],
+        "actual": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "merge-09",
+        "task": "merge",
+        "expected": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "actual": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "merge-10",
+        "task": "merge",
+        "expected": [
+          [
+            1,
+            1
+          ]
+        ],
+        "actual": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "merge-11",
+        "task": "merge",
+        "expected": [
+          [
+            1,
+            4
+          ]
+        ],
+        "actual": [
+          [
+            1,
+            4
+          ]
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "merge-12",
+        "task": "merge",
+        "expected": [
+          [
+            0,
+            12
+          ]
+        ],
+        "actual": [
+          [
+            0,
+            12
+          ]
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "merge-13",
+        "task": "merge",
+        "expected": [
+          [
+            -2,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "actual": [
+          [
+            -2,
+            -1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "merge-14",
+        "task": "merge",
+        "expected": [
+          [
+            0,
+            2
+          ]
+        ],
+        "actual": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "merge-15",
+        "task": "merge",
+        "expected": [
+          [
+            1,
+            9
+          ]
+        ],
+        "actual": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            8,
+            9
+          ]
+        ],
+        "error": null,
+        "passed": false
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "report": {
+        "valid": true,
+        "source_sha256": "e32a6731b11d75fa2bc4b89424ffa43eb2586de6197b0d4fd767c02ee4253bea",
+        "passed": 48,
+        "total": 48,
+        "per_task": {
+          "canonical": 16,
+          "unique": 16,
+          "merge": 16
+        },
+        "cases": [
+          {
+            "id": "canonical-00",
+            "task": "canonical",
+            "expected": [],
+            "actual": [],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-01",
+            "task": "canonical",
+            "expected": [
+              "a",
+              "b"
+            ],
+            "actual": [
+              "a",
+              "b"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-02",
+            "task": "canonical",
+            "expected": [
+              "a",
+              "b"
+            ],
+            "actual": [
+              "a",
+              "b"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-03",
+            "task": "canonical",
+            "expected": [
+              "a",
+              "b"
+            ],
+            "actual": [
+              "a",
+              "b"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-04",
+            "task": "canonical",
+            "expected": [
+              "a",
+              "b"
+            ],
+            "actual": [
+              "a",
+              "b"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-05",
+            "task": "canonical",
+            "expected": [],
+            "actual": [],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-06",
+            "task": "canonical",
+            "expected": [
+              "mixed"
+            ],
+            "actual": [
+              "mixed"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-07",
+            "task": "canonical",
+            "expected": [
+              "a"
+            ],
+            "actual": [
+              "a"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-08",
+            "task": "canonical",
+            "expected": [
+              "a",
+              "b",
+              "c"
+            ],
+            "actual": [
+              "a",
+              "b",
+              "c"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-09",
+            "task": "canonical",
+            "expected": [
+              "123",
+              "x"
+            ],
+            "actual": [
+              "123",
+              "x"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-10",
+            "task": "canonical",
+            "expected": [
+              "a",
+              "b"
+            ],
+            "actual": [
+              "a",
+              "b"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-11",
+            "task": "canonical",
+            "expected": [
+              "a",
+              "b"
+            ],
+            "actual": [
+              "a",
+              "b"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-12",
+            "task": "canonical",
+            "expected": [
+              "\u00e4",
+              "\u00f6"
+            ],
+            "actual": [
+              "\u00e4",
+              "\u00f6"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-13",
+            "task": "canonical",
+            "expected": [
+              "one",
+              "two",
+              "three"
+            ],
+            "actual": [
+              "one",
+              "two",
+              "three"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-14",
+            "task": "canonical",
+            "expected": [
+              "a",
+              "a"
+            ],
+            "actual": [
+              "a",
+              "a"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-15",
+            "task": "canonical",
+            "expected": [
+              "x-y",
+              "z"
+            ],
+            "actual": [
+              "x-y",
+              "z"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-00",
+            "task": "unique",
+            "expected": [],
+            "actual": [],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-01",
+            "task": "unique",
+            "expected": [
+              1
+            ],
+            "actual": [
+              1
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-02",
+            "task": "unique",
+            "expected": [
+              1
+            ],
+            "actual": [
+              1
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-03",
+            "task": "unique",
+            "expected": [
+              2,
+              1
+            ],
+            "actual": [
+              2,
+              1
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-04",
+            "task": "unique",
+            "expected": [
+              "b",
+              "a"
+            ],
+            "actual": [
+              "b",
+              "a"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-05",
+            "task": "unique",
+            "expected": [
+              0,
+              1
+            ],
+            "actual": [
+              0,
+              1
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-06",
+            "task": "unique",
+            "expected": [
+              3,
+              2,
+              1
+            ],
+            "actual": [
+              3,
+              2,
+              1
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-07",
+            "task": "unique",
+            "expected": [
+              "",
+              "a"
+            ],
+            "actual": [
+              "",
+              "a"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-08",
+            "task": "unique",
+            "expected": [
+              -1,
+              2
+            ],
+            "actual": [
+              -1,
+              2
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-09",
+            "task": "unique",
+            "expected": [
+              1,
+              2,
+              3
+            ],
+            "actual": [
+              1,
+              2,
+              3
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-10",
+            "task": "unique",
+            "expected": [
+              4
+            ],
+            "actual": [
+              4
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-11",
+            "task": "unique",
+            "expected": [
+              "X",
+              "x"
+            ],
+            "actual": [
+              "X",
+              "x"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-12",
+            "task": "unique",
+            "expected": [
+              2,
+              1
+            ],
+            "actual": [
+              2,
+              1
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-13",
+            "task": "unique",
+            "expected": [
+              0,
+              -1,
+              2
+            ],
+            "actual": [
+              0,
+              -1,
+              2
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-14",
+            "task": "unique",
+            "expected": [
+              "a",
+              "b",
+              "c",
+              "d"
+            ],
+            "actual": [
+              "a",
+              "b",
+              "c",
+              "d"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-15",
+            "task": "unique",
+            "expected": [
+              7,
+              6,
+              5
+            ],
+            "actual": [
+              7,
+              6,
+              5
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-00",
+            "task": "merge",
+            "expected": [],
+            "actual": [],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-01",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                2
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                2
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-02",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                3
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                3
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-03",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-04",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                5
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-05",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                2
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                2
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-06",
+            "task": "merge",
+            "expected": [
+              [
+                0,
+                1
+              ]
+            ],
+            "actual": [
+              [
+                0,
+                1
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-07",
+            "task": "merge",
+            "expected": [
+              [
+                -3,
+                2
+              ]
+            ],
+            "actual": [
+              [
+                -3,
+                2
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-08",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                6
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                6
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-09",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-10",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                1
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                1
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-11",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                4
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-12",
+            "task": "merge",
+            "expected": [
+              [
+                0,
+                12
+              ]
+            ],
+            "actual": [
+              [
+                0,
+                12
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-13",
+            "task": "merge",
+            "expected": [
+              [
+                -2,
+                -1
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "actual": [
+              [
+                -2,
+                -1
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-14",
+            "task": "merge",
+            "expected": [
+              [
+                0,
+                2
+              ]
+            ],
+            "actual": [
+              [
+                0,
+                2
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-15",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                9
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                9
+              ]
+            ],
+            "error": null,
+            "passed": true
+          }
+        ]
+      },
+      "measurement_gate": true,
+      "activation": "pending_independent_review"
+    },
+    {
+      "report": {
+        "valid": true,
+        "source_sha256": "a86d11c6c38884e763a064d75ba1e784f620768da8a6bdb7a1214e09caffe16b",
+        "passed": 42,
+        "total": 48,
+        "per_task": {
+          "canonical": 16,
+          "unique": 10,
+          "merge": 16
+        },
+        "cases": [
+          {
+            "id": "canonical-00",
+            "task": "canonical",
+            "expected": [],
+            "actual": [],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-01",
+            "task": "canonical",
+            "expected": [
+              "a",
+              "b"
+            ],
+            "actual": [
+              "a",
+              "b"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-02",
+            "task": "canonical",
+            "expected": [
+              "a",
+              "b"
+            ],
+            "actual": [
+              "a",
+              "b"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-03",
+            "task": "canonical",
+            "expected": [
+              "a",
+              "b"
+            ],
+            "actual": [
+              "a",
+              "b"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-04",
+            "task": "canonical",
+            "expected": [
+              "a",
+              "b"
+            ],
+            "actual": [
+              "a",
+              "b"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-05",
+            "task": "canonical",
+            "expected": [],
+            "actual": [],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-06",
+            "task": "canonical",
+            "expected": [
+              "mixed"
+            ],
+            "actual": [
+              "mixed"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-07",
+            "task": "canonical",
+            "expected": [
+              "a"
+            ],
+            "actual": [
+              "a"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-08",
+            "task": "canonical",
+            "expected": [
+              "a",
+              "b",
+              "c"
+            ],
+            "actual": [
+              "a",
+              "b",
+              "c"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-09",
+            "task": "canonical",
+            "expected": [
+              "123",
+              "x"
+            ],
+            "actual": [
+              "123",
+              "x"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-10",
+            "task": "canonical",
+            "expected": [
+              "a",
+              "b"
+            ],
+            "actual": [
+              "a",
+              "b"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-11",
+            "task": "canonical",
+            "expected": [
+              "a",
+              "b"
+            ],
+            "actual": [
+              "a",
+              "b"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-12",
+            "task": "canonical",
+            "expected": [
+              "\u00e4",
+              "\u00f6"
+            ],
+            "actual": [
+              "\u00e4",
+              "\u00f6"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-13",
+            "task": "canonical",
+            "expected": [
+              "one",
+              "two",
+              "three"
+            ],
+            "actual": [
+              "one",
+              "two",
+              "three"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-14",
+            "task": "canonical",
+            "expected": [
+              "a",
+              "a"
+            ],
+            "actual": [
+              "a",
+              "a"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "canonical-15",
+            "task": "canonical",
+            "expected": [
+              "x-y",
+              "z"
+            ],
+            "actual": [
+              "x-y",
+              "z"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-00",
+            "task": "unique",
+            "expected": [],
+            "actual": [],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-01",
+            "task": "unique",
+            "expected": [
+              1
+            ],
+            "actual": [
+              1
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-02",
+            "task": "unique",
+            "expected": [
+              1
+            ],
+            "actual": [
+              1
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-03",
+            "task": "unique",
+            "expected": [
+              2,
+              1
+            ],
+            "actual": [
+              1,
+              2
+            ],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "unique-04",
+            "task": "unique",
+            "expected": [
+              "b",
+              "a"
+            ],
+            "actual": [
+              "a",
+              "b"
+            ],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "unique-05",
+            "task": "unique",
+            "expected": [
+              0,
+              1
+            ],
+            "actual": [
+              0,
+              1
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-06",
+            "task": "unique",
+            "expected": [
+              3,
+              2,
+              1
+            ],
+            "actual": [
+              1,
+              2,
+              3
+            ],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "unique-07",
+            "task": "unique",
+            "expected": [
+              "",
+              "a"
+            ],
+            "actual": [
+              "",
+              "a"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-08",
+            "task": "unique",
+            "expected": [
+              -1,
+              2
+            ],
+            "actual": [
+              -1,
+              2
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-09",
+            "task": "unique",
+            "expected": [
+              1,
+              2,
+              3
+            ],
+            "actual": [
+              1,
+              2,
+              3
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-10",
+            "task": "unique",
+            "expected": [
+              4
+            ],
+            "actual": [
+              4
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-11",
+            "task": "unique",
+            "expected": [
+              "X",
+              "x"
+            ],
+            "actual": [
+              "X",
+              "x"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-12",
+            "task": "unique",
+            "expected": [
+              2,
+              1
+            ],
+            "actual": [
+              1,
+              2
+            ],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "unique-13",
+            "task": "unique",
+            "expected": [
+              0,
+              -1,
+              2
+            ],
+            "actual": [
+              -1,
+              0,
+              2
+            ],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "unique-14",
+            "task": "unique",
+            "expected": [
+              "a",
+              "b",
+              "c",
+              "d"
+            ],
+            "actual": [
+              "a",
+              "b",
+              "c",
+              "d"
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "unique-15",
+            "task": "unique",
+            "expected": [
+              7,
+              6,
+              5
+            ],
+            "actual": [
+              5,
+              6,
+              7
+            ],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "merge-00",
+            "task": "merge",
+            "expected": [],
+            "actual": [],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-01",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                2
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                2
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-02",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                3
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                3
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-03",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-04",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                5
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                5
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-05",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                2
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                2
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-06",
+            "task": "merge",
+            "expected": [
+              [
+                0,
+                1
+              ]
+            ],
+            "actual": [
+              [
+                0,
+                1
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-07",
+            "task": "merge",
+            "expected": [
+              [
+                -3,
+                2
+              ]
+            ],
+            "actual": [
+              [
+                -3,
+                2
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-08",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                6
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                6
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-09",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-10",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                1
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                1
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-11",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                4
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                4
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-12",
+            "task": "merge",
+            "expected": [
+              [
+                0,
+                12
+              ]
+            ],
+            "actual": [
+              [
+                0,
+                12
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-13",
+            "task": "merge",
+            "expected": [
+              [
+                -2,
+                -1
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "actual": [
+              [
+                -2,
+                -1
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-14",
+            "task": "merge",
+            "expected": [
+              [
+                0,
+                2
+              ]
+            ],
+            "actual": [
+              [
+                0,
+                2
+              ]
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "merge-15",
+            "task": "merge",
+            "expected": [
+              [
+                1,
+                9
+              ]
+            ],
+            "actual": [
+              [
+                1,
+                9
+              ]
+            ],
+            "error": null,
+            "passed": true
+          }
+        ]
+      },
+      "measurement_gate": true,
+      "activation": "pending_independent_review"
+    }
+  ]
+}

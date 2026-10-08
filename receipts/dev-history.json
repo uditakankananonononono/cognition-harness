@@ -1,0 +1,428 @@
+[
+  {
+    "round": 0,
+    "dev_before": 0,
+    "trials": [
+      {
+        "operator": "canonical_whitespace",
+        "report": {
+          "valid": true,
+          "source_sha256": "24edaf434f8dd5f66712a59ca6d4e2a9a4e4257c16a8c54272c48221923d6dbb",
+          "passed": 1,
+          "total": 3,
+          "per_task": {
+            "canonical": 1,
+            "unique": 0,
+            "merge": 0
+          },
+          "cases": [
+            {
+              "id": "dev-c",
+              "task": "canonical",
+              "expected": [
+                "hello",
+                "world"
+              ],
+              "actual": [
+                "hello",
+                "world"
+              ],
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-u",
+              "task": "unique",
+              "expected": [
+                3,
+                1,
+                2
+              ],
+              "actual": [
+                1,
+                2,
+                3
+              ],
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-m",
+              "task": "merge",
+              "expected": [
+                [
+                  0,
+                  4
+                ]
+              ],
+              "actual": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  2,
+                  4
+                ]
+              ],
+              "error": null,
+              "passed": false
+            }
+          ]
+        }
+      },
+      {
+        "operator": "unique_order",
+        "report": {
+          "valid": true,
+          "source_sha256": "75551923bf07f16b473ff538117f05ab6f32282a22f5e9b48fb5ae698af40745",
+          "passed": 1,
+          "total": 3,
+          "per_task": {
+            "canonical": 0,
+            "unique": 1,
+            "merge": 0
+          },
+          "cases": [
+            {
+              "id": "dev-c",
+              "task": "canonical",
+              "expected": [
+                "hello",
+                "world"
+              ],
+              "actual": [
+                "",
+                "",
+                "hello\tworld",
+                "",
+                ""
+              ],
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-u",
+              "task": "unique",
+              "expected": [
+                3,
+                1,
+                2
+              ],
+              "actual": [
+                3,
+                1,
+                2
+              ],
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-m",
+              "task": "merge",
+              "expected": [
+                [
+                  0,
+                  4
+                ]
+              ],
+              "actual": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  2,
+                  4
+                ]
+              ],
+              "error": null,
+              "passed": false
+            }
+          ]
+        }
+      },
+      {
+        "operator": "merge_touching",
+        "report": {
+          "valid": true,
+          "source_sha256": "8b114aa7ac968e157d0c0420525553f9ad784c5a337d486732ad3b69bf16e254",
+          "passed": 1,
+          "total": 3,
+          "per_task": {
+            "canonical": 0,
+            "unique": 0,
+            "merge": 1
+          },
+          "cases": [
+            {
+              "id": "dev-c",
+              "task": "canonical",
+              "expected": [
+                "hello",
+                "world"
+              ],
+              "actual": [
+                "",
+                "",
+                "hello\tworld",
+                "",
+                ""
+              ],
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-u",
+              "task": "unique",
+              "expected": [
+                3,
+                1,
+                2
+              ],
+              "actual": [
+                1,
+                2,
+                3
+              ],
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-m",
+              "task": "merge",
+              "expected": [
+                [
+                  0,
+                  4
+                ]
+              ],
+              "actual": [
+                [
+                  0,
+                  4
+                ]
+              ],
+              "error": null,
+              "passed": true
+            }
+          ]
+        }
+      }
+    ],
+    "selected": "unique_order"
+  },
+  {
+    "round": 1,
+    "dev_before": 1,
+    "trials": [
+      {
+        "operator": "canonical_whitespace",
+        "report": {
+          "valid": true,
+          "source_sha256": "b573afa736893a50bbd3b60bb1684a88d2219b45e854c0e83acba9199fc86423",
+          "passed": 2,
+          "total": 3,
+          "per_task": {
+            "canonical": 1,
+            "unique": 1,
+            "merge": 0
+          },
+          "cases": [
+            {
+              "id": "dev-c",
+              "task": "canonical",
+              "expected": [
+                "hello",
+                "world"
+              ],
+              "actual": [
+                "hello",
+                "world"
+              ],
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-u",
+              "task": "unique",
+              "expected": [
+                3,
+                1,
+                2
+              ],
+              "actual": [
+                3,
+                1,
+                2
+              ],
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-m",
+              "task": "merge",
+              "expected": [
+                [
+                  0,
+                  4
+                ]
+              ],
+              "actual": [
+                [
+                  0,
+                  2
+                ],
+                [
+                  2,
+                  4
+                ]
+              ],
+              "error": null,
+              "passed": false
+            }
+          ]
+        }
+      },
+      {
+        "operator": "merge_touching",
+        "report": {
+          "valid": true,
+          "source_sha256": "cccfadca49495fa3c30a4ab014ac42a83efe57af1852162c76bfddb754a5ef60",
+          "passed": 2,
+          "total": 3,
+          "per_task": {
+            "canonical": 0,
+            "unique": 1,
+            "merge": 1
+          },
+          "cases": [
+            {
+              "id": "dev-c",
+              "task": "canonical",
+              "expected": [
+                "hello",
+                "world"
+              ],
+              "actual": [
+                "",
+                "",
+                "hello\tworld",
+                "",
+                ""
+              ],
+              "error": null,
+              "passed": false
+            },
+            {
+              "id": "dev-u",
+              "task": "unique",
+              "expected": [
+                3,
+                1,
+                2
+              ],
+              "actual": [
+                3,
+                1,
+                2
+              ],
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-m",
+              "task": "merge",
+              "expected": [
+                [
+                  0,
+                  4
+                ]
+              ],
+              "actual": [
+                [
+                  0,
+                  4
+                ]
+              ],
+              "error": null,
+              "passed": true
+            }
+          ]
+        }
+      }
+    ],
+    "selected": "merge_touching"
+  },
+  {
+    "round": 2,
+    "dev_before": 2,
+    "trials": [
+      {
+        "operator": "canonical_whitespace",
+        "report": {
+          "valid": true,
+          "source_sha256": "e32a6731b11d75fa2bc4b89424ffa43eb2586de6197b0d4fd767c02ee4253bea",
+          "passed": 3,
+          "total": 3,
+          "per_task": {
+            "canonical": 1,
+            "unique": 1,
+            "merge": 1
+          },
+          "cases": [
+            {
+              "id": "dev-c",
+              "task": "canonical",
+              "expected": [
+                "hello",
+                "world"
+              ],
+              "actual": [
+                "hello",
+                "world"
+              ],
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-u",
+              "task": "unique",
+              "expected": [
+                3,
+                1,
+                2
+              ],
+              "actual": [
+                3,
+                1,
+                2
+              ],
+              "error": null,
+              "passed": true
+            },
+            {
+              "id": "dev-m",
+              "task": "merge",
+              "expected": [
+                [
+                  0,
+                  4
+                ]
+              ],
+              "actual": [
+                [
+                  0,
+                  4
+                ]
+              ],
+              "error": null,
+              "passed": true
+            }
+          ]
+        }
+      }
+    ],
+    "selected": "canonical_whitespace"
+  }
+]
