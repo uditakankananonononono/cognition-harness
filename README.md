@@ -1,3 +1,23 @@
+# Cognition harness: experiment index
+
+Local finite-search and evaluation-governance experiments. Each claim is restricted to its named frozen protocol. No AGI, general invention, deployment or activation claim.
+
+## Read the right milestone
+
+- M1: original small deterministic repair harness and typed-judge correction. Original overview retained below.
+- M2 exploratory and M2b disjoint follow-on: v2/README.md and v2b/README.md.
+- M3 generic operator mutation: v3/README.md.
+- M4 failed contrast and M4b preservation gate study: v4/README.md and v4b/README.md.
+- M5 malformed-report refusal study: v5/README.md.
+- M6 plateau beam versus greedy: v6/README.md.
+- M7 independently reviewed accurate NULL: v7/README.md and M7-REVIEW-VERDICT.md.
+- M8 independently reviewed known-benchmark semantic pruning, with append-only baseline wording note: v8/README.md and v8/receipts/review-note.json.
+- Next broader data-repair study: next-study/CONTRACT-V2.md is a PROPOSAL, not frozen, not scored, not a new capability result. Evaluator final pack must never be stored here.
+
+The root README previously opened with the M1 heading. That did not mean M8 artifacts were absent; M8 documentation is in its own v8 directory. Use v8/README.md for the M8-specific Drive filing. Do not describe root README as the M8 report.
+
+## Original M1 overview (historical)
+
 # Cognition harness: local milestone 1
 
 This is a bounded, deterministic source-repair agent, not AGI, not a language model, and not a general self-improver. No network/API/model is used by the repair loop. Nothing is integrated, pushed, or activated in a product.
