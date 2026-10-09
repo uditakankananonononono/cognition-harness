@@ -1,5 +1,5 @@
 {
-  "status": "proposed-v2.1-not-frozen",
+  "status": "frozen",
   "files": {
     "study_runner.py": "026073c522a869433d21473598046149683b8be689e673f189d1ca595b293cc4",
     "public-pool.json": "56a72e0bd095588f6cbfd514c84c2bf26bcd82da6802f47a9ecf38c0f0b5a88e",
