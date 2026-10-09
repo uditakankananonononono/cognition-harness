@@ -1,4 +1,4 @@
-# Selection ambiguity stress study v2, proposed
+# Selection ambiguity stress study v2.1, proposed
 
 NOT FROZEN. No evaluator pack constructed or scored by builder. Runner mechanics
 at e41ff6c received parent-reported SCOPED PASS, not an accuracy/benefit verdict.
@@ -18,19 +18,41 @@ A null or worse disagreement result remains a valid result, not grounds to retun
 ## Fixed proposed task construction: 512 instances
 
 Independent evaluator constructs pack ONLY AFTER gate-approved source freeze.
+Target order is fixed by grammar index, then dev-count 1,2,3,4, then instance
+ordinal 0..15. Thus 8 x 4 x 16 = 512 instances and 4096 final cases per method.
+
+The operator semantics and target indices are:
+0: add +1 = x+1
+1: add -1 = x-1
+2: neg = -x
+3: abs = |x|
+4: positive = max(0,x)
+5: negative = min(0,x)
+6: identity = x
+7: zero = 0
+The evaluator implements these independently from this spec and MUST NOT import
+study_runner.interpret for its reference oracle or final-output interpreter.
 Use eight known GRAMMAR targets, 64 instances per target, allocated equally across
 1,2,3,4 development inputs (16 instances per target per dev-count). This includes
 abs, negation, positive/negative-part targets where lower-complexity identity/zero
 can be wrong despite fitting some development evidence. No target is hidden from
 builder by name; only final instances/answers are under separate custody.
 
-Evaluator samples distinct integer dev inputs uniformly without replacement from
--32..32 using a private fixed-seed PRNG, then draws 8 distinct final inputs per
-instance uniformly without replacement from remaining inputs. The evaluator pins
-seed/generator/pack hashes privately before method execution. Dev/final disjointness
-is per instance; tasks may repeat inputs across instances. Do not reject samples
-based on ambiguity, selected finalist or outcome. The 512 tasks are correlated
-synthetic constructions, not 512 independently sampled real-world problems.
+Evaluator uses Python random.Random (Mersenne Twister) with an integer seed
+chosen by the evaluator. Before pack construction, privately hash-commit the
+UTF-8 decimal string representation of that integer seed. Record Python version.
+Use one PRNG instance, no reseeding, in the fixed target/dev-count/instance order.
+For dev-count d, dev inputs = rng.sample(list(range(-32,33)), d).
+Remainder = [x for x in range(-32,33) if x not in dev inputs], preserving that
+original ascending order. Final inputs = rng.sample(remainder, 8).
+Dev pairs keep sample order. Final cases keep sample order. Expected answers
+come only from the evaluator's independent reference outputs for the target index.
+The evaluator pins seed hash and generator/pack hashes privately before method
+execution. Dev/final disjointness is per instance; tasks may repeat inputs across
+instances. Do not reject samples based on ambiguity, selected finalist or outcome.
+The 512 tasks are correlated synthetic constructions, not 512 independently
+sampled real-world problems. Dev-count-1 targets are often indistinguishable;
+high Stage A disagreement, if observed, is retained and not tuned away.
 
 Public probe pool stays the exact 8-input file already proposed. Its inputs may
 overlap dev/final domain; unlabeled probe overlap is a declared limitation. No
@@ -76,8 +98,12 @@ oracle on developer-known fixtures before scoring, without sending final cases.
 
 Report all 512 tasks and 4096 cases per method, cap exits included as failures.
 Report case accuracy, all-8-cases task pass count and exact-target expression
-identity recovery as separate metrics. Equal expressions on finite cases need not
-be target identity recovery. Include paired task-pass win/tie/loss counts for each
+identity recovery as separate metrics. Exact-target identity recovery means the
+finalist expression is the same grammar entry as the instance target BY INDEX.
+Find the finalist's unique entry in the fixed ordered grammar above and compare
+its index to the target index. Null finalist is failure for both identity recovery
+and final-case correctness. Equivalent-on-finals is the separate all-8-cases pass
+metric and is not target identity recovery. Include paired task-pass win/tie/loss counts for each
 method pair, results on the pre-scoring method-disagreement subset, and breakdowns
 by target/dev-count. Do not select only positive subsets. No significance/transfer
 claim, no speed superiority. Retain failures and null results.
@@ -88,7 +114,10 @@ A separate evaluator, neither builder nor gate, must explicitly accept the
 construction and oracle plan. Gate checks source/protocol/pool freeze bytes first.
 No final data in git/bundles; evaluator retains private pack and private per-case
 receipt, sends public-safe aggregates and hash-backed custody receipt afterward.
+Custody receipt lists private pack hash, private seed hash, generator/source pins
+and each per-method selection/scoring receipt hash. No pack or seed is disclosed
+to the builder; hashes are integrity identifiers, not a confidentiality proof.
 Builder sees no final input/expected-answer file and does not build the final pack.
 
-This v2 supersedes the 16-task plan in RUNNER-PROPOSAL-V1.md. Acceptance by gate
+This v2.1 supersedes the 16-task plan in RUNNER-PROPOSAL-V1.md. Acceptance by gate
 and evaluator remains unresolved. No experiment is announced complete or frozen.
