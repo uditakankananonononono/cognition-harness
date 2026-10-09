@@ -1,0 +1,11 @@
+{
+  "status": "proposed-not-frozen",
+  "files": {
+    "study_runner.py": "026073c522a869433d21473598046149683b8be689e673f189d1ca595b293cc4",
+    "public-pool.json": "56a72e0bd095588f6cbfd514c84c2bf26bcd82da6802f47a9ecf38c0f0b5a88e",
+    "RUNNER-PROPOSAL-V1.md": "123e6eeff1ed7b21c9e2e0f5637071ec44eb2dc997805e53dda28f6d6e83445f",
+    "retention_ledger.py": "cfc1e407bda53fa5c3d8c14e310e7bc7ee1c111aa313d4a05016e6213d25c509",
+    "probe_partition.py": "96831b85139f3dfd07b5a8bb51c52d627b61d30cc4c301e2f318c8df65d66d50",
+    "test_study_runner.py": "485e8eb79065ec2b2df5aa53e7ad08b2ca5be0f437210ba16d6e5d7549b3d5e7"
+  }
+}

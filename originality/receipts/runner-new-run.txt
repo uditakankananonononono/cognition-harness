@@ -1,0 +1,33 @@
+test_cap_retains_all_lineage (test_partition.PartitionTests) ... ok
+test_max_disagreement (test_partition.PartitionTests) ... ok
+test_missing_vector (test_partition.PartitionTests) ... ok
+test_no_disagreement (test_partition.PartitionTests) ... ok
+test_tie_order (test_partition.PartitionTests) ... ok
+test_typed_bool (test_partition.PartitionTests) ... ok
+test_unequal_vectors (test_partition.PartitionTests) ... ok
+test_unsupported_output (test_partition.PartitionTests) ... ok
+test_bad_limits_protocol_reason (test_retention_ledger.LedgerTests) ... ok
+test_duplicate_and_unknown_refusal (test_retention_ledger.LedgerTests) ... ok
+test_event_tamper (test_retention_ledger.LedgerTests) ... ok
+test_metadata_and_sources_count_toward_limit (test_retention_ledger.LedgerTests) ... ok
+test_oversized_source_rejected_atomically (test_retention_ledger.LedgerTests) ... ok
+test_repeated_prune_restore_has_explicit_lineage (test_retention_ledger.LedgerTests) ... ok
+test_restore_exact_unicode_source_and_lineage (test_retention_ledger.LedgerTests) ... ok
+test_restore_requires_prune (test_retention_ledger.LedgerTests) ... ok
+test_source_cap (test_retention_ledger.LedgerTests) ... ok
+test_source_tamper (test_retention_ledger.LedgerTests) ... ok
+test_status_tamper (test_retention_ledger.LedgerTests) ... ok
+test_unlogged_source_rejected (test_retention_ledger.LedgerTests) ... ok
+test_cap_exits_no_finalist (test_study_runner.RunnerTests) ... ok
+test_determinism (test_study_runner.RunnerTests) ... ok
+test_diversity_can_choose_worse_candidate (test_study_runner.RunnerTests) ... ok
+test_each_method_selects_one_without_scoring (test_study_runner.RunnerTests) ... ok
+test_identical_actual_scalar_charges (test_study_runner.RunnerTests) ... ok
+test_invalid_types (test_study_runner.RunnerTests) ... ok
+test_pool_pin_refusal (test_study_runner.RunnerTests) ... ok
+test_restoration_is_logged (test_study_runner.RunnerTests) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.663s
+
+OK
