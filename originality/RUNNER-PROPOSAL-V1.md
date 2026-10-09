@@ -26,7 +26,7 @@ Exactly one finalist: minimum dev mismatches, then expression complexity
 and final answers do not enter this ranking. Methods differ only in eligibility.
 Method first retains first per bucket; fixed retains first K; disagreement retains
 first per distinct output group at its most diverse public probe, max K per bucket.
-K is per bucket, not global. A selection vector hash records all eligible sources.
+K is per bucket, not global. The selection_sha256 field is a list of eligible-source hashes, not an aggregate hash.
 No method can inspect final inputs/answers inside run(). This API alone is not a
 custody guarantee: independent final-pack handling is mandatory outside the runner.
 
@@ -57,3 +57,5 @@ Before freeze, evaluator must accept or reject this narrow proposal:
 These evaluator choices are PROPOSED, not settled by builder or freeze-approved.
 A formal frozen manifest must pin all source/test/pool/protocol bytes with this
 scope, including failure semantics. No final scoring until gate/evaluator acceptance.
+
+Historical v1 construction above is superseded by STUDY-REDESIGN-V2.md; no study frozen.

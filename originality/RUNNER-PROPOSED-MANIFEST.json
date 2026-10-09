@@ -1,11 +1,14 @@
 {
-  "status": "proposed-not-frozen",
+  "status": "proposed-v2-not-frozen",
   "files": {
     "study_runner.py": "026073c522a869433d21473598046149683b8be689e673f189d1ca595b293cc4",
     "public-pool.json": "56a72e0bd095588f6cbfd514c84c2bf26bcd82da6802f47a9ecf38c0f0b5a88e",
-    "RUNNER-PROPOSAL-V1.md": "123e6eeff1ed7b21c9e2e0f5637071ec44eb2dc997805e53dda28f6d6e83445f",
+    "RUNNER-PROPOSAL-V1.md": "e1d01aaec22cc85c16d57460294279f3a56a3c1124b2d7a20b070fc099f1bf39",
+    "STUDY-REDESIGN-V2.md": "47296abee798723c072ba3768ba169b86d95db11d81afa3d560a5eaf0f23e729",
     "retention_ledger.py": "cfc1e407bda53fa5c3d8c14e310e7bc7ee1c111aa313d4a05016e6213d25c509",
     "probe_partition.py": "96831b85139f3dfd07b5a8bb51c52d627b61d30cc4c301e2f318c8df65d66d50",
-    "test_study_runner.py": "485e8eb79065ec2b2df5aa53e7ad08b2ca5be0f437210ba16d6e5d7549b3d5e7"
+    "test_study_runner.py": "485e8eb79065ec2b2df5aa53e7ad08b2ca5be0f437210ba16d6e5d7549b3d5e7",
+    "test_retention_ledger.py": "2c8c7943d4777df9b6635ccc4d861ed2ac937a716bcb0c5172e4fb7bc40d9260",
+    "test_partition.py": "62482868f5c82dadb831aca54a8e20e12ea2bba57de15a70c7a2594499c6985e"
   }
 }
