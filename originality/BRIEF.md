@@ -28,3 +28,14 @@ No LLM/AGI/arbitrary invention, model/runtime superiority, owner authorization o
 ## Prototype mechanics only
 
 Eight new unit tests pass for maximum-disagreement/tie choice, typed bool/int partition, no-disagreement collapse, cap lineage, missing/unequal vectors and unsupported-output refusal. These do NOT test generalization, correctness of synthesized programs, novelty, byte-budget implementation, resurrection itself or superiority. Current prototype stores lineage IDs/groups, not a durable authenticated byte-budget ledger. Float/dict outputs intentionally outside the small prototype domain. Input vectors are externally evaluated, not supplied by a trusted oracle here. No benchmark score or benefit claim.
+
+## Recovered continuation: source ledger increment
+
+Exact prototype tip 13e1e72fd546091214120e1f0eee891a69fe80a1 recovered from
+bundle SHA256 0167fce665428e7a4d31fdd83e8b3a756680e653e95e9b93a31e99606f5f5c1d.
+New retention_ledger.py implements byte-counted exact source retention and explicit
+prune/restore lineage. Twenty mechanics tests in a NEW run pass (8 prior partition
+controls plus 12 ledger controls). Prior receipts remain unchanged. The new result
+is builder-measured, pending independent review, not a benchmark result. See
+STUDY-CONTRACT-DRAFT.md for the open experiment choices and missing runner,
+structured cost records, durable custody and independent scoring.
