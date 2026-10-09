@@ -1,0 +1,17 @@
+RECONSTRUCTED source: NEW test run, not lost original receipt
+test_activation (test_cli.HarnessCLI) ... ok
+test_bool_variant (test_cli.HarnessCLI) ... ok
+test_cli (test_cli.HarnessCLI) ... ok
+test_duplicate (test_cli.HarnessCLI) ... ok
+test_escape (test_cli.HarnessCLI) ... ok
+test_no_overwrite (test_cli.HarnessCLI) ... ok
+test_pin (test_cli.HarnessCLI) ... ok
+test_submit (test_cli.HarnessCLI) ... ok
+test_symlink (test_cli.HarnessCLI) ... ok
+test_tamper (test_cli.HarnessCLI) ... ok
+test_verify (test_cli.HarnessCLI) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.044s
+
+OK
