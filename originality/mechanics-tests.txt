@@ -1,0 +1,13 @@
+test_cap_retains_all_lineage (test_partition.PartitionTests) ... ok
+test_max_disagreement (test_partition.PartitionTests) ... ok
+test_missing_vector (test_partition.PartitionTests) ... ok
+test_no_disagreement (test_partition.PartitionTests) ... ok
+test_tie_order (test_partition.PartitionTests) ... ok
+test_typed_bool (test_partition.PartitionTests) ... ok
+test_unequal_vectors (test_partition.PartitionTests) ... ok
+test_unsupported_output (test_partition.PartitionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK
