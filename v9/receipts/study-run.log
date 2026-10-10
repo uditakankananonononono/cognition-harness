@@ -1,0 +1,61 @@
+{
+ "manifest_pin": "e7f12875f0931942f408b0e74106c718cde9eebe08fb0a2ac30cbf116a18c631",
+ "baseline_passed": 28,
+ "baseline_per_task": {
+  "clamp_range": 8,
+  "second_largest": 9,
+  "count_even": 7,
+  "running_max": 3,
+  "first_above": 1
+ },
+ "arms": {
+  "menu": {
+   "wall_seconds": 0.026,
+   "changed_vs_baseline": false,
+   "executions": 1,
+   "best_dev_passed": null,
+   "frozen_passed": 28,
+   "frozen_per_task": {
+    "clamp_range": 8,
+    "second_largest": 9,
+    "count_even": 7,
+    "running_max": 3,
+    "first_above": 1
+   },
+   "measurement_gate": false,
+   "activation": "pending_independent_review"
+  },
+  "beam": {
+   "wall_seconds": 71.464,
+   "changed_vs_baseline": true,
+   "executions": 4000,
+   "best_dev_passed": 9,
+   "frozen_passed": 68,
+   "frozen_per_task": {
+    "clamp_range": 16,
+    "second_largest": 16,
+    "count_even": 16,
+    "running_max": 16,
+    "first_above": 4
+   },
+   "measurement_gate": true,
+   "activation": "pending_independent_review"
+  },
+  "beam-macro": {
+   "wall_seconds": 68.571,
+   "changed_vs_baseline": true,
+   "executions": 4000,
+   "best_dev_passed": 9,
+   "frozen_passed": 68,
+   "frozen_per_task": {
+    "clamp_range": 16,
+    "second_largest": 16,
+    "count_even": 16,
+    "running_max": 16,
+    "first_above": 4
+   },
+   "measurement_gate": true,
+   "activation": "pending_independent_review"
+  }
+ }
+}

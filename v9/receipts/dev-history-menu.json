@@ -1,0 +1,11 @@
+{
+ "arm": "menu",
+ "rounds": [
+  {
+   "round": 0,
+   "dev_before": 0,
+   "trials": []
+  }
+ ],
+ "executions": 1
+}

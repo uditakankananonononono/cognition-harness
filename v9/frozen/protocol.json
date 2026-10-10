@@ -1,0 +1,40 @@
+{
+ "version": "v9.0",
+ "tasks": [
+  "clamp_range",
+  "second_largest",
+  "count_even",
+  "running_max",
+  "first_above"
+ ],
+ "domain": "clamp_range: [x,lo,hi] with lo<=hi, clamp x into [lo,hi]; second_largest: int list with >=2 distinct values, second largest distinct; count_even: int list, count of even values; running_max: nonempty int list, running maximum list; first_above: [values,limit], first v in values with v>limit else null",
+ "score": "exact JSON equality, 80 equal-weight cases, 16 per task",
+ "promotion": "candidate total strictly increases AND each task pass count does not decrease",
+ "arms": {
+  "menu": "incumbent M1 proposer: 3 named textual repair operators, dev-score hill climb, 3 rounds",
+  "beam": "inventive proposer: beam search over AST primitive transforms, dev-score ranking only",
+  "beam-macro": "beam plus cross-site macro-operator reuse extracted from improving mutations"
+ },
+ "budget": {
+  "beam_width": 8,
+  "beam_depth": 6,
+  "execution_cap": 4000,
+  "jobs": 8
+ },
+ "resources": {
+  "wall_seconds": 3,
+  "cpu_seconds": 1,
+  "address_space_bytes": 134217728,
+  "output_bytes": 65536
+ },
+ "baseline_sha256": "c8158cfb58b05fc2932df82e01959d46ad6ca815b636f4fc11d0caa41f41aa24",
+ "seed": 0,
+ "limitations": [
+  "synthetic hand-authored tasks",
+  "no statistical generalization claim",
+  "mutation grammar is builder-chosen; no novel-operator invention claim",
+  "dev-set-driven search can overfit dev cases; frozen eval is the only held-out evidence",
+  "holdout not cryptographically hidden from author",
+  "no publication or product activation"
+ ]
+}
