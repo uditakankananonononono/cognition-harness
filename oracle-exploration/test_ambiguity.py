@@ -118,6 +118,20 @@ class MatchedPolicyTests(unittest.TestCase):
                 self.assertEqual(r['status'],'execution_cap_exhausted')
                 self.assertIsNone(r['finalist'])
                 self.assertEqual(r['charged']['dev_scalar']+r['charged']['probe_scalar'],cap)
+    def test_fixed_only_resolution_counterexample(self):
+        # Developer-known negative fixture found by a bounded mechanics search,
+        # not evaluator-final evidence. Greedy separated-pair score prefers -3,
+        # but negation and abs both predict 3 there. Fixed first input 1 separates.
+        adaptive=resolve([[0,0]],[1,-3],lambda x:-x,policy='adaptive')
+        fixed=resolve([[0,0]],[1,-3],lambda x:-x,policy='fixed')
+        self.assertEqual(adaptive['status'],'query_cap_ambiguous')
+        self.assertEqual(adaptive['remaining_indices'],[2,3])
+        self.assertEqual(adaptive['queries'][0]['input'],-3)
+        self.assertEqual(fixed['status'],'selected')
+        self.assertEqual(fixed['finalist']['index'],2)
+        self.assertEqual(fixed['queries'][0]['input'],1)
+        self.assertEqual(adaptive['charged'],fixed['charged'])
+
     def test_bad_policy_and_default_matches_explicit(self):
         with self.assertRaises(ValueError):resolve([[0,0]],[-2,2],abs,policy='other')
         self.assertEqual(resolve([[0,0]],[-2,2],abs),resolve([[0,0]],[-2,2],abs,policy='adaptive'))

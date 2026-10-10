@@ -1,0 +1,30 @@
+test_bad_policy_and_default_matches_explicit (test_ambiguity.MatchedPolicyTests) ... ok
+test_early_singleton_stops_both_without_padding_queries (test_ambiguity.MatchedPolicyTests) ... ok
+test_equal_caps_pool_scan_and_one_label_opportunity (test_ambiguity.MatchedPolicyTests) ... ok
+test_fixed_known_uninformative_pool_still_charges_label (test_ambiguity.MatchedPolicyTests) ... ok
+test_fixed_only_resolution_counterexample (test_ambiguity.MatchedPolicyTests) ... ok
+test_fixed_two_queries_resolves_after_uninformative_first (test_ambiguity.MatchedPolicyTests) ... ok
+test_matching_failure_caps (test_ambiguity.MatchedPolicyTests) ... ok
+test_determinism_and_inputs_unchanged (test_ambiguity.RefinementTests) ... ok
+test_dev_inconsistency_no_query (test_ambiguity.RefinementTests) ... ok
+test_dev_inputs_never_queried (test_ambiguity.RefinementTests) ... ok
+test_execution_cap_charge_no_oracle_or_finalist (test_ambiguity.RefinementTests) ... ok
+test_failed_callback_charged_not_retried_no_error_text (test_ambiguity.RefinementTests) ... ok
+test_grammar_and_domain_validation (test_ambiguity.RefinementTests) ... ok
+test_identify_identity_with_same_probe_and_different_label (test_ambiguity.RefinementTests) ... ok
+test_inconsistent_label_can_eliminate_everything (test_ambiguity.RefinementTests) ... ok
+test_invalid_inputs (test_ambiguity.RefinementTests) ... ok
+test_invalid_labels_exact_types (test_ambiguity.RefinementTests) ... ok
+test_known_abs_identity_ambiguity_resolved_by_labeled_negative_probe (test_ambiguity.RefinementTests) ... ok
+test_no_query_for_already_singleton (test_ambiguity.RefinementTests) ... ok
+test_one_query_budget_may_remain_ambiguous (test_ambiguity.RefinementTests) ... ok
+test_pool_cannot_separate_and_empty_pool (test_ambiguity.RefinementTests) ... ok
+test_query_cap_zero_is_explicit_ambiguous_no_fallback (test_ambiguity.RefinementTests) ... ok
+test_tie_uses_lowest_pool_index (test_ambiguity.RefinementTests) ... ok
+test_two_query_path (test_ambiguity.RefinementTests) ... ok
+test_wrong_oracle_can_select_wrong_candidate_not_self_verifying (test_ambiguity.RefinementTests) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.004s
+
+OK
