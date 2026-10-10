@@ -34,7 +34,7 @@ def evaluate(index, x):
     return 0
 
 
-def resolve(dev, pool, oracle, *, execution_cap=1024, query_cap=1):
+def resolve(dev, pool, oracle, *, execution_cap=1024, query_cap=1, policy='adaptive'):
     """Select one known expression only after obtaining a consistent version space.
 
     Early singleton is returned without query; unresolved ambiguity yields no
@@ -43,6 +43,8 @@ def resolve(dev, pool, oracle, *, execution_cap=1024, query_cap=1):
     Query failures are charged, recorded, not retried. Total attempts <= query_cap.
     Logical caps do not bound callback time/memory/side effects or Python heap.
     """
+    if policy not in ('adaptive', 'fixed'):
+        raise ValueError('policy')
     if type(dev) is not list or not 1 <= len(dev) <= 16:
         raise ValueError('dev_shape')
     for pair in dev:
@@ -65,7 +67,8 @@ def resolve(dev, pool, oracle, *, execution_cap=1024, query_cap=1):
     config = {'schema': 'development-oracle-refinement-v1', 'grammar': GRAMMAR,
               'execution_cap': execution_cap, 'query_cap': query_cap,
               'pool_sha256': digest(pool), 'dev_sha256': digest(dev),
-              'selection': 'maximum separated candidate pairs; lowest pool index tie',
+              'policy': policy,
+              'selection': 'maximum separated pairs vs first unused pool index; both full-scan',
               'finalist': 'only singleton version space, no ranking fallback'}
     receipt = {'configuration': config, 'configuration_sha256': digest(config),
                'status': 'running', 'finalist': None, 'remaining_indices': [],
@@ -100,9 +103,10 @@ def resolve(dev, pool, oracle, *, execution_cap=1024, query_cap=1):
                 separated = (len(values)**2 - sum(n*n for n in counts)) // 2
                 scores.append({'pool_index': pool_index, 'input': x, 'separated_pairs': separated})
             receipt['rounds'].append({'remaining_indices': list(remaining), 'scores': scores})
-            if not scores or max(s['separated_pairs'] for s in scores) == 0:
+            if not scores or (policy == 'adaptive' and max(s['separated_pairs'] for s in scores) == 0):
                 receipt['status'] = 'pool_cannot_separate'; break
-            best = max(scores, key=lambda s: (s['separated_pairs'], -s['pool_index']))
+            best = (max(scores, key=lambda s: (s['separated_pairs'], -s['pool_index']))
+                    if policy == 'adaptive' else min(scores, key=lambda s: s['pool_index']))
             x = best['input']
             receipt['charged']['oracle_attempts'] += 1
             query = {'pool_index': best['pool_index'], 'input': x,

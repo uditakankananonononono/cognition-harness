@@ -82,4 +82,44 @@ class RefinementTests(unittest.TestCase):
         for index,x in ((True,0),(-1,0),(8,0),(0,True),(0,33)):
             with self.assertRaises(ValueError):evaluate(index,x)
 
+class MatchedPolicyTests(unittest.TestCase):
+    def test_equal_caps_pool_scan_and_one_label_opportunity(self):
+        rs=[resolve([[0,0],[1,1]],[2,-2],abs,policy=p) for p in ('adaptive','fixed')]
+        for r in rs:
+            self.assertEqual(r['charged']['dev_scalar'],16)
+            self.assertEqual(r['charged']['probe_scalar'],6)
+            self.assertEqual(r['charged']['pool_scan'],2)
+            self.assertEqual(r['charged']['oracle_attempts'],1)
+        self.assertEqual(rs[0]['status'],'selected')
+        self.assertEqual(rs[1]['status'],'query_cap_ambiguous')
+        self.assertEqual(rs[0]['queries'][0]['input'],-2)
+        self.assertEqual(rs[1]['queries'][0]['input'],2)
+    def test_fixed_two_queries_resolves_after_uninformative_first(self):
+        r=resolve([[0,0],[1,1]],[2,-2],abs,policy='fixed',query_cap=2)
+        self.assertEqual(r['finalist']['index'],3)
+        self.assertEqual(r['charged']['oracle_attempts'],2)
+        self.assertEqual([q['input'] for q in r['queries']],[2,-2])
+        self.assertEqual(r['charged']['probe_scalar'],9)
+    def test_fixed_known_uninformative_pool_still_charges_label(self):
+        r=resolve([[0,0],[1,1]],[2],abs,policy='fixed')
+        self.assertEqual(r['status'],'query_cap_ambiguous')
+        self.assertEqual(r['charged']['oracle_attempts'],1)
+        r=resolve([[0,0],[1,1]],[2],abs,policy='adaptive')
+        self.assertEqual(r['status'],'pool_cannot_separate')
+        self.assertEqual(r['charged']['oracle_attempts'],0)
+    def test_early_singleton_stops_both_without_padding_queries(self):
+        for p in ('adaptive','fixed'):
+            r=resolve([[2,3]],[-2,2],lambda x:3,policy=p)
+            self.assertEqual(r['status'],'selected');self.assertEqual(r['charged']['oracle_attempts'],0)
+    def test_matching_failure_caps(self):
+        for p in ('adaptive','fixed'):
+            for cap in (0,16,20):
+                r=resolve([[0,0],[1,1]],[2,-2],abs,policy=p,execution_cap=cap)
+                self.assertEqual(r['status'],'execution_cap_exhausted')
+                self.assertIsNone(r['finalist'])
+                self.assertEqual(r['charged']['dev_scalar']+r['charged']['probe_scalar'],cap)
+    def test_bad_policy_and_default_matches_explicit(self):
+        with self.assertRaises(ValueError):resolve([[0,0]],[-2,2],abs,policy='other')
+        self.assertEqual(resolve([[0,0]],[-2,2],abs),resolve([[0,0]],[-2,2],abs,policy='adaptive'))
+
 if __name__=='__main__':unittest.main(verbosity=2)
