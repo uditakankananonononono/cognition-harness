@@ -3,17 +3,41 @@ receipts): the binding constraint is plateau retention - width-8 slots are
 wasted on children with identical dev behavior (commuting arg swaps, dead
 renames). v11 groups scored children by their exact dev behavior vector and
 keeps at most one representative per behavior, so all 8 slots are distinct
-behaviors. Identical search space, budgets, ranking within a behavior
-(passed desc, sha asc). Arms: dedup-binary (rank by passed) and dedup-graded
-(passed, then v10 value-distance).
+behaviors. Identical search space, budgets; one _better() ordering everywhere
+(passed desc, distance asc, sha asc). Arms: dedup-binary, dedup-graded.
+
+REPAIRED 2026-10-10: (a) baseline fitness was initialized with distance 0
+instead of fitness(base_rep); (b) best-candidate used fit > best_fit, selecting
+LARGER distance on equal pass; (c) behavior-representative tie-break compared
+reversed sha descending instead of sha ascending. Suite-independent libraries
+(mutations, fitness) are loaded by explicit path, not sys.path mutation.
 """
-import hashlib, json, sys
+import hashlib, json
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'v9'))
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'v10'))
-from mutations import expand
-from fitness import fitness
+import importlib.util
+
+def _load(name, path):
+    spec = importlib.util.spec_from_file_location(name, path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+_REPO = Path(__file__).resolve().parent.parent
+mutations = _load('v9_mutations_lib', _REPO / 'v9' / 'mutations.py')
+fitness_mod = _load('v10_fitness_lib', _REPO / 'v10' / 'fitness.py')
+expand = mutations.expand
+fitness = fitness_mod.fitness
+
+sha = lambda b: hashlib.sha256(b).hexdigest()
+
+def _better(fit, h, cur_fit, cur_h):
+    """Single ordering: passed desc, distance asc, sha asc."""
+    if fit[0] != cur_fit[0]:
+        return fit[0] > cur_fit[0]
+    if fit[1] != cur_fit[1]:
+        return fit[1] < cur_fit[1]
+    return h < cur_h
 
 def _behavior_key(rep):
     if not rep.get('valid'):
@@ -21,15 +45,16 @@ def _behavior_key(rep):
     return ('valid', tuple((c['passed'], json.dumps(c.get('actual'), sort_keys=True) if 'actual' in c else None, c.get('error')) for c in rep['cases']))
 
 def beam(source, dev, score, use_distance, width=8, depth=6, exec_cap=4000, jobs=8):
-    sha = lambda b: hashlib.sha256(b).hexdigest()
     history = []
     execs = 0
     base_rep = score(source.encode(), dev)
     execs += 1
+    base_fit = fitness(base_rep) if use_distance else (base_rep.get('passed', -1), 0)
     total = base_rep.get('total', len(dev))
-    scored = {sha(source.encode())}
-    frontier = [((base_rep.get('passed', -1), 0), sha(source.encode()), source)]
-    best_fit, best_source = frontier[0][0], source
+    base_sha = sha(source.encode())
+    scored = {base_sha}
+    frontier = [(base_fit, base_sha, source)]
+    best_fit, best_sha, best_source = base_fit, base_sha, source
     for d in range(depth):
         if best_fit[0] == total or execs >= exec_cap or not frontier:
             break
@@ -53,13 +78,13 @@ def beam(source, dev, score, use_distance, width=8, depth=6, exec_cap=4000, jobs
             bkey = _behavior_key(rep)
             history.append({'depth': d, 'parent': psha[:12], 'desc': desc, 'sha': h[:12],
                             'valid': rep.get('valid', False), 'passed': rep.get('passed', -1),
-                            'distance': fit[1], 'behavior': hashlib.sha256(repr(bkey).encode()).hexdigest()[:12]})
-            key = _behavior_key(rep)
-            cur = by_behavior.get(key)
-            if cur is None or (fit[0], -fit[1], tuple(reversed(h))) > (cur[0][0], -cur[0][1], tuple(reversed(cur[1]))):
-                by_behavior[key] = (fit, h, child)
-            if fit > best_fit:
-                best_fit, best_source = fit, child
+                            'distance': fit[1],
+                            'behavior': hashlib.sha256(repr(bkey).encode()).hexdigest()[:12]})
+            cur = by_behavior.get(bkey)
+            if cur is None or _better(fit, h, cur[0], cur[1]):
+                by_behavior[bkey] = (fit, h, child)
+            if _better(fit, h, best_fit, best_sha):
+                best_fit, best_sha, best_source = fit, h, child
         children = sorted(by_behavior.values(), key=lambda t: (-t[0][0], t[0][1], t[1]))
         frontier = children[:width]
     distinct = len({t.get('behavior') for t in history})
