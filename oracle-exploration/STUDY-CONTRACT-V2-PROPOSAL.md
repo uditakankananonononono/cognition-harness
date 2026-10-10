@@ -1,4 +1,4 @@
-# Ambiguous-start matched-label study, v2 proposal
+# SUPERSEDED-DRAFT: ambiguous-start matched-label study, v2
 
 Not frozen. Supersedes the draft v1 construction. Known-expression developer
 controls establish POSSIBILITY of adaptive-only and random-order-only resolution,
@@ -110,3 +110,9 @@ Pending before freeze: gate review of v2, separate evaluator scope/oracle/custod
 acceptance, pinned set bytes and manifests, public synthetic fixture and private
 vector hash verification, final source freeze. Then separate commitment handshake,
 then actual execution. This proposal alone is not an execution permission or freeze.
+
+## Why superseded before freeze
+
+Parent-relayed verifier findings: "the primary result is predetermined by the public population"; "SHA256(str(s)) of a small integer seed is brute-forceable". No v2 freeze, private pack, method run or performance claim follows.
+At cap1 dev0 makes five/six target blocks have no separating input; greedy adaptive also misses negation. Pools are sign-linear replicas. This is a design calculation, not meaningful new empirical evidence.
+Any future proposal must apply the ceiling at design time and use >=128 evaluator-generated random seed bits PLUS a private random salt commitment. A separate verifier principal must be explicitly named and retain live public commitment observation before evaluator execution. None is designated for a new study here.
