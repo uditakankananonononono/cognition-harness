@@ -1,0 +1,46 @@
+{
+ "manifest_pin": "9c7f30b8bf5436f735d9980162f7da95b3c27a09eb38a7c557060670d119383e",
+ "baseline_passed": 22,
+ "baseline_per_task": {
+  "scale_offset": 1,
+  "in_open_interval": 4,
+  "sign3": 15,
+  "midpoint": 0,
+  "evens_list": 2
+ },
+ "arms": {
+  "beam-binary": {
+   "executions": 4000,
+   "best_dev_passed": 5,
+   "best_dev_distance": 0,
+   "resumed": true,
+   "frozen_passed": 40,
+   "frozen_per_task": {
+    "scale_offset": 1,
+    "in_open_interval": 8,
+    "sign3": 15,
+    "midpoint": 0,
+    "evens_list": 16
+   },
+   "measurement_gate": true,
+   "activation": "pending_independent_review"
+  },
+  "beam-graded": {
+   "wall_seconds": 52.58,
+   "changed_vs_baseline": true,
+   "executions": 4000,
+   "best_dev_passed": 5,
+   "best_dev_distance": 82,
+   "frozen_passed": 39,
+   "frozen_per_task": {
+    "scale_offset": 16,
+    "in_open_interval": 4,
+    "sign3": 15,
+    "midpoint": 1,
+    "evens_list": 3
+   },
+   "measurement_gate": true,
+   "activation": "pending_independent_review"
+  }
+ }
+}

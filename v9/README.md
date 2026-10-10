@@ -83,3 +83,11 @@ mutation engine for eval leakage (none exists by construction: eval bytes enter
 only judge.py's namespace), and confirm the gate arithmetic. v10 (plateau
 tolerance) must freeze its own suite before scoring and report against this
 baseline as incumbent.
+
+## Follow-up arm (added after v9 study close): v10 graded-fitness challenger
+
+Graded-fitness beam (v10 challenger) run once on THIS frozen suite: 71/80, gate
+PASS (first_above 4/16 -> 7/16; others unchanged). +3 vs binary beam's 68/80:
+small verified gain here, but the same challenger scored 39/80 vs binary's 40/80
+on v10's purpose-built plateau suite - no general separation. Full verdict in
+v10/README.md. Receipts: receipts/graded-measurement.json, dev-history-graded.json.

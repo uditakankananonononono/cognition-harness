@@ -1,0 +1,40 @@
+{
+ "version": "v10.0",
+ "tasks": [
+  "scale_offset",
+  "in_open_interval",
+  "sign3",
+  "midpoint",
+  "evens_list"
+ ],
+ "domain": "scale_offset: int x -> 2x+1; in_open_interval: [x,lo,hi] lo<hi -> lo<x<hi; sign3: int -> 1/-1/0 by sign; midpoint: [lo,hi] -> floor((lo+hi)/2); evens_list: int list -> its even elements in order",
+ "plateau_property": "every bug needs >=2 coordinated primitive edits; no single edit improves dev (tested). in_open_interval needs 3 edits and emits boolean outputs: distance shaping gives no signal there by construction - included as a no-signal control task",
+ "score": "exact JSON equality, 80 equal-weight cases, 16 per task",
+ "promotion": "candidate total strictly increases AND each task pass count does not decrease",
+ "arms": {
+  "beam-binary": "v9 incumbent: beam search, ranking by dev passed only",
+  "beam-graded": "v10 challenger: identical search/budgets, ranking ties broken by dev value-distance"
+ },
+ "budget": {
+  "beam_width": 8,
+  "beam_depth": 6,
+  "execution_cap": 4000,
+  "jobs": 8
+ },
+ "resources": {
+  "wall_seconds": 3,
+  "cpu_seconds": 1,
+  "address_space_bytes": 134217728,
+  "output_bytes": 65536
+ },
+ "baseline_sha256": "79465a8c2ecf6206662cf1da7c3cb59240a306620a71d4d12931b2ddb7a327ea",
+ "seed": 0,
+ "limitations": [
+  "synthetic hand-authored tasks",
+  "distance heuristic is builder-chosen",
+  "sign3 bug is a single edge case (x=0) by construction; only 1/16 eval cases discriminate it",
+  "holdout not cryptographically hidden from author",
+  "no AGI or novelty claim",
+  "no publication or product activation"
+ ]
+}

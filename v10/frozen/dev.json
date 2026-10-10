@@ -1,0 +1,87 @@
+[
+ {
+  "id": "dev-scale",
+  "task": "scale_offset",
+  "input": 6,
+  "expected": 13
+ },
+ {
+  "id": "dev-scale2",
+  "task": "scale_offset",
+  "input": 8,
+  "expected": 17
+ },
+ {
+  "id": "dev-interval",
+  "task": "in_open_interval",
+  "input": [
+   0,
+   0,
+   9
+  ],
+  "expected": false
+ },
+ {
+  "id": "dev-interval2",
+  "task": "in_open_interval",
+  "input": [
+   9,
+   0,
+   9
+  ],
+  "expected": false
+ },
+ {
+  "id": "dev-sign",
+  "task": "sign3",
+  "input": 0,
+  "expected": 0
+ },
+ {
+  "id": "dev-sign2",
+  "task": "sign3",
+  "input": 7,
+  "expected": 1
+ },
+ {
+  "id": "dev-mid",
+  "task": "midpoint",
+  "input": [
+   4,
+   10
+  ],
+  "expected": 7
+ },
+ {
+  "id": "dev-mid2",
+  "task": "midpoint",
+  "input": [
+   1,
+   9
+  ],
+  "expected": 5
+ },
+ {
+  "id": "dev-evens",
+  "task": "evens_list",
+  "input": [
+   6,
+   3
+  ],
+  "expected": [
+   6
+  ]
+ },
+ {
+  "id": "dev-evens2",
+  "task": "evens_list",
+  "input": [
+   1,
+   3,
+   6
+  ],
+  "expected": [
+   6
+  ]
+ }
+]

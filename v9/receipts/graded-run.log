@@ -1,0 +1,18 @@
+{
+ "baseline": 28,
+ "graded": {
+  "frozen_passed": 71,
+  "per_task": {
+   "clamp_range": 16,
+   "second_largest": 16,
+   "count_even": 16,
+   "running_max": 16,
+   "first_above": 7
+  },
+  "gate": true,
+  "executions": 4000,
+  "best_dev_passed": 9,
+  "best_dev_distance": 10,
+  "wall_seconds": 105.641
+ }
+}

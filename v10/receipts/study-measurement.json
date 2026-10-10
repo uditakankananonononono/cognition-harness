@@ -1,0 +1,2162 @@
+{
+  "manifest_pin": "9c7f30b8bf5436f735d9980162f7da95b3c27a09eb38a7c557060670d119383e",
+  "baseline": {
+    "valid": true,
+    "source_sha256": "79465a8c2ecf6206662cf1da7c3cb59240a306620a71d4d12931b2ddb7a327ea",
+    "passed": 22,
+    "total": 80,
+    "per_task": {
+      "scale_offset": 1,
+      "in_open_interval": 4,
+      "sign3": 15,
+      "midpoint": 0,
+      "evens_list": 2
+    },
+    "cases": [
+      {
+        "id": "scale_offset-00",
+        "task": "scale_offset",
+        "expected": 1,
+        "actual": -1,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "scale_offset-01",
+        "task": "scale_offset",
+        "expected": 3,
+        "actual": 2,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "scale_offset-02",
+        "task": "scale_offset",
+        "expected": 5,
+        "actual": 5,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "scale_offset-03",
+        "task": "scale_offset",
+        "expected": 7,
+        "actual": 8,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "scale_offset-04",
+        "task": "scale_offset",
+        "expected": -1,
+        "actual": -4,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "scale_offset-05",
+        "task": "scale_offset",
+        "expected": -3,
+        "actual": -7,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "scale_offset-06",
+        "task": "scale_offset",
+        "expected": 11,
+        "actual": 14,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "scale_offset-07",
+        "task": "scale_offset",
+        "expected": -9,
+        "actual": -16,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "scale_offset-08",
+        "task": "scale_offset",
+        "expected": 21,
+        "actual": 29,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "scale_offset-09",
+        "task": "scale_offset",
+        "expected": -19,
+        "actual": -31,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "scale_offset-10",
+        "task": "scale_offset",
+        "expected": 15,
+        "actual": 20,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "scale_offset-11",
+        "task": "scale_offset",
+        "expected": -5,
+        "actual": -10,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "scale_offset-12",
+        "task": "scale_offset",
+        "expected": 9,
+        "actual": 11,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "scale_offset-13",
+        "task": "scale_offset",
+        "expected": -7,
+        "actual": -13,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "scale_offset-14",
+        "task": "scale_offset",
+        "expected": 201,
+        "actual": 299,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "scale_offset-15",
+        "task": "scale_offset",
+        "expected": -199,
+        "actual": -301,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "in_open_interval-00",
+        "task": "in_open_interval",
+        "expected": true,
+        "actual": true,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "in_open_interval-01",
+        "task": "in_open_interval",
+        "expected": false,
+        "actual": true,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "in_open_interval-02",
+        "task": "in_open_interval",
+        "expected": false,
+        "actual": true,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "in_open_interval-03",
+        "task": "in_open_interval",
+        "expected": false,
+        "actual": true,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "in_open_interval-04",
+        "task": "in_open_interval",
+        "expected": false,
+        "actual": true,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "in_open_interval-05",
+        "task": "in_open_interval",
+        "expected": true,
+        "actual": true,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "in_open_interval-06",
+        "task": "in_open_interval",
+        "expected": false,
+        "actual": true,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "in_open_interval-07",
+        "task": "in_open_interval",
+        "expected": false,
+        "actual": true,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "in_open_interval-08",
+        "task": "in_open_interval",
+        "expected": true,
+        "actual": true,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "in_open_interval-09",
+        "task": "in_open_interval",
+        "expected": false,
+        "actual": true,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "in_open_interval-10",
+        "task": "in_open_interval",
+        "expected": false,
+        "actual": true,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "in_open_interval-11",
+        "task": "in_open_interval",
+        "expected": false,
+        "actual": true,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "in_open_interval-12",
+        "task": "in_open_interval",
+        "expected": false,
+        "actual": true,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "in_open_interval-13",
+        "task": "in_open_interval",
+        "expected": false,
+        "actual": true,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "in_open_interval-14",
+        "task": "in_open_interval",
+        "expected": true,
+        "actual": true,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "in_open_interval-15",
+        "task": "in_open_interval",
+        "expected": false,
+        "actual": true,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "sign3-00",
+        "task": "sign3",
+        "expected": 1,
+        "actual": 1,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "sign3-01",
+        "task": "sign3",
+        "expected": -1,
+        "actual": -1,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "sign3-02",
+        "task": "sign3",
+        "expected": 0,
+        "actual": 1,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "sign3-03",
+        "task": "sign3",
+        "expected": 1,
+        "actual": 1,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "sign3-04",
+        "task": "sign3",
+        "expected": -1,
+        "actual": -1,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "sign3-05",
+        "task": "sign3",
+        "expected": 1,
+        "actual": 1,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "sign3-06",
+        "task": "sign3",
+        "expected": -1,
+        "actual": -1,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "sign3-07",
+        "task": "sign3",
+        "expected": 1,
+        "actual": 1,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "sign3-08",
+        "task": "sign3",
+        "expected": -1,
+        "actual": -1,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "sign3-09",
+        "task": "sign3",
+        "expected": 1,
+        "actual": 1,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "sign3-10",
+        "task": "sign3",
+        "expected": -1,
+        "actual": -1,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "sign3-11",
+        "task": "sign3",
+        "expected": 1,
+        "actual": 1,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "sign3-12",
+        "task": "sign3",
+        "expected": -1,
+        "actual": -1,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "sign3-13",
+        "task": "sign3",
+        "expected": 1,
+        "actual": 1,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "sign3-14",
+        "task": "sign3",
+        "expected": -1,
+        "actual": -1,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "sign3-15",
+        "task": "sign3",
+        "expected": 1,
+        "actual": 1,
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "midpoint-00",
+        "task": "midpoint",
+        "expected": 2,
+        "actual": -2,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "midpoint-01",
+        "task": "midpoint",
+        "expected": 3,
+        "actual": -1,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "midpoint-02",
+        "task": "midpoint",
+        "expected": 3,
+        "actual": -2,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "midpoint-03",
+        "task": "midpoint",
+        "expected": 5,
+        "actual": -4,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "midpoint-04",
+        "task": "midpoint",
+        "expected": 6,
+        "actual": -2,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "midpoint-05",
+        "task": "midpoint",
+        "expected": 2,
+        "actual": 0,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "midpoint-06",
+        "task": "midpoint",
+        "expected": 0,
+        "actual": -1,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "midpoint-07",
+        "task": "midpoint",
+        "expected": 10,
+        "actual": -4,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "midpoint-08",
+        "task": "midpoint",
+        "expected": 0,
+        "actual": -3,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "midpoint-09",
+        "task": "midpoint",
+        "expected": -3,
+        "actual": -2,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "midpoint-10",
+        "task": "midpoint",
+        "expected": 15,
+        "actual": -4,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "midpoint-11",
+        "task": "midpoint",
+        "expected": 0,
+        "actual": -2,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "midpoint-12",
+        "task": "midpoint",
+        "expected": 7,
+        "actual": -1,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "midpoint-13",
+        "task": "midpoint",
+        "expected": 50,
+        "actual": -34,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "midpoint-14",
+        "task": "midpoint",
+        "expected": 0,
+        "actual": -7,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "midpoint-15",
+        "task": "midpoint",
+        "expected": 5,
+        "actual": -1,
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "evens_list-00",
+        "task": "evens_list",
+        "expected": [],
+        "actual": [],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "evens_list-01",
+        "task": "evens_list",
+        "expected": [],
+        "actual": [
+          1
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "evens_list-02",
+        "task": "evens_list",
+        "expected": [
+          2
+        ],
+        "actual": [],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "evens_list-03",
+        "task": "evens_list",
+        "expected": [
+          2,
+          4
+        ],
+        "actual": [
+          1,
+          4
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "evens_list-04",
+        "task": "evens_list",
+        "expected": [],
+        "actual": [
+          7
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "evens_list-05",
+        "task": "evens_list",
+        "expected": [
+          2,
+          4,
+          6
+        ],
+        "actual": [
+          4
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "evens_list-06",
+        "task": "evens_list",
+        "expected": [
+          0
+        ],
+        "actual": [],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "evens_list-07",
+        "task": "evens_list",
+        "expected": [
+          0,
+          2
+        ],
+        "actual": [
+          1
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "evens_list-08",
+        "task": "evens_list",
+        "expected": [
+          -2,
+          -4
+        ],
+        "actual": [
+          -2
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "evens_list-09",
+        "task": "evens_list",
+        "expected": [],
+        "actual": [],
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "evens_list-10",
+        "task": "evens_list",
+        "expected": [
+          10,
+          30
+        ],
+        "actual": [
+          10
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "evens_list-11",
+        "task": "evens_list",
+        "expected": [
+          10,
+          20
+        ],
+        "actual": [
+          10
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "evens_list-12",
+        "task": "evens_list",
+        "expected": [
+          8,
+          10
+        ],
+        "actual": [
+          10
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "evens_list-13",
+        "task": "evens_list",
+        "expected": [
+          6,
+          12
+        ],
+        "actual": [],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "evens_list-14",
+        "task": "evens_list",
+        "expected": [
+          100,
+          102
+        ],
+        "actual": [
+          100
+        ],
+        "error": null,
+        "passed": false
+      },
+      {
+        "id": "evens_list-15",
+        "task": "evens_list",
+        "expected": [
+          -6
+        ],
+        "actual": [
+          -5
+        ],
+        "error": null,
+        "passed": false
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "report": {
+        "valid": true,
+        "source_sha256": "3d6f31855198c0a3a206357a9e0fb5b3d315d3e03e04202442f83b24026052f5",
+        "passed": 40,
+        "total": 80,
+        "per_task": {
+          "scale_offset": 1,
+          "in_open_interval": 8,
+          "sign3": 15,
+          "midpoint": 0,
+          "evens_list": 16
+        },
+        "cases": [
+          {
+            "id": "scale_offset-00",
+            "task": "scale_offset",
+            "expected": 1,
+            "actual": -1,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "scale_offset-01",
+            "task": "scale_offset",
+            "expected": 3,
+            "actual": 2,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "scale_offset-02",
+            "task": "scale_offset",
+            "expected": 5,
+            "actual": 5,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "scale_offset-03",
+            "task": "scale_offset",
+            "expected": 7,
+            "actual": 8,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "scale_offset-04",
+            "task": "scale_offset",
+            "expected": -1,
+            "actual": -4,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "scale_offset-05",
+            "task": "scale_offset",
+            "expected": -3,
+            "actual": -7,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "scale_offset-06",
+            "task": "scale_offset",
+            "expected": 11,
+            "actual": 14,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "scale_offset-07",
+            "task": "scale_offset",
+            "expected": -9,
+            "actual": -16,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "scale_offset-08",
+            "task": "scale_offset",
+            "expected": 21,
+            "actual": 29,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "scale_offset-09",
+            "task": "scale_offset",
+            "expected": -19,
+            "actual": -31,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "scale_offset-10",
+            "task": "scale_offset",
+            "expected": 15,
+            "actual": 20,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "scale_offset-11",
+            "task": "scale_offset",
+            "expected": -5,
+            "actual": -10,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "scale_offset-12",
+            "task": "scale_offset",
+            "expected": 9,
+            "actual": 11,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "scale_offset-13",
+            "task": "scale_offset",
+            "expected": -7,
+            "actual": -13,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "scale_offset-14",
+            "task": "scale_offset",
+            "expected": 201,
+            "actual": 299,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "scale_offset-15",
+            "task": "scale_offset",
+            "expected": -199,
+            "actual": -301,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-00",
+            "task": "in_open_interval",
+            "expected": true,
+            "actual": false,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-01",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": false,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "in_open_interval-02",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": false,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "in_open_interval-03",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": true,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-04",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": true,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-05",
+            "task": "in_open_interval",
+            "expected": true,
+            "actual": false,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-06",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": false,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "in_open_interval-07",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": false,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "in_open_interval-08",
+            "task": "in_open_interval",
+            "expected": true,
+            "actual": false,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-09",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": false,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "in_open_interval-10",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": false,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "in_open_interval-11",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": true,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-12",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": true,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-13",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": false,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "in_open_interval-14",
+            "task": "in_open_interval",
+            "expected": true,
+            "actual": false,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-15",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": false,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-00",
+            "task": "sign3",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-01",
+            "task": "sign3",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-02",
+            "task": "sign3",
+            "expected": 0,
+            "actual": 1,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "sign3-03",
+            "task": "sign3",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-04",
+            "task": "sign3",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-05",
+            "task": "sign3",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-06",
+            "task": "sign3",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-07",
+            "task": "sign3",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-08",
+            "task": "sign3",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-09",
+            "task": "sign3",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-10",
+            "task": "sign3",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-11",
+            "task": "sign3",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-12",
+            "task": "sign3",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-13",
+            "task": "sign3",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-14",
+            "task": "sign3",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-15",
+            "task": "sign3",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "midpoint-00",
+            "task": "midpoint",
+            "expected": 2,
+            "actual": -2,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-01",
+            "task": "midpoint",
+            "expected": 3,
+            "actual": -1,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-02",
+            "task": "midpoint",
+            "expected": 3,
+            "actual": -2,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-03",
+            "task": "midpoint",
+            "expected": 5,
+            "actual": -4,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-04",
+            "task": "midpoint",
+            "expected": 6,
+            "actual": -2,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-05",
+            "task": "midpoint",
+            "expected": 2,
+            "actual": 0,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-06",
+            "task": "midpoint",
+            "expected": 0,
+            "actual": -1,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-07",
+            "task": "midpoint",
+            "expected": 10,
+            "actual": -4,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-08",
+            "task": "midpoint",
+            "expected": 0,
+            "actual": -3,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-09",
+            "task": "midpoint",
+            "expected": -3,
+            "actual": -2,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-10",
+            "task": "midpoint",
+            "expected": 15,
+            "actual": -4,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-11",
+            "task": "midpoint",
+            "expected": 0,
+            "actual": -2,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-12",
+            "task": "midpoint",
+            "expected": 7,
+            "actual": -1,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-13",
+            "task": "midpoint",
+            "expected": 50,
+            "actual": -34,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-14",
+            "task": "midpoint",
+            "expected": 0,
+            "actual": -7,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-15",
+            "task": "midpoint",
+            "expected": 5,
+            "actual": -1,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "evens_list-00",
+            "task": "evens_list",
+            "expected": [],
+            "actual": [],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-01",
+            "task": "evens_list",
+            "expected": [],
+            "actual": [],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-02",
+            "task": "evens_list",
+            "expected": [
+              2
+            ],
+            "actual": [
+              2
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-03",
+            "task": "evens_list",
+            "expected": [
+              2,
+              4
+            ],
+            "actual": [
+              2,
+              4
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-04",
+            "task": "evens_list",
+            "expected": [],
+            "actual": [],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-05",
+            "task": "evens_list",
+            "expected": [
+              2,
+              4,
+              6
+            ],
+            "actual": [
+              2,
+              4,
+              6
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-06",
+            "task": "evens_list",
+            "expected": [
+              0
+            ],
+            "actual": [
+              0
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-07",
+            "task": "evens_list",
+            "expected": [
+              0,
+              2
+            ],
+            "actual": [
+              0,
+              2
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-08",
+            "task": "evens_list",
+            "expected": [
+              -2,
+              -4
+            ],
+            "actual": [
+              -2,
+              -4
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-09",
+            "task": "evens_list",
+            "expected": [],
+            "actual": [],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-10",
+            "task": "evens_list",
+            "expected": [
+              10,
+              30
+            ],
+            "actual": [
+              10,
+              30
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-11",
+            "task": "evens_list",
+            "expected": [
+              10,
+              20
+            ],
+            "actual": [
+              10,
+              20
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-12",
+            "task": "evens_list",
+            "expected": [
+              8,
+              10
+            ],
+            "actual": [
+              8,
+              10
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-13",
+            "task": "evens_list",
+            "expected": [
+              6,
+              12
+            ],
+            "actual": [
+              6,
+              12
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-14",
+            "task": "evens_list",
+            "expected": [
+              100,
+              102
+            ],
+            "actual": [
+              100,
+              102
+            ],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-15",
+            "task": "evens_list",
+            "expected": [
+              -6
+            ],
+            "actual": [
+              -6
+            ],
+            "error": null,
+            "passed": true
+          }
+        ]
+      },
+      "measurement_gate": true,
+      "activation": "pending_independent_review"
+    },
+    {
+      "report": {
+        "valid": true,
+        "source_sha256": "185435b3db73bb33229f45d78b0cfad40597ec0aa0909c85d692d70fe5022234",
+        "passed": 39,
+        "total": 80,
+        "per_task": {
+          "scale_offset": 16,
+          "in_open_interval": 4,
+          "sign3": 15,
+          "midpoint": 1,
+          "evens_list": 3
+        },
+        "cases": [
+          {
+            "id": "scale_offset-00",
+            "task": "scale_offset",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "scale_offset-01",
+            "task": "scale_offset",
+            "expected": 3,
+            "actual": 3,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "scale_offset-02",
+            "task": "scale_offset",
+            "expected": 5,
+            "actual": 5,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "scale_offset-03",
+            "task": "scale_offset",
+            "expected": 7,
+            "actual": 7,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "scale_offset-04",
+            "task": "scale_offset",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "scale_offset-05",
+            "task": "scale_offset",
+            "expected": -3,
+            "actual": -3,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "scale_offset-06",
+            "task": "scale_offset",
+            "expected": 11,
+            "actual": 11,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "scale_offset-07",
+            "task": "scale_offset",
+            "expected": -9,
+            "actual": -9,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "scale_offset-08",
+            "task": "scale_offset",
+            "expected": 21,
+            "actual": 21,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "scale_offset-09",
+            "task": "scale_offset",
+            "expected": -19,
+            "actual": -19,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "scale_offset-10",
+            "task": "scale_offset",
+            "expected": 15,
+            "actual": 15,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "scale_offset-11",
+            "task": "scale_offset",
+            "expected": -5,
+            "actual": -5,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "scale_offset-12",
+            "task": "scale_offset",
+            "expected": 9,
+            "actual": 9,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "scale_offset-13",
+            "task": "scale_offset",
+            "expected": -7,
+            "actual": -7,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "scale_offset-14",
+            "task": "scale_offset",
+            "expected": 201,
+            "actual": 201,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "scale_offset-15",
+            "task": "scale_offset",
+            "expected": -199,
+            "actual": -199,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "in_open_interval-00",
+            "task": "in_open_interval",
+            "expected": true,
+            "actual": true,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "in_open_interval-01",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": true,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-02",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": true,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-03",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": true,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-04",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": true,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-05",
+            "task": "in_open_interval",
+            "expected": true,
+            "actual": true,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "in_open_interval-06",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": true,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-07",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": true,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-08",
+            "task": "in_open_interval",
+            "expected": true,
+            "actual": true,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "in_open_interval-09",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": true,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-10",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": true,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-11",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": true,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-12",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": true,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-13",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": true,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "in_open_interval-14",
+            "task": "in_open_interval",
+            "expected": true,
+            "actual": true,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "in_open_interval-15",
+            "task": "in_open_interval",
+            "expected": false,
+            "actual": true,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "sign3-00",
+            "task": "sign3",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-01",
+            "task": "sign3",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-02",
+            "task": "sign3",
+            "expected": 0,
+            "actual": 1,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "sign3-03",
+            "task": "sign3",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-04",
+            "task": "sign3",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-05",
+            "task": "sign3",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-06",
+            "task": "sign3",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-07",
+            "task": "sign3",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-08",
+            "task": "sign3",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-09",
+            "task": "sign3",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-10",
+            "task": "sign3",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-11",
+            "task": "sign3",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-12",
+            "task": "sign3",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-13",
+            "task": "sign3",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-14",
+            "task": "sign3",
+            "expected": -1,
+            "actual": -1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "sign3-15",
+            "task": "sign3",
+            "expected": 1,
+            "actual": 1,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "midpoint-00",
+            "task": "midpoint",
+            "expected": 2,
+            "actual": 0,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-01",
+            "task": "midpoint",
+            "expected": 3,
+            "actual": -8,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-02",
+            "task": "midpoint",
+            "expected": 3,
+            "actual": -5,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-03",
+            "task": "midpoint",
+            "expected": 5,
+            "actual": 0,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-04",
+            "task": "midpoint",
+            "expected": 6,
+            "actual": -27,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-05",
+            "task": "midpoint",
+            "expected": 2,
+            "actual": -4,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-06",
+            "task": "midpoint",
+            "expected": 0,
+            "actual": 0,
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "midpoint-07",
+            "task": "midpoint",
+            "expected": 10,
+            "actual": -75,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-08",
+            "task": "midpoint",
+            "expected": 0,
+            "actual": 16,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-09",
+            "task": "midpoint",
+            "expected": -3,
+            "actual": 0,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-10",
+            "task": "midpoint",
+            "expected": 15,
+            "actual": -200,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-11",
+            "task": "midpoint",
+            "expected": 0,
+            "actual": 9,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-12",
+            "task": "midpoint",
+            "expected": 7,
+            "actual": -56,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-13",
+            "task": "midpoint",
+            "expected": 50,
+            "actual": 0,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-14",
+            "task": "midpoint",
+            "expected": 0,
+            "actual": 100,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "midpoint-15",
+            "task": "midpoint",
+            "expected": 5,
+            "actual": -24,
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "evens_list-00",
+            "task": "evens_list",
+            "expected": [],
+            "actual": [],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-01",
+            "task": "evens_list",
+            "expected": [],
+            "actual": [],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-02",
+            "task": "evens_list",
+            "expected": [
+              2
+            ],
+            "actual": [],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "evens_list-03",
+            "task": "evens_list",
+            "expected": [
+              2,
+              4
+            ],
+            "actual": [],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "evens_list-04",
+            "task": "evens_list",
+            "expected": [],
+            "actual": [
+              7
+            ],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "evens_list-05",
+            "task": "evens_list",
+            "expected": [
+              2,
+              4,
+              6
+            ],
+            "actual": [
+              6
+            ],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "evens_list-06",
+            "task": "evens_list",
+            "expected": [
+              0
+            ],
+            "actual": [],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "evens_list-07",
+            "task": "evens_list",
+            "expected": [
+              0,
+              2
+            ],
+            "actual": [],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "evens_list-08",
+            "task": "evens_list",
+            "expected": [
+              -2,
+              -4
+            ],
+            "actual": [],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "evens_list-09",
+            "task": "evens_list",
+            "expected": [],
+            "actual": [],
+            "error": null,
+            "passed": true
+          },
+          {
+            "id": "evens_list-10",
+            "task": "evens_list",
+            "expected": [
+              10,
+              30
+            ],
+            "actual": [
+              10,
+              21,
+              30,
+              41
+            ],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "evens_list-11",
+            "task": "evens_list",
+            "expected": [
+              10,
+              20
+            ],
+            "actual": [
+              10,
+              15,
+              20
+            ],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "evens_list-12",
+            "task": "evens_list",
+            "expected": [
+              8,
+              10
+            ],
+            "actual": [
+              8,
+              9,
+              10
+            ],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "evens_list-13",
+            "task": "evens_list",
+            "expected": [
+              6,
+              12
+            ],
+            "actual": [
+              6,
+              9,
+              12
+            ],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "evens_list-14",
+            "task": "evens_list",
+            "expected": [
+              100,
+              102
+            ],
+            "actual": [
+              100,
+              101,
+              102
+            ],
+            "error": null,
+            "passed": false
+          },
+          {
+            "id": "evens_list-15",
+            "task": "evens_list",
+            "expected": [
+              -6
+            ],
+            "actual": [],
+            "error": null,
+            "passed": false
+          }
+        ]
+      },
+      "measurement_gate": true,
+      "activation": "pending_independent_review"
+    }
+  ]
+}
