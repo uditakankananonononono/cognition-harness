@@ -36,3 +36,20 @@ receipts mutable, partial remaining_indices on generation-cap exit. Logical caps
 are not time/memory/side-effect containment. No study claims or freeze from tests.
 24 mechanics controls in NEW matched-policy receipt; original 18-test receipt
 retained unchanged. Independent review is required before landing this increment.
+
+## Required compatibility and non-dominance disclosures
+
+Default adaptive decision behavior is unchanged, but configuration_sha256 CHANGED:
+the configuration adds a policy key and rewrites its selection description. The
+verifier reports this hash difference in all 6000 default-path differential trials.
+Any consumer pinning the old configuration hash must explicitly re-pin this new
+schema; behavior equivalence does not imply receipt/config hash compatibility.
+Source/protocol pins for any future experiment must use the new configuration.
+
+Adaptive is NOT guaranteed to dominate fixed. Maximum separated-pair count is a
+greedy heuristic, not minimax-optimal for a single labeled query. The verifier
+found a fixed-only resolution counterexample in its differential: for a valid
+instance fixed selected a singleton while adaptive remained ambiguous under the
+same budget. The earlier abs fixture illustrates one favorable case only, not
+adaptive >= fixed, no-regression, superiority or generalization. Include fixed-only
+wins, adaptive-only wins and unresolved outcomes in any later matched study.
